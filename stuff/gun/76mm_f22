@@ -6,10 +6,10 @@
 	("range_short")
 	("speed" s(690))
 	("caliber_medium")
-	{projectileDamage 82}
-	("damage" a(82) b(75) c(67) d(60) e(51))
+	{projectileDamage 86}
+	("damage" a(86) b(75) c(67) d(60) e(53))
 	{parameters "fg"
-       		("speed" s(706))
+       		("speed" s(690))
 	}
 	("accuracy_low")
 	{cursor "pg"}

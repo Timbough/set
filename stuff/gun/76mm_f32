@@ -5,16 +5,16 @@
 	{reloadSound "gun_r01"}
 	{rechargeTime 8.5}
 	("range_short")
-	("speed" s(680))
+	("speed" s(615))
 	("caliber_medium")
-	{projectileDamage 77}
-	("damage" a(77) b(69) c(61) d(54) e(48))
+	{projectileDamage 78}
+	("damage" a(78) b(69) c(61) d(53) e(47))
 	{parameters "apcr"
-		("speed" s(950))
-		("damage" a(97) b(85) c(68) d(54) e(37))
+		("speed" s(615))
+		("damage" a(86) b(76) c(67) d(59) e(52))
 	}
 	{parameters "fg"
-		("speed" s(355))
+		("speed" s(615))
 	}
 	("accuracy_minimum")
 	{cursor "cross"}

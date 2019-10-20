@@ -4,10 +4,10 @@
 	{reloadSound "gun_r01"}
 	{rechargeTime 8.5}
 	("range_short")
-	("speed" s(558))
+	("speed" s(555))
 	("caliber_medium")
-	{projectileDamage 64}
-	("damage" a(69) b(61) c(50) d(36) e(28))
+	{projectileDamage 67}
+	("damage" a(67) b(59) c(52) d(46) e(40))
 	{parameters "apcr"
         		("damage" a(93) b(76) c(60) d(43) e(32))
 	}

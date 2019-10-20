@@ -16,11 +16,10 @@
 		{short 2.5 1}
 		{long 7 2}
 	}	
-	{speed 90}
 	("speed" s(880))
 	("caliber_minimum")
 	("range_zenite_long")
-	{projectileDamage 55}
-	("damage" a(43) b(37) c(27) d(24) e(18))
+	{projectileDamage 71}
+	("damage" a(71) b(57) c(46) d(37) e(30))
 	{cursor "k8t"}
 }

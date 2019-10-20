@@ -15,7 +15,7 @@
 	("caliber_minimum")
 	("range_zenite_long")
 	{projectileDamage 70}
-	("damage" a(70) b(55) c(48) d(39) e(23))
+	("damage" a(76) b(74) c(62) d(45) e(33))
 	{RelaxationTime 0}
 	{cursor "nimrod"}
 }

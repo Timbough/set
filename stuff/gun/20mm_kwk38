@@ -8,8 +8,8 @@
 	("speed" s(900))
 	("caliber_zenite")
 	{RecoveryTime 1}
-	{projectileDamage 30}
-	("damage" a(30) b(25) c(18) d(12) e(8))
+	{projectileDamage 64}
+	("damage" a(64) b(26) c(8) d(3) e(1))
 	
 	{AimingTolerance 10}
 	{Automatic}

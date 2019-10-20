@@ -5,11 +5,11 @@
 	{rechargeTime 4.5}
 	("range_minimum")
 	("speed" s(741))
-	{projectileDamage 18}
-	("damage" a(47) b(38) c(31) d(28) e(24))
+	{projectileDamage 56}
+	("damage" a(56) b(41) c(29) d(21) e(15))
 	{parameters "apcr"
 		("speed" s(1020))
-		("damage" a(73) b(38) c(20) d(10) e(5))
+       	("damage" a(93) b(49) c(23) d(2) e(1))
 	}   
 	("accuracy_medium")
 	{cursor "ger"}

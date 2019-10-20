@@ -8,8 +8,8 @@
 	("speed" s(745))
 	("caliber_minimum")
 	("recoveryTime" r(250))
-	{projectileDamage 55}
-	("damage" a(55) b(35) c(22) d(16) e(14))
+	{projectileDamage 46}
+	("damage" a(46) b(31) c(21) d(14) e(9))
 	
 	{AimingTolerance 3}
 	{Automatic}

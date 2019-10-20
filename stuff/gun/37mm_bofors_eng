@@ -6,8 +6,8 @@
 	("range_short")
 	("speed" s(830))
 	("caliber_minimum")
-	{projectileDamage 45}
-	("damage" a(56) b(45) c(36) d(32) e(25))
+	{projectileDamage 47}
+	("damage" a(47) b(39) c(33) d(27) e(22))
 	("accuracy_zenite_medium")
 	{cursor "pg"}
 }

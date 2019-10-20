@@ -7,11 +7,11 @@
 	
 	("speed" s(761))
 	("caliber_medium")
-	{projectileDamage 120}
-	("damage" a(119) b(97) c(75) d(56) e(41))
+	{projectileDamage 110}
+	("damage" a(110) b(92) c(76) d(62) e(51))
 	{parameters "apcbc"
 		("speed" s(619))
-		("damage" a(95) b(83) c(73) d(64) e(56))
+		("damage" a(93) b(84) c(75) d(67) e(61))
 	}
 	("accuracy_minimum")
 	{cursor "eng4"}

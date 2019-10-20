@@ -8,11 +8,11 @@
 	
 	("speed" s(883))
 	("caliber_medium")              
-	{projectileDamage 185}
-	("damage" a(169) b(148) c(130) d(114) e(100))
+	{projectileDamage 170}
+	("damage" a(170) b(154) c(139) d(125) e(113))
 	{parameters "apcbc"
 		("speed" s(883))
-		("damage" a(187) b(172) c(158) d(146) e(134))
+		("damage" a(189) b(174) c(154) d(139) e(126))
 	}	
 	{parameters "apds"
 		("speed" s(1203))

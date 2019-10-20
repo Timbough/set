@@ -14,7 +14,7 @@
 	("speed" s(1101))
 	("caliber_minimum")
 	("range_zenite_long")
-	{projectileDamage 67}
-	("damage" a(67) b(52) c(45) d(36) e(20))
+	{projectileDamage 47}
+	("damage" a(47) b(39) c(33) d(27) e(22))
 	{cursor "m64"}
 }

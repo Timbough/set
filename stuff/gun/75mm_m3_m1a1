@@ -5,8 +5,8 @@
 	{rechargeTime 7}
 	("range_short")
 	("speed" s(774))
-	{projectileDamage 50}
-	("damage" a(88) b(79) c(70) d(61) e(54))
+	{projectileDamage 90}
+	("damage" a(90) b(78) c(66) d(57) e(49))
                   ("accuracy_medium")
 	{cursor "usa2"}
 }

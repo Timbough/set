@@ -13,12 +13,12 @@
 		{long 7 2}
 	}
 	("range_zenite")
-	{projectileDamage 30}
+	{projectileDamage 46}
 	("speed" s(780))
 	("caliber_zenite")
-	("damage" a(27) b(17) c(11) d(7) e(5))
+	("damage" a(46) b(33) c(23) d(15) e(11))
 	{cursor "flakvisier20"}
 	{parameters "apcr"
-		("damage" a(58) b(25) c(10) d(4) e(2))
+		("damage" a(64) b(33) c(23) d(15) e(11))
 	}
 }

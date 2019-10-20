@@ -9,8 +9,8 @@
 	
 	("speed" s(883))
 	("caliber_minimum")
-	{projectileDamage 55}
-	("damage" a(73) b(64) c(53) d(45) e(38))
+	{projectileDamage 78}
+	("damage" a(78) b(65) c(54) d(44) e(37))
 	{parameters "apcr"
 		{cursorReloading "cannon_reload_apcr"}
 		("speed" s(883))

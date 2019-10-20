@@ -7,11 +7,11 @@
 	
 	("speed" s(750))
 	("caliber_medium")
-	{projectileDamage 106}                      
-	("damage" a(135) b(123) c(109) d(97) e(86))
+	{projectileDamage 140}                      
+	("damage" a(140) b(125) c(112) d(100) e(89))
 	{parameters "apcr"
 		("speed" s(930))
-		("damage" a(176) b(154) c(130) d(109) e(92))
+		("damage" a(177) b(154) c(130) d(109) e(92))
 	}
 	{parameters "fg"
 		("speed" s(570))

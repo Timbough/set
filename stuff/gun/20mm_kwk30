@@ -8,8 +8,8 @@
 	("speed" s(780))
 	("caliber_zenite")
 	{RecoveryTime 1}
-	{projectileDamage 30}
-	("damage" a(27) b(17) c(11) d(7) e(5))
+	{projectileDamage 35}
+	("damage" a(35) b(26) c(18) d(13) e(9))
 	
 	{AimingTolerance 10}
 	{Automatic}
@@ -22,6 +22,6 @@
 	("accuracy_zenite_medium")
 	{cursor "ger2"}
 	{parameters "apcr"
-		("damage" a(58) b(25) c(10) d(4) e(2))
+		("damage" a(64) b(26) c(8) d(3) e(1))
 	}
 }

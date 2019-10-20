@@ -6,15 +6,15 @@
 	("range_short")
 	("speed" s(619))
 	("caliber_medium")
-	{projectileDamage 88}
-	("damage" a(109) b(93) c(75) d(61) e(50))
+	{projectileDamage 90}
+	("damage" a(90) b(78) c(66) d(57) e(49))
 	{parameters "apcr"
-		("speed" s(619))
-		("damage" a(127) b(104) c(83) d(64) e(49))
+		("speed" s(868))
+		("damage" a(143) b(127) c(106) d(86) e(70))
 	}
 	{parameters "apcbc"
-		("speed" s(619))
-		("damage" a(88) b(81) c(73) d(66) e(60))
+		("speed" s(618))
+		("damage" a(101) b(88) c(76) d(66) e(57))
 	}
 	
 	("accuracy_minimum")

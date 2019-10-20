@@ -18,8 +18,8 @@
 	("speed" s(820))
 	("caliber_zenite")
 	("range_zenite")
-	{projectileDamage 30}
-	("damage" a(30) b(25) c(18) d(12) e(8))
+	{projectileDamage 40}
+	("damage" a(40) b(27) c(18) d(10) e(6))
 	{RelaxationTime 0}
 	{cursor "eng_aa"}
 	{cursorReloading "zenite_reload"}

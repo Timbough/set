@@ -14,8 +14,8 @@
 	("speed" s(1101))
 	("caliber_minimum")
 	("range_zenite_long")
-	{projectileDamage 62}
-	("damage" a(60) b(51) c(45) d(38) e(32))
+	{projectileDamage 76}
+	("damage" a(76) b(62) c(45) d(33) e(24))
 	{RelaxationTime 0}
 	{cursor "eng_aa"}
 }

@@ -1,7 +1,7 @@
 {from "20mm_flak38"	;  "Wirbelwind"
 	{filling "bullet20_ger zenite" 120}
 	{RechargeTime 12}
-	{RecoveryTime 0.09}
+	{RecoveryTime 0.125}
 	
 	
 	{spreading

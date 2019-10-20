@@ -7,8 +7,8 @@
 	("speed" s(990))
 	("caliber_minimum")
 	{rechargeTime 6}
-	{projectileDamage 114}
-	("damage" a(121) b(106) c(91) d(79) e(68))
+	{projectileDamage 145}
+	("damage" a(145) b(132) c(119) d(108) e(98))
 	{parameters "apcr"
 		("speed" s(1270))
 		("damage" a(185) b(147) c(111) d(84) e(64))
