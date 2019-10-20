@@ -1,0 +1,54 @@
+{breed
+	{skin "grc_rifleman"}
+	{portrait "grc_soldier3"}
+	{nationality grc}
+	{icon "sapper"}
+	{icon_priority 3}
+	{armors
+		{head "helmet1_grc"}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"pistol" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "lebel_m1886" filled}
+		{item "ammo rifle" 60}
+		{item "mine_detector"}
+		{item "dynamite" 2}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

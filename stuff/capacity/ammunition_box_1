@@ -1,0 +1,10 @@
+{item
+	{tag "itemin2hands keepEntity"}
+	{entity "ammunition_box_1"}
+	{inventory
+		{size 4 2}
+		{weight 99}
+		{fsm "hand-only"}
+	}
+	{mass 1}
+}

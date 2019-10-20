@@ -1,0 +1,17 @@
+{from "pattern gun"
+	{filling "bullet20_jap" 8}
+	{fireSound "gun/20mm_breda"}
+	{reloadSound "flak38"}
+	{RecoveryTime 0.35}
+	{rechargeTime 5}
+	{AimingTolerance 20}
+	{special
+		{throw_off}
+	}
+	("range_autocannon")
+	("speed" s(855))
+	("caliber_zenite")
+	{projectileDamage 18}
+	("damage" a(38) b(22) c(16) d(8) e(3))
+	("accuracy_zenite_medium")
+}

@@ -1,0 +1,6 @@
+{from "pattern rpg_ammo"
+	{entity "piatrocket_ammo"}
+	{view "piatrocket_ammo"}
+	{tag "pierce"}
+	("shaped" args 4.15)
+}

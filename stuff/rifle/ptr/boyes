@@ -1,0 +1,10 @@
+{from "pattern at_rifle"
+	{filling "ammo ptr" 5}
+	{entity "boyes"}
+	
+	{Automatic}
+	{recoveryTime 2.5}                                          
+	{projectileDamageTable {0 25} {150 18}}
+	("speed" s(884))	
+}
+	

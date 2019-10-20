@@ -1,0 +1,6 @@
+{from "pattern headgear"
+	{inventory
+		{weight 100}
+	}
+	{entity "radiocap_hun"}
+}

@@ -1,0 +1,89 @@
+{environment
+	{light
+		{direction 0.772 -0.205 -0.602}
+		{ambient 0xff2e3f50}
+		{diffuse 0xff857963}
+		{specular 0xffb5ae98}
+		{specularPower 6}
+		{lightsIntensity 0.05}
+		{draw_sun_moon}
+		{sun_moon_radius 1}
+		{night_vision 1}
+		{color_correction
+			{contrast 1.05}
+			{saturation 0.8}
+			{tone 0xff898989}
+			{tone_strength 0.1}
+			{color_shading
+				{shade_tone 0xffffffff}
+			}
+		}
+		{camera_lens_effetcs
+			{light_scattering
+				{enable}
+				{intensity 0.5}
+				{ray_length 0.5}
+				{color_tone 0xff010101}
+			}
+			{lens_dirt
+				{enable}
+			}
+			{screen_brightening
+				{enable}
+				{intensity 0.3}
+			}
+		}
+	}
+	{wind
+		{speed 0.5 0.5 0}
+		{amplitude 2}
+	}
+	{haze
+		{enable}
+		{color 0xff6a899c}
+		{start 1500}
+		{end 10000}
+	}
+	{sky
+		{enable}
+		{texture "/texture/common/environment/environment_day_02"}
+		{globalEnvironment "/texture/common/environment/envmap_glass01"}
+		{intensity 1.1}
+		{azimuth 70}
+	}
+	{weather
+		{enable}
+		{sound "world/skirmish_environment/open_ground_night1"}
+		{volume 30}
+	}
+	{thunder
+		{color 0xff686c73}
+	}
+	{video_overlay
+		{color 0xffffffff}
+	}
+	{grain
+		{enable}
+		{colorAmount 0}
+		{grainAmount 0.02}
+		{grainParticleSize 0.6}
+		{lumAmount 1}
+	}
+	{dof
+		{enable}
+		{near_scale 2.5}
+		{far_scale 1}
+		{near_start 50}
+		{near_end 75}
+		{far_start 2000}
+		{far_end 6000}
+		{"3rd_Person"
+			{"3rdP_blurscale" 1}
+		}
+		{blur_strength 3}
+	}
+	{glow
+		{enable}
+		{amount 0.5}
+	}
+}

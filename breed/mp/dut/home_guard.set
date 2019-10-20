@@ -1,0 +1,55 @@
+{breed
+	{skin "fra-partisan5"}
+	{portrait "dut_soldier"}
+	{nationality dut}
+	{icon "home_guard"}
+	{icon_priority 0}
+	{armors
+		{head "cap_rus_partisan"}
+	}
+	{perks
+		{"health" "100%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.8
+		}
+		{"tank"	0.6
+		}
+		{"vehicle" 0.8
+		}
+		{"cannon" 0.8
+		}
+		
+		{"pistol" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mannlicher_m1895" filled}
+		{item "ammo rifle" 48}
+		{item "grenade mk1" 2}
+		{item "bandage" 2}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

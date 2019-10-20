@@ -1,0 +1,9 @@
+{from "pattern fg"
+	{tag "size_minimum"}
+	{inventory
+		{size 4 1}
+	}
+	("fg" args 2.25)
+	{mass 6}
+	{entity "rus_shell_45x310r_fg"}
+}

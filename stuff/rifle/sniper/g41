@@ -1,0 +1,7 @@
+{from "pattern sniper_rifle"
+	{filling "ammo rifle" 5}
+	{entity "mauzer_s"}
+	{fireSound "rifle/mauzer_s"}
+	{reloadSound "rifle_bolt_five"}
+	("7.92x57")
+}

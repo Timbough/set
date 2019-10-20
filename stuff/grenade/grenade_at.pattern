@@ -1,0 +1,10 @@
+{from "pattern throwable"
+	{tag "ap big cumulative pierce"}
+	{mass 1}
+	{throw
+		{range 13}
+		{startAngle 41}
+		{spreading 2}							
+	}
+	("at" args 4)
+}

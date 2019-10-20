@@ -1,0 +1,8 @@
+{from "37mm_sa18"	
+	("range_short")
+	("speed" s(705))
+	{projectileDamage 38}	
+	("damage" a(40) b(35) c(26) d(23) e(13))
+	("accuracy_medium")
+	{cursor "L710"}
+}

@@ -1,0 +1,7 @@
+{from "mosin"
+	{entity "mosin_fin"}
+	{fireSound "rifle/mosin_shot/"}
+	{reloadSound "mosin"}
+	("accuracy_sniper_rifle")
+	{recoveryTime 4.2}
+}

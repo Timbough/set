@@ -1,0 +1,12 @@
+{bullet
+	{tag "dropboxed grenade big mortar"}
+	{inventory
+		{size 2 1}
+		{weight 70}
+	}	{mass 2}
+	{entity "mortar_ammo"}
+	{view "mortar_ammo"}
+
+	{detonationThickness 1}
+	("fg" args 4)
+}

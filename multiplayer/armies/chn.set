@@ -1,0 +1,6 @@
+{army
+	{id 59}
+	{title "mp/army/chn"} 
+	{icon "/interface/pages/multi/flag_chn"}
+	{flag "/interface/scene/common/flag-chn"}
+}

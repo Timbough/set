@@ -1,0 +1,11 @@
+{from "pattern gun_indirect"    
+	{filling "bullet75_eng fg"}
+	{fireSound "gun/50to76_cal/75mm_vickers"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 5.5}
+	("speed" s(740))
+	{projectileDamage 50}
+	("range_indirect_medium")
+	("caliber_medium")
+}  
+

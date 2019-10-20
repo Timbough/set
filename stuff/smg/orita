@@ -1,0 +1,7 @@
+{from "ppsh"
+	{filling "ammo pistol" 32}
+	{entity "orita"}
+	{fireSound	"smg/orita_burst/"}
+
+	("rof" r(600))
+}

@@ -1,0 +1,15 @@
+{bullet
+	{tag "big shell fg bomb"}
+	{inventory
+		{size 6 1}
+		{weight 100}
+	}	
+	{mass 92}
+	{entity "m31_ammo"}
+	{view "m31_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	("heavy" args 15)
+}

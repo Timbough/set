@@ -1,0 +1,13 @@
+{from "pattern gun"		;47mm Pak Fr
+	{filling "bullet47_fra"}
+	{fireSound "gun/47mm_sa1937"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 5}
+	("caliber_medium")
+	("range_short")
+	("speed" s(800))
+	{projectileDamage 50}
+	("damage" a(72) b(63) c(53) d(46) e(38))
+	("accuracy_medium")
+	{cursor "L710"}
+}

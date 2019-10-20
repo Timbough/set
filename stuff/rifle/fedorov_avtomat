@@ -1,0 +1,16 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 25}
+	{entity "fedorov_avtomat"}
+	{fireSound "rifle/svt40"}
+	{reloadSound "svt40"}
+	{recoveryTime 0.3}
+	{rechargeTime 4}
+	{healthDamage 150}
+	{Automatic}
+	{burst
+		{short 1}
+		{long 5 1}
+	}
+	("speed" s(660))
+	("accuracy_automatic_rifle")
+}

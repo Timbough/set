@@ -1,0 +1,8 @@
+{from "pattern gun"      ; sig33b
+	{filling "bullet150_ger"}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	{rechargeTime 25}
+	("speed" s(600))  	
+	("range_grazing_howitzer")
+}

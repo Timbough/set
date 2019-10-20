@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{filling "bullet20 zenite" 50}
+        	{entity "20mm_zenitnie"}
+	{fireSound "gun/zenite/20mm_burst/"}
+ 	{reloadSound "bren"}
+	{reloadSound "ptrd"}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 34}
+	{range 150 1000}
+	{recoveryTime 0.12}
+	{rechargeTime 3}
+	("accuracy_dshk")
+	("burst_long")
+	("20")
+}

@@ -1,0 +1,7 @@
+{from "mp40"
+	{entity "mp28"}
+	{fireSound "smg/mp28_burst/"}
+	{reloadSound "mp40_reload"}
+	("rof" r(480))
+	("light")
+}

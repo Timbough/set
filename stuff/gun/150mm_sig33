@@ -1,0 +1,13 @@
+{from "pattern gun"      ; sturmpz1
+	{filling "bullet150_ger"}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	{rechargeTime 25}
+	("speed" s(240))
+	("range_grazing_howitzer")
+	{cursor "rblf36"}
+	{parameters "cu"
+		("speed" s(280))
+		("damage" a(185) b(0) c(0) d(0) e(0))
+	}
+}

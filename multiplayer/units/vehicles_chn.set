@@ -1,0 +1,64 @@
+;----- China -----
+
+
+;°°°Infantry only°°°
+
+
+
+;°°°Button 1°°°
+{"horse_chn"              ("vs" c(0) t(chn_inf_div   n40 n41 n42 43 39 n44 n45 n50 any fl  inf_only) s(chn) n(0) g(b0) sc(0.5) b(v1) cw(0) cp(0)) {cost 10} {fore 1}}
+{"gaz-mm_inf"  ("vs" c(0) t(chn_inf_div chn_tank_div chn_storm_div all any 39 n40 n41 n42 n43 n44 n45 n50 nfl inf_only) 			s(chn) n(2) g(b1) sc(2.5) a(1) b(v1) cw(0) cp(0)) {cost 50} {fore 1}}
+{"chevrolet"  ("vs" c(0) t(chn_inf_div chn_tank_div chn_storm_div nall any n39 n40 n41 n42 43 44 n45 n50 fl inf_only) 			s(chn) n(2) g(b1) sc(2.5) a(1) b(v1) cw(0) cp(0)) {cost 50} {fore 1}}
+{"stz3_chn"  ("vs" c(0) t(chn_tank_div chn_storm_div nall any 39 n40 n41 n42 43 44 n45 n50 fl tb tank_only) 			s(chn) n(2) g(b1) sc(3) a(1) b(v1) cw(0) cp(0)) {cost 60} {fore 1}}
+{"m3a1halftrack_chn"   ("vs" c(0) t(chn_inf_div chn_tank_div chn_storm_div all any n42 43 44 n45 n50 fl n39 n40 n41) 		s(chn) n(2) g(b4) sc(6.5)  a(1) b(v1) cw(0) cp(0)) {cost 130} {fore -23}}
+{"gaz-mm_art"  ("vs" c(0) t(chn_inf_div chn_tank_div chn_storm_div all any 39 n40 n41 n42 n43 n44 n45 n50 nfl tb tank_only) 			s(chn) n(2) g(b2) sc(7.5) a(1) b(v1) cw(0) cp(0)) {cost 150} {fore 1}}
+{"chevrolet_art"  ("vs" c(0) t(chn_inf_div chn_tank_div chn_storm_div nall any n39 n40 n41 n42 43 44 n45 n50 fl  tanks_only) 			s(chn) n(2) g(b2) sc(7.5) a(1) b(v1) cw(0) cp(0)) {cost 150} {fore 1}}
+{"gaz-mm_eng"   ("vs" c(0) t(chn_inf_div chn_tank_div all any 39 n40 n41 n42 n43 n44 n45 n50 nfl ntb nt) 			s(chn) n(2) g(b3) sc(9) a(1) b(v1) cw(0) cp(0)) {cost 180} {fore 1}}
+{"chevrolet_eng"   ("vs" c(0) t(chn_inf_div chn_tank_div nall any n39 n40 n41 n42 43 44 n45 n50 fl) 			s(chn) n(2) g(b3) sc(9) a(1) b(v1) cw(0) cp(0)) {cost 180} {fore 1}}
+
+;°°°Button 2°°°
+{"browning_1917_mgun"  ("vs" c(0) t(chn_inf_div  chn_storm_div all any 39 n40 n41 n42 43 44 n45 n50 fl inf_only) 		s(chn) n(2) g(c0) sc(3)  b(v2) cw(2) cp(5)) {cost 30} {fore -2}}
+{"maxim_chn"  ("vs" c(0) t(chn_inf_div  chn_storm_div all any 39 n40 n41 n42 43 44 n45 n50 fl  inf_only) 		s(chn) n(1) g(c1) sc(3)  b(v2) cw(2) cp(5)) {cost 30} {fore -2}}
+{"m3cannon_chn"         ("vs" c(0) t(chn_inf_div   all any n42 43 44 n45 n50 fl n39 n40 n41 inf_only2) 			s(chn) n(2) g(c4) sc(6.75) b(v2) cw(2) cp(5)) {cost 135} {fore -2}}
+("how" side(chn) name(how_ai1) c(0) c1(gaz-mm_ai) c2(pak35_chn_ai)  t(chn_inf_div chn_tank_div nseacombat n40 n41 n42 n45 n50 ai_cannon ntb nt) g(ai1) b(v2) cost(250) f(1))
+{"pak35_chn"    ("vs" c(0) t(chn_inf_div   all any 39 n40 n41 n42 43 44 n45 n50 fl  inf_only2) 	        s(chn) n(2) g(c2) sc(7.5)  b(v2) cw(2) cp(5)) {cost 150} {fore -2}}
+
+;°°°Button 7°°°
+
+{"81mm_brandt_chn"             ("vs" c(0) t(chn_inf_div chn_tank_div chn_storm_div any arty 39 43 44 fl n40 n41 n42 n45 n50 inf_only3) 	s(chn) n(2) g(d2) sc(12) b(v7) cw(2) cp(5)) {cost 120} {fore -2}}
+{"76mm_m1909"        ("vs" c(0) t(chn_inf_div chn_tank_div chn_storm_div all any arty 39 n40 n41 n42 43 44 n45 n50 fl ntb nt) s(chn) n(4) g(d4) sc(14) b(v7) cw(0) cp(5)) {cost 280} {fore -14}}
+{"np_su12"         ("vs" c(0) t( chn_inf_div  all any arty 39 n40 n41 n42 n43 n44 n45 n50 fl ntb nt)	s(chn) n(4) g(d5)  sc(15) b(v7) cw(0) cp(5)) {cost 300} {fore -14}}
+{"gun_carrier_chn" ("vs" c(0) t( chn_storm_div  all any arty n40 n41 n42 43 44 n45 n50 fl  39 inf_only3 fl) 		s(chn) n(4) g(d4) sc(17.5) b(v7) cw(2) cp(10)) {cost 350} {fore -14}}
+("how" side(chn) name(how_ai3) c(0) c1(gaz-mm_ai) c2(a19_ai)  t(chn_inf_div  chn_storm_div nseacombat n40 n41 n42 n45 n50 ai_cannon arty fl ntb nt) g(ai3) b(v7) cost(700) f(-1))
+("how" side(chn) name(how_a) c(0) c1(stz3_chn) c2(a19)  t(chn_inf_div chn_tank_div  all any arty 39 medium persize n40 n41 n42 43 44 n45 n50 fl ntb nt) g(d6) b(v7) cost(700) f(-14))
+("how" side(chn) name(how_b) c(0) c1(stz3_chn) c2(sfh18_chn)  t(chn_inf_div  chn_storm_div all any arty 39 heavy_art persize_heavy n40 n41 n42 43 44 n45 n50 nfl ntb nt) g(d7) b(v7) cost(900) f(-19))
+
+
+;°°°Button 3°°°
+{"l335_chn"         ("v" c(0) t(chn_inf_div   all any 39 n40 n41 n42 43 44 n45 n50 fl ntb nt)  s(chn) n1(1) n2(1) g(e1)  sc(5.5) b(v3) cw(0) cp(5)) {cost 110} {fore -31}}
+{"gazaaa4m"         ("v" c(0) t(chn_inf_div   all any 39 n40 n41 n42 n43 n44 n45 n50 fl ntb nt)  s(chn) n1(2) n2(1) g(e2)  sc(6.5) b(v3) cw(0) cp(5)) {cost 130} {fore -2}}
+{"pz1a"         ("v" c(0) t(chn_inf_div   all any 39 n40 n41 n42 43 44 n45 n50 fl ntb nt) 	s(chn) n1(1) n2(1) g(e3) sc(10.5) b(v3) cw(0) cp(5)) {cost 210} {fore -31}}
+{"ba-6"      	  ("v" c(0) t( chn_tank_div  all any 39 n40 n41 n42 n43 n44 n45 n50 fl ntb nt)  s(chn) n1(3) n2(1) g(e4) sc(11.5) b(v3) cw(0) cp(5)) {cost 230} {fore -34}}
+{"sdkfz222a"         ("v" c(0) t( chn_tank_div  all any 39 n40 n41 n42 43 44 n45 n50 fl ntb nt) 	s(chn) n1(1) n2(1) g(e5) sc(12) b(v3) cw(0) cp(5)) {cost 240} {fore -34}}
+{"m3a1scout_chn"          ("v" c(0) t(chn_inf_div   all any 43 44 n45 n50 fl  n39 n40 n41 n42) 	s(chn) n1(2) n2(2) g(e6) sc(6) b(v3) cw(0) cp(5)) {cost 120} {fore -17}}
+{"m2a4_chn"      	    ("v" c(0) t( chn_tank_div  all any 43 44 n45 n50 fl n39 n40 n41 n42) 	s(chn) n1(3) n2(1) g(e7) sc(12) b(v3) cw(0) cp(5)) {cost 240} {fore -37}}
+{"m3a1_chn"       ("v" c(0) t( chn_tank_div  43 nall any n39 n40 n41 n42 n44 n45 n50 fl) s(chn) n1(2) n2(1) g(e8) sc(14) b(v3) cw(0) cp(5)) {cost 280} {fore -37}}
+{"m5a1_chn"             ("v" c(0) t( chn_tank_div  all any 44 n45 n50 fl n39 n40 n41 n42 n43 tanks_only) 	s(chn) n1(3) n2(1) g(e9) sc(15) b(v3) cw(0) cp(5)) {cost 300} {fore -37}} 
+{"m24_chn"              ("v" c(0) t( chn_tank_div  all any 44 n45 n50 nfl n39 n40 n41 n42 n43 tanks_only) 	s(chn) n1(3) n2(1) g(e10) sc(19) b(v3) cw(0) cp(5)) {cost 380} {fore -19}} 
+
+;°°°Button 4°°°
+
+{"t-26_chn_1931"         ("v" c(0) t(chn_inf_div   all any n40 39 n41 n42 n43 n44 n45 n50 fl nt tb) 		s(chn) n1(2) n2(1) g(f2) sc(7.5) b(v4) cw(0) cp(5)) {cost 150} {fore -31}}
+{"ft17_chn"         	("v" c(0) t( chn_tank_div  all any 39 n40 n41 n42 n43 n44 n45 n50 fl tb tank_only) 		s(chn) n1(1) n2(1) g(f1) sc(9.5) b(v4) cw(0) cp(10)) {cost 190} {fore -37}} 
+{"vickers_chn"   ("v" c(0) t( chn_tank_div  all any 39 n40 n41 n42 n43 n44 n45 n50 fl tb tank_only) 		s(chn) n1(2) n2(1) g(f3) sc(12) b(v4) cw(0) cp(10)) {cost 240} {fore -37}} 	 
+{"t-26_chn_1933"         ("v" c(0) t( chn_tank_div  all any 39 n40 n41 n42 n43 n44 n45 n50 fl tb tank_only) 		s(chn) n1(2) n2(1) g(f4) sc(14) b(v4) cw(0) cp(15)) {cost 280} {fore -37}} 
+{"bt5_chn"             ("v" c(0) t( chn_tank_div  all any 39 n40 n41 n42 n43 n44 n45 n50 fl tb tank_only) 		s(chn) n1(2) n2(1) g(f5) sc(15) b(v4) cw(0) cp(15)) {cost 300} {fore -37}}
+{"m4_chn"          ("v" c(0) t( chn_tank_div chn_storm_div  all any 43 44 n45 n50 nfl medium n39 n40 n41 n42 tanks_only) 	s(chn) n1(4) n2(1) g(e2) sc(19.5) b(v4) cw(0) cp(15)) {cost 390} {fore -53}} 
+
+;°°°Button 5°°°
+{"m18_chn"              ("v" c(0) t( chn_storm_div  all any n44 n45 n50 nfl medium n39 n40 n41 n42 n43 rare1 tanks_only2) 		s(chn) n1(3) n2(1) g(f1) sc(25) b(v5) cw(0) cp(10)) {cost 500} {fore -43}} 	
+
+
+;°°°Button 6°°°
+{"i-16"             ("va" c(0) t(all any 39 n40 n41 n42 43 44 n45 n50 nfl airborne ntb nt) 	s(chn) n(1) g(e11) sc(17.5) b(v6) cw(2) cp(10)) {cost 350} {fore -2}}
+{"cr42"             ("va" c(0) t(  chn_storm_div all any arty 39 n40 n41 n42 43 44 n45 n50 nfl airborne ntb nt) 	s(chn) n(2) g(d5) sc(30) b(v6) cw(2) cp(10)) {cost 600} {fore -2}}

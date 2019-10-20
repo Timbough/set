@@ -1,0 +1,17 @@
+{from "pattern gun"     ; "carro"
+	{filling "bullet47_ita"}
+	{fireSound "gun/50to76_cal/50mm"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 5}
+	("range_short")
+	
+	("speed" s(946))
+	("caliber_minimum")
+	{projectileDamage 46}
+	("damage" a(66) b(49) c(39) d(31) e(24))
+	{parameters "apcr"
+        ("damage" a(91) b(69) c(54) d(41) e(29))
+	}
+	{cursor "ita2"}
+	("accuracy_low")
+}

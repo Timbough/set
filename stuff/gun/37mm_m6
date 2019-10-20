@@ -1,0 +1,17 @@
+{from "pattern gun"		; m8 Grayhound
+	{filling "bullet37_usa"}
+	{fireSound "gun/37mm_m6"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 4}
+	("range_minimum")
+	
+	("speed" s(990))
+	("caliber_minimum")
+	{projectileDamage 90}
+	("damage" a(89) b(69) c(50) d(37) e(27))
+	{parameters "apcr"
+        		("damage" a(78) b(69) c(59) d(51) e(43))
+	}
+	("accuracy_minimum")
+	{cursor "m70d"}
+}

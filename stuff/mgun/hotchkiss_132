@@ -1,0 +1,9 @@
+{from "browning"
+	{filling "ammo hmgun" 30}
+	{entity "hotchkiss132"}
+	{fireSound	"gun/13mm_hotchkiss"}
+	{reloadSound "ptrd"}
+	{rechargeTime 6}
+	("8mm")
+	{projectileDamageTable {0 24} {50 20} {100 16} {150 13} {200 4.5} {225 0}} 
+}

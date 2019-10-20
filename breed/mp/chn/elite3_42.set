@@ -1,0 +1,56 @@
+{breed
+	{skin "chn_elite"}
+	{portrait "chn_elite1"}
+	{icon "elite_rifle"}
+	{icon_priority 0}
+	{nationality chn}
+	{armors
+		{head fieldcap1_chn}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.9
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mosin" filled}
+		{item "ammo rifle" 60}
+               		{item "erguotou"}
+		{item "m24 grenade" 2}
+		{item "bandage" 6}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

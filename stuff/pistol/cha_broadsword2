@@ -1,0 +1,7 @@
+{from "pattern pistol"
+	{mass 1.16}
+	{entity "cha_broadsword2"}
+	{recoveryTime 0.275}
+	{rechargeTime 2.721}
+	{Automatic}
+}

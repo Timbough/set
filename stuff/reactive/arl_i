@@ -1,0 +1,46 @@
+{weapon_bullet
+	{fireSound "reactive/katyusha_burst"}
+	{fillingVisible "rocket"}
+	{range 190 200}
+	{aimtype adaptive}
+	{AimingTolerance 0.1}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+	{rechargeTime 120}
+
+	{recoveryTime 0.35}
+	{aimtype direct}
+	{burst {min 8} {noaiming}}
+	{tag "atr" "-gun"}	
+	{filling "ammo 82mm arl" 2}
+	{fillingVisible "rocket"}
+	{gravity 0.15}
+	{spreading
+		{SpreadPower 0.25} ;Rocket
+		{SpreadRadius  33} ;1 / 9 * 300    82^0.5=9
+		{SpreadXYRatio 1.25}
+		{BurstAccuracy 100}
+		{SpreadYadjust -1.5}
+	}
+	{aimtype direct}
+	{speed 175}	
+	{foresight "Foresight3"}
+	{burst
+		{min 2}
+		{noaiming}
+	}	
+	{range 190 200}
+	{AimingTolerance 3}
+	{SpreadTolerance 0}		
+	{rechargeTime 1.5}
+	{recoveryTime 0.01}
+	{RelaxationTime 0}
+	{inventory
+		{weight 20000}
+		{fsm "belt"}
+		{size 4 2}
+	}
+	{mass 0.01}
+	{DisableRicochet}
+	{reactive}
+}

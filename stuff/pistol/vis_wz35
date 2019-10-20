@@ -1,0 +1,7 @@
+{from "pattern pistol"
+	{filling "ammo pistol" 7}
+	{mass 1.075}
+	{entity "vis_wz_35"}
+	{fireSound	"pistol/beretta"}
+	{reloadSound "vis"}
+}

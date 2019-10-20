@@ -1,0 +1,12 @@
+{from "pattern mgun"
+	{desc "FM 24/29"}
+	{tag "mgun_light"}
+	{filling "ammo mgun" 25}
+	{entity "fm2429"}
+	{fireSound	"mgun/bren_burst/"}
+	{reloadSound "bren"}
+	("8mm")
+	{rechargeTime 5.2}
+	("rof" r(450))
+	("burst_short")
+}

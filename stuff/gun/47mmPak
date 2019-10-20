@@ -1,0 +1,17 @@
+{from "pattern gun"		; "panzerjager"
+	{filling "bullet47_ger"}
+	{fireSound "gun/47mm_type97"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 4.5}
+	("range_short")
+	
+	("speed" s(775))
+	("caliber_minimum")  
+	{projectileDamage 68}
+	("damage" a(68) b(60) c(52) d(44) e(37))
+	{parameters "apcr"
+        		("damage" a(122) b(72) c(22) d(11) e(6))
+	}
+	
+	("accuracy_minimum")
+}

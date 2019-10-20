@@ -1,0 +1,15 @@
+{from "pattern smg"
+	{filling "ammo pistol" 30}
+	{mass 5}
+	{entity "sg44"}
+	{fireSound	"smg/mp44_burst/"}
+	{reloadSound "stg44_reload"}	
+	("rof" r(550))
+	("short")
+	("burst_short")
+	("heavy")
+	("7.92×33mm Kurz")
+	{spreading
+		{BurstAccuracy 100 90 81 73 66 60 55 51 48 46 45}
+	}
+}

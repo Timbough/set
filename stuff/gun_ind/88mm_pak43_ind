@@ -1,0 +1,12 @@
+{from "pattern gun_indirect"      ; "pak43"
+	{filling "bullet88_ger fg"}
+	;{fireSound "gun/85to100_cal/88mm_kwk43"}
+	{fireSound "gun/88mm/KwK43/"}
+	{reloadSound "tankgun_r02"}
+	{rechargeTime 8}
+	{projectileDamage 233}
+	("range_indirect_large")
+	("caliber_large")
+	("speed" s(750))
+	{cursor "tzf9"}
+}

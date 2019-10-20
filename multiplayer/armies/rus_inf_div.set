@@ -1,0 +1,6 @@
+{army
+	{id 10}
+	{title "mp/army/rus_inf_div"}
+	{icon "/interface/pages/multi/flag_inf_div_rus"}
+	{flag "/interface/scene/common/flag-ussr"}
+}

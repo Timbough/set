@@ -1,0 +1,15 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 20}
+	{entity "breda_m_1937"}
+	{fireSound	"mgun/breda_37_burst/"}
+ 	{reloadSound "breda30_reload"}
+	{mass 10}
+	{rechargeTime 6}
+	("burst_long")
+	("speed" s(630))
+	{Spreading 1
+		{SpreadPower	1}
+		{BurstAccuracy 100 97 94 91 88 85 80}
+	}
+}
+

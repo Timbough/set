@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{filling "bullet305 fg" 1}
+	{fireSound "gun/85to100_cal/100mm_d10c"}
+	{entity "150mm_f33"}
+	{rechargeTime 8.5}
+        	{range 300 1000} 
+	{gravity 2}
+        	{bullet_view "howitzer_shell"
+		{tail "cannone_big_shell" "root"}
+        	}
+	{parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+        	}
+	;("gun_art")
+}

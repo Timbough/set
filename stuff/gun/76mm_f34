@@ -1,0 +1,18 @@
+{from "76mm_f32"       ; "t34_2"
+	("damage" a(92) b(77) c(73) d(64) e(55))
+	{parameters "apcr"
+		("speed" s(950))
+		("damage" a(116) b(102) c(92) d(78) e(60))
+	}
+	{parameters "fg"
+		("speed" s(355))
+	}
+	{parameters "cu"
+        		{projectileDamage 87}
+		("speed" s(355))
+		("damage" a(87) b(0) c(0) d(0) e(0))
+	}
+	{rechargeTime 8}
+	{cursor "cross"}
+	("speed" s(680))
+}

@@ -1,0 +1,9 @@
+{from "pattern overcoat"
+	{entity "pol_knapsack"}
+	{inventory
+		{size 2 3}
+		{weight 3}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+}

@@ -1,0 +1,13 @@
+{from "pattern gun"		; “-18 (Ã—-1), “-26 ‚˚Ô. 1931-33 „„., ¡¿-», ¡¿-27, ¡¿-27Ã
+	{filling "bullet37_rus"}
+	{fireSound "gun/37mm_SA18"}
+	{reloadSound "pak35"}
+	{rechargeTime 4}
+	("range_short")
+	("speed" s(600))
+	("caliber_minimum")
+	("accuracy_low")
+	{projectileDamage 37}
+	("damage" a(37) b(31) c(24) d(20) e(16))
+	{cursor "tmfp"}
+}

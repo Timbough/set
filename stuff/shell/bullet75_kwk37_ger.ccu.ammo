@@ -1,0 +1,9 @@
+{from "pattern ccu"
+	{tag "size_small" "cumulative" "heat_medium" "pierce"}
+	{inventory
+		{size 4 1}
+	}
+	("shaped" args 4.125)
+	{mass 12}
+	{entity "shell_heat_75_kwk37c"}
+}

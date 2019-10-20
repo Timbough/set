@@ -1,0 +1,9 @@
+{from "pattern ap"
+	{tag "big" "size_medium" "shell_big" "pierce"}
+	{inventory
+		{size 7 1}
+	}	
+	("ap" args 5.25)
+	{mass 19}
+	{entity "ita_shell_105x155r_ap"}
+}

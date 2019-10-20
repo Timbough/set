@@ -1,0 +1,10 @@
+{from "pattern smg"
+	{filling "ammo pistol" 35}
+	{entity "pps43"}
+	{fireSound	"smg/pps_burst/"}
+	{reloadSound "pps43_reload"}
+	("7.62x25")
+	("rof" r(650))
+	("long")
+	("light")
+}

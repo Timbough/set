@@ -1,0 +1,79 @@
+;SDL
+(define "distance_1" 
+	{spreading 
+		{radiusTable {0 0} {20 %r1} {36 %r2} {64 %r3} {116 %r4} {210 %r5} {378 %r6} {680 %r7}}
+	}		
+)
+(define "increasing" 
+	{spreading 
+		{radiusTable {0 0} {20 %r1} {32 %r2} {51 %r3} {82 %r4} {210 %r5} {336 %r6} {537 %r7}}
+	}		
+)
+
+;-------------pistols / submachine guns ---------------
+
+(define "accuracy_flaer"
+	("distance_1" r1(1.0) r2(2.0) r3(4.0) r4(8.0) r5(16.0) r6(32) r7(64))
+)
+
+(define "accuracy_pistol"
+	("distance_1" r1(0.8) r2(1.6) r3(3.2) r4(6.4) r5(12.8) r6(25.6) r7(51.2))
+)
+
+(define "accuracy_smg"
+	("distance_1" r1(0.8) r2(1.6) r3(3.2) r4(6.4) r5(12.8) r6(25.6) r7(51.2))
+)
+
+;------------------rifles ----------------------------
+
+(define "accuracy_rifle"
+	("distance_1" r1(0.7) r2(1.4) r3(2.8) r4(5.6) r5(11.2) r6(22.4) r7(44.8))
+)
+
+(define "accuracy_automatic_rifle"
+	("distance_1" r1(0.75) r2(1.5) r3(3.0) r4(6.0) r5(12.0) r6(24.0) r7(48.0))
+)
+
+(define "accuracy_carabine"
+	("distance_1" r1(0.75) r2(1.5) r3(3.0) r4(6.0) r5(12.0) r6(24.0) r7(48.0))
+)
+
+(define "accuracy_carbine"
+	("distance_1" r1(0.75) r2(1.5) r3(3.0) r4(6.0) r5(12.0) r6(24.0) r7(48.0))
+)
+
+(define "accuracy_sniper_rifle"
+	("distance_1" r1(0.7) r2(1.4) r3(2.8) r4(5.6) r5(11.2) r6(22.4) r7(44.8))
+)
+
+;-------------------at weapons -----------------------
+
+(define "accuracy_ptr"
+	("distance_1" r1(0.7) r2(1.4) r3(2.8) r4(5.6) r5(11.2) r6(22.4) r7(44.8))
+)
+
+(define "accuracy_grb"
+	("distance_1" r1(1.5) r2(3) r3(6) r4(12) r5(24) r6(48) r7(96))
+)
+
+(define "accuracy_rpg"
+	("increasing" r1(0.7) r2(1.4) r3(2.8) r4(5.6) r5(11.2) r6(22.4) r7(44.8))
+)
+
+;--------------------machine guns ---------------------
+
+(define "accuracy_lmgun"
+	("distance_1" r1(0.8) r2(1.6) r3(3.2) r4(6.4) r5(12.8) r6(25.6) r7(51.2))
+)
+
+(define "accuracy_mgun"
+	("distance_1" r1(0.8) r2(1.6) r3(3.2) r4(6.4) r5(12.8) r6(25.6) r7(51.2))
+)
+
+(define "accuracy_dshk"
+	("distance_1" r1(0.8) r2(1.6) r3(3.2) r4(6.4) r5(12.8) r6(25.6) r7(51.2))
+)
+
+(define "accuracy_uberbrowning"
+	("distance_1" r1(0.8) r2(1.6) r3(3.2) r4(6.4) r5(12.8) r6(25.6) r7(51.2))
+)

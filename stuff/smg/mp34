@@ -1,0 +1,8 @@
+{from "mp40"
+	{filling "ammo pistol" 30}
+	{entity "mp34"}
+	{fireSound "smg/mp34_burst/"}
+	{reloadSound "type100smg_reload"}
+	("recoveryTime" r(570))
+ 	("speed" s(400))
+}

@@ -1,0 +1,10 @@
+{item
+	{tag "itemin2hands keepEntity"}
+	{entity "ammobox_art_nkr"}
+	{inventory
+		{size 4 3}
+		{weight 99}
+		{fsm "hand-only"}
+	}
+	{mass 50}
+}

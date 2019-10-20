@@ -1,0 +1,13 @@
+{bullet
+	{tag "dropboxed grenade big mortar"}
+	{inventory
+		{size 2 2}
+		{weight 70}
+	}	{mass 2}
+	{entity "depth_bomb"}
+	{view "depth_bomb"
+		{tail "" ""}
+	}	
+	{detonationThickness 1}
+	("heavy" args 10)
+}

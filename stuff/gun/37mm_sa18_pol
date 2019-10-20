@@ -1,0 +1,14 @@
+{from "pattern gun"		
+	{filling "bullet37_pol"}
+                {fireSound "gun/37mm_SA18"}
+	{reloadSound "pak35"}
+	{rechargeTime 3.8}
+	("range_minimum")
+	("speed" s(545))
+	("caliber_minimum")     
+	{projectileDamage 35}	
+	("damage" a(38) b(33) c(23) d(20) e(10))
+	{parameters "fg" {range 120 130}}
+	("accuracy_medium")
+	{cursor "mle1921"}
+}

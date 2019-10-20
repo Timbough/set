@@ -1,0 +1,20 @@
+{bullet
+	{tag "big size_maximum shell fg bomb itemin2hands"}
+	{inventory
+		{size 5 2}
+		{weight 80}
+		{fsm "hand-only"}
+	}	
+	{mass 30}
+	{entity "30cm_rocket_ammo"}
+	{view "30cm_rocket_ammo"
+		{tail "rocket_smoke_st" "tail"}
+	}
+	("heavy" args 15)
+
+	{damage fire
+		{radius 6}
+		{heating 3}
+		{time 3}
+	}
+}

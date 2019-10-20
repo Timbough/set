@@ -1,0 +1,7 @@
+{from "pattern pistol"
+	{filling "ammo pistol" 8}
+	{mass 0.9}
+	{entity "nambu"}
+	{fireSound	"pistol/valter"}
+	{reloadSound "p38_reload"}
+}

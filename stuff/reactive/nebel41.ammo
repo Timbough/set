@@ -1,0 +1,14 @@
+{bullet
+	{tag "size_small small shell fg"}
+	{inventory
+		{size 5 1}
+		{weight 50}
+		{fsm "hand-only"}
+	}	
+	{entity "nebelwerfer41_ammo"}
+	{mass 30}
+	{view "nebelwerfer41_ammo"
+		{tail "rocket_smoke_norm" "tail"}
+	}
+	("heavy" args 7.5)		
+}

@@ -1,0 +1,384 @@
+;----- Squads -----
+
+
+
+
+;같컂eneric같�
+
+(define "generic_vi"
+    {charge %c}
+    {tags "%t"}
+    {group "%g"}
+    {button "%b"}
+)
+
+;같캫echanized infantry같�
+(define "vb3"
+    ("generic_vi" c(%c) t(%t %s inf_only) g(%g) i(%i) b(%b))
+    {content "%c1 ( mp/%s/sturmovik_40:%n1 mp/%s/sturmovik2_40:%n2 mp/%s/sturmovik3_40:%n3)"}
+)
+(define "vb4"
+    ("generic_vi" c(%c) t(%t %s inf_only) g(%g) i(%i) b(%b))
+    {content "%c1 ( mp/%s/sturmovik_40:%n1 mp/%s/sturmovik2_40:%n2 mp/%s/sturmovik3_40:%n3 mp/%s/sturmovik4_40:%n4 )"}
+)
+(define "para4"
+    ("generic_vi" c(%c) t(%t %s inf_only) g(%g) i(%i) b(%b))
+    {content "%c1 (mp/%s/%n1 mp/%s/%n2 mp/%s/%n3 mp/%s/%n4 )"}
+)
+
+(define "officer2"
+    ("generic_vi" c(%c) t(%t %s inf_only) g(%g) i(%i) b(%b))
+    {content "%c1 ( mp/%s/vehicle_supporter_40:1 mp/%s/oficer:1 )"}
+)
+
+;같캳quads define같�
+
+(define "squad_with1types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{fore %f}
+	}
+)
+
+(define "squad_with2types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{fore %f}
+	}
+)
+
+(define "squad_with3types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{fore %f}
+	}
+)
+
+(define "squad_with4types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{fore %f}
+	}
+)
+
+(define "squad_with5types"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%c1 mp/%side/%c2 mp/%side/%c3 mp/%side/%c4 mp/%side/%c5"}
+		{tags "frontline_cp infantry %side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{fore %f}
+	}
+)
+
+;같캳quads같�
+
+("squad_with2types" side(rus) name(home_guards) c(30) g(squad_1) c1(home_guard:6) c2(home_guard2:2) b(squad1) t(rus_inf_div   40 41  inf_only home_guards)  cost(60) f(-1))
+("squad_with2types" side(ger) name(home_guards) c(30) g(squad_1) c1(home_guard:6) c2(home_guard2:2) b(squad1) t(ger_inf_div   40 41 inf_only home_guards)  cost(60) f(-1))
+("squad_with2types" side(eng) name(home_guards) c(30) g(squad_1) c1(home_guard:6) c2(home_guard2:2) b(squad1) t(eng_inf_div   40 41 inf_only home_guards)  cost(60) f(-1))
+("squad_with2types" side(ita) name(home_guards) c(30) g(squad_1) c1(home_guard:8) b(squad1) t(ita_inf_div   40 41 inf_only home_guards)  cost(60) f(-1))
+("squad_with2types" side(fra) name(home_guards) c(30) g(squad_1) c1(home_guard:8) b(squad1) t(fra_inf_div   40 inf_only home_guards)  cost(60) f(-1))
+("squad_with2types" side(hun) name(home_guards) c(30) g(squad_1) c1(home_guard:8) b(squad1) t(hun_inf_div   41 inf_only home_guards)  cost(60) f(-1))
+("squad_with2types" side(grc) name(home_guards) c(30) g(squad_1) c1(home_guard:8) b(squad1) t(grc_inf_div   40 inf_only home_guards)  cost(60) f(-1))
+("squad_with1types" side(bul) name(home_guards) c(30) g(squad_1) c1(home_guard:8) b(squad1) t(bul_inf_div   41 inf_only home_guards fl)  cost(60) f(-1))
+("squad_with1types" side(dut) name(home_guards) c(30) g(squad_1) c1(home_guard:8) b(squad1) t(dut_inf_div   40 inf_only home_guards)  cost(60) f(-1))
+
+("squad_with3types" side(rus) name(smgs) c(0) g(squad_2) c1(squadleader2_40:1) c2(rifle2_40:4) c3(smg2_40:5) b(squad1) t(rus_inf_div rus_tank_div  40 41 inf_only smgs)  cost(115) f(1))
+("squad_with3types" side(ger) name(smgs) c(0) g(squad_2) c1(squadleader2_40:1) c2(rifle2_40:4) c3(smg2_40:5) b(squad1) t(ger_inf_div ger_tank_div  40 41 inf_only smgs)  cost(140) f(1))
+("squad_with3types" side(eng) name(smgs) c(0) g(squad_2) c1(squadleader2_40:1) c2(rifle2_40:4) c3(smg2_40:5) b(squad1) t(eng_inf_div eng_tank_div  40 41 inf_only smgs)  cost(100) f(1))
+("squad_with4types" side(ita) name(smgs) c(0) g(squad_2) c1(squadleader_40:1) c2(rifle2_40:2) c3(smg2_40:5) c4(rifle4_40:2) b(squad1) t(ita_inf_div ita_tank_div  40 41 inf_only smgs fl)  cost(100) f(1))))
+("squad_with3types" side(fra) name(smgs) c(0) g(squad_2) c1(squadleader:1) c2(rifle2:4) c3(smg2:5) b(squad1) t(fra_inf_div fra_tank_div   40 inf_only smgs)  cost(100) f(1))
+("squad_with3types" side(hun) name(smgs) c(0) g(squad_2) c1(squadleader_40:1) c2(rifle2_40:4) c3(smg2_40:5) b(squad1) t(hun_inf_div hun_tank_div  41 inf_only smgs)  cost(100) f(1))
+("squad_with3types" side(fin) name(smgs) c(0) g(squad_2) c1(squadleader:1) c2(rifle2:4) c3(smg:5) b(squad1) t(fin_inf_div fin_tank_div  40 41 inf_only smgs)  cost(100) f(1))
+("squad_with3types" side(rom) name(smgs) c(0) g(squad_2) c1(squadleader:1) c2(rifle2_40:4) c3(smg_40:5) b(squad1) t(rom_inf_div rom_tank_div  41 inf_only smgs)  cost(100) f(1))
+("squad_with3types" side(grc) name(smgs) c(0) g(squad_2) c1(squadleader:1) c2(rifle2:4) c3(smg:5) b(squad1) t(grc_inf_div grc_tank_div   40 inf_only smgs)  cost(100) f(1))
+("squad_with3types" side(bul) name(smgs) c(0) g(squad_2) c1(squadleader_40:1) c2(rifle2_40:4) c3(smg2_40:5) b(squad1) t(bul_inf_div bul_tank_div  40 41 inf_only smgs fl)  cost(100) f(1))
+("squad_with3types" side(dut) name(smgs) c(0) g(squad_2) c1(squadleader_40:1) c2(rifle2_40:4) c3(smg2_40:5) b(squad1) t(dut_inf_div dut_tank_div  40 inf_only smgs fl)  cost(100) f(1))
+
+("squad_with4types" side(rus) name(riflemans) c(0) g(squad_3) c1(squadleader_40:1) c2(rifle_40:6) c3(smg_40:2) c4(mgun_40:1) b(squad1) t(rus_inf_div   40 41 inf_only riflemans)  cost(150) f(1))
+("squad_with4types" side(ger) name(riflemans) c(0) g(squad_3) c1(squadleader_40:1) c2(rifle3_40:6) c3(smg_40:2) c4(mgun_40:1) b(squad1) t(ger_inf_div   40 41 inf_only riflemans)  cost(160) f(1))
+("squad_with4types" side(eng) name(riflemans) c(0) g(squad_3) c1(squadleader_40:1) c2(rifle_40:6) c3(smg_40:2) c4(mgun_40:1) b(squad1) t(eng_inf_div   40 41 inf_only riflemans)  cost(140) f(1))
+("squad_with5types" side(ita) name(riflemans) c(0) g(squad_3) c1(squadleader_40:1) c2(rifle_40:3) c3(smg_40:2) c4(mgun_40:1) c5(rifle5_40:3) b(squad1) t(ita_inf_div   40 41 inf_only riflemans)  cost(140) f(1))
+("squad_with4types" side(fra) name(riflemans) c(0) g(squad_3) c1(squadleader:1) c2(rifle:6) c3(smg:2) c4(mgun:1) b(squad1) t(fra_inf_div    40 inf_only riflemans)  cost(140) f(1))
+("squad_with4types" side(hun) name(riflemans) c(0) g(squad_3) c1(squadleader_40:1) c2(rifle_40:6) c3(smg_40:2) c4(mgun_40:1) b(squad1) t(hun_inf_div   41 inf_only riflemans)  cost(140) f(1))
+("squad_with4types" side(fin) name(riflemans) c(0) g(squad_3) c1(squadleader:1) c2(rifle:6) c3(smg:2) c4(mgun:1) b(squad1) t(fin_inf_div    40 41 inf_only riflemans)  cost(140) f(1))
+("squad_with4types" side(rom) name(riflemans) c(0) g(squad_3) c1(squadleader:1) c2(rifle_40:6) c3(smg_40:2) c4(mgun_40:1) b(squad1) t(rom_inf_div   41 inf_only riflemans)  cost(140) f(1))
+("squad_with4types" side(grc) name(riflemans) c(0) g(squad_3) c1(squadleader:1) c2(rifle:6) c3(smg:2) c4(mgun:1) b(squad1) t(grc_inf_div    40 inf_only riflemans)  cost(140) f(1))
+("squad_with4types" side(bul) name(riflemans) c(0) g(squad_3) c1(squadleader_40:1) c2(rifle_40:6) c3(smg_40:2) c4(mgun_40:1) b(squad1) t(bul_inf_div   40 41 inf_only riflemans)  cost(140) f(1))
+("squad_with4types" side(dut) name(riflemans) c(0) g(squad_3) c1(squadleader_40:1) c2(rifle_40:6) c3(smg_40:2) c4(mgun_40:1) b(squad1) t(dut_inf_div   40 inf_only riflemans)  cost(140) f(1))
+
+("squad_with3types" side(rus) name(elites) c(0) g(squad_4) c1(elite_40:5) c2(elite2_40:3) c3(elite3_40:2) b(squad1) t(  rus_storm_div 40 41 inf_only elites) cost(225) f(1))
+("squad_with4types" side(ger) name(elites) c(0) g(squad_4) c1(elite_40:4) c2(elite2_40:2) c3(elite3_40:2) c4(elite8_40:2) b(squad1) t(  ger_storm_div 40 41 inf_only elites) cost(250) f(1))
+("squad_with3types" side(eng) name(elites) c(0) g(squad_4) c1(elite_40:5) c2(elite2_40:3) c3(elite3_40:2) b(squad1) t(  eng_storm_div 40 41 inf_only elites) cost(215) f(1))
+("squad_with3types" side(ita) name(elites) c(0) g(squad_4) c1(elite_40:5) c2(elite2_40:3) c3(elite3_40:2) b(squad1) t(  ita_storm_div 40 41 inf_only elites) cost(200) f(1))
+("squad_with3types" side(fra) name(elites) c(0) g(squad_4) c1(elite:5) c2(elite2:3) c3(elite3:2) b(squad1) t(  fra_storm_div 40 inf_only elites) cost(200) f(1))
+("squad_with3types" side(hun) name(elites) c(0) g(squad_4) c1(elite_40:5) c2(elite2_40:3) c3(elite3_40:2) b(squad1) t(  hun_storm_div 41 inf_only elites) cost(200) f(1))
+("squad_with3types" side(fin) name(elites) c(0) g(squad_4) c1(elite:5) c2(elite2:3) c3(elite3:2) b(squad1) t(  fin_storm_div 40 41 inf_only elites) cost(200) f(1))
+("squad_with3types" side(rom) name(elites) c(0) g(squad_4) c1(elite_40:5) c2(elite2_40:3) c3(elite3_40:2) b(squad1) t(  rom_storm_div 41 inf_only elites) cost(200) f(1))
+("squad_with3types" side(grc) name(elites) c(0) g(squad_4) c1(elite:7) c2(elite2:1) c3(elite3:2) b(squad1) t(  grc_storm_div 40 inf_only elites) cost(200) f(1))
+("squad_with3types" side(bul) name(elites) c(0) g(squad_4) c1(elite_40:5) c2(elite2_40:3) c3(elite3_40:2) b(squad1) t(  bul_storm_div 40 41 inf_only elites) cost(200) f(1))
+("squad_with3types" side(dut) name(elites) c(0) g(squad_4) c1(elite_40:5) c2(elite2_40:3) c3(elite3_40:2) b(squad1) t(  dut_storm_div 40 inf_only elites) cost(200) f(1))
+
+("squad_with3types" side(rus) name(elites2) c(0) g(squad_10) c1(elite4_40:4) c2(elite5_40:2) c3(elite6_40:2) b(squad1) t(  rus_storm_div 41 inf_only  elites2 fl) cost(250) f(1))
+("squad_with3types" side(ger) name(elites2) c(0) g(squad_10) c1(elite4_40:3) c2(elite5_40:4) c3(elite6_40:1) b(squad1) t(  ger_storm_div 40 41 inf_only  elites2 fl) cost(250) f(1))
+("squad_with3types" side(eng) name(elites2) c(0) g(squad_10) c1(elite4_40:4) c2(elite5_40:5) c3(elite6_40:1) b(squad1) t(  eng_storm_div 41 inf_only  elites2 fl) cost(215) f(1))
+("squad_with3types" side(fin) name(elites2) c(0) g(squad_10) c1(est:4) c2(est3:5) c3(est2:1) b(squad1) t(  fin_storm_div 40 41 inf_only  elites2 fl) cost(220) f(1))
+
+("squad_with3types" side(rus) name(stormtroopers) c(0) g(squad_5) c1(sturmovik_40:6) c2(sturmovik2_40:3) c3(sturmovik3_40:1) b(squad1) t(  rus_storm_div 40 41 inf_only stormtroopers)  cost(325) f(1))
+("squad_with3types" side(ger) name(stormtroopers) c(0) g(squad_5) c1(sturmovik_40:6) c2(sturmovik2_40:3) c3(sturmovik3_40:1) b(squad1) t(  ger_storm_div 40 41 inf_only stormtroopers)  cost(350) f(1))
+("squad_with4types" side(eng) name(stormtroopers) c(0) g(squad_5) c1(sturmovik_40:6) c2(sturmovik2_40:2) c3(sturmovik3_40:1) c4(sturmovik4_40:1) b(squad1) t(  eng_storm_div 40 41 inf_only stormtroopers)  cost(315) f(1))
+("squad_with3types" side(ita) name(stormtroopers) c(0) g(squad_5) c1(sturmovik_40:6) c2(sturmovik2_40:2) c3(sturmovik3_40:2) b(squad1) t(  ita_storm_div 40 41 inf_only stormtroopers)  cost(300) f(1))
+("squad_with3types" side(fra) name(stormtroopers) c(0) g(squad_5) c1(sturmovik:6) c2(sturmovik2:2) c3(sturmovik3:2) b(squad1) t(  fra_storm_div 40 inf_only stormtroopers)  cost(300) f(1))
+("squad_with3types" side(hun) name(stormtroopers) c(0) g(squad_5) c1(sturmovik_40:6) c2(sturmovik2_40:2) c3(sturmovik3_40:2) b(squad1) t(  hun_storm_div 41 inf_only stormtroopers)  cost(300) f(1))
+("squad_with3types" side(fin) name(stormtroopers) c(0) g(squad_5) c1(sturmovik:6) c2(sturmovik2:3) c3(sturmovik3:1) b(squad1) t(  fin_storm_div 40 41 inf_only stormtroopers)  cost(300) f(1))
+("squad_with3types" side(rom) name(stormtroopers) c(0) g(squad_5) c1(sturmovik_40:6) c2(sturmovik2_40:3) c3(sturmovik3_40:1) b(squad1) t(  rom_storm_div 41 inf_only stormtroopers)  cost(300) f(1))
+("squad_with3types" side(grc) name(stormtroopers) c(0) g(squad_5) c1(sturmovik:6) c2(sturmovik2:2) c3(sturmovik3:2) b(squad1) t(  grc_storm_div 40 inf_only stormtroopers)  cost(300) f(1))
+("squad_with3types" side(bul) name(stormtroopers) c(0) g(squad_5) c1(sturmovik_40:6) c2(sturmovik2_40:2) c3(sturmovik3_40:2) b(squad1) t(  bul_storm_div 40 41 inf_only stormtroopers)  cost(300) f(1))
+
+("squad_with2types" side(rus) name(stormtroopers1) c(15) g(soldier_7) c1(sturmovik4_40:3) c2(sturmovik4b_40:2) b(squad1) t(  rus_storm_div 41 inf_only stormtroopers)  cost(150) f(1.0))
+("squad_with2types" side(ger) name(stormtroopers1) c(15) g(soldier_7) c1(sturmovik4_40:3) c2(sturmovik4b_40:2) b(squad1) t(  ger_storm_div 40 41 inf_only stormtroopers)  cost(150) f(1.0))
+("squad_with2types" side(eng) name(stormtroopers1) c(15) g(soldier_7) c1(sturmovik4c_40:3) c2(sturmovik4b_40:2) b(squad1) t(  eng_storm_div 40 41 inf_only stormtroopers)  cost(140) f(1.0))
+("squad_with4types" side(hun) name(stormtroopers1) c(15) g(soldier_7) c1(sturmovik_40:2) c2(sturmovik2_40:1) c3(sturmovik3_40:1) c4(sturmovik4_40:1) b(squad1) t(  hun_storm_div 41 inf_only stormtroopers) cost(150) f(1))
+("squad_with4types" side(fra) name(stormtroopers1) c(15) g(soldier_7) c1(sturmovik:2) c2(sturmovik2:1) c3(sturmovik3:1) c4(sturmovik4:1) b(squad1) t(  fra_storm_div 40 inf_only stormtroopers) cost(150) f(1))
+("squad_with4types" side(ita) name(stormtroopers1) c(15) g(soldier_7) c1(sturmovik_40:2) c2(sturmovik2_40:1) c3(sturmovik3_40:1) c4(sturmovik4_40:1) b(squad1) t(  ita_storm_div 40 41  inf_only stormtroopers) cost(150) f(1))
+("squad_with3types" side(fin) name(stormtroopers1) c(15) g(soldier_7) c1(sturmovik:3) c2(sturmovik2:1) c1(sturmovik3:1) b(squad1) t(  fin_storm_div 40 41 inf_only stormtroopers) cost(150) f(1))
+("squad_with3types" side(rom) name(stormtroopers1) c(15) g(soldier_7) c1(sturmovik_40:3) c2(sturmovik2_40:1) c1(sturmovik3_40:1) b(squad1) t(  rom_storm_div 41 inf_only stormtroopers) cost(150) f(1))
+("squad_with4types" side(grc) name(stormtroopers1) c(15) g(soldier_7) c1(sturmovik:2) c2(sturmovik2:1) c3(sturmovik3:1) c4(sturmovik4:1) b(squad1) t(  grc_storm_div 40 inf_only stormtroopers) cost(150) f(1))
+("squad_with4types" side(bul) name(stormtroopers1) c(15) g(soldier_7) c1(sturmovik_40:2) c2(sturmovik2_40:1) c3(sturmovik3_40:1) c4(sturmovik4_40:1) b(squad1) t(  bul_storm_div 40 41  inf_only stormtroopers) cost(150) f(1))
+
+("squad_with2types" side(rus) name(stormtroopers2) c(15) g(soldier_5) c1(sturmovik5_40:1) c2(sturmovik5b_40:2) b(squad1) t(  rus_storm_div 41)  cost(155) f(1.0))
+("squad_with2types" side(ger) name(stormtroopers2) c(15) g(soldier_5) c1(sturmovik5_40:1) c2(sturmovik5b_40:2) b(squad1) t(  ger_storm_div 41)  cost(175) f(1.0))
+("squad_with2types" side(eng) name(stormtroopers2) c(15) g(soldier_5) c1(sturmovik5_40:1) c2(sturmovik5b_40:2) b(squad1) t(  eng_storm_div 41)  cost(155) f(1.0))
+("squad_with2types" side(rus) name(stormtroopers3) c(300) g(soldier_6) c1(sturmovik6_40:1) c2(sturmovik6b_40:2) b(squad1) t(  rus_storm_div 40 41)  cost(190) f(1.0))
+("squad_with2types" side(ger) name(stormtroopers3) c(300) g(soldier_6) c1(sturmovik6_40:1) c2(sturmovik6b_40:2) b(squad1) t(  ger_storm_div 40 41)  cost(200) f(1.0))
+("squad_with2types" side(eng) name(stormtroopers3) c(300) g(soldier_6) c1(sturmovik6_40:1) c2(sturmovik6b_40:2) b(squad1) t(  eng_storm_div 40 41)  cost(180) f(1.0))
+
+{"storm_mech_ger"      ("vb3" c(30) c1(np_sdkfz251_1) 	t(40 41 storm_mech) s(ger) n1(6) n2(2) n3(2) 		g(squad_6) b(squad1))  {cost 500} {fore -1}}
+{"storm_mech_eng"      ("vb4" c(30) c1(m3_eng) 		t(41 storm_mech) s(eng) n1(6) n2(2) n3(1) n4(1) 	g(squad_6) b(squad1))  {cost 465} {fore -1}}
+{"storm_mech_fra"      ("vb3" c(30) c1(np_lorraine_fr) 	t(40 storm_mech) s(fra) n1(5) n2(2) n3(1) 		g(squad_6) b(squad1))  {cost 450} {fore -1}}
+
+{"paratroopers_rus"      ("para4" c(30) c1(tb-3) 	t(inf_only 40 41 paratroopers) s(rus) n1(pilot:1) n2(paratrooper_40:7) n3(paratrooper2_40:2) n4(paratrooper3_40:2) g(squad_6a) b(squad1))  {cost 500} {fore -1}}
+{"paratroopers_ger"      ("para4" c(30) c1(ju-52g) 	t(inf_only 40 41 paratroopers) s(ger) n1(pilot:1) n2(paratrooper_40:7) n3(paratrooper2_40:2) n4(paratrooper3_40:2) g(squad_6a) b(squad1))  {cost 500} {fore -1}}
+{"paratroopers_eng"      ("para4" c(30) c1(c-47) 		t(inf_only 40 41 paratroopers) s(eng) n1(pilot:1) n2(paratrooper_40:7) n3(paratrooper2_40:2) n4(paratrooper3_40:2) g(squad_6a) b(squad1))  {cost 500} {fore -1}}
+{"paratroopers_hun"      ("para4" c(30) c1(ca101) 		t(inf_only 41 paratroopers) s(hun) n1(pilot:1) n2(paratrooper_40:7) n3(paratrooper2_40:2) n4(paratrooper3_40:2) g(squad_6a) b(squad1))  {cost 500} {fore -1}}
+{"paratroopers_fin"      ("para4" c(30) c1(ju-52f) 		t(inf_only 40 41 paratroopers) s(fin) n1(pilot:1) n2(paratrooper:7) n3(paratrooper2:2) n4(paratrooper3:2) g(squad_6a) b(squad1))  {cost 500} {fore -1}}
+{"paratroopers_ita"      ("para4" c(30) c1(ju-52i) 	t(inf_only  40 41 paratroopers) s(ita) n1(pilot:1) n2(paratrooper_40:7) n3(paratrooper2_40:2) n4(paratrooper3_40:2) g(squad_6a) b(squad1))  {cost 500} {fore -1}}
+
+;같캳ingle Soldiers같�
+
+("squad_with1types" side(rus) name(home_guard) c(0) g(soldier_0) c1(home_guard:1) b(squad2) t(rus_inf_div   40 41 inf_only  home_guards fl)  cost(8) f(1))
+("squad_with1types" side(ger) name(home_guard) c(0) g(soldier_0) c1(home_guard:1) b(squad2) t(ger_inf_div   40 41 inf_only  home_guards fl)  cost(8) f(1))
+("squad_with1types" side(eng) name(home_guard) c(0) g(soldier_0) c1(home_guard:1) b(squad2) t(eng_inf_div   40 41 inf_only  home_guards fl)  cost(8) f(1))
+("squad_with1types" side(ita) name(home_guard) c(0) g(soldier_0) c1(home_guard:1) b(squad2) t(ita_inf_div   40 41 inf_only home_guards fl)  cost(8) f(1))
+("squad_with1types" side(fra) name(home_guard) c(0) g(soldier_0) c1(home_guard:1) b(squad2) t(fra_inf_div   40 inf_only home_guards fl)  cost(8) f(1))
+("squad_with1types" side(hun) name(home_guard) c(0) g(soldier_0) c1(home_guard:1) b(squad2) t(hun_inf_div   41 inf_only home_guards fl)  cost(8) f(1))
+("squad_with1types" side(grc) name(home_guard) c(0) g(soldier_0) c1(home_guard:1) b(squad2) t(grc_inf_div   40 inf_only home_guards fl)  cost(8) f(1))
+("squad_with1types" side(bul) name(home_guard) c(0) g(soldier_0) c1(home_guard:1) b(squad2) t(bul_inf_div   40 41 inf_only home_guards fl)  cost(8) f(1))
+("squad_with1types" side(dut) name(home_guard) c(0) g(soldier_0) c1(home_guard:1) b(squad2) t(dut_inf_div   40 inf_only home_guards fl)  cost(8) f(1))
+
+("squad_with1types" side(rus) name(riflemans2) c(0) g(soldier_1) c1(rifle_40:1) b(squad2) t(rus_inf_div   40 41  inf_only riflemans)  cost(10) f(1))
+("squad_with1types" side(ger) name(riflemans2) c(0) g(soldier_1) c1(rifle_40:1) b(squad2) t(ger_inf_div   40 41 inf_only riflemans)  cost(10) f(1))
+("squad_with1types" side(eng) name(riflemans2) c(0) g(soldier_1) c1(rifle_40:1) b(squad2) t(eng_inf_div   40 41  inf_only riflemans)  cost(11) f(1))
+("squad_with1types" side(ita) name(riflemans2) c(0) g(soldier_1) c1(rifle_40:1) b(squad2) t(ita_inf_div   40 41 inf_only riflemans)  cost(10) f(1))
+("squad_with1types" side(fra) name(riflemans2) c(0) g(soldier_1) c1(rifle:1) b(squad2) t(fra_inf_div   40 inf_only riflemans)  cost(10) f(1))
+("squad_with1types" side(hun) name(riflemans2) c(0) g(soldier_1) c1(rifle_40:1) b(squad2) t(hun_inf_div   41 inf_only riflemans)  cost(10) f(1))
+("squad_with1types" side(fin) name(riflemans2) c(0) g(soldier_1) c1(rifle:1) b(squad2) t(fin_inf_div   40 41 inf_only riflemans)  cost(10) f(1))
+("squad_with1types" side(rom) name(riflemans2) c(0) g(soldier_1) c1(rifle_40:1) b(squad2) t(rom_inf_div   41 inf_only riflemans)  cost(10) f(1))
+("squad_with1types" side(grc) name(riflemans2) c(0) g(soldier_1) c1(rifle:1) b(squad2) t(grc_inf_div   40 inf_only riflemans)  cost(10) f(1))
+("squad_with1types" side(bul) name(riflemans2) c(0) g(soldier_1) c1(rifle_40:1) b(squad2) t(bul_inf_div   40 41 inf_only riflemans)  cost(10) f(1))
+("squad_with1types" side(dut) name(riflemans2) c(0) g(soldier_1) c1(rifle_40:1) b(squad2) t(dut_inf_div   40 inf_only riflemans)  cost(10) f(1))
+
+("squad_with1types" side(rus) name(rifleman2) c(0) g(soldier_1) c1(rifle3_40:1) b(squad2) t(rus_inf_div rus_tank_div rus_storm_div 40 41 inf_only  riflemans fl)  cost(14) f(1))
+("squad_with1types" side(ger) name(rifleman2) c(0) g(soldier_1) c1(rifle3_40:1) b(squad2) t(ger_inf_div ger_tank_div ger_storm_div 41 inf_only  riflemans fl)  cost(14) f(1))
+("squad_with1types" side(eng) name(rifleman2) c(0) g(soldier_1) c1(rifle4:1) b(squad2) t(eng_inf_div eng_tank_div eng_storm_div 41 inf_only  riflemans fl)  cost(14) f(1))
+("squad_with1types" side(ita) name(rifleman2) c(0) g(soldier_1) c1(rifle3:1) b(squad2) t(ita_inf_div ita_tank_div ita_storm_div 41 inf_only riflemans fl)  cost(14) f(1))
+
+("squad_with1types" side(rus) name(smgs2) c(0) g(soldier_2) c1(smg_40:1) b(squad2) t(rus_inf_div rus_tank_div  40 41 inf_only smgs)  cost(15) f(1))
+("squad_with1types" side(ger) name(smgs2) c(0) g(soldier_2) c1(smg_40:1) b(squad2) t(ger_inf_div ger_tank_div  40 41  inf_only smgs)  cost(12) f(1))
+("squad_with1types" side(eng) name(smgs2) c(0) g(soldier_2) c1(smg_40:1) b(squad2) t(eng_inf_div eng_tank_div  40 41  inf_only smgs)  cost(12) f(1))
+("squad_with1types" side(ita) name(smgs2) c(0) g(soldier_2) c1(smg_40:1) b(squad2) t(ita_inf_div ita_tank_div  40 41 inf_only smgs)  cost(13) f(1))
+("squad_with1types" side(fra) name(smgs2) c(0) g(soldier_2) c1(smg:1) b(squad2) t(fra_inf_div fra_tank_div  40 inf_only smgs)  cost(13) f(1))
+("squad_with1types" side(hun) name(smgs2) c(0) g(soldier_2) c1(smg_40:1) b(squad2) t(hun_inf_div hun_tank_div  41 inf_only smgs)  cost(13) f(1))
+("squad_with1types" side(fin) name(smgs2) c(0) g(soldier_2) c1(smg:1) b(squad2) t(fin_inf_div fin_tank_div  40 41 inf_only smgs)  cost(13) f(1))
+("squad_with1types" side(rom) name(smgs2) c(0) g(soldier_2) c1(smg_40:1) b(squad2) t(rom_inf_div rom_tank_div  41 inf_only smgs)  cost(13) f(1))
+("squad_with1types" side(grc) name(smgs2) c(0) g(soldier_2) c1(smg:1) b(squad2) t(grc_inf_div grc_tank_div  40 inf_only smgs)  cost(13) f(1))
+("squad_with1types" side(bul) name(smgs2) c(0) g(soldier_2) c1(smg_40:1) b(squad2) t(bul_inf_div bul_tank_div  40 41 inf_only smgs)  cost(13) f(1))
+("squad_with1types" side(dut) name(smgs2) c(0) g(soldier_2) c1(smg_40:1) b(squad2) t(dut_inf_div dut_tank_div  40 inf_only smgs)  cost(13) f(1))
+
+("squad_with1types" side(ger) name(lmgs2) c(120) g(soldier_3a) c1(mgun2_40:1) b(squad2) t(ger_inf_div ger_tank_div  40 41 inf_only  mgs2 fl)  cost(50) f(1))
+
+("squad_with1types" side(rus) name(mgs2) c(120) g(soldier_3) c1(mgun_40:1) b(squad2) t(rus_inf_div rus_tank_div  40 41 inf_only mgs2)  cost(50) f(1))
+("squad_with1types" side(ger) name(mgs2) c(120) g(soldier_3) c1(mgun_40:1) b(squad2) t(ger_inf_div ger_tank_div  40 41 inf_only mgs2)  cost(60) f(1))
+("squad_with1types" side(eng) name(mgs2) c(120) g(soldier_3) c1(mgun_40:1) b(squad2) t(eng_inf_div eng_tank_div  40 41  inf_only mgs2)  cost(40) f(1))
+("squad_with1types" side(ita) name(mgs2) c(120) g(soldier_3) c1(mgun_40:1) b(squad2) t(ita_inf_div ita_tank_div  40 41 inf_only mgs2)  cost(45) f(1))
+("squad_with1types" side(fra) name(mgs2) c(120) g(soldier_3) c1(mgun:1) b(squad2) t(fra_inf_div fra_tank_div  40 inf_only mgs2)  cost(45) f(1))
+("squad_with1types" side(hun) name(mgs2) c(120) g(soldier_3) c1(mgun_40:1) b(squad2) t(hun_inf_div hun_tank_div  41 inf_only mgs2)  cost(45) f(1))
+("squad_with1types" side(fin) name(mgs2) c(120) g(soldier_3) c1(mgun:1) b(squad2) t(fin_inf_div fin_tank_div  40 41 inf_only mgs2)  cost(45) f(1))
+("squad_with1types" side(rom) name(mgs2) c(120) g(soldier_3) c1(mgun_40:1) b(squad2) t(rom_inf_div rom_tank_div  41 inf_only mgs2)  cost(45) f(1))
+("squad_with1types" side(grc) name(mgs2) c(120) g(soldier_3) c1(mgun:1) b(squad2) t(grc_inf_div grc_tank_div  40 inf_only mgs2)  cost(45) f(1))
+("squad_with1types" side(bul) name(mgs2) c(120) g(soldier_3) c1(mgun_40:1) b(squad2) t(bul_inf_div bul_tank_div  40 41 inf_only mgs2)  cost(45) f(1))
+("squad_with1types" side(dut) name(mgs2) c(120) g(soldier_3) c1(mgun_40:1) b(squad2) t(dut_inf_div dut_tank_div  40 inf_only mgs2)  cost(45) f(1))
+
+("squad_with2types" side(rus) name(at_rifles) c1(at_rifle_40:1) c2(at_rifle2_40:1) c(15) g(soldier_4) b(squad2) t(rus_inf_div   40 41 inf_only at_rifles)  cost(60) f(1))
+("squad_with2types" side(ger) name(at_rifles) c1(at_rifle_40:1) c2(at_rifle2_40:1) c(15) g(soldier_4) b(squad2) t(ger_inf_div   40 41 inf_only at_rifles)  cost(60) f(1))
+("squad_with2types" side(eng) name(at_rifles) c1(at_rifle_40:1) c2(at_rifle2_40:1)  c(15) g(soldier_4) b(squad2) t(eng_inf_div   40 41 inf_only at_rifles)  cost(60) f(1))
+("squad_with2types" side(ita) name(at_rifles) c1(at_rifle:1) c2(smg4:1)  c(15) g(soldier_4) b(squad2) t(ita_inf_div   40 41 inf_only at_rifles)  cost(60) f(1))
+("squad_with2types" side(fra) name(at_rifles) c1(at_rifle:1) c2(smg3:1)  c(15) g(soldier_4) b(squad2) t(fra_inf_div   40 inf_only at_rifles)  cost(60) f(1))
+("squad_with2types" side(hun) name(at_rifles) c1(at_rifle:1) c2(smg3:1)  c(15) g(soldier_4) b(squad2) t(hun_inf_div   41 inf_only at_rifles)  cost(60) f(1))
+("squad_with2types" side(fin) name(at_rifles) c1(at_rifle:1) c2(smg3:1)  c(15) g(soldier_4) b(squad2) t(fin_inf_div   40 41 inf_only at_rifles)  cost(60) f(1))
+("squad_with2types" side(rom) name(at_rifles) c1(at_rifle_40:1) c2(smg_40:1)  c(15) g(soldier_4) b(squad2) t(rom_inf_div   41 inf_only at_rifles)  cost(60) f(1))
+("squad_with2types" side(grc) name(at_rifles) c1(at_rifle:1) c2(smg:1)  c(15) g(soldier_4) b(squad2) t(grc_inf_div   40 inf_only at_rifles)  cost(60) f(1))
+("squad_with2types" side(bul) name(at_rifles) c1(at_rifle:1) c2(smg4:1)  c(15) g(soldier_4) b(squad2) t(bul_inf_div   40 41 inf_only at_rifles)  cost(60) f(1))
+("squad_with2types" side(dut) name(at_rifles) c1(at_rifle:1) c2(smg4:1)  c(15) g(soldier_4) b(squad2) t(dut_inf_div   40 inf_only at_rifles)  cost(60) f(1))
+
+("squad_with1types" side(rus) name(rifle_grenades) c(120) g(soldier_12) c1(rifle_grenade_40:1) b(squad2) t(rus_inf_div   40 41 arty inf_only mortar fl)  cost(80) f(0))
+("squad_with1types" side(ger) name(rifle_grenades) c(120) g(soldier_12) c1(rifle_grenade_42:1) b(squad2) t(ger_inf_div   40 41 arty inf_only mortar fl)  cost(80) f(0))
+("squad_with1types" side(eng) name(rifle_grenades) c(120) g(soldier_12) c1(rifle_grenade:1) b(squad2) t(eng_inf_div   40 41 arty inf_only mortar fl)  cost(80) f(0))
+("squad_with1types" side(fra) name(rifle_grenades) c(120) g(soldier_12) c1(rifle_grenade:1) b(squad2) t(fra_inf_div   40 arty inf_only mortar fl)  cost(80) f(0))
+("squad_with1types" side(hun) name(rifle_grenades) c(120) g(soldier_12) c1(rifle_grenade:1) b(squad2) t(hun_inf_div   41 arty inf_only mortar fl)  cost(80) f(0))
+("squad_with1types" side(rom) name(rifle_grenades) c(120) g(soldier_12) c1(rifle_grenade:1) b(squad2) t(rom_inf_div   41 arty inf_only mortar fl)  cost(80) f(0))
+("squad_with1types" side(fin) name(rifle_grenades) c(120) g(soldier_12) c1(rifle_grenade:1) b(squad2) t(fin_inf_div   41 arty inf_only mortar fl)  cost(80) f(0))
+
+("squad_with1types" side(rus) name(tankmans) c(30) g(soldier_9) c1(tankman:2) b(squad2) t( rus_tank_div rus_storm_div tankmans 40 41 )  cost(10) f(-1))
+("squad_with1types" side(ger) name(tankmans) c(30) g(soldier_9) c1(tankman:2) b(squad2) t( ger_tank_div ger_storm_div tankmans 40 41 )  cost(10) f(-1))
+("squad_with1types" side(eng) name(tankmans) c(30) g(soldier_9) c1(tankman:2) b(squad2) t( eng_tank_div eng_storm_div tankmans 40 41 )  cost(10) f(-1))
+("squad_with1types" side(ita) name(tankmans) c(30) g(soldier_9) c1(tankman:2) b(squad2) t( ita_tank_div ita_storm_div tankmans 40 41 )  cost(10) f(-1))
+("squad_with1types" side(fra) name(tankmans) c(30) g(soldier_9) c1(tankman:2) b(squad2) t( fra_tank_div fra_storm_div tankmans 40)  cost(10) f(-1))
+("squad_with1types" side(hun) name(tankmans) c(30) g(soldier_9) c1(tankman:2) b(squad2) t( hun_tank_div hun_storm_div tankmans 41)  cost(10) f(-1))
+("squad_with1types" side(fin) name(tankmans) c(30) g(soldier_9) c1(tankman:2) b(squad2) t( fin_tank_div fin_storm_div tankmans 40 41)  cost(10) f(-1))
+("squad_with1types" side(rom) name(tankmans) c(30) g(soldier_9) c1(tankman:2) b(squad2) t( rom_tank_div rom_storm_div tankmans 41)  cost(10) f(-1))
+("squad_with1types" side(grc) name(tankmans) c(30) g(soldier_9) c1(tankman:2) b(squad2) t( grc_tank_div grc_storm_div tankmans 40)  cost(10) f(-1))
+("squad_with1types" side(bul) name(tankmans) c(30) g(soldier_9) c1(tankman:2) b(squad2) t( bul_tank_div bul_storm_div tankmans 40 41 )  cost(10) f(-1))
+("squad_with1types" side(dut) name(tankmans) c(30) g(soldier_9) c1(tankman:2) b(squad2) t( dut_tank_div dut_storm_div tankmans 40)  cost(10) f(-1))
+
+("squad_with1types" side(rus) name(vehicle_supporters) c(10) g(soldier_9a) c1(vehicle_supporter_40:2) b(squad2) t(rus_inf_div rus_tank_div rus_storm_div 40 41 vehicle_supporters  fl)  cost(10) f(-2))
+("squad_with1types" side(ger) name(vehicle_supporters) c(10) g(soldier_9a) c1(vehicle_supporter_40:2) b(squad2) t(ger_inf_div ger_tank_div ger_storm_div 40 41 vehicle_supporters   fl)  cost(10) f(-2))
+("squad_with1types" side(eng) name(vehicle_supporters) c(10) g(soldier_9a) c1(vehicle_supporter_40:2) b(squad2) t(eng_inf_div eng_tank_div eng_storm_div 40 41 vehicle_supporters   fl)  cost(10) f(-2))
+("squad_with1types" side(ita) name(vehicle_supporters) c(10) g(soldier_9a) c1(vehicle_supporter_40:2) b(squad2) t(ita_inf_div ita_tank_div ita_storm_div 40 41 vehicle_supporters   fl)  cost(10) f(-2))
+("squad_with1types" side(fra) name(vehicle_supporters) c(10) g(soldier_9a) c1(vehicle_supporter_40:2) b(squad2) t(fra_inf_div fra_tank_div fra_storm_div 40 vehicle_supporters  fl)  cost(10) f(-2))
+("squad_with1types" side(hun) name(vehicle_supporters) c(10) g(soldier_9a) c1(vehicle_supporter_40:2) b(squad2) t(hun_inf_div hun_tank_div hun_storm_div 41 vehicle_supporters  fl)  cost(10) f(-2))
+("squad_with1types" side(fin) name(vehicle_supporters) c(10) g(soldier_9a) c1(vehicle_supporter_40:2) b(squad2) t(fin_inf_div fin_tank_div fin_storm_div 40 41 vehicle_supporters fl)  cost(10) f(-2))
+("squad_with1types" side(rom) name(vehicle_supporters) c(10) g(soldier_9a) c1(vehicle_supporter_40:2) b(squad2) t(rom_inf_div rom_tank_div rom_storm_div 41 vehicle_supporters fl)  cost(10) f(-2))
+("squad_with1types" side(grc) name(vehicle_supporters) c(10) g(soldier_9a) c1(vehicle_supporter_40:2) b(squad2) t(grc_inf_div grc_tank_div grc_storm_div 40 vehicle_supporters fl)  cost(10) f(-2))
+("squad_with1types" side(bul) name(vehicle_supporters) c(10) g(soldier_9a) c1(vehicle_supporter_40:2) b(squad2) t(bul_inf_div bul_tank_div bul_storm_div 40 41 vehicle_supporters   fl)  cost(10) f(-2))
+("squad_with1types" side(dut) name(vehicle_supporters) c(10) g(soldier_9a) c1(vehicle_supporter_40:2) b(squad2) t(dut_inf_div dut_tank_div dut_storm_div 40 vehicle_supporters   fl)  cost(10) f(-2))
+
+("squad_with1types" side(rus) name(sappers) c(120) g(squad_9) c1(saper:2) b(squad2) t(rus_inf_div rus_tank_div rus_storm_div 40 41  inf_only sappers)  cost(50) f(0))
+("squad_with1types" side(ger) name(sappers) c(120) g(squad_9) c1(saper:2) b(squad2) t(ger_inf_div ger_tank_div ger_storm_div 40 41  inf_only sappers)  cost(50) f(0))
+("squad_with1types" side(eng) name(sappers) c(120) g(squad_9) c1(saper:2) b(squad2) t(eng_inf_div eng_tank_div eng_storm_div 49 40 41  inf_only sappers)  cost(50) f(0))
+("squad_with1types" side(ita) name(sappers) c(120) g(squad_9) c1(saper:2) b(squad2) t(ita_inf_div ita_tank_div ita_storm_div 40 41  inf_only sappers)  cost(50) f(0))
+("squad_with1types" side(fra) name(sappers) c(120) g(squad_9) c1(saper:2) b(squad2) t(fra_inf_div fra_tank_div fra_storm_div 40 inf_only sappers)  cost(50) f(0))
+("squad_with1types" side(hun) name(sappers) c(120) g(squad_9) c1(saper:2) b(squad2) t(hun_inf_div hun_tank_div hun_storm_div 41  inf_only sappers)  cost(50) f(0))
+("squad_with1types" side(fin) name(sappers) c(120) g(squad_9) c1(saper:2) b(squad2) t(fin_inf_div fin_tank_div fin_storm_div 40 41 inf_only sappers)  cost(50) f(0))
+("squad_with1types" side(rom) name(sappers) c(120) g(squad_9) c1(saper:2) b(squad2) t(rom_inf_div rom_tank_div rom_storm_div 41 inf_only sappers)  cost(50) f(0))
+("squad_with1types" side(grc) name(sappers) c(120) g(squad_9) c1(saper:2) b(squad2) t(grc_inf_div grc_tank_div grc_storm_div 40 inf_only sappers)  cost(50) f(0))
+("squad_with1types" side(bul) name(sappers) c(120) g(squad_9) c1(saper:2) b(squad2) t(bul_inf_div bul_tank_div bul_storm_div 40 41  inf_only sappers)  cost(50) f(0))
+("squad_with1types" side(dut) name(sappers) c(120) g(squad_9) c1(saper:2) b(squad2) t(dut_inf_div dut_tank_div dut_storm_div 40 inf_only sappers)  cost(50) f(0))
+
+("squad_with2types" side(rus) name(flamers) c(120) g(soldier_6) c1(flamer_40:1) c2(flamer2:1) b(squad2) t(rus_inf_div  rus_storm_div 41  inf_only flamers)  cost(75) f(0))
+("squad_with2types" side(ger) name(flamers) c(120) g(soldier_6) c1(flamer:1) c2(flamer2:1) b(squad2) t(ger_inf_div  ger_storm_div 40 41  inf_only flamers)  cost(75) f(0))
+("squad_with2types" side(eng) name(flamers) c(120) g(soldier_6) c1(flamer:1) c2(flamer2:1) b(squad2) t(eng_inf_div  eng_storm_div 40 41  inf_only flamers)  cost(75) f(0))
+("squad_with2types" side(ita) name(flamers) c(120) g(soldier_6) c1(flamer:1) c2(elite2:1) b(squad2) t(ita_inf_div  ita_storm_div  40 41  inf_only flamers)  cost(75) f(0))
+("squad_with2types" side(fra) name(flamers) c(120) g(soldier_6) c1(flamer:1) c2(smg:1) b(squad2) t(fra_inf_div  fra_storm_div  40 inf_only flamers)  cost(75) f(0))
+("squad_with2types" side(hun) name(flamers) c(120) g(soldier_6) c1(flamer:1) c2(elite2:1) b(squad2) t(hun_inf_div  hun_storm_div  41 inf_only flamers)  cost(75) f(0))
+("squad_with2types" side(fin) name(flamers) c(120) g(soldier_6) c1(flamer:1) c2(smg2:1) b(squad2) t(fin_inf_div  fin_storm_div  40 41 inf_only flamers)  cost(75) f(0))
+("squad_with2types" side(rom) name(flamers) c(120) g(soldier_6) c1(flamer:1) c2(smg2:1) b(squad2) t(rom_inf_div  rom_storm_div  41 inf_only flamers)  cost(75) f(0))
+("squad_with2types" side(grc) name(flamers) c(120) g(soldier_6) c1(flamer:1) c2(smg:1) b(squad2) t(grc_inf_div  grc_storm_div  40 inf_only flamers)  cost(75) f(0))
+("squad_with2types" side(bul) name(flamers) c(120) g(soldier_6) c1(flamer:1) c2(elite2:1) b(squad2) t(bul_inf_div  bul_storm_div  40 41  inf_only flamers)  cost(75) f(0))
+("squad_with2types" side(dut) name(flamers) c(120) g(soldier_6) c1(flamer:1) c2(elite2:1) b(squad2) t(dut_inf_div  dut_storm_div  40 inf_only flamers)  cost(75) f(0))
+
+("squad_with1types" side(rus) name(ap_miners) c(120) g(squad_7) c1(ap_miner_40:4) b(squad2) t(rus_inf_div   40 41 inf_only ap_miners)  cost(150) f(0))
+("squad_with1types" side(ger) name(ap_miners) c(120) g(squad_7) c1(ap_miner_40:4) b(squad2) t(ger_inf_div   40 41 inf_only ap_miners)  cost(150) f(0))
+("squad_with1types" side(eng) name(ap_miners) c(120) g(squad_7) c1(ap_miner_40:4) b(squad2) t(eng_inf_div   40 41 inf_only ap_miners)  cost(150) f(0))
+("squad_with1types" side(ita) name(ap_miners) c(120) g(squad_7) c1(ap_miner:4) b(squad2) t(ita_inf_div    40 41  inf_only ap_miners)  cost(150) f(0))
+("squad_with1types" side(fra) name(ap_miners) c(120) g(squad_7) c1(ap_miner:4) b(squad2) t(fra_inf_div    40 inf_only ap_miners)  cost(150) f(0))
+("squad_with1types" side(hun) name(ap_miners) c(120) g(squad_7) c1(ap_miner:4) b(squad2) t(hun_inf_div    41 inf_only ap_miners)  cost(150) f(0))
+("squad_with1types" side(fin) name(ap_miners) c(120) g(squad_7) c1(ap_miner:4) b(squad2) t(fin_inf_div    40 41 inf_only ap_miners)  cost(150) f(0))
+("squad_with1types" side(rom) name(ap_miners) c(120) g(squad_7) c1(ap_miner:4) b(squad2) t(rom_inf_div    41 inf_only ap_miners)  cost(150) f(0))
+("squad_with1types" side(grc) name(ap_miners) c(120) g(squad_7) c1(ap_miner:4) b(squad2) t(grc_inf_div    40 inf_only ap_miners)  cost(150) f(0))
+("squad_with1types" side(bul) name(ap_miners) c(120) g(squad_7) c1(ap_miner:4) b(squad2) t(bul_inf_div    40 41  inf_only ap_miners)  cost(150) f(0))
+("squad_with1types" side(dut) name(ap_miners) c(120) g(squad_7) c1(ap_miner:4) b(squad2) t(dut_inf_div    40 inf_only ap_miners)  cost(150) f(0))
+
+("squad_with1types" side(rus) name(at_miners) c(120) g(squad_8) c1(at_miner_40:4) b(squad2) t(rus_inf_div rus_tank_div  40 41 inf_only at_miners) cost(200) f(0))
+("squad_with1types" side(ger) name(at_miners) c(120) g(squad_8) c1(at_miner_40:4) b(squad2) t(ger_inf_div ger_tank_div  40 41 inf_only at_miners)  cost(200) f(0))
+("squad_with1types" side(eng) name(at_miners) c(120) g(squad_8) c1(at_miner_40:4) b(squad2) t(eng_inf_div eng_tank_div  40 41 inf_only at_miners)  cost(200) f(0))
+("squad_with1types" side(ita) name(at_miners) c(120) g(squad_8) c1(at_miner:4) b(squad2) t(ita_inf_div ita_tank_div   40 41 inf_only at_miners)  cost(200) f(0))
+("squad_with1types" side(fra) name(at_miners) c(120) g(squad_8) c1(at_miner:4) b(squad2) t(fra_inf_div fra_tank_div   40 inf_only at_miners)  cost(200) f(0))
+("squad_with1types" side(hun) name(at_miners) c(120) g(squad_8) c1(at_miner:4) b(squad2) t(hun_inf_div hun_tank_div   41 inf_only at_miners)  cost(200) f(0))
+("squad_with1types" side(fin) name(at_miners) c(120) g(squad_8) c1(at_miner:4) b(squad2) t(fin_inf_div fin_tank_div   40 41 inf_only at_miners)  cost(150) f(0))
+("squad_with1types" side(rom) name(at_miners) c(120) g(squad_8) c1(at_miner:4) b(squad2) t(rom_inf_div rom_tank_div   41 inf_only at_miners)  cost(150) f(0))
+("squad_with1types" side(grc) name(at_miners) c(120) g(squad_8) c1(at_miner:4) b(squad2) t(grc_inf_div grc_tank_div   40 inf_only at_miners)  cost(200) f(0))
+("squad_with1types" side(bul) name(at_miners) c(120) g(squad_8) c1(at_miner:4) b(squad2) t(bul_inf_div bul_tank_div   40 41 inf_only at_miners)  cost(200) f(0))
+("squad_with1types" side(dut) name(at_miners) c(120) g(squad_8) c1(at_miner:4) b(squad2) t(dut_inf_div dut_tank_div   40 inf_only at_miners)  cost(200) f(0))
+
+("squad_with1types" side(rus) name(snipers) c(120) g(soldier_7) c1(sniper:1) b(squad2) t(rus_inf_div  rus_storm_div 40 41  inf_only snipers)  cost(160) f(0))
+("squad_with1types" side(ger) name(snipers) c(120) g(soldier_7) c1(sniper:1) b(squad2) t(ger_inf_div  ger_storm_div 40 41  inf_only snipers)  cost(160) f(0))
+("squad_with1types" side(eng) name(snipers) c(120) g(soldier_7) c1(sniper:1) b(squad2) t(eng_inf_div  eng_storm_div 40 41  inf_only snipers)  cost(160) f(0))
+("squad_with1types" side(ita) name(snipers) c(120) g(soldier_7) c1(sniper:1) b(squad2) t(ita_inf_div  ita_storm_div 40 41  inf_only snipers)  cost(160) f(0))
+("squad_with1types" side(fra) name(snipers) c(120) g(soldier_7) c1(sniper:1) b(squad2) t(fra_inf_div  fra_storm_div 40 inf_only snipers)  cost(160) f(0))
+("squad_with1types" side(hun) name(snipers) c(120) g(soldier_7) c1(sniper:1) b(squad2) t(hun_inf_div  hun_storm_div 41 inf_only snipers)  cost(160) f(0))
+("squad_with1types" side(fin) name(snipers) c(120) g(soldier_7) c1(sniper:1) b(squad2) t(fin_inf_div  fin_storm_div 40 41 inf_only snipers)  cost(160) f(0))
+("squad_with1types" side(rom) name(snipers) c(120) g(soldier_7) c1(sniper:1) b(squad2) t(rom_inf_div  rom_storm_div 41 inf_only snipers)  cost(160) f(0))
+("squad_with1types" side(grc) name(snipers) c(120) g(soldier_7) c1(sniper:1) b(squad2) t(grc_inf_div  grc_storm_div 40 inf_only snipers)  cost(160) f(0))
+("squad_with1types" side(bul) name(snipers) c(120) g(soldier_7) c1(sniper:1) b(squad2) t(bul_inf_div  bul_storm_div 40 41  inf_only snipers)  cost(160) f(0))
+("squad_with1types" side(dut) name(snipers) c(120) g(soldier_7) c1(sniper:1) b(squad2) t(dut_inf_div  dut_storm_div 40 inf_only snipers)  cost(160) f(0))
+
+{"officers(rus)"      ("officer2" c(120) c1(np_gaz61)  t(rus_inf_div rus_storm_div rup 40 41 officer inf_only  officers fl) s(rus)  g(soldier_8) b(squad2))  {cost 200} {fore 0}}
+{"officers(eng)"      ("officer2" c(120) c1(np_willys_com)  t(eng_inf_div eng_storm_div enp 40 41 officer inf_only  officers fl) s(eng)  g(soldier_8) b(squad2))  {cost 200} {fore 0}}
+{"officers(fra)"      ("officer2" c(120) c1(laffly_v15t)  t(fra_inf_div fra_storm_div 40 officer inf_only  officers fl) s(fra)  g(soldier_8) b(squad2))  {cost 200} {fore 0}}
+{"officers(grc)"      ("officer2" c(120) c1(pf508)  t(grc_inf_div grc_storm_div 40 officer inf_only  officers fl) s(grc)  g(soldier_8) b(squad2))  {cost 200} {fore 0}}
+{"officers(ger)"      ("officer2" c(120) c1(np_kubel)  t(ger_inf_div ger_storm_div 40 41 officer inf_only  officers fl) s(ger)  g(soldier_8) b(squad2))  {cost 200} {fore 0}}
+{"officers(hun)"      ("officer2" c(120) c1(np_kubel)  t(hun_inf_div hun_storm_div 41 officer inf_only  officers fl) s(hun)  g(soldier_8) b(squad2))  {cost 200} {fore 0}}
+{"officers(rom)"      ("officer2" c(120) c1(np_kubel)  t(rom_inf_div rom_storm_div 41 officer inf_only  officers fl) s(rom)  g(soldier_8) b(squad2))  {cost 200} {fore 0}}
+{"officers(fin)"      ("officer2" c(120) c1(np_kubel)  t(fin_inf_div fin_storm_div 40 41 officer inf_only  officers fl) s(fin)  g(soldier_8) b(squad2))  {cost 200} {fore 0}}
+{"officers(ita)"      ("officer2" c(120) c1(fiat508cm)  t(ita_inf_div ita_storm_div 40 41 officer inf_only  officers fl) s(ita)  g(soldier_8) b(squad2))  {cost 200} {fore 0}}
+{"officers(bul)"      ("officer2" c(120) c1(fiat508cm)  t(bul_inf_div bul_storm_div 40 41 officer inf_only  officers fl) s(bul)  g(soldier_8) b(squad2))  {cost 200} {fore 0}}
+{"officers(dut)"      ("officer2" c(120) c1(laffly_v15t)  t(dut_inf_div dut_storm_div 40 officer inf_only  officers fl) s(dut)  g(soldier_8) b(squad2))  {cost 200} {fore 0}}
+
+("squad_with2types" side(rus) name(gr_launchers) c(120) g(soldier_12) c1(gr_launcher_40:1) c2(vehicle_supporter_40:1) b(squad2) t(rus_inf_div   40 41 arty inf_only mortar fl)  cost(220) f(0))
+("squad_with2types" side(ger) name(gr_launchers) c(120) g(soldier_12) c1(gr_launcher_40:1) c2(vehicle_supporter_40:1) b(squad2) t(ger_inf_div   40 41 arty inf_only mortar fl)  cost(220) f(0))
+("squad_with2types" side(eng) name(gr_launchers) c(120) g(soldier_12) c1(gr_launcher:1) c2(vehicle_supporter_40:1) b(squad2) t(eng_inf_div   40 41 arty inf_only mortar fl)  cost(220) f(0))
+("squad_with2types" side(fra) name(gr_launchers) c(120) g(soldier_12) c1(gr_launcher:1) c2(vehicle_supporter:1) b(squad2) t(fra_inf_div   40 arty inf_only mortar fl)  cost(220) f(0))
+("squad_with2types" side(hun) name(gr_launchers) c(120) g(soldier_12) c1(gr_launcher:1) c2(vehicle_supporter_40:1) b(squad2) t(hun_inf_div   41 arty inf_only mortar fl)  cost(220) f(0))
+("squad_with2types" side(bul) name(gr_launchers) c(120) g(soldier_12) c1(gr_launcher:1) c2(vehicle_supporter_40:1) b(squad2) t(bul_inf_div   41 arty inf_only mortar fl)  cost(220) f(0))
+("squad_with2types" side(fin) name(gr_launchers) c(120) g(soldier_12) c1(gr_launcher:1) c2(vehicle_supporter_40:1) b(squad2) t(fin_inf_div   41 arty inf_only mortar fl)  cost(220) f(0))
+("squad_with2types" side(ita) name(gr_launchers) c(120) g(soldier_12) c1(gr_launcher:1) c2(vehicle_supporter:1) b(squad2) t(ita_inf_div   40 41 arty inf_only mortar fl)  cost(220) f(0))
+
+("squad_with2types" side(ger) name(machinists) c(30) g(soldier_12) c1(machinist_panhard:1) c2(vehicle_supporter_40:3) b(squad2) t(ger_inf_div   41 machinists nfl nt)  cost(200) f(-1))
+
+("squad_with1types" side(rus) name(radiomans) c(150) g(soldier_14) c1(radioman:1) b(squad2) t(rus_inf_div  rus_storm_div 41 radiomans nt) cost(400) f(0))
+("squad_with1types" side(ger) name(radiomans) c(150) g(soldier_14) c1(radioman:1) b(squad2) t(ger_inf_div  ger_storm_div 40 41 radiomans nt) cost(400) f(0))
+("squad_with1types" side(eng) name(radiomans) c(150) g(soldier_14) c1(radioman:1) b(squad2) t(eng_inf_div  eng_storm_div 40 41 radiomans nt) cost(400) f(0))
+("squad_with1types" side(bul) name(radiomans) c(150) g(soldier_14) c1(radioman:1) b(squad2) t(bul_inf_div  bul_storm_div 40 41 radiomans nt) cost(400) f(0))
+("squad_with1types" side(hun) name(radiomans) c(150) g(soldier_14) c1(radioman:1) b(squad2) t(hun_inf_div  hun_storm_div 41 radiomans nt) cost(400) f(0))
+("squad_with1types" side(ita) name(radiomans) c(150) g(soldier_14) c1(radioman:1) b(squad2) t(ita_inf_div  ita_storm_div 40 41 radiomans nt) cost(400) f(0))
+("squad_with1types" side(rom) name(radiomans) c(150) g(soldier_14) c1(radioman:1) b(squad2) t(rom_inf_div  rom_storm_div 41 radiomans nt) cost(400) f(0))
+("squad_with1types" side(dut) name(radiomans) c(150) g(soldier_14) c1(radioman:1) b(squad2) t(dut_inf_div  dut_storm_div 40 radiomans nt) cost(400) f(0))
+
+("squad_with2types" side(ger) name(machinists2) c(90) g(soldier_11) c1(machinist:1) c2(vehicle_supporter_40:5) b(squad2) t(ger_inf_div   40 41 arty machinists nfl nt)  cost(500) f(-1))
+("squad_with2types" side(rus) name(machinists) c(90) g(soldier_11) c1(machinist:1) c2(vehicle_supporter_40:7) b(squad2) t(rus_inf_div   41 arty machinists nfl nt)  cost(500) f(-1))
+("squad_with2types" side(ita) name(machinists) c(90) g(soldier_11) c1(machinist:1) c2(vehicle_supporter_40:4) b(squad2) t(ita_inf_div   40 41 arty machinists nfl nt)  cost(420) f(-1))
+
+

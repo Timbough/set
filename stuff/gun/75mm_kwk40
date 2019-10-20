@@ -1,0 +1,27 @@
+{from "pattern gun"     ; Pz4G"
+	{filling "bullet75_ger"}
+	;{fireSound "gun/50to76_cal/75mm_kwk40"}
+	{fireSound "gun/75mm_Long/KwK40/"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 7}
+	("range_medium")  
+	
+	("speed" s(740))
+	("caliber_medium")
+	{projectileDamage 114}
+	("damage" a(123) b(112) c(99) d(88) e(78))
+	{parameters "apcr"
+		("speed" s(919))
+		("damage" a(156) b(133) c(108) d(88) e(72))
+	}
+	
+	("accuracy_medium")
+	{cursor "ger"}
+	{parameters "cu"
+		("speed" s(450))
+		("damage" a(100) b(0) c(0) d(0) e(0))
+	}
+	{parameters "apcbc"
+		("damage" a(112) b(99) c(88) d(78) e(72))
+	}
+}

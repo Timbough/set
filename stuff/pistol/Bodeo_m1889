@@ -1,0 +1,9 @@
+{from "pattern pistol"
+	{filling "ammo pistol" 6}
+	{mass 1.075}
+	{entity "bodeo_m1889"}
+	{fireSound	"pistol/colt"}
+	{reloadSound "webley_reload"}
+	{rechargeTime 8}
+	("high")
+}

@@ -1,0 +1,3 @@
+{from "pattern medium_mortar"
+	{filling "ammo mortar76" 5}
+}

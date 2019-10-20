@@ -1,0 +1,14 @@
+{bullet
+	{tag "size_small small shell fg itemin2hands"}
+	{inventory
+		{size 5 1}
+		{weight 50}
+		{fsm "hand-only"}
+	}	
+	{entity "lm_ammo"}
+	{mass 30}
+	{view "lm_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	("heavy" args 3.81)
+}

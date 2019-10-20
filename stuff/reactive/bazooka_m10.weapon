@@ -1,0 +1,23 @@
+{weapon_bullet
+	{filling "ammo calliope" 6}
+	{fireSound "reactive/calliope_burst"}
+	("heavy_artillery")
+
+	{recoveryTime 0.15}		
+	{aimtype direct}
+	{gravity 6.0}	
+	{burst {min 4} {noaiming}}
+	{range 180 200}
+	{rechargeTime 75}
+	{spreading
+		{SpreadRadius 8}
+		{SpreadPower 1}
+		{radiusFunction
+			0.0	0.1
+			0.2	0.3
+			0.5	0.6
+			0.8	1
+			1.00	1.2
+		}
+	}
+}

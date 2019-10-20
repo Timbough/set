@@ -1,0 +1,24 @@
+(include "\set\small.firearms.accuracy")
+(include "\set\calibers.accuracy")
+
+(define "rof"   
+	{recoveryTime (/ 60 %r)}
+)
+
+(define "high"
+	{spreading 1
+	}
+	{healthDamage 100}
+)
+
+(define "medium"
+	{spreading 1
+	}
+	{healthDamage 75}
+)
+
+(define "low"
+	{spreading 1
+	}
+	{healthDamage 60}	
+)

@@ -1,0 +1,11 @@
+{from "pattern rpg_weapon"
+	{filling "ammo panzershreck" 1}
+	{entity "panzershreck"}
+	{fireSound "reactive/panzerschreck"}
+	{reloadSound "panzerschreck_reload"}
+	{speed 110}
+	{rechargeTime 10}	
+	{range 130 1000}
+}
+
+

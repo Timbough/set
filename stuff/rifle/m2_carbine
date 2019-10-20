@@ -1,0 +1,14 @@
+{from "m1_carbine"
+	{filling "ammo rifle" 30}
+	{entity "m2_carbine"}
+	{fireSound "rifle/m2carbine"}
+	{burst
+		{short 3 1}
+		{long 8 1}
+	}
+	("semi_automatic")
+	("30 Carbine")
+	("carbine")
+	{rechargeTime 5}
+	{recoveryTime 0.6}
+}

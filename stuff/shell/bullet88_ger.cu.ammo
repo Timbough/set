@@ -1,0 +1,9 @@
+{from "pattern cu"
+	{tag "big" "size_small" "cumulative" "pierce"}
+	{inventory
+		{size 6 1}
+	}
+	("shaped" args 4.4)
+	{mass 16}
+	{entity "ger_shell_88x822r_heat"}
+}

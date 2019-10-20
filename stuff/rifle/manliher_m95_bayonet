@@ -1,0 +1,7 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 5}
+	{entity "manliher_m1895_bayonet"}
+	{fireSound "rifle/manliher_shot"}
+	{reloadSound "springfield_reload"}
+	("8mm")
+}

@@ -1,0 +1,11 @@
+{from "pattern gun"      ; 
+	{filling "bullet77_eng"}
+	{fireSound "gun/m8_howitzer"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 8}
+	("speed" s(1572))
+	("range_light_howitzer")
+	("caliber_medium")
+	{ZeroingAccuracy 0.7 0.5}
+	{cursor "eng6"}
+}

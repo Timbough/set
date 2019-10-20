@@ -1,0 +1,8 @@
+{from "pattern smg"
+	{filling "ammo pistol" 30}
+	{entity "type100"}
+	{fireSound	"smg/type100smg_burst/"}
+	{reloadSound "mp44"}
+
+	("rof" r(800))
+}

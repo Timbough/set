@@ -1,0 +1,15 @@
+{from "75mm_kwk40"     ; Pz4H"
+	{rechargeTime 7}
+	("range_medium")
+		
+	("caliber_medium")	
+	{projectileDamage 112}
+	("speed" s(750))
+	("damage" a(123) b(111) c(98) d(86) e(74))
+	{parameters "apcr"
+		("speed" s(930))
+		("damage" a(176) b(154) c(130) d(109) e(92))
+	}
+	("accuracy_low")
+	{cursor "ger2"}
+}

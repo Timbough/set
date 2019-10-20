@@ -1,0 +1,13 @@
+{from "pattern gun"     ; "turan2"
+	{filling "bullet75_hun"}
+	{fireSound "gun/50to76_cal/75mm_kwk40"}
+	{reloadSound "gun_r03"}
+	("range_light_howitzer")
+	("caliber_medium")
+	{projectileDamage 50}
+	("damage" a(48) b(41) c(36) d(32) e(29))
+	{parameters "apcr"
+        		("damage" a(59) b(49) c(39) d(30) e(26))
+	}
+	{cursor "hun2"}
+}

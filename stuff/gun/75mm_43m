@@ -1,0 +1,18 @@
+{from "pattern gun"	; "zrinyi1"
+	{filling "bullet75_hun"}
+	{fireSound "gun/50to76_cal/75mm_kwk42"}
+	{reloadSound "gun_r01"}
+	{rechargeTime 7.5}
+	("range_long") 
+	       
+	("speed" s(1070))
+	("caliber_medium")
+	{projectileDamage 151}
+	("damage" a(151) b(138) c(120) d(105) e(98))
+	{parameters "apcr"
+        ("damage" a(180) b(159) c(138) d(121) e(103))
+	}
+	
+	("accuracy_high")
+	{cursor "hun2"}
+}

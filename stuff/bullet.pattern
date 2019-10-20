@@ -1,0 +1,29 @@
+{weapon_bullet
+	{inventory
+		{fsm "smg"}
+	}
+	{states
+		{reload		"reload"}
+		{unload		"unload"}
+		{fire		"fire"	}
+		{aim 		"aim"	}
+		{can_aim	"can-aim"}
+	}
+	{Spreading
+		{SpreadPower	1.3}; AKA sigma
+		{BurstRecoveryTime 0.8} ;The time it takes for deviation to resettle after firing
+		{BurstAccuracy 100}
+		{SpreadRadius 1}
+	}
+	{reloadSound "reload.smg"}
+	{reloadAnimBonus 0.5}
+	{foresight "Foresight3"}
+	{speed 60}
+	{gravity 9}
+	{RelaxationTime 2};Time it takes to fire after selecting a target "ads"
+	{calibre 7.62}
+    	{AimingTolerance 1}
+	{cursor "smg_on"}
+	{cursorReloading "smg_reload"}
+	{curve "bullet"}
+}

@@ -1,0 +1,16 @@
+{from "pattern gun"      ; 75mm m.1897 field Gun
+	{filling "bullet75_ger"}
+	{fireSound "gun/50to76_cal/75mm_1897"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 6}
+	("range_medium")
+	("speed" s(620))
+	("caliber_medium")
+	{projectileDamage 64}                        
+	("damage" a(70) b(58) c(50) d(42) e(28))
+	{parameters "cu"
+        		("damage" a(90) b(90) c(90) d(90) e(90))
+	}
+	("accuracy_low")
+	{cursor "zf3x8ii"}
+}

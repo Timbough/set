@@ -1,0 +1,15 @@
+{weapon_bullet
+	{filling "ammo lm_ammo" 32}
+	("heavy_artillery")
+	{fireSound "reactive/nebelwerfer_burst"}
+	{burst {min 16} {noaiming}}
+	{recoveryTime 0.2}
+	("range_long")
+	{aimtype curved}
+	{gravity 2}
+	{speed 100}
+	{rechargeTime 200}
+	{Spreading
+		{SpreadRadius 28}
+	}
+}

@@ -1,0 +1,10 @@
+{item
+	{tag "dropboxed fortification itemin2hands"}
+	{entity "netting_kit"}
+	{inventory
+		{size 3 2}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 2}
+}

@@ -1,0 +1,11 @@
+{from "37mm_pak36"		; pz3-E
+	{rechargeTime 4.5}
+	{parameters "fg" {range 180 200}}
+	{cursor "ger"}
+	("speed" s(762))
+	("damage" a(43) b(37) c(30) d(25) e(20))
+	{parameters "apcr"
+		("speed" s(1020))
+		("damage" a(79) b(38) c(16) d(6) e(3))
+	}
+}

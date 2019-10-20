@@ -1,0 +1,13 @@
+{from "pattern gun"		; M11/39, fiat611
+	{filling "bullet37_ita"}
+	{fireSound "gun/37mm_pak35"}
+	{reloadSound "pak35"}
+	{rechargeTime 4}
+	("speed" s(690))
+	("caliber_minimum")
+	("range_minimum")
+	{projectileDamage 37}	
+	("damage" a(37) b(31) c(26) d(22) e(16))
+	("accuracy_low")
+	{cursor "ita"}
+}

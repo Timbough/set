@@ -1,0 +1,6 @@
+{from "pattern rifle"
+	{entity "mauzer"}
+	{fireSound "rifle/mauser98k"}
+	{reloadSound "kar98k_reload"}
+	("7.92x57")
+}

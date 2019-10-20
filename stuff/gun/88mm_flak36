@@ -1,0 +1,17 @@
+{from "88mm_flak37"    ; "Flak36"
+	("speed" s(810))
+	{projectileDamage 160}
+	("damage" a(161) b(146) c(132) d(120) e(109))
+	{parameters "apcr"
+		("speed" s(1000))
+		("damage" a(220) b(200) c(179) d(160) e(143))
+	}
+	{parameters "cu"
+		("speed" s(600))
+		("damage" a(110) b(0) c(0) d(0) e(0))
+	}
+	{parameters "fg"
+		("speed" s(600))
+	}
+	{cursor "zf20"}
+}

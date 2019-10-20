@@ -1,0 +1,6 @@
+{from "thompson"
+	{filling "ammo pistol" 30}
+	("burst_medium")
+	("long")
+	("heavy")
+}

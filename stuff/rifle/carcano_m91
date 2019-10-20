@@ -1,0 +1,7 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 6}
+	{entity "carcano_m1891"}
+	{fireSound "rifle/Carcano_m91"}
+	{reloadSound "kar98k_reload"}
+	("7.35x51 Carcano")
+}

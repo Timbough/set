@@ -1,0 +1,10 @@
+{from "mp40"
+	{fireSound	"smg/m3a_burst/"}
+	{reloadSound "m3a1_reload"}
+	{entity "m3a"}
+	("rof" r(450))
+	("burst_medium")
+	("short")
+	("45")
+	("light")
+}

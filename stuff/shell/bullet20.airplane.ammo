@@ -1,0 +1,17 @@
+{from "pattern ap"
+	{tag "ammo small stackable pierce 20mm"}
+	{inventory
+		{weight 25}
+		{size 2 2}
+		{block 5}
+	}
+	{mass 1.2}
+	{entity "ap_20mm_airplane"}
+	{trace
+		{view "/texture/fx/trace2"
+			{ScaleY 0.64}
+		}
+		{length 2}
+	}
+	("fg" args 1)	
+}

@@ -1,0 +1,12 @@
+{from "pattern gun_indirect"      
+	{filling "bullet100_rus fg"}
+	{fireSound "gun/85to100_cal/100mm_d10c"}
+	{reloadSound "tankgun_r08"}
+	{rechargeTime 10}
+	{projectileDamage 170}
+	("range_indirect_large")
+	("caliber_large")
+	("speed" s(900)) 
+	{cursor "tsh"}
+}
+

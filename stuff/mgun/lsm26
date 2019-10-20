@@ -1,0 +1,10 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 20}
+	{entity "lahti-saloranta_m26"}
+	{fireSound	"mgun/lsm26firing"}
+	{reloadSound "mg1"}
+	{RechargeTime 5}
+	{recoveryTime 0.11}
+	{tag "mgun_light"}
+	("burst_short")
+}

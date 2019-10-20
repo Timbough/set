@@ -1,0 +1,11 @@
+{from "pattern gun"	
+	{filling "bullet47_fra"}
+	{fireSound "gun/47mm_type97"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 5}
+	("range_short")
+	("speed" s(860))
+	{projectileDamage 68}
+	("damage" a(95) b(72) c(63) d(52) e(43))
+	("accuracy_medium")
+}

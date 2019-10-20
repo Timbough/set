@@ -1,0 +1,8 @@
+{from "pattern gun"     ; 152-мм гаубица обр. 1909/30 гг.
+	{filling "bullet152_rus"}
+	{fireSound "gun/howitzer/152mm_ml20"}
+	{reloadSound "gun_r04"}
+	("range_heavy_howitzer")
+	{rechargeTime 15}
+	{bullet_view "howitzer_shell"}
+}

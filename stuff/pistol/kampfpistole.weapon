@@ -1,0 +1,27 @@
+{weapon_bullet
+	{tag "weapon mgun bullet"}
+	{filling "sprenggranate" 1}
+	{entity "flaermow"}
+
+	{fireSound	"pistol/nagan"}
+	{foresight "foresight16"} 
+
+	{aimRange 7}
+	{maxRange 10}
+
+	{aimtype direct}
+
+	{traceFreq 1}
+	{gravity 5}
+	{speed 20}
+	{spreading 1}
+
+
+
+	{rechargeTime 5}
+	{healthDamage 150}
+	{projectileDamageTable {90 10}}
+
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+}

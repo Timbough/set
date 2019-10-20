@@ -1,0 +1,8 @@
+{from "pattern gun"      ; 
+	{filling "bullet114_fin"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 12}
+	("range_medium_howitzer")	
+	("caliber_maximum")
+}

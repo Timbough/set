@@ -1,0 +1,12 @@
+{item
+	{tag "itemin2hands dropboxed"}
+	{entity "mine_antitank"}
+	{inventory
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 8}
+
+	("at" args 5)
+	
+}

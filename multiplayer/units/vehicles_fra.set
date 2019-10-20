@@ -1,0 +1,103 @@
+;----- France -----
+
+;°°°Infantry only°°°
+
+
+;°°°Button 1°°°
+  
+{"gnome"             ("vs" c(0) t(fra_inf_div   all any 40 n39 n41 n42 n43 n44 n45 n50 fl  inf_only) s(fra) n(2) g(a1) sc(2.5) b(v1) cw(0) cp(0)) {cost 50} {fore 1}}
+{"renault_inf"       ("vs" c(0) t(fra_inf_div fra_tank_div fra_storm_div all any 40 n39 n41 n42 n43 n44 n45 n50 fl  inf_only) s(fra) n(2) g(a4) sc(2.5) b(v1) cw(0) cp(0)) {cost 50} {fore 1}}
+{"np_lorraine_fr"    ("vs" c(0) t(all any 40 n39 n41 n42 n43 n44 n45 n50 fl ntb nt) s(fra) n(2) g(a2) sc(3.5) b(v1) cw(0) cp(0)) {cost 70} {fore -17}}
+{"renault_ue"  ("vs" c(0) t(fra_tank_div fra_storm_div all any 40 n39 n41 n42 n43 n44 n45 n50 fl tb tank_only) s(fra) n(2) g(a2) sc(4) b(v1) cw(0) cp(0)) {cost 80} {fore -17}}
+{"laffly_s15_toe"    ("vs" c(0) t(fra_inf_div   all any 40 n39 n41 n42 n43 n44 n45 n50 fl ntb nt) s(fra) n(4) g(a2) sc(4) b(v1) cw(0) cp(0)) {cost 80} {fore -17}}
+{"renault_art"       ("vs" c(0) t(fra_inf_div fra_tank_div fra_storm_div all any 40 n39 n41 n42 n43 n44 n45 n50 fl tb tank_only) s(fra) n(2) g(a6) sc(7.5) b(v1) cw(0) cp(0)) {cost 150} {fore 1}}
+{"renault_eng"       ("vs" c(0) t(fra_inf_div fra_tank_div fra_storm_div all any 40 n39 n41 n42 n43 n44 n45 n50 fl ntb nt) s(fra) n(2) g(a5) sc(12.5) b(v1) cw(0) cp(0)) {cost 250} {fore 1}}
+
+{"cckw352_fr"   	    	("vs44" c(0) t(fra_inf_div fra_tank_div fra_storm_div nseacombat nall any n42 n43 44 45 nfl n39 n40 n41 n50 inf_only) 	s(fra) n(2) g(b4) sc(2.5) a(1) b(v1) cw(0) cp(0)) {cost 50} {fore 1}}
+{"m5halftrack_fr"           ("vs44" c(0) t(fra_inf_div fra_tank_div fra_storm_div nseacombat nall any 44 45 nfl n39 n40 n41 n42 n43 n50 ntb nt) 		s(fra) n(2) g(b3) sc(6.5)  a(1) b(v1) cw(0) cp(0)) {cost 130} {fore -23}}
+{"m2halftrack_fr"           ("vs44" c(0) t(fra_inf_div fra_tank_div fra_storm_div nseacombat nall any 44 45 nfl n39 n40 n41 n42 n43 n50 ntb nt) 		s(fra) n(5) g(b3) sc(7.5)  a(1) b(v1) cw(0) cp(0)) {cost 150} {fore -23}}
+{"cckw352_fr_art"          ("vs44" c(0) t(fra_inf_div fra_tank_div fra_storm_div nseacombat nall any n42 n43 44 45 n50 nfl n39 n40 n41 tb tank_only) 	s(fra) n(2) g(b5) sc(7.5) a(1) b(v1) cw(0) cp(0)) {cost 150} {fore 1}}
+{"renault_eng44"       ("vs44" c(0) t(fra_inf_div fra_tank_div fra_storm_div nall any n40 n39 n41 n42 n43 44 45 n50 nfl ntb nt) s(fra) n(2) g(a5) sc(12.5) b(v1) cw(0) cp(0)) {cost 250} {fore 1}}
+
+;°°°Button 2°°°
+
+{"hotchkiss_mle1914"   ("vs" c(0)  t(fra_inf_div  fra_storm_div all any 40 n39 n41 n42 n43 n44 n45 n50 fl  inf_only)  s(fra) n(2) g(b1) sc(5) b(v2) cw(0) cp(5)) {cost 50} {fore -2}}
+{"13mm_hotchkiss"   ("vs" c(0)  t(fra_inf_div  fra_storm_div all any 40 n39 n41 n42 n43 n44 n45 n50 fl  inf_only)  s(fra) n(2) g(b1) sc(6) b(v2) cw(0) cp(5)) {cost 110} {fore -2}}
+{"oerlikon_fr"      ("vs" c(0)  t(fra_inf_div   all any 40 n39 n41 n42 n43 n44 n45 n50 fl ntb nt)  s(fra) n(1) g(b2) sc(7.5) b(v2) cw(0) cp(5)) {cost 150} {fore -4}}
+{"25mm_hotchkiss_mle34"        ("vs" c(0)  t(fra_inf_div   all any 40 unused  n39 n41 n42 n43 n44 n45 n50 fl ntb nt)   s(fra) n(2) g(b3) sc(7.5) b(v2) cw(0) cp(5)) {cost 150} {fore -4}}
+{"37mm_shneider"    ("vs" c(0)  t(fra_inf_div   all any 40 n39 n41 n42 n43 n44 n45 n50 fl ntb nt) s(fra) n(1) g(b3) sc(8.5) b(v2) cw(0) cp(5)) {cost 170} {fore -2}}
+("how" side(fra) name(how_ai1) c(0) c1(somua_mcg_ai) c2(47mm_puteaux_mle37_ai)  t(fra_inf_div fra_tank_div nseacombat n39 n41 n42 n43 n44 n45 n50 ai_cannon ntb nt) g(ai1) b(v2) cost(200) f(1))
+{"47mm_puteaux_mle37"        ("vs" c(0)  t(fra_inf_div fra_tank_div fra_storm_div all any 40 n39 n41 n42 n43 n44 n45 n50 fl  inf_only2)  s(fra) n(2) g(b4) sc(10) b(v2) cw(0) cp(5)) {cost 200} {fore -14}}
+("how" side(fra) name(how_c) c(0) c1(np_lorrai_fr) c2(75mm_vickers) t(fra_inf_div  fra_storm_div all any arty 40 heavy n39 n41 n42 n43 n44 n45 n50 fl ntb nt) g(b5) b(v2) cost(600) f(-14))
+
+{"30_browning_m1919a4_fr"    ("vs44" c(0) t(fra_inf_div  fra_storm_div nseacombat nall any n42 n43 44 45 n50 nfl n39 n40 n41  inf_only) 	s(fra) n(2) g(c1) sc(5)  b(v2) cw(2) cp(5)) {cost 100} {fore -2}}
+{"50_browning_m2hb_fr"    ("vs44" c(0) t(fra_inf_div  fra_storm_div nseacombat nall any n42 n43 44 45 n50 nfl n39 n40 n41  inf_only) 	s(fra) n(2) g(c1) sc(6)  b(v2) cw(2) cp(5)) {cost 120} {fore -2}}
+("how44" side(fra) name(how_ai4) c(0) c1(cckw352_fr_ai) c2(57mm_gun_m1_ai)  t(fra_inf_div fra_tank_div nseacombat n39 n40 n41 ai_cannon ntb nt) g(ai1) b(v2) cost(135) f(1))
+{"57mm_gun_m1"          ("vs44" c(0) t(fra_inf_div fra_tank_div fra_storm_div nseacombat nall any n43 44 45 n50 nfl n39 n40 n41 n42 ntb nt) 			s(fra) n(4) g(c5) sc(11.25) b(v2) cw(2) cp(5)) {cost 225} {fore -14}}
+("how44" side(fra) name(how_aa2) c(0) c1(cckw352_fr_2) c2(bofors_fr)  	t(fra_inf_div fra_tank_div nseacombat nall any n42 n43 44 45 n50 nfl heavyaa n39 n40 n41 ntb nt) g(c7) b(v2) cost(300) f(-6))
+
+
+;°°°Button 7°°°
+
+{"81mm_brandt_fr"	        ("vs" c(0) t(fra_inf_div fra_tank_div  all any arty mortar 40 n39 n41 n42 n43 n44 n45 n50 fl  inf_only3)    s(fra) n(2) g(c1) sc(12) b(v7) cw(0) cp(5)) {cost 120} {fore -2}}
+("how" side(fra) name(how_ai2) c(0) c1(somua_mcg_ai) c2(75mm_1897_ai)  t(nseacombat n39 n41 n42 n43 n44 n45 n50 ai_cannon ntb nt) g(ai2) b(v7) cost(280) f(1))
+{"75mm_1897"        ("vs" c(0) t(fra_inf_div   all any arty 40 n39 n41 n42 n43 n44 n45 n50 fl ntb nt) s(fra) n(4) g(c2) sc(14) b(v7) cw(0) cp(5)) {cost 280} {fore -3}}
+{"bs-75"    	  ("v"  c(0) t(fra_inf_div fra_tank_div  all any arty 40 unused medium n39 n41 n42 n43 n44 n45 n50 fl ntb nt)   s(fra) n1(2) n2(1) g(c3) sc(14.5) b(v7) cw(0) cp(10)) {cost 290} {fore -9}}
+("how" side(fra) name(how_ai3) c(0) c1(somua_mcg_ai) c2(105mm_m1913_ai)  t(fra_inf_div  fra_storm_div nseacombat n39 n41 n42 n43 n44 n45 n50 ai_cannon arty fl ntb nt) g(ai3) b(v7) cost(800) f(-1))
+("how" side(fra) name(how_b) c(0) c1(renault_ue) c2(105mm_m1913) t( fra_tank_div fra_storm_div all any arty heavy 40 n39 n41 n42 n43 n44 n45 n50 fl persize ntb nt) g(b6) b(v7) cost(800) f(-14))
+("how" side(fra) name(how_a) c(0) c1(somua_mcg) c2(gpf-t)  t(fra_inf_div   heavy_art persize_heavy all any arty 40 n39 n41 n42 n43 n44 n45 n50 nfl ntb nt)  g(c5) b(v7) cost(900) f(-19))
+("how" side(fra) name(how_d) c(0) c1(np_lorrai_fr) c2(22cm_mortier) t(fra_inf_div  fra_storm_div all any arty 40 heavy n39 n41 n42 n43 n44 n45 n50 fl ntb nt) g(b7) b(v7) cost(1600) f(-6))
+
+
+{"81mm_brandt_fra"	        ("vs44" c(0) t(fra_inf_div fra_tank_div  nall any arty mortar n40 n39 n41 n42 n43 44 45 n50 nfl  inf_only3)    s(fra) n(2) g(c1) sc(12) b(v7) cw(0) cp(5)) {cost 240} {fore -2}}
+{"m4halftrack_fr"           ("vs44" c(0) t(fra_inf_div  fra_storm_div nseacombat nall any arty n42 n43 44 45 n50 nfl n39 n40 n41 ntb nt) 		s(fra) n(5) g(d4) sc(17) b(v7) cw(0) cp(10)) {cost 340} {fore -9}}
+{"m8_fr"               ("v44" c(0) t(fra_inf_div   nseacombat nall any arty n43 44 45 n50 nfl n39 n40 n41 n42 ntb nt) 		s(fra) n1(3) n2(1) g(d5) sc(17.5) b(v7) cw(0) cp(5)) {cost 350} {fore -3}}
+("how44" side(fra) name(how_ai5) c(0) c1(cckw352_fr_ai) c2(m2a1l_fr_ai)  t(fra_inf_div  fra_storm_div nseacombat n39 n40 n41 ai_cannon arty nfl ntb nt) g(ai3) b(v7) cost(750) f(-1))
+("how44" side(fra) name(how_l) c(0) c1(cckw352_fr_2) c2(m2a1l_fr) 		t(fra_inf_div  fra_storm_div nseacombat nall any arty n42 n43 44 45 n50 nfl persize artillery medium n39 n40 n41 medium ntb nt) g(c8) b(v7) cost(750) f(-14))
+{"m7_fr"               ("v44" c(0) t( fra_tank_div  nseacombat nall any arty n42 n43 44 45 n50 nfl artillery persize_spg medium n39 n40 n41 ntb nt) 			s(fra) n1(3) n2(1) g(d6) sc(42.5) b(v7) cw(0) cp(5))  {cost 850} {fore -14}}
+("how44" side(fra) name(how_m) c(0) c1(cckw352_fr_2) c2(155mm_m1917a4)  	t(fra_inf_div  fra_storm_div nseacombat nall any arty n42 n43 44 45 n50 nfl artillery heavy_art one_only n39 n40 n41 ntb nt) g(d10) b(v7) cost(990) f(-19))
+
+
+;°°°Button 3°°°
+
+{"ft17m31"      ("v"  c(0) t(all any 40 unused  n39 n41 n42 n43 n44 n45 n50 fl ntb nt)  s(fra) n1(1) n2(1) g(d1) sc(6.5) b(v3) cw(0) cp(5)) {cost 130} {fore -31}}
+{"amr35-13mm"      ("v"  c(0) t(fra_inf_div   all any 40 unused  n39 n41 n42 n43 n44 n45 n50 fl ntb nt)  s(fra) n1(1) n2(1) g(d1) sc(7.5) b(v3) cw(0) cp(5)) {cost 150} {fore -31}}
+{"amr35-25m"       ("v"  c(0) t( fra_tank_div  all any 40 n39 n41 n42 n43 n44 n45 n50 fl tb nt) s(fra) n1(1) n2(1) g(d2) sc(8) b(v3) cw(0) cp(5)) {cost 160} {fore -34}}
+{"p16m29"          ("v"  c(0) t( fra_tank_div  all any 40 n39 n41 n42 n43 n44 n45 n50 fl ntb nt) s(fra) n1(2) n2(1) g(d4) sc(9) b(v3) cw(0) cp(5)) {cost 180} {fore -34}}
+{"ft17"         	("v" c(0) t( fra_tank_div  all any n39 40 n41 n42 n43 n44 n45 n50 fl tb tank_only) 		s(fra) n1(1) n2(1) g(e3) sc(9.5) b(v3) cw(0) cp(5)) {cost 190} {fore -37}} 
+{"panhard"         ("v"  c(0) t( fra_tank_div  all any 40 n39 n41 n42 n43 n44 n45 n50 fl ntb nt) s(fra) n1(3) n2(1) g(d6) sc(11.5) b(v3) cw(0) cp(5)) {cost 230} {fore -34}}
+{"h39tral"      	 ("v"  c(0) t( fra_tank_div  all any 40 n39 n41 n42 n43 n44 n45 n50 fl tb nt) s(fra) n1(2) n2(1) g(d5) sc(18.5) b(v3) cw(0) cp(5)) {cost 370} {fore -37}}
+
+{"m3a1scout_fr"          ("vs44" c(0) t(fra_inf_div   nseacombat nall any n42 n43 44 45 n50 nfl  n39 n40 n41 ntb nt) 	s(fra) n(3)  g(e0) sc(6) b(v3) cw(0) cp(5)) {cost 120} {fore -17}}
+{"m20_fr"      	    ("v44" c(0) t(fra_inf_div  fra_storm_div nseacombat nall any n43 44 45 n50 nfl n39 n40 n41 n42 ntb nt) 	s(fra) n1(1) n2(1) g(e3) sc(9) b(v3) cw(0) cp(5)) {cost 180} {fore -23}}
+{"m17_fr"      	    ("v44" c(0) t( fra_tank_div  nseacombat nall any n43 44 45 n50 nfl n39 n40 n41 n42 ntb nt) 	s(fra) n1(2) n2(1) g(e4) sc(11.25) b(v3) cw(0) cp(5)) {cost 225} {fore -34}}
+{"m8grayhound_fr"      ("v44" c(0) t( fra_tank_div  nseacombat nall any n42 n43 44 45 n50 nfl n39 n40 n41 ntb nt) 		s(fra) n1(2) n2(1) g(e5) sc(14) b(v3) cw(0) cp(5)) {cost 280} {fore -34}}	
+{"m3a1_fr"             ("v44" c(0) t( fra_tank_div  nseacombat nall any n42 n43 44 n45 n50 nfl n39 n40 n41 tb tank_only) 	s(fra) n1(3) n2(1) g(e6) sc(14.5) b(v3) cw(0) cp(5)) {cost 290} {fore -37}} 
+{"m5a1_fr"             ("v44" c(0) t( fra_tank_div  nseacombat nall any n42 n43 n44 45 n50 nfl n39 n40 n41 tb tank_only) 		s(fra) n1(3) n2(1) g(e7) sc(15) b(v3) cw(0) cp(5)) {cost 300} {fore -37}} 
+{"h39_fr"       	 ("v44" c(0)  t( fra_tank_div  all any n40 n39 n41 n42 n43 44 n45 n50 nfl tb tank_only)          s(fra) n1(1) n2(1) g(e3) sc(16) b(v4)  cw(0) cp(10)) {cost 320} {fore -37}}
+
+;°°°Button 4°°°
+
+{"r35"       	("v" c(0)  t( fra_tank_div  all any 40 n39 n41 n42 n43 n44 n45 n50 fl tb tank_only)          s(fra) n1(1) n2(1) g(e2) sc(16) b(v4) cw(0) cp(5)) {cost 320} {fore -37}}
+{"r39"       	("v" c(0)  t( fra_tank_div  all any 40 n39 n41 n42 n43 n44 n45 n50 fl tb tank_only)          s(fra) n1(1) n2(1) g(e2) sc(16.5) b(v4) cw(0) cp(5)) {cost 330} {fore -37}}
+{"h39"       	 ("v" c(0)  t( fra_tank_div  all any 40 n39 n41 n42 n43 n44 n45 n50 fl tb tank_only)          s(fra) n1(1) n2(1) g(e3) sc(17.5) b(v4)  cw(0) cp(10)) {cost 350} {fore -37}}
+{"chardebat_d2"              ("v" c(0)  t( fra_tank_div  all any 40 medium n39 n41 n42 n43 n44 n45 n50 fl tb tank_only)        s(fra) n1(2) n2(1) g(e4) sc(20) b(v4) cw(0) cp(15)) {cost 400} {fore -49}}
+{"s35"             ("v" c(0)  t( fra_tank_div  all any 40 medium n39 n41 n42 n43 n44 n45 n50 nfl tb tank_only)  s(fra) n1(2) n2(1) g(e5) sc(22.5) b(v4)  cw(0) cp(15)) {cost 450} {fore -49}}
+{"b1b_fra"           ("v" c(0) t(  fra_storm_div all any 40 heavy  n39 n41 n42 n43 n44 n45 n50 rare1 nfl tb nt)     s(fra) n1(3) n2(1) g(e6) sc(30) b(v4) cw(0) cp(30)) {cost 600} {fore -10}}
+
+{"m4a3_75_fr"          ("v44" c(0) t( fra_tank_div  nseacombat nall any 44 45 n50 nfl medium n39 n40 n41 n42 n43 tb tank_only) 		s(fra) n1(4) n2(1) g(f4) sc(20) b(v4) cw(0) cp(15)) {cost 400} {fore -53}} 	
+{"m4a3_76_fr"  ("v44" c(0) t( fra_tank_div  fra_storm_div nseacombat nall any 44 45 n50 nfl medium n39 n40 n41 n42 n43 tb tank_only1) 		s(fra) n1(4) n2(1) g(f6) sc(27.5) b(v4) cw(0) cp(15)) {cost 550} {fore -53}} 
+
+;°°°Button 5°°°
+{"renault_aa"      ("vs" c(0) t( fra_tank_div  all any 40 n39 n41 n42 n43 n44 n45 n50 fl ntb nt) s(fra) n(3) g(f1) sc(8.5) b(v5) cw(0) cp(5)) {cost 170} {fore -43}}
+{"np_lorrai_37_47"   ("vs" c(0) t( fra_tank_div  all any 40 n39 n41 n42 n43 n44 n45 n50 rare2 fl ntb nt)  s(fra) n(4) g(f2) sc(14) b(v5) cw(0) cp(5)) {cost 280}  {fore -43}}
+
+{"m10wolverine_fr"     ("v44" c(0) t( fra_tank_div  nseacombat nall any n42 n43 44 45 n50 nfl medium n39 n40 n41 tb tank_only2) 		s(fra) n1(4) n2(1) g(h3) sc(26) b(v5) cw(0) cp(15)) {cost 520} {fore -45}} 
+
+
+;°°°Button 6°°°
+{"spitfiremk1a_fra"     ("va" c(0) t(all any n39 40 n41 n42 n43 n44 n45 n50 nfl airborne ntb nt) 	s(fra) n(1) g(e13) sc(25) b(v6) cw(2) cp(10)) {cost 500} {fore -2}}
+{"potez633"            ("va" c(0) t(  fra_storm_div all any arty n39 40 n41 n42 n43 n44 n45 n50 nfl airborne ntb nt) s(fra) n(2) g(d5) sc(30) b(v6) cw(2) cp(20)) {cost 600} {fore -2}}
+
+{"p-40_fr"              ("va" c(0) t(nall any n39 n40 n41 n42 n43 44 45 n50 nfl airborne ntb nt)			s(fra) n(1) g(g1) sc(19.5) b(v6) cw(2) cp(10)) {cost 390} {fore -2}}
+{"p-39_fr"              ("va" c(0) t(nall any arty n39 n40 n41 n42 n43 44 45 n50 nfl airborne ntb nt)			s(fra) n(1) g(g1) sc(20) b(v6) cw(2) cp(10)) {cost 400} {fore -2}}

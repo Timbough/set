@@ -1,0 +1,22 @@
+{from "pattern gun"	; "StuG 3G"
+	{filling "bullet75_ger"}
+	;{fireSound "gun/50to76_cal/75mm_stuk42"}
+	{fireSound "gun/75mm_Long/GER/"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 7}
+	("range_medium")
+	{cursor "zf3x8ii"}
+	("speed" s(750))
+	("caliber_medium")
+	{projectileDamage 138}
+	("damage" a(135) b(123) c(109) d(97) e(86))
+	{parameters "apcr"
+		("speed" s(930))
+		("damage" a(176) b(154) c(130) d(109) e(92))
+	}
+	
+	("accuracy_low")
+	{parameters "fg"
+		("speed" s(450))
+	}
+}

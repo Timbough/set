@@ -1,0 +1,57 @@
+{breed
+	{skin "fra-us-spahi-mgun"}
+	{portrait "fra_elite4"}
+      	{nationality fra}
+	{icon "mg"}
+	{icon_priority 2}
+	{armors
+		{head "cap_fra_sidecap_spahi"}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"pistol" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "browning_m19a6" filled}
+		{item "ammo mgun" 900}
+		{item "revolver_mle_1892" filled}
+		{item "ammo pistol" 12}
+		{item "bandage" 3}
+		{item "sandbag_kit" 1}
+		{item "spade_inv_trenches"}
+		{item "crow_bar_fra"}
+		{in_hands 0}
+	}
+}

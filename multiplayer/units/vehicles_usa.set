@@ -1,0 +1,118 @@
+;----- USA -----
+
+
+
+
+;같캧nfantry only같�
+
+
+
+;같캛utton 1같�
+
+{"dodge"   	    	("vs" c(0) t(usa_inf_div usa_tank_div usa_storm_div nseacombat all any 42 43 44 45 50 fl n39 n40 n41  inf_only) 	s(usa) n(2) g(b4) sc(2) a(1) b(v1) cw(0) cp(0)) {cost 40} {fore 1}}
+{"hd"              ("vs" c(0) t(usp nseacombat all any n39 n40 n41 42 43 44 45 50 fl  inf_only) 		s(usa) n(2) g(b1) sc(3) b(v1) cw(0) cp(0)) {cost 60} {fore 1}}
+{"cckw353"   	    	("vs" c(0) t(usa_inf_div usa_tank_div usa_storm_div nseacombat all any 42 43 44 45 50 fl n39 n40 n41  inf_only) 	s(usa) n(2) g(b4) sc(2.5) a(1) b(v1) cw(0) cp(0)) {cost 50} {fore 1}}
+{"cckw353_oc"   	    	("vs_2" c(0) t(nseacombat all any 42 43 44 45 50 fl n39 n40 n41  inf_only) 	s(usp) s2(usa) n(2) g(b4) sc(2.5) a(1) b(v1) cw(0) cp(0)) {cot 50} {fore 1}}
+{"m4hst"   	    	("vs" c(0) t(usa_tank_div usa_storm_div nseacombat all any 42 43 44 45 50 fl n39 n40 n41  tb tank_only) 	s(usa) n(2) g(b4) sc(4) a(1) b(v1) cw(0) cp(0)) {cost 80} {fore 1}}
+{"np_willysmb"         ("vs" c(0) t(usa_inf_div   usp nseacombat all any 42 43 44 45 50 fl inf_only n39 n40 n41  inf_only) s(usa) n(3) g(b1) sc(5.5)  a(1) b(v1) cw(0) cp(0)) {cost 110} {fore 0}}
+{"np_willys50"         ("vs" c(0) t(usa_inf_div   usp nseacombat all any 42 43 44 45 50 fl inf_only n39 n40 n41 ntb nt) s(usa) n(2) g(b1) sc(6)  a(1) b(v1) cw(0) cp(0)) {cost 120} {fore 0}}
+{"m3_usa"           ("vs" c(0) t(usa_inf_div usa_tank_div usa_storm_div usp nseacombat all any 42 43 44 45 50 fl n39 n40 n41 ntb nt) 		s(usa) n(2) g(b3) sc(6.25)  a(1) b(v1) cw(0) cp(0)) {cost 125} {fore -23}}
+{"m2halftrack"           ("vs" c(0) t(usa_inf_div usa_tank_div usa_storm_div usp nseacombat all any 42 43 44 45 50 fl n39 n40 n41 ntb nt) 		s(usa) n(2) g(b3) sc(6.5)  a(1) b(v1) cw(0) cp(0)) {cost 130} {fore -23}}
+{"cckw352_bomb"          ("vs" c(0) t(usa_storm_div nseacombat all any 42 43 44 45 50 fl n39 n40 n41 airborne nfl ntb nt) 	s(usa) n(2) g(b5) sc(7) a(1) b(v1) cw(0) cp(0)) {cost 140} {fore 1}}
+{"cckw352_art"          ("vs" c(0) t(usa_inf_div usa_tank_div usa_storm_div nseacombat all any 42 43 44 45 50 fl n39 n40 n41 tb tank_only) 	s(usa) n(2) g(b5) sc(7.5) a(1) b(v1) cw(0) cp(0)) {cost 150} {fore 1}}
+{"cckw353_eng"          ("vs" c(0) t(usa_inf_div usa_tank_div usa_storm_div nseacombat all any 42 43 44 45 50 fl n39 n40 n41 ntb nt) 	s(usa) n(2) g(b6) sc(12.5) a(1) b(v1) cw(0) cp(0)) {cost 250} {fore 1}}
+{"cckw353_oc_art"          ("vs_2" c(0) t(nseacombat all any 42 43 44 45 50 fl n39 n40 n41 tb tank_only) 	s(usp) s2(usa) n(2) g(b5) sc(7.5) a(1) b(v1) cw(0) cp(0)) {cost 150} {fore 1}}
+{"cckw353_oc_eng"          ("vs_2" c(0) t(nseacombat all any 42 43 44 45 50 fl n39 n40 n41 ntb nt) 	s(usp) s2(usa) n(2) n2(0) g(b6) sc(12.5) a(1) b(v1) cw(0) cp(0)) {cost 250} {fore 1}}
+{"boat_usa"   ("vm" c(0) t(usp seacombat nall any n39 n40 n41 n42 n43 n44 n45 n50 nfl ntb nt) 			s(usa) n(3) g(b6) sc(2.5) b(v1) cw(0) cp(0)) {cost 50} {fore 1}}
+
+
+
+
+;같캛utton 2같�
+
+{"30_browning_m1919a4"    ("vs" c(0) t(usa_inf_div  usa_storm_div usp nseacombat all any 42 43 44 45 50 fl n39 n40 n41  inf_only) 	s(usa) n(2) g(c1) sc(5)  b(v2) cw(2) cp(5)) {cost 50} {fore -2}}
+{"50_browning_m2hb"    ("vs" c(0) t(usa_inf_div  usa_storm_div usp nseacombat all any 42 43 44 45 50 fl n39 n40 n41  inf_only) 	s(usa) n(2) g(c1) sc(6)  b(v2) cw(2) cp(5)) {cost 60} {fore -2}}
+("how" side(usa) name(how_ai1) c(0) c1(cckw352_ai) c2(m3cannon_ai)  t(usa_inf_div usa_tank_div usp nseacombat n39 n40 n41 ai_cannon ntb nt) g(ai1) b(v2) cost(135) f(1))
+{"maxson"           ("vs" c(0) t(usa_inf_div   usp nseacombat all any 42 43 44 45 50 fl n39 n40 n41 ntb nt) 	s(usa) n(1) g(c2) sc(7.5) b(v2) cw(2) cp(5)) {cost 150} {fore -4}}
+{"m3cannon"         ("vs" c(0) t(usa_inf_div   usp nseacombat all any 42 43 44 45 50 fl n39 n40 n41  inf_only2) 			s(usa) n(2) g(c4) sc(10)  b(v2) cw(2) cp(5)) {cost 200} {fore -2}}
+{"75mm1897a4"               ("vs_2" c(0) t(usa_inf_div usa_tank_div usp nseacombat all any 42 43 44 medium n39 n40 n41 45 n50 nfl ntb nt) 	s(usp) s2(usa) n(4) g(c4a) sc(11) b(v2) cw(2) cp(5)) {cost 220} {fore -14}}
+{"m1_57mm"          ("vs" c(0) t(usa_inf_div usa_tank_div usa_storm_div usp nseacombat all any 43 44 45 50 fl n39 n40 n41 n42 ntb nt) 			s(usa) n(4) g(c5) sc(14) b(v2) cw(2) cp(5)) {cost 280} {fore -14}}
+("how" side(usa) name(how_aa) c(0) c1(cckw352) c2(bofors)  	t(usa_inf_div usp nseacombat all any 42 43 44 45 50 fl heavyaa n39 n40 n41 ntb nt) g(c7) b(v2) cost(300) f(-6))
+{"m5"               ("vs" c(0) t(usa_inf_div usa_tank_div usa_storm_div nseacombat all any 43 medium n39 n40 n41 n42 n44 n45 n50 nfl ntb nt) 	s(usa) n(4) g(c6) sc(20) b(v2) cw(2) cp(5)) {cost 400} {fore -14}}
+("how" side(usa) name(how_ai2) c(0) c1(cckw352_ai) c2(np_m5cannon_ai)  t(usa_inf_div usa_tank_div usp nseacombat n39 n40 n41 n42 n43 ai_cannon ntb nt) g(ai2) b(v2) cost(400) f(1))
+{"np_m5cannon"               ("vs" c(0) t(usa_inf_div usa_tank_div usa_storm_div usp nseacombat 44 45 50 nfl medium nall any n39 n40 n41 n42 n43 ntb nt) 	s(usa) n(4) g(c6) sc(20) b(v2) cw(2) cp(5)) {cost 400} {fore -14}}
+
+
+;같캛utton 7같�
+
+{"81mm_brandt_usa"         ("vs" c(0) t(usa_inf_div usa_tank_div  usp nseacombat all any arty 42 43 44 45 50 fl n39 n40 n41  inf_only3) 	s(usa) n(2) g(d1) sc(12.5) b(v7) cw(2) cp(5)) {cost 125} {fore -2}}
+{"m8_howitzer"               ("vs" c(0) t(usa_inf_div   usp nseacombat all any arty 42 43 44 45 50 fl n39 n40 n41 ntb nt) 	s(usa) n(4) g(d2) sc(14) b(v7) cw(2) cp(5)) {cost 280} {fore -3}}
+{"m4halftrack"           ("vs" c(0) t(usa_inf_div  usa_storm_div usp nseacombat all any arty 42 43 44 45 n50 fl n39 n40 n41 ntb nt) 		s(usa) n(5) g(d4) sc(17) b(v7) cw(0) cp(10)) {cost 340} {fore -9}}
+{"m8"               ("v" c(0) t(usa_inf_div usa_tank_div  usp nseacombat all any arty 43 44 45 n50 fl n39 n40 n41 n42 ntb nt) 		s(usa) n1(3) n2(1) g(d5) sc(17.5) b(v7) cw(0) cp(5)) {cost 350} {fore -9}}
+{"107mm_m_2"         ("vs" c(0) t(usa_inf_div  usa_storm_div usp nseacombat all any arty n42 43 44 45 50 fl n39 n40 n41  ntb nt) 	s(usa) n(2) g(d3) sc(19) b(v7) cw(2) cp(5)) {cost 190} {fore -9}}
+("how" side(usa) name(how_ai3) c(0) c1(cckw352_ai) c2(m2a1l_ai)  t(usa_inf_div  usa_storm_div usp nseacombat n39 n40 n41 ai_cannon arty fl ntb nt) g(ai3) b(v7) cost(750) f(-1))
+("how" side(usa) name(how_b) c(0) c1(m2halftrack_2) c2(m2a1l) 		t(usa_inf_div  usa_storm_div usp nseacombat all any arty 42 43 44 45 50 fl persize artillery medium n39 n40 n41 medium ntb nt) g(c8) b(v7) cost(750) f(-14))
+{"np_t19"           ("v" c(0) t( usa_tank_div  nseacombat all any arty 42 43 44 45 n50 nfl artillery persize_spg medium n39 n40 n41 ntb nt) 	s(usa) n1(3) n2(1) g(d7) sc(37.5) b(v7) cw(0) cp(5))  {cost 750} {fore -14}}
+{"m7"               ("v" c(0) t( usa_tank_div  usp nseacombat all any arty 42 43 44 45 50 nfl artillery persize_spg medium n39 n40 n41 ntb nt) 			s(usa) n1(3) n2(1) g(d6) sc(39.5) b(v7) cw(0) cp(5))  {cost 790} {fore -14}}
+{"m4a3_105"  	   ("v" c(0) t( usa_tank_div  usp nseacombat all any arty 44 45 n50 nfl persize_spg heavy n39 n40 n41 n42 n43 ntb nt) 		s(usa) n1(4) n2(1) g(d9) sc(40) b(v7) cw(0) cp(15)) {cost 800} {fore -14}} 
+("how" side(usa) name(how_a) c(0) c1(m4hst) c2(m114)  		t(usa_inf_div  usa_storm_div usp nseacombat all any arty 42 43 44 45 50 nfl  artillery  heavy_art persize_heavy n39 n40 n41 ntb nt) g(d8) b(v7) cost(900) f(-19))
+("how" side(usa) name(how_c) c(0) c1(m4hst) c2(155mm_longtom)  	t(usa_inf_div  usa_storm_div usp nseacombat all any arty 42 43 44 45 50 nfl artillery heavy_art one_only n39 n40 n41 ntb nt) g(d10) b(v7) cost(990) f(-5))	
+{"m12gmc"           ("v" c(0) t(  usa_storm_div nseacombat all any arty 42 43 44 45 n50 nfl artillery heavy heavy_art persize_heavy n39 n40 n41 ntb nt) 	s(usa) n1(3) n2(1) g(d11) sc(50) b(v7) cw(0) cp(5))  {cost 1000} {fore -6.5}}
+{"m4a3c"            ("v"  c(0) t(usa_inf_div  usa_storm_div nseacombat all any arty 43 44 45 n50 nfl artillery medium rocket one_only1 n39 n40 n41 n42 ntb nt) 	s(usa) n1(3) n2(1) g(d12) sc(50) b(v7) cw(0) cp(15)) {cost 1000} {fore -19}}
+("how" side(usa) name(how_f) c(0) c1(m4hst) c2(m115) 	t(usa_inf_div  usa_storm_div nseacombat all any arty heavy_art  42 43 44 45 50 nfl one_only n39 n40 n41 ntb nt) g(d13) b(v7) cost(1600) f(-5))
+{"barrakuda_us"            ("vm" c(0) t(usp seacombat nall any n39 n40 n41 n42 n43 n44 n45 n50 nfl ntb nt) 	s(usa) n(4) g(d14) sc(25) b(v7) cw(2) cp(10)) {cost 500} {fore -2}}
+{"destroyer_k_us"            ("vm" c(0) t(usp seacombat nall any n39 n40 n41 n42 n43 n44 n45 n50 nfl ntb nt) 	s(usa) n(4) g(d15) sc(35) b(v7) cw(2) cp(15)) {cost 700} {fore -2}}
+{"atlanta"            ("vm" c(0) t(usp seacombat nall any n39 n40 n41 n42 n43 n44 n45 n50 nfl ntb nt) 	s(usa) n(8) g(d16) sc(60) b(v7) cw(2) cp(30)) {cost 1200} {fore -2}}
+
+
+;같캛utton 3같�
+{"m3a1scout_us"          ("v" c(0) t(usa_inf_div   usp nseacombat all any 42 43 44 45 50 fl  n39 n40 n41 ntb nt) 	s(usa) n1(2) n2(2) g(e0) sc(6.25) b(v3) cw(0) cp(5)) {cost 125} {fore -17}}
+{"np_willysat"               ("vs" c(0) t(usa_inf_div   nseacombat all any 43 44 45 50 fl n39 n40 n41 n42 ntb nt) 		s(usa) n(2) g(e1) sc(7.5) a(1) b(v3) cw(0) cp(5)) {cost 150} {fore -2}}
+{"m20"      	    ("v" c(0) t(usa_inf_div  usa_storm_div usp nseacombat all any 43 44 45 50 fl n39 n40 n41 n42 ntb nt) 	s(usa) n1(1) n2(1) g(e3) sc(9) b(v3) cw(0) cp(5)) {cost 180} {fore -23}}
+{"lvt4_wb2"              ("v_2" c(0) t(nseacombat all any fl n39 n40 n41 42 43 44 45 50 ntb nt) 	s(usp) s2(usa) n1(3) n2(1) g(e9) sc(10) b(v3) cw(0) cp(5)) {cost 200} {fore -23}} 
+{"m16"      	    ("v" c(0) t( usa_tank_div  usp nseacombat all any 43 44 45 50 fl n39 n40 n41 n42 ntb nt) 	s(usa) n1(2) n2(1) g(e4) sc(11.25) b(v3) cw(0) cp(5)) {cost 225} {fore -34}}
+{"m8grayhound"      ("v" c(0) t( usa_tank_div  usp nseacombat all any 42 43 44 45 50 fl n39 n40 n41 ntb nt) 		s(usa) n1(2) n2(1) g(e5) sc(13) b(v3) cw(0) cp(5)) {cost 260} {fore -34}}	
+{"m2a4"      	    ("v_2" c(0) t(usp nseacombat all any 42 n39 n40 n41 43 n44 n45 n50 fl tb tank_only) 	s(usp) s2(usa) n1(3) n2(1) g(e2) sc(14) b(v3) cw(0) cp(5)) {cost 280} {fore -37}}
+{"m3_stuart"             ("v" c(0) t(usp nseacombat all any 42 43 n44 n45 n50 fl n39 n40 n41 tb tank_only) 				s(usa) n1(3) n2(1) g(e6) sc(14.5) b(v3) cw(0) cp(5)) {cost 290} {fore -37}} 
+{"m5a1"             ("v" c(0) t( usa_tank_div  usp nseacombat all any 42 43 44 45 n50 fl n39 n40 n41 tb tank_only) 				s(usa) n1(3) n2(1) g(e7) sc(15) b(v3) cw(0) cp(5)) {cost 300} {fore -37}} 
+{"m3_satan"             ("v_2" c(0) t(usp nseacombat all any n42 43 44 45 n50 fl n39 n40 n41 tb nt) 	s(usp) s2(usa) n1(2) n2(1) g(e9) sc(17) b(v3) cw(0) cp(5)) {cost 340} {fore -34}} 
+{"lvt4_a"              ("v_2" c(0) t(nseacombat all any fl n39 n40 n41 42 43 44 45 50 ntb nt) 	s(usp) s2(usa) n1(2) n2(1) g(e10) sc(17.5) b(v3) cw(0) cp(5)) {cost 350} {fore -19}} 
+{"np_m15a1"     ("v" c(0) t( usa_tank_div  usp nseacombat rare1 all any 43 44 45 n50 fl n39 n40 n41 n42 ntb nt) 	s(usa) n1(2) n2(2) g(e8) sc(18) b(v3) cw(0) cp(5)) {cost 360} {fore -34}}
+{"lvt4"              ("v" c(0) t( usa_tank_div  nseacombat all any nfl n39 n40 n41 n42 n43 n44 n45 n50 tb nt) 	s(usa) n1(3) n2(1) g(e11) sc(18) b(v3) cw(0) cp(5)) {cost 360} {fore -19}} 
+{"m24"              ("v" c(0) t( usa_tank_div  nseacombat all any 44 45 50 fl n39 n40 n41 n42 n43 tb tank_only) 	s(usa) n1(3) n2(1) g(e10) sc(18) b(v3) cw(0) cp(5)) {cost 360} {fore -19}} 
+{"m19"              ("v" c(0) t(usa_inf_div usa_tank_div usa_storm_div nseacombat unused nall any n39 n40 n41 n42 n43 n44 n45 50 nfl ntb nt) 		s(usa) n1(3) n2(1) g(e11) sc(20) b(v3) cw(0) cp(5)) {cost 400} {fore -41}}
+{"m4a3m"            ("v" c(0) t( usa_tank_div  usp nseacombat all any deminer n39 n40 n41 n42 n43 n44 n45 n50 fl ntb nt) 			s(usa) n1(1) n2(1) g(e12) sc(12.5) b(v3) cw(0) cp(0)) {cost 250} {fore 0}}
+
+;같캛utton 4같�
+{"grant_m3"         ("v" c(0) t( usa_tank_div  usp nseacombat all any 42 43 medium arcade n39 n40 n41 n44 n45 n50 fl tb tank_only) 	s(usa) n1(3) n2(1) g(f1) sc(17.5) b(v4) cw(0) cp(15)) {cost 350} {fore -49}} 
+{"m4a1s"          ("v" c(0) t( usa_tank_div  usp nseacombat all any n42 n43 medium n39 n40 n41 44 45 n50 nfl tb tank_only) 		s(usa) n1(4) n2(1) g(f2) sc(18.5) b(v4) cw(0) cp(15)) {cost 370} {fore -53}} 	
+{"m4a1"          ("v" c(0) t( usa_tank_div  nseacombat all any 42 43 medium n39 n40 n41 n44 n45 n50 nfl tb tank_only) 		s(usa) n1(3) n2(1) g(f2) sc(18.5) b(v4) cw(0) cp(15)) {cost 370} {fore -53}} 	
+{"m4sherman"          ("v" c(0) t(usa_storm_div usp nseacombat all any n42 43 medium n39 n40 n41 44 45 n50 nfl tb tank_only) 		s(usa) n1(4) n2(1) g(f3) sc(19.5) b(v4) cw(0) cp(15)) {cost 390} {fore -53}} 
+{"m4a3_75"          ("v" c(0) t( usa_tank_div  usp nseacombat all any 44 45 50 nfl medium n39 n40 n41 n42 n43 tb tank_only) 		s(usa) n1(4) n2(1) g(f4) sc(20) b(v4) cw(0) cp(15)) {cost 400} {fore -53}} 	
+{"m4a3_zippo"          ("v" c(0) t( usa_tank_div  nseacombat all any 44 45 n50 nfl medium n39 n40 n41 n42 n43 tb nt) 		s(usa) n1(4) n2(1) g(f5) sc(24) b(v4) cw(0) cp(15)) {cost 480} {fore -53}} 	
+{"m4a1_76w"  ("v" c(0) t( usa_tank_div  nseacombat all any 44 45 n50 nfl medium n39 n40 n41 n42 n43 tb tank_only1) 		s(usa) n1(4) n2(1) g(f6) sc(27.5) b(v4) cw(0) cp(15)) {cost 550} {fore -53}} 
+{"m4a3e8"         	("v" c(0) t( usa_tank_div  nseacombat all any 44 45 50 nfl medium n39 n40 n41 n42 n43 tb tank_only1) 		s(usa) n1(4) n2(1) g(f7) sc(32.5) b(v4) cw(0) cp(15)) {cost 650} {fore -14}} 	
+{"m4a3e2_jumbo"     ("v" c(0) t(  usa_storm_div nseacombat all any 44 45 50 nfl heavy n39 n40 n41 n42 n43 tb tank_only) 			s(usa) n1(4) n2(1) g(f8) sc(40) b(v4) cw(0) cp(30)) {cost 800} {fore -10}}
+{"m4a3e2_jumbo_76w"     ("v" c(0) t(usa_tank_div usa_storm_div nseacombat all any n44 45 n50 nfl heavy n39 n40 n41 n42 n43 tb tank_only1) 		s(usa) n1(4) n2(1) g(f9) sc(60) b(v4) cw(0) cp(30)) {cost 1200} {fore -10}}  
+{"m4a3e2_jumbo_76"     ("v" c(0) t(usa_tank_div nseacombat all any n44 n45 50 nfl heavy n39 n40 n41 n42 n43 tb tank_only1) 		s(usa) n1(4) n2(1) g(f9) sc(60) b(v4) cw(0) cp(30)) {cost 1200} {fore -10}}  
+{"m46_patton"     ("v" c(0) t(usa_tank_div nseacombat nall any n45 50 nfl  heavy n39 n40 n41 n42 n43 n44 tb nt) 			s(usa) n1(4) n2(1) g(f10) sc(74) b(v4) cw(0) cp(30)) {cost 1480} {fore -2}}
+{"m26_pershing"     ("v" c(0) t(  usa_storm_div nseacombat all any 45 50 nfl  one_only heavy n39 n40 n41 n42 n43 n44 tb nt) 			s(usa) n1(4) n2(1) g(f11) sc(75) b(v4) cw(0) cp(30)) {cost 1500} {fore -2}}
+{"m26e4"     ("v" c(0) t(  usa_storm_div nseacombat all any 45 n50 nfl one_only sheavy n39 n40 n41 n42 n43 n44 tb nt) 			s(usa) n1(4) n2(1) g(f12) sc(100) b(v4) cw(0) cp(40)) {cost 2000} {fore -1}}		
+{"t29"     ("v" c(0) t(  usa_storm_div nseacombat nall any nfl one_only sheavy n39 n40 n41 n42 n43 n44 n45 50 tb nt) 			s(usa) n1(4) n2(1) g(f12) sc(105) b(v4) cw(0) cp(40)) {cost 2100} {fore -1}}		
+
+;같캛utton 5같�
+{"np_t15"      	    ("v" c(0) t( usa_tank_div  usp nseacombat all any 42 43 n39 n40 n41 n44 n45 n50 rare2 medium nfl ntb nt) 	s(usa) n1(2) n2(2) g(h1) sc(13.5) b(v5) cw(0) cp(5)) {cost 270} {fore -43}}
+{"m18"              ("v" c(0) t( usa_tank_div  usp nseacombat all any 44 45 50 nfl medium n39 n40 n41 n42 n43 tb tank_only2) 		s(usa) n1(3) n2(1) g(h2) sc(25) b(v5) cw(0) cp(10)) {cost 500} {fore -45}} 
+{"m10wolverine"     ("v" c(0) t( usa_tank_div  nseacombat nall any 42 43 medium n39 n40 n41 n44 n45 n50 nfl tb tank_only2) 		s(usa) n1(4) n2(1) g(h3) sc(25) b(v5) cw(0) cp(15)) {cost 500} {fore -45}} 	
+{"m10wolverine_44"     ("v" c(0) t( usa_tank_div  usp nseacombat all any 44 45 nfl medium n39 n40 n41 n42 n43 n50 tb tank_only2) 		s(usa) n1(4) n2(1) g(h3) sc(26) b(v5) cw(0) cp(15)) {cost 520} {fore -45}} 
+{"m36b1"       		("v" c(0) tusa_storm_div( usa_tank_div  nseacombat 44 heavy nall any n39 n40 n41 n42 n43 n45 n50 nfl tb nt) 			s(usa) n1(4) n2(1) g(h4) sc(45) b(v5) cw(0) cp(30)) {cost 900} {fore -1}}	
+{"m36"       		("v" c(0) t(usa_storm_div usa_tank_div  nseacombat all any 44 45 50 fl heavy n39 n40 n41 n42 n43 tb nt) 			s(usa) n1(4) n2(1) g(h5) sc(44) b(v5) cw(0) cp(30)) {cost 880} {fore -1}} 	
+
+;같캛utton 6같�
+{"p-40"              ("va" c(0) t(usp all any n39 n40 n41 42 43 44 n45 n50 nfl airborne ntb nt)			s(usa) n(1) g(g1) sc(19.5) b(v6) cw(2) cp(10)) {cost 390} {fore -2}}
+{"f4f"              ("va" c(0) t(usp all any n39 n40 n41 42 43 44 n45 n50 nfl airborne ntb nt)			s(usa) n(1) g(g2) sc(20) b(v6) cw(2) cp(10)) {cost 400} {fore -2}}
+{"p-39"              ("va" c(0) t(usp all any n39 n40 n41 42 43 44 n45 n50 nfl airborne ntb nt)			s(usa) n(1) g(g3) sc(24) b(v6) cw(2) cp(10)) {cost 480} {fore -2}}
+{"p51mustang"              ("va" c(0) t(usp all any n39 n40 n41 42 43 44 45 50 nfl airborne ntb nt)			s(usa) n(1) g(g4) sc(25) b(v6) cw(2) cp(10)) {cost 500} {fore -2}}
+{"p-51mustang_b"            ("va" c(0) t(  usa_storm_div usp all any arty n39 n40 n41 42 43 44 45 50  heavy nfl airborne ntb nt) 	s(usa) n(1) g(g5) sc(42.5) b(v6) cw(2) cp(5)) {cost 850} {fore -2}}
+{"b25_torpedo"            ("va" c(0) t(usp seacombat nall any arty n39 n40 n41 n42 43 n44 n45 n50  heavy nfl ntb nt) 	s(usa) n(5) g(g6) sc(44) b(v6) cw(2) cp(5)) {cost 880} {fore -2}}
+{"b25"            ("va" c(0) t(  usa_storm_div usp all any arty n39 n40 n41 42 43 44 45 50  heavy nfl airborne ntb nt) 	s(usa) n(5) g(g7) sc(45) b(v6) cw(2) cp(5)) {cost 900} {fore -2}}

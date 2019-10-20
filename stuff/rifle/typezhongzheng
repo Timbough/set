@@ -1,0 +1,10 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 5}
+	{entity "typezhongzheng"}
+	{fireSound "rifle/mauzer_shot"}
+	{reloadSound "mauzer"}
+	("7.7x58")
+	{recoverytime 3.7}
+}
+
+

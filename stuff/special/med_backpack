@@ -1,0 +1,5 @@
+{from "pattern packs"
+	{desc "Italian Medical Backpack"}
+    	{entity "med_backpack"}
+}
+

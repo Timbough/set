@@ -1,0 +1,16 @@
+{from "pattern mgun"
+	{filling "bullet280 fg" 1}
+	{fireSound "gun/50to76_cal/75mm_kwk42"}
+	{entity "280mm"}
+	{rechargeTime 10}
+        	{range 275 1000} 
+	{gravity 2}
+        	{bullet_view "howitzer_shell"
+		{tail "cannone_big_shell" "root"}
+        	}
+	{parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+        	}
+	;("gun_art")
+}

@@ -1,0 +1,11 @@
+{bullet
+	{tag "dropboxed mortar_ab_light"}
+	{inventory
+		{size 2 1}
+		{weight 40}
+	}	{mass 1}
+	{entity "sprenggranate"}
+        {detonationThickness 1}
+	
+	
+}

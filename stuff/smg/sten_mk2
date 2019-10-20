@@ -1,0 +1,4 @@
+{from "sten"
+	{entity "sten_mkii"}
+	("burst_short")
+}

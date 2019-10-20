@@ -1,0 +1,8 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 250}
+	{entity "browning_wz_30"}
+	{fireSound	"mgun/ckm_wz_30_burst/"}
+	{inventory 	{handle_bone "handle_box"}}
+	("30-06")
+	("rof" r(600))
+}

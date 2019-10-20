@@ -1,0 +1,10 @@
+{from "pattern apds"
+	{tag "size_minimum" "shell_small" "pierce"}
+	{inventory
+		{size 4 1}
+	}
+	{mass 7}
+	("apcr" args 0.5)
+	{entity "eng_shell_57x441r_apds"}
+}
+

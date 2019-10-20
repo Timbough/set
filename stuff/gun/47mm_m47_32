@@ -1,0 +1,20 @@
+{from "pattern gun"     ; cannone 42/32, 
+	{filling "bullet47_ita"}
+	{fireSound "gun/47mm_type97"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 5}
+	("speed" s(900))
+	("caliber_minimum")
+	("range_short")
+	{projectileDamage 56}
+	("damage" a(56) b(44) c(33) d(25) e(19))
+	{parameters "cu"
+        		("speed" s(450))
+		{projectileDamage 60}
+		("damage" a(60) b(0) c(0) d(0) e(0))
+	}
+	{parameters "apbc"
+		("damage" a(57) b(49) c(41) d(35) e(29))
+	}
+	("accuracy_medium")
+}

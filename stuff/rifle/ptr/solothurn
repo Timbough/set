@@ -1,0 +1,10 @@
+{from "pattern at_rifle"
+	{entity "solothurn"}
+	{filling "ammo ptr" 5}
+	{fireSound "gun/20mm_solothurn"}
+	{reloadSound "ptrd"}  
+	{recoveryTime 2}  
+	{Automatic}
+	("speed" s(735))
+	{projectileDamageTable {0 35} {150 27}}	
+}

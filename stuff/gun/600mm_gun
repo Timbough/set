@@ -1,0 +1,11 @@
+{from "pattern gun"		; 
+	{filling "bullet600"}
+	{fireSound "gun/howitzer/600mm"}
+	("range_heavy_howitzer")
+	{rechargeTime 200}
+	{projectileDamage 1000}
+	{bullet_view "shell_ap_600"
+		{tail "shell_tail" "root"}
+	}
+	{cursor "ra35"}
+}

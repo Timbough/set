@@ -1,0 +1,30 @@
+{weapon_bullet
+	{tag "gun"}
+	{filling "ammo nebel42" 6}
+	{fireSound "reactive/nebelwerfer_28cm"}
+	("heavy_artillery")
+	{burst {min 3} {noaiming}}
+	{recoveryTime 0.8}
+	("range_short")
+	{gravity 2}
+	{speed 82}
+	{rechargeTime 120}
+        {parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+	}
+        {parameters "fl"
+		{cursor "cannon_on_ic"}
+		{cursorReloading "cannon_reload_ic"}
+	}
+	{Spreading
+		{BurstRecoveryTime 0.5}
+		{SpreadXYRatio	2}
+		{SpreadYadjust	1}
+		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
+		{SpreadRadius 17}
+		{burstSpreadWidth 2}
+		{burstSpreadDelta 2.6}
+		{burstSpreadCount 40}
+	}
+}

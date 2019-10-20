@@ -1,0 +1,14 @@
+{bullet
+	{tag "big size_maximum 203to600 shell fg bomb itemin2hands"}
+	{inventory
+		{size 5 2}
+		{weight 100}
+		{fsm "hand-only"}
+	}	
+	{mass 42}
+	{entity "sturmtiger_ammo"}
+	{view "sturmtiger_ammo"
+		{tail "rocket_smoke_st" "tail"}
+	}
+	("heavy" args 19)
+}

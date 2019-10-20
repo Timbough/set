@@ -1,0 +1,6 @@
+{army
+	{id 63}
+	{title "mp/army/nkr"} 
+	{icon "/interface/pages/multi/flag_nkr"}
+	{flag "/interface/scene/common/flag-nkr"}
+}

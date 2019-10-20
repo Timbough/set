@@ -1,0 +1,12 @@
+{bullet
+	{tag "ammo shell cumulative"}
+	{inventory
+		{size 4 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{entity "shell_cu_med"}
+	{cumulative 0.7}
+	{mass 4}
+	{possibleDamageRadius 4}
+}

@@ -1,0 +1,9 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 5}
+	{entity "type38carbine"}
+	{fireSound "rifle/type38_shot"}
+	{reloadSound "mauzer"}
+	("6.5x50")
+	{recoverytime 3.8}
+	("carbine")
+}

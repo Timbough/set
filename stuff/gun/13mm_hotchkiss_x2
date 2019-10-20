@@ -1,0 +1,26 @@
+{from "pattern gun"     ; 13mm_hotchkiss AA Gun (double barelled )
+	{filling "ammo hmgun" 60}
+	{mass 160}
+	{foresight "foresight1"}
+	{recoveryTime 0.086}
+	{rechargeTime 4}
+	{Automatic}
+	{burst
+		{min 4}
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	
+	("speed" s(800))
+	("range_zenite")
+	("caliber_zenite")
+	{healthDamage 280}
+	{projectileDamage 13}
+	("damage" a(24) b(20) c(16) d(13) e(9))
+	
+	{fireSound	"gun/13mm_hotchkiss"}
+	{reloadSound "ptrd"}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	("accuracy_zenite_medium")
+}

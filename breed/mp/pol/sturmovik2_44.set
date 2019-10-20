@@ -1,0 +1,59 @@
+{breed
+	{skin "rus-sco-smg"}
+	{portrait "pol_elite2"}
+	{nationality pol}
+	{icon "stormtrooper_smgs"}
+	{icon_priority 4}
+	{armors
+		{body "sovet-ammo"}
+		{head "helmet_pol_43"}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "ppsh" filled}
+		{item "ammo pistol" 500}
+		{item "bandage" 5}
+		{item "grenade f1" 1}
+		{item "grenade rpg40" 1}
+		{item "grenade molotov_coctail" 1}
+		{item "sandbag_kit" 1}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

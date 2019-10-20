@@ -1,0 +1,237 @@
+;;; Select best weapon and ammo ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;{ready_for_shot}	- ammo charged (shell in the breech & gun ready for shot)
+;;{charging} 		- ammo is charging (gun is`t ready for shot)
+
+{select_ammo
+	{human in_bush
+		{"grenade ic" {ready_for_shot}}
+		{"mortar fg" {ground}}
+		{"shell sr" {ground}}
+		{"shell wp" {ground}}
+		{"grenade fg" {check_grenade}}
+		{"shell fg" {ground} {ready_for_shot}}
+		{"shell fg" {ready_for_shot}}
+		{"shell sr" {ground}}
+		{"shell wp" {ground}}
+		{"airplane"}
+		{"zenite" {enable_for_human_user 0}}
+		{"hmgun"}
+		{"flame"}
+		{"fuel"}      
+		{"bullet"}
+		{"grenade fg" {ground}}
+		{"grenade ap"}
+		{"light"}
+	}
+	{human in_cover
+		{"grenade ic" {ready_for_shot}}
+		{"mortar fg" {ground}}
+		{"grenade fg" {check_grenade}}
+		{"grenade ap" {enable_for_ai 0} {check_grenade}}
+		{"shell fg" {ground} {ready_for_shot}}
+		{"shell fg" {ready_for_shot}}
+		{"shell sr" {ground}}
+		{"shell wp" {ground}}
+		{"airplane"}
+		{"zenite" {enable_for_human_user 0}}
+		{"hmgun"}
+		{"flame"}
+		{"fuel"}      
+		{"bullet"}
+		{"ammo rocketlauncher" {enable_for_user 0}}
+		{"grenade fg" {ground}}
+		{"grenade ap" {enable_for_ai 0}}
+		{"grenade ic" {enable_for_ai 0}}
+		{"shell fg"}
+		{"light"}
+	}
+	{human
+		{"grenade ic" {ready_for_shot}}
+		{"shell fg" {ground} {ready_for_shot}}
+		{"shell fg" {ready_for_shot}}
+		{"mortar fg" {ground}}
+		{"shell sr" {ground}}
+		{"shell wp" {ground}}
+		{"airplane"}
+		{"zenite" {enable_for_human_user 0}} ; prohibit the usage (for player infantry)
+		{"hmgun"}
+		{"flame"}
+		{"fuel"}       
+		{"bullet"}
+		{"sharp_edge"}
+		{"grenade fg"}
+		{"grenade ap"}
+		{"ammo rocketlauncher" {enable_for_user 0}}
+		{"light"}
+	}
+	{car
+		{"mortar fg" {ground}}
+		{"grenade fg"	{ground}}
+		{"grenade ap"}
+		{"grenade ic"}
+		{"zenite"}
+		{"airplane"}
+		{"shell fg" {ready_for_shot}}
+		{"shell sr" {ready_for_shot}}
+		{"shell wp" {ready_for_shot}}
+		{"hmgun"}
+		{"shell fg"}
+		{"shell ap"}	; for training
+		{"fuel"}
+		{"bullet"}
+		{"light"}
+	}
+	{cannon
+       		{"mortar fg" {ground}}
+		{"grenade ic" {ready_for_shot}}
+		{"shell fg"}
+		{"shell sr"}
+		{"shell wp"}
+		{"fuel"}
+		{"grenade fg" {ground}}
+		{"grenade ap"}
+		{"grenade ic"}
+		{"shell ap"}
+		{"ammo rocketlauncher" {enable_for_user 0}}
+		{"light"}
+	}
+	{attacker
+		{"airplane"}
+		{"zenite"}		
+		{"hmgun"}	
+		{"bullet"}	
+		{"shell ap"}
+		{"shell apcbc"}			
+		{"shell fg"}
+		{"shell sr"}
+	}
+	{fighter
+		{"airplane"}
+		{"zenite"}		
+		{"hmgun"}	
+		{"bullet"}	
+		{"shell ap"}
+		{"shell apcbc"}			
+		{"shell fg"}
+		{"shell sr"}
+	}
+	{transport
+		{"airplane"}
+		{"zenite"}
+		{"hmgun"}			
+		{"bullet"}			
+		{"shell aa"}			
+		{"shell fg"}
+		{"shell ap"}
+	}
+	{armoredcar
+		{"arl"}
+		{"calliope" {ready_for_shot}}
+		{"size3 fg" {volume "body"} {ready_for_shot}}
+		{"shell ap" {volume "body"} {ready_for_shot}}
+		{"shell apcbc" {volume "body"} {ready_for_shot}}
+		{"shell apds" {volume "body"} {ready_for_shot}}
+		{"shell cu" {volume "body"} {ready_for_shot}}
+		{"shell wp" {volume "engine"} {ready_for_shot}}
+		{"zenite" {volume "body"}}
+		{"zenite ap" {volume "body"}}
+		{"hmgun" {volume "body"}}
+		{"size3 fg" {volume "body"} {charging}}
+		{"size2 fg" {volume "body"} {ready_for_shot}}
+		{"shell ap" {volume "body"}}
+		{"shell apcbc" {volume "body"}}
+		{"shell apds" {volume "body"}}
+		{"grenade ic" {ready_for_shot}}
+		{"grenade ap" {volume "body"}}
+		{"fuel" {volume "engine"}}
+		{"grenade fg" {volume "grenade_fg_target"}}
+		{"grenade ic" {volume "engine"}}
+		{"shell ap"}
+		{"shell apcbc"}
+		{"shell apds"}
+		{"shell fg"}
+		{"shell ccu"}
+		{"shell bcu"}
+		{"shell acu"}
+		{"shell cu"}
+		{"shell wp"}
+		{"light"}
+	}
+	{light_tank
+		{"arl"}
+		{"calliope" {ready_for_shot}}
+		{"size3 fg" {volume "body"} {ready_for_shot}}
+		{"shell ap" {volume "body"} {ready_for_shot}}
+		{"shell apcbc" {volume "body"} {ready_for_shot}}
+		{"shell apds" {volume "body"} {ready_for_shot}}
+		{"shell cu" {volume "body"} {ready_for_shot}}
+		{"hmgun" {volume "body"}}
+		{"size3 fg" {volume "body"} {charging}}
+		{"size2 fg" {volume "body"} {ready_for_shot}}
+		{"shell ap" {volume "body"}}
+		{"shell apcbc" {volume "body"}}
+		{"shell apds" {volume "body"}}
+		{"zenite" {volume "body"}}
+		{"zenite ap" {volume "body"}}
+		{"grenade ic" {volume "engine"} {ready_for_shot}}
+		{"grenade ap" {volume "body"}}
+		{"fuel" {volume "engine"}}
+		{"grenade fg" {volume "grenade_fg_target"}}
+		{"grenade ic" {volume "engine"}}
+		{"shell ap"}
+		{"shell apcbc"}
+		{"shell apds"}
+		{"shell apcr"}
+		{"shell fg"}
+		{"shell ccu"}
+		{"shell bcu"}
+		{"shell acu"}
+		{"shell cu"}
+		{"light"}
+	}
+	{tank
+		{"arl"}	
+		{"calliope" {ready_for_shot}}
+		{"size3 fg" {volume "body"} {ready_for_shot}}
+		{"size3 fg" {volume "body"} {charging}}
+		{"shell ap" {volume "body"}}
+		{"shell ap"}
+		{"shell apcbc" {volume "body"}}
+		{"shell apcbc"}
+		{"shell apds" {volume "body"}}
+		{"shell apds"}
+		{"shell apcr" {volume "body"}}
+		{"shell apcr"}
+		{"zenite" {volume "mover"}}
+		{"zenite ap" {volume "mover"}}
+		{"shell ccu" {volume "body"}}
+		{"shell ccu"}
+		{"shell bcu" {volume "body"}}
+		{"shell bcu"}
+		{"shell acu" {volume "body"}}
+		{"shell acu"}
+		{"shell cu" {volume "body"}}
+		{"shell cu"}
+		{"grenade ic" {volume "engine"} {ready_for_shot}}
+		{"grenade ap" {volume "body"}}
+		{"fuel" {volume "engine"}}
+		{"grenade fg" {volume "grenade_fg_target"}}
+		{"grenade ic" {volume "engine"}}		
+		{"shell fg"}
+		{"light"}
+	}
+	{marine
+		{"torpedo"}
+		{"airplane"}
+		{"zenite"}
+		{"bomb"}
+		{"shell fg"}
+		{"hmgun"}			
+		{"bullet"}			
+		{"shell ap"}
+		{"shell apcbc"}
+		{"shell aa"}			
+	}
+
+}

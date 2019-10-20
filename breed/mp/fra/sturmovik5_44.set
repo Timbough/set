@@ -1,0 +1,55 @@
+{breed
+      	{skin "fra-us-moroc-mgun"}
+	{portrait "fra_elite3"}
+	{nationality fra}	
+	{icon "stormtrooper"}
+	{icon_priority 0}
+	{armors
+		{head "helmet_fra_m1_2"}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "browning_m19a6" filled}
+		{item "ammo mgun" 900}
+		{item "bandage" 5}
+		{item "grenade mk1" 2}
+		{item "sandbag_kit" 1}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

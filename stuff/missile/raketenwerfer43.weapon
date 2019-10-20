@@ -1,0 +1,9 @@
+{from "missile_weapon"
+	{filling "ammo raketenwerfer43" 1}
+	{fireSound "reactive/katyusha_burst"}
+	{foresight "foresight1"}
+	{rechargeTime 8}
+	{range 120 1000}
+	{speed 100}
+	{projectileDamage 10}
+}

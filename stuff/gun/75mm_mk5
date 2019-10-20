@@ -1,0 +1,18 @@
+{from "pattern gun"      ; "Cromwell"
+	{filling "bullet75_usa"}
+	{fireSound "gun/50to76_cal/75mm_mk4"}
+	{reloadSound "tankgun_r01"}
+	{rechargeTime 7}
+	("range_short")
+	
+	("speed" s(761))
+	("caliber_medium")
+	{projectileDamage 120}
+	("damage" a(119) b(97) c(75) d(56) e(41))
+	{parameters "apcbc"
+		("speed" s(619))
+		("damage" a(95) b(83) c(73) d(64) e(56))
+	}
+	("accuracy_minimum")
+	{cursor "eng4"}
+}

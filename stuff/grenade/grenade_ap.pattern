@@ -1,0 +1,17 @@
+{from "pattern throwable"
+	{tag "fg"}
+	{mass 0.5}
+	{special
+		{PrepareTime 4.5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{throw
+		{range 22}
+		{startAngle 41}		
+		{spreading 2}
+	}	
+	("sr" args 2)
+	
+	{possibleDamageRadius 4}
+}

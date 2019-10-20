@@ -1,0 +1,23 @@
+{from "pattern gun"      ; "M4A3VC" Sherman Firefly, "17 pdr", "Centurion Mk2", "Achilles", "Archer"
+	{filling "bullet76_eng"}
+	;{fireSound "gun/50to76_cal/76mm_mk4"}
+	{fireSound "gun/76mm_Long/MK4/"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 8}
+	("range_long")
+	
+	("speed" s(883))
+	("caliber_medium")              
+	{projectileDamage 185}
+	("damage" a(169) b(148) c(130) d(114) e(100))
+	{parameters "apcbc"
+		("speed" s(883))
+		("damage" a(187) b(172) c(158) d(146) e(134))
+	}	
+	{parameters "apds"
+		("speed" s(1203))
+		("damage" a(282) b(257) c(234) d(213) e(193))
+	}
+	("accuracy_medium")
+	{cursor "17pdr"}
+}

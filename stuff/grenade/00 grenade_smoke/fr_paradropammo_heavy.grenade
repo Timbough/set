@@ -1,0 +1,13 @@
+{from "pattern grenade_smoke"
+	{tag "-missile"}
+	{inventory 
+		{size 2 1}
+	}
+	{entity "fr_paradropammo_heavy"}
+	{mass 0.2}
+	{throw
+		{range 21}
+		{startAngle 42}		
+		{spreading 2}
+	}	
+}

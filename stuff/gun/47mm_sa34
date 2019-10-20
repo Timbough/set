@@ -1,0 +1,13 @@
+{from "pattern gun"		; Char D2
+	{filling "bullet47_fra"}
+	{fireSound "gun/47mm_SA34_L30"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 5}
+	("caliber_medium")
+	("range_short")
+	("speed" s(650))
+	{projectileDamage 45}
+	("damage" a(49) b(42) c(33) d(25) e(14))
+	("accuracy_medium")
+	{cursor "L713"}
+}

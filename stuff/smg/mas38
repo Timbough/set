@@ -1,0 +1,9 @@
+{from "pattern smg"
+	{filling "ammo pistol" 32}
+	{entity "mas38"}
+	{fireSound	"smg/mas1938_burst/"}
+	{reloadSound "m3a1_reload"}
+	("rof" r(620))
+	("short")
+	("light")
+}

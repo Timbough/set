@@ -1,0 +1,6 @@
+{army
+	{id 57}
+	{title "mp/army/dut_tank_div"}
+	{icon "/interface/pages/multi/flag_tank_div_dut"}
+	{flag "/interface/scene/common/flag-dut"}
+}

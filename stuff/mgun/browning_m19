@@ -1,0 +1,9 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 200}
+	{entity "browningm1919a4"}
+	{fireSound	"mgun/1919_burst/"}
+	{inventory 	{handle_bone "handle_box"}}
+	{reloadSound "cal30_reload"}
+	("rof" r(600))
+	("30-06")
+}

@@ -1,0 +1,24 @@
+{from "pattern gun"
+	{filling "bullet20_jap zenite" 30}
+	{fireSound "gun/zenite/20mm_burst/"}
+	{RecoveryTime 0.17}
+	{RechargeTime 6}
+	{reloadSound "flak38"}
+	{Automatic}
+	
+	{burst
+;		{min 1}
+		{short 2.5 1}
+		{long 7 2}
+	}
+	
+	("speed" s(780))
+	("range_zenite")
+	("caliber_zenite")
+	{projectileDamage 30}
+	("damage" a(27) b(17) c(11) d(7) e(5))
+	{RelaxationTime 0}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{AimingTolerance 10}
+}

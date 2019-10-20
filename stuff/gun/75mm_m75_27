@@ -1,0 +1,13 @@
+{from "pattern gun"     ; "Cannone da 75/27"
+	{filling "bullet75_ita"}
+	{fireSound "gun/50to76_cal/75mm_kwk40"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 7}
+	("range_short")  
+	("speed" s(502))
+	("caliber_medium")
+	{projectileDamage 72}
+	("damage" a(71) b(58) c(48) d(38) e(22))	
+	("accuracy_medium")
+	{cursor "ita"}
+}

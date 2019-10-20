@@ -1,0 +1,9 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 100}
+	{entity "gebauer"}
+	{fireSound	"mgun/besa_burst/"}
+	{inventory 	{handle_bone "handle_box"}}
+	
+	{recoveryTime 0.07}
+	("burst_long")
+}

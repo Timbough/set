@@ -1,0 +1,52 @@
+{breed
+	{skin "grc_rifleman"}
+	{portrait "grc_soldier2"}
+	{nationality grc}
+	{icon "ap_miner"}
+	{icon_priority 3}
+	{armors
+		{head "helmet1_grc"}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mannlicher_m1895" filled}
+		{item "ammo rifle" 60}
+		{item "mine antipersonnel" 15}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

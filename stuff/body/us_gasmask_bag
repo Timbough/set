@@ -1,0 +1,10 @@
+{from "pattern overcoat"
+	{entity "us_gasmask_bag"}
+	{inventory
+		{size 2 2}
+		{weight 0.3}
+		{link_bone "IK_UpDown"}
+		{fsm "stuff"}
+	}
+	{mass 0.3}
+}

@@ -1,0 +1,58 @@
+{breed
+	{skin "usa-late-smg"}
+	{portrait "usa_soldier2"}
+	{nationality usa}
+	{icon "rifle_grenades"}
+	{icon_priority 3}
+	{armors
+		{head helmet_usa_clean}
+		{body us_haversack}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "garand_grenade" filled}
+		{item "ammo rifle_grenade" 25}
+		{item "colt" filled}
+		{item "ammo pistol" 30}
+		{item "bandage" 3}
+		{item "grenade m61" 2}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,9 @@
+{from "pattern sniper_rifle"
+	{filling "ammo rifle" 5}
+	{entity "mosin_s"}
+	{fireSound "rifle/mosin_sniper"}
+	{reloadSound "mosin_s_reload"}
+	("7.62x54")
+	{rechargeTime 7.2}
+	{recoveryTime 4.2}
+}

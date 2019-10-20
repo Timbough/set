@@ -1,0 +1,7 @@
+{from "pattern pistol"
+        {desc "Ruby"}
+	{filling "ammo pistol" 9}
+	{entity "ruby"}
+	{fireSound	"pistol/valter"}
+	{reloadSound "luger"}
+}

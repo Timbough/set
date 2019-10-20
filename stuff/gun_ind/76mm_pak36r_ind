@@ -1,0 +1,13 @@
+{from "pattern gun_indirect"   ; "pak36(r)"		
+	{filling "bullet76_ger fg"}
+	{fireSound "gun/50to76_cal/76mm_zis3"}
+	{reloadSound "gun_r00"}
+	("range_indirect_medium")
+	{rechargeTime 6.5}
+	("caliber_medium")
+	("speed" s(900))
+	{projectileDamage 121}
+	{cursor "pak_zf3x8"}
+}
+
+

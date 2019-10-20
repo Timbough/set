@@ -1,0 +1,7 @@
+{from "pattern mgun"
+	{entity "browning_wz_30"}
+	{filling "ammo mgun" 330}
+	{fireSound	"mgun/1919_burst/"}
+	{reloadSound "ptrd"}
+	("rof" r(600))
+}

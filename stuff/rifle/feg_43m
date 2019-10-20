@@ -1,0 +1,7 @@
+{from "pattern rifle"
+	{entity "feg_43_m"}
+	{fireSound "rifle/mosin"}
+	{reloadSound "mosin_reload"}
+	("7.92x57")
+	("carbine")
+}

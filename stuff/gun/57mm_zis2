@@ -1,0 +1,18 @@
+{from "pattern gun"     ; Zis-2
+	{filling "bullet57_rus"}
+	{fireSound "gun/50to76_cal/50mm_kwk38"}
+	{reloadSound "gun_r00"}
+	("range_short")
+	
+	("speed" s(990))
+	("caliber_minimum")
+	{rechargeTime 6}
+	{projectileDamage 114}
+	("damage" a(121) b(106) c(91) d(79) e(68))
+	{parameters "apcr"
+		("speed" s(1270))
+		("damage" a(185) b(147) c(111) d(84) e(64))
+	}
+	("accuracy_low")
+	{cursor "pp"}
+}

@@ -1,0 +1,63 @@
+(include "\set\small.firearms.accuracy")
+(include "\set\calibers.accuracy")
+
+(define "rof"   
+	{recoveryTime (/ 60 %r)}
+)
+
+(define "burst_short"
+	{burst
+		{short 5 0.4}
+		{long 10 0.8}
+	}	
+	{Spreading
+		{BurstRecoveryTime 0.5}
+		{SpreadXYRatio	2}
+		{SpreadYadjust	0.4}
+		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
+		{SpreadRadius 1}
+		{burstSpreadWidth 0.7}
+		{burstSpreadDelta 0.35}
+		{burstSpreadCount 20}
+	}
+)
+
+(define "burst_medium"
+	{burst
+		{short 7 0.4}
+		{long 14 0.8}
+	}	
+	{Spreading
+		{BurstRecoveryTime 0.5}
+		{SpreadXYRatio	2}
+		{SpreadYadjust	0.4}
+		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
+		{SpreadRadius 1}
+		{burstSpreadWidth 0.7}
+		{burstSpreadDelta 0.45}
+		{burstSpreadCount 25}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 9 0.4}
+		{long 18 0.8}
+	}
+	{Spreading
+		{BurstRecoveryTime 0.5}
+		{SpreadXYRatio	2}
+		{SpreadYadjust	0.4}
+		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
+		{SpreadRadius 1}
+		{burstSpreadWidth 0.7}
+		{burstSpreadDelta 0.45}
+		{burstSpreadCount 30}
+	}	
+)
+
+(define "lmgun"
+	("accuracy_lmgun")
+	{mass 9}	
+	{RelaxationTime 2.0}
+)

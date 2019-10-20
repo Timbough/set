@@ -1,0 +1,16 @@
+{from "pattern gun"		; 20 pst kiv/39 "Norsupyssy"
+	{filling "bullet20_fin" 10}	
+	{fireSound "gun/lahti_l39_2"}
+	{reloadSound "lahti_l39_reload"}
+	{rechargeTime 6.5}
+	{RecoveryTime 0.85}
+	{AimingTolerance 20}
+	{special
+		{throw_off}
+	}
+	("range_autocannon")
+	{projectileDamage 30}
+	("speed" s(825))
+	("caliber_zenite")
+	("damage" a(30) b(25) c(18) d(12) e(8))
+}

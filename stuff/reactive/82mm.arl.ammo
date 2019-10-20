@@ -1,0 +1,20 @@
+{bullet
+	{desc "82mm RS-82 Rocket"}
+	{inventory
+		{size 6 1}
+		{weight 100}
+	}	
+	{mass 6.82}
+	{entity "katusha_ammo"}
+	{view "katusha_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	;0.4kg TNT, similars to a 57mm HE.
+	
+	{tag "ammo shell fg itemin2hands"}
+	{tag "size_minimum"}
+	{detonationThickness 2}
+	("heavy" args 4.1)
+}

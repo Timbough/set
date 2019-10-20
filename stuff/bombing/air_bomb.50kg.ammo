@@ -1,0 +1,31 @@
+{bullet ; 
+	{tag "ammo shell itemin2hands"}
+	{tag "big" "size_maximum"}
+	{tag "itemin2hands"}
+	{tag "no_ricochet"}
+	{tag "bomb"}
+	{inventory
+		{size 2 1}
+		{weight 6000}
+		{noView}
+		{fsm "stuff"}
+	}	
+	{mass 50}
+	{entity "bomb-fab50"}
+	{view "bomb-fab50"
+		{tail "bomb_whistle" "bomb"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+
+	; anti-personel
+	{damage blastwave
+		{energy 1}
+		{area 13 19}
+	}				
+	; anti-tank
+	{damage add blastwave
+		{energy 17}
+		{area 8 13}
+	}
+}

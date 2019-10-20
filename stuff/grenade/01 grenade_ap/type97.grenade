@@ -1,0 +1,5 @@
+{from "pattern grenade_ap"
+	{inventory {size 1 1}}
+	{entity "grenade_type97"}
+	("sr" args 1.9)
+}

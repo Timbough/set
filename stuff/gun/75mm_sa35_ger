@@ -1,0 +1,17 @@
+{from "pattern gun"
+	{tag "gun"}
+	{filling "bullet75_ger"}
+	{fireSound "gun/50to76_cal/75mm_m3"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 6}
+	("range_light_howitzer")
+	("speed" s(400))
+	{projectileDamage 52}
+	("damage" a(52) b(46) c(43) d(39) e(37))
+	{parameters "cu"
+        		{projectileDamage 70}
+		("damage" a(70) b(0) c(0) d(0) e(0))
+	}
+	("accuracy_low")
+	{cursor "L710"}
+}

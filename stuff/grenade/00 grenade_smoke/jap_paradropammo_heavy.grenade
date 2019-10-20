@@ -1,0 +1,11 @@
+{from "pattern throwable"
+	{tag "-missile"}
+	{inventory 
+		{size 2 1}
+	}
+	{entity "jap_paradropammo_heavy"}
+	{mass 0.2}
+	{throw
+		{range 25}
+	}
+}

@@ -1,0 +1,5 @@
+{from "47mm_m47_32"     ; as42 47/40, 
+	("speed" s(946))
+	("damage" a(71) b(57) c(43) d(32) e(24))
+	("accuracy_medium")
+}

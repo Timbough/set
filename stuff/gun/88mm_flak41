@@ -1,0 +1,21 @@
+{from "pattern gun"    ; "Flak41"
+	{filling "bullet88_ger"}
+	{fireSound "gun/88mm/Flak/"}
+	{reloadSound "gun_r04"}	
+	{rechargeTime 6}
+	("range_medium")
+	
+	("speed" s(810))
+	("caliber_large")         
+	{projectileDamage 119}
+	("damage" a(119) b(114) c(106) d(98) e(88))
+	{parameters "apcr"
+        		("damage" a(155) b(143) c(130) d(119) e(108))
+	}
+	{parameters "cu"
+        		{projectileDamage 90}
+		("damage" a(90) b(0) c(0) d(0) e(0))
+	}
+	("accuracy_high")
+	{cursor "zf20"}
+}

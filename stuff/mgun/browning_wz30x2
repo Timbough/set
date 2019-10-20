@@ -1,0 +1,7 @@
+{from "browning_wz30"
+	{filling "ammo mgun" 400}
+	{entity "browning_wz_30"}
+	{fireSound	"mgun/ckm_wz_30_burst/"}
+    {reloadSound "cal30_reload"}
+	("30-06")
+}

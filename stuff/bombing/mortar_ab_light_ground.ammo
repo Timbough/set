@@ -1,0 +1,17 @@
+{from "air_bomb"
+	{tag "-bomb" "-big" "small"}
+	{inventory
+		{noView}
+	}
+	{damage blastwave
+		{energy 0.5}
+		{area 2 6}
+	}
+	{damage add blastwave	; anti-infantry
+		{energy 1.2}
+		{area 4 6}
+
+
+        }
+	{entity "mortar_ab_light_ground"}
+}

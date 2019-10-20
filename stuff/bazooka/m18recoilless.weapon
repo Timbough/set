@@ -1,0 +1,19 @@
+{from "pattern rpg_weapon"
+	{entity "m18rr"}
+	{filling "ammo m18recoilless" 1}
+	{fillingVisible "piatrocket"}
+	{inventory
+		{size 6 2}
+	}
+	{mass 6}
+	{fireSound "reactive/m18_recoilles"}
+    	{projectileDamage 64}
+
+	{projectileDamageTable {0 64} {80 64}}	
+	{speed 365}
+
+	{curve "cumulative"}
+
+	{rechargeTime 7} 
+	("accuracy_ptr") 
+}

@@ -1,0 +1,9 @@
+{from "pattern gun"	; a19
+	{filling "bullet122_rus"}
+	{fireSound "gun/howitzer/122mm_d25"}
+	{reloadSound "tankgun_r04"}
+	("range_medium_howitzer")	
+	("caliber_maximum")
+	{cursor "cross"}
+	{rechargeTime 18}
+}

@@ -1,0 +1,22 @@
+{from "pattern gun"      ; "ZIS3", "SU76"
+	{filling "bullet76_rus"}
+	{fireSound "gun/50to76_cal/76mm_zis3"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 7}
+	("range_short")
+	("speed" s(680))
+	("caliber_medium")
+	{projectileDamage 81}
+	("damage" a(92) b(77) c(73) d(64) e(55))
+	{parameters "apcr"
+		("speed" s(950))
+		("damage" a(116) b(102) c(92) d(78) e(60))
+	}
+	{parameters "cu"
+		("speed" s(355))
+		("damage" a(87) b(0) c(0) d(0) e(0))
+	}
+    	("accuracy_low")
+	{cursor "pp1-2"}
+	
+}

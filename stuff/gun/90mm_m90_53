@@ -1,0 +1,16 @@
+{from "pattern gun"    ; "90_53"
+	{filling "bullet90_ita"}
+	{fireSound "gun/85to100_cal/88mm_flak41"}
+	{rechargeTime 9}
+	("range_long")
+	("speed" s(830)) 
+	("caliber_medium")   
+	{projectileDamage 158}
+	("damage" a(158) b(140) c(120) d(98) e(75))
+	{parameters "cu"
+        		{projectileDamage 206}
+		("damage" a(206) b(0) c(0) d(0) e(0))
+	}
+	("accuracy_medium")
+	{cursor "ita2"}
+}

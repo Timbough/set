@@ -1,0 +1,22 @@
+{from "pattern gun"     ; "m4a2", "m4a3c", "m4a3dd"
+	{filling "bullet75_usa"}
+	{fireSound "gun/50to76_cal/75mm_m3"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 7}
+	("range_short")
+	("speed" s(619))
+	("caliber_medium")
+	{projectileDamage 88}
+	("damage" a(109) b(93) c(75) d(61) e(50))
+	{parameters "apcr"
+		("speed" s(619))
+		("damage" a(127) b(104) c(83) d(64) e(49))
+	}
+	{parameters "apcbc"
+		("speed" s(619))
+		("damage" a(88) b(81) c(73) d(66) e(60))
+	}
+	
+	("accuracy_minimum")
+	{cursor "usa2"}
+}

@@ -1,0 +1,13 @@
+{from "missile_weapon"
+	{filling "ammo buzoganyveto215" 1}
+	{fillingVisible "rocket_b"}
+	{fireSound "reactive/katyusha_burst"}
+	{foresight "foresight5"}
+	{rechargeTime 20}
+	{range 100 110}
+	("speed" s(175))
+	{projectileDamage 300}
+	{spreading 3.7
+		{SpreadPower	1}
+	}
+}

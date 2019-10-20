@@ -1,0 +1,6 @@
+{from "mg34"
+	{filling "ammo mgun" 500}
+	{reloadSound "mg34x2_reload"}
+	{rechargeTime 20}
+	("rof" r(1750))
+}

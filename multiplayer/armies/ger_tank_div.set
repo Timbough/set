@@ -1,0 +1,7 @@
+{army
+	{id 7}
+	{title "mp/army/ger_tank_div"}
+	{icon "/interface/pages/multi/flag_tank_div_ger"}
+	{flag "/interface/scene/common/flag-germany"}
+}
+

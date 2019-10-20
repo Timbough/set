@@ -1,0 +1,10 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 10}
+	{entity "vg2"}
+	{fireSound "rifle/mauzer_shot"}
+	{reloadSound "rifle_bolt_five"}
+	("7.92x57")
+	("carbine")
+	{rechargeTime 5}
+	{recoveryTime 0.8}
+}

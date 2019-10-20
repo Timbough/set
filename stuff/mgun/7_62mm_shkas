@@ -1,0 +1,23 @@
+{from "pattern mgun"
+	{tag "itemin2hands"}
+	{filling "ammo hmgun" 500}
+	{entity "dshk"}
+	{fireSound	"mgun/dshk_burst/"}
+	{reloadSound "ptrd"}
+	{inventory
+		{size 6 2 }
+	}
+	("burst_long")
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 160}
+
+	{range 140 1000}
+
+	("rof" r(1800))
+	{rechargeTime 14.0}
+	{calibre 8}
+	("accuracy_dshk")
+	("7.62x54")
+}
+

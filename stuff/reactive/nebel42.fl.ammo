@@ -1,0 +1,18 @@
+{bullet
+	{tag "size_medium big shell fg bomb itemin2hands"}
+	{inventory
+		{size 5 1}
+		{weight 50}
+		{fsm "hand-only"}
+	}	
+	{entity "nebel42_ammo"}
+	{mass 30}
+	{view "nebel_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	("inc" args 10.5)	
+
+			
+}

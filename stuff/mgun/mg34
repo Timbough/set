@@ -1,0 +1,8 @@
+{from "pattern mgun"
+	{fireSound	"mgun/mg34_burst/"}
+	{reloadSound "mg34_reload"}
+
+	("rof" r(900))
+	("burst_long")
+	("7.92x57")
+}

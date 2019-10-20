@@ -1,0 +1,4 @@
+{from "pattern fg_medium"
+	{entity "eng_ammo_mortar76_fg"}
+	("fg" args 3.8)
+}

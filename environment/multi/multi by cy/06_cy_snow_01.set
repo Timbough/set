@@ -1,0 +1,95 @@
+{environment
+	{light
+		{direction -0.024 -0.874 -0.485}
+		{ambient 0xff23262d}
+		{diffuse 0xff20222a}
+		{specular 0xff5f6179}
+		{specularPower 3}
+		{lightsIntensity 0.2}
+		{draw_sun_moon}
+		{sun_moon_radius 1}
+		{night_vision 1}
+		{color_correction
+			{contrast 1.05}
+			{saturation 0.8}
+			{tone 0xff2b2b4a}
+			{tone_strength 0.1}
+			{color_shading
+				{shade_tone 0xffffffff}
+			}
+		}
+		{camera_lens_effetcs
+			{light_scattering
+				{intensity 0.5}
+				{ray_length 0.5}
+				{color_tone 0xff2d2d2d}
+			}
+			{lens_dirt
+				{enable}
+			}
+			{screen_brightening
+				{enable}
+				{intensity 0.3}
+			}
+		}
+	}
+	{wind
+		{speed 1 1 0}
+		{amplitude 1}
+	}
+	{haze
+		{enable}
+		{color 0xff6a82ae}
+		{start 500}
+		{end 8000}
+	}
+	{sky
+		{enable}
+		{texture "/texture/common/environment/environment_clouds_01"}
+		{globalEnvironment "/texture/common/environment/envmap_glass01"}
+		{color 0xff6573a8}
+		{intensity 2}
+	}
+	{weather
+		{enable}
+		{density 10}
+		{fx "snow"}
+		{sound "world/desert/desert_sandy_wind01"}
+		{volume 20}
+		{"sound 2" "world/winter/00"}
+		{"volume 2" 20}
+		{"volume 3" 10}
+	}
+	{thunder
+		{interval 40 15}
+		{color 0xff929292}
+		{sound "world/thunder"}
+	}
+	{video_overlay
+		{color 0xffffffff}
+	}
+	{grain
+		{enable}
+		{colorAmount 0}
+		{grainAmount 0.02}
+		{grainParticleSize 0.6}
+		{lumAmount 1}
+	}
+	{dof
+		{enable}
+		{near_scale 2.5}
+		{far_scale 1}
+		{near_start 50}
+		{near_end 75}
+		{far_start 2000}
+		{far_end 6000}
+		{"3rd_Person"
+			{"3rdP_blurscale" 1}
+		}
+		{blur_strength 3}
+	}
+	{glow
+		{enable}
+		{amount 1}
+	}
+}

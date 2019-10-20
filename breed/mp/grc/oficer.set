@@ -1,0 +1,56 @@
+{breed
+	{skin "grc_officer"}
+	{portrait "grc_officer"}
+	{icon "oficer"}
+	{icon_priority 6}
+	{tags "officer"}
+	{nationality grc}
+	{armors
+		{head cap_grc}
+	}
+	{perks
+		{"health" "100%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_officer
+		}
+		{"speed" 1
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"field_glass"}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "nagan" filled}
+		{item "ammo pistol" 100}
+		{item "smoke_paradrop_ammo_heavy grenade" 5}
+		{item "knife_union"}
+		{item "binocular"}
+		{in_hands 0}
+	}
+}

@@ -1,0 +1,8 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 330}
+	{entity "schwarzlose"}
+	{fireSound	"mgun/1919_burst/"}
+	{reloadSound "ptrd"}
+	("burst_long")
+	("7.92x57")
+}

@@ -1,0 +1,65 @@
+{breed
+	{skin "usa-inf-rfl"}
+	{portrait "usa_elite4"}
+	{nationality usa}
+	{icon "scout"}
+	{icon_priority 5}
+	{armors
+		{head helmet_usa_506th_camo_nco}
+	}
+	{perks
+		{"health" "500%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "300%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"stealth"
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "hdm" filled}
+		{item "ammo pistol" 200}
+		{item "bandage" 5}
+		{item "grenade m61" 4}
+		{item "smoke grenade" 2}
+		{item "smoke_paradrop_ammo_heavy grenade" 1}
+		{item "grenade n73at" 4}
+		{item "grenade molotov_coctail" 2}
+		{item "dynamite" 2}
+		{item "knife_union" 1}
+		{item "matchbox" 1}
+		{item "spade_inv_trenches"}
+		{item "wirecutters"}
+		{in_hands 0}
+	}
+}

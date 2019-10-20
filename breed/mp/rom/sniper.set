@@ -1,0 +1,64 @@
+{breed
+	{skin "rom_sniper"}
+	{portrait "rom_soldier4"}
+	{icon "snipers"}
+	{icon_priority 2}
+	{nationality rom}
+	{armors
+		{head "8_kaska_soldat_ruminia"}
+	}
+	{tags "sniper"}
+	{perks
+		{"health" "100%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_sniper"
+		}
+		{"speed" 1.0
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"stealth"
+		}
+		{"telescope"
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+		{"aimedshot"}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mosin_s"}
+		{item "ammo rifle" 50}
+		{item "knife_ger"}
+		{item "plant" 3}
+		{item "m24 grenade" 1}
+		{item "m24x5 grenade" 1}
+		{item "spade_inv_trenches"}
+		{item "plant_tree"}
+		{in_hands 0}
+	}
+}

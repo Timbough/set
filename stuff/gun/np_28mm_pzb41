@@ -1,0 +1,21 @@
+{from "pattern gun"		; "Pzb41"
+	{filling "bullet28_ger"}	
+	
+	{cursor "spzb41"}
+	{cursorReloading "zenite_reload"}
+	{fireSound "rifle/ptr/type97at"}
+	{reloadSound "ptrd"}
+	{special
+		{throw_off}
+	}
+	{rechargeTime 2}
+	{RecoveryTime 0.27}
+	{AimingTolerance 20}
+	
+	
+	("range_zenite")
+	{projectileDamage 30}
+	("speed" s(1400))
+	("damage" a(52) b(46) c(40) d(33) e(25))
+	
+}

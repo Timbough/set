@@ -1,0 +1,7 @@
+{from "pattern sniper_rifle"
+	{entity "lebel_m1886_scoped"}
+	{fireSound "rifle/lebel"}
+	{reloadSound "kar98k_s_reload"}
+	{rechargeTime 8}
+	("8mm")
+}

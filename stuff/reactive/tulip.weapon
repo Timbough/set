@@ -1,0 +1,22 @@
+{weapon_bullet
+	{filling "ammo tulip" 2}
+	{fireSound "reactive/tulip"}
+	("heavy_artillery")		
+	("range_short")
+	{RecoveryTime 1}
+	{spreading
+		{SpreadRadius 3}
+		{radiusFunction
+			0.1	0.1
+			1	1
+			2	2
+			3	3
+			4	4
+			5	5
+		}
+	}
+    	{projectileDamage 20}
+	{rechargeTime 60}
+	{speed 200}
+	{gravity 2}
+}

@@ -1,0 +1,7 @@
+{from "grenade f1"
+	{entity "grenade_poland_o33"}
+	{throw
+		{range 21}	
+	}	
+	("sr" args 2.2)
+}

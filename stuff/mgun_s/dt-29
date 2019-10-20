@@ -1,0 +1,10 @@
+{from "pattern mgun_s"
+	;{tag "mgun_light"}
+	{filling "ammo mgun" 60}
+	{entity "dt-29"}
+	{fireSound	"mgun/dt_burst/"}
+	{reloadSound "dt"}
+	("7.62x54")
+	{RechargeTime 9}
+	{cursor "pya"}
+}

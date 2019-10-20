@@ -1,0 +1,53 @@
+{breed
+	{skin "chn_grenadier"}
+	{portrait "chn_elite2"}
+	{icon "stormtrooper_rifle"}
+	{icon_priority 0}
+	{nationality chn}
+	{armors
+		{head "fieldcap2_chn"}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mauzer"}
+              		{item "erguotou"}
+		{item "ammo rifle" 60}
+		{item "m24 grenade" 2}
+		{item "bandage" 6}
+	}
+}

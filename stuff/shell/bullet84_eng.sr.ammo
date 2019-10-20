@@ -1,0 +1,9 @@
+{from "pattern shrapnel"
+	{tag "big shrapnel shell sr"}
+	{inventory
+		{size 6 1}
+	}
+	{mass 15}
+	("sr" args 4.2)	
+	{entity "shell_sr_84"}
+}

@@ -1,0 +1,20 @@
+{from "pattern gun"     ; Semovente M75_18
+	{filling "bullet75_ita"}
+	{fireSound "gun/50to76_cal/75mm_obice75"}
+	{reloadSound "gun_r03"}
+    	{rechargeTime 7}
+	("speed" s(430))
+	("range_light_howitzer")
+	("caliber_medium")
+	{cursor "ita"}
+	{projectileDamage 60}
+	("damage" a(57) b(48) c(40) d(32) e(27))
+	{parameters "cu"
+        		{projectileDamage 70}
+		("damage" a(70) b(0) c(0) d(0) e(0))
+	}
+	{parameters "apbc"
+		("damage" a(57) b(52) c(45) d(39) e(34))
+	}
+	("accuracy_zenite_low") 
+}

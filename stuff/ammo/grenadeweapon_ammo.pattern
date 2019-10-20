@@ -1,0 +1,8 @@
+{bullet
+	{tag "bullet fg stackable"}
+	{inventory
+		{weight 100}
+		{size 2 1}
+	}	
+	{mass 2.75}
+}

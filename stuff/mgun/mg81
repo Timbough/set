@@ -1,0 +1,10 @@
+{from "pattern mgun"
+	{fireSound	"mgun/mg34_burst/"}
+	{filling "ammo mgun" 250}
+	{entity "mg34_2"}
+	{traceFreq 5}
+	{range 100 1000}
+	("rof" r(800))
+	("burst_long")
+	("7.92x57")
+}

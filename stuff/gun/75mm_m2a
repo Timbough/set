@@ -1,0 +1,23 @@
+{from "pattern gun"     ; "m8_howitzer"
+	{filling "bullet75_usa"}
+	{fireSound "gun/50to76_cal/75mm_m3"}
+	{reloadSound "gun_r00"}
+	("range_light_howitzer")
+	{rechargeTime 6}
+	("caliber_medium")
+	{projectileDamage 50}
+	("speed" s(380))
+	{parameters "ap"
+		("damage" a(25) b(24) c(19) d(17) e(15))
+	}
+	{parameters "apcr"
+		("speed" s(380))
+		("damage" a(50) b(42) c(34) d(27) e(20))
+	}
+	{parameters "cu"
+        		{projectileDamage 68}
+		("speed" s(304))
+		("damage" a(91) b(0) c(0) d(0) e(0))
+	}
+	{cursor "usa"}
+}

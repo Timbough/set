@@ -1,0 +1,18 @@
+{from "pattern gun"      ; "F-22 USV"
+	{filling "bullet76_rus"}
+	{fireSound "gun/50to76_cal/76mm_zis3"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 6}
+	("range_short")
+	("speed" s(662))
+	("caliber_medium")
+	{projectileDamage 81}
+	("damage" a(80) b(70) c(60) d(50) e(36))
+	{parameters "apcr"
+        		("speed" s(950))
+		("damage" a(120) b(90) c(78) d(56) e(42))
+	}
+	
+    	("accuracy_low")
+	{cursor "pg1"}
+}

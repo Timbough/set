@@ -1,0 +1,21 @@
+{bullet	
+	{desc "127mm HVAR Rocket"}
+	{inventory
+		{size 6 1}
+		{weight 100}
+	}	
+	{mass 64}
+	{entity "rs132_ammo"}
+	{view "rs132_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	;3.4kg CompositionB = 3.98kg TNT, similars to a 128mm HE.
+	;1x CompositionB = 1.17x TNT
+	
+	{tag "ammo shell fg itemin2hands"}
+	{tag "big" "size_big" "shell_verybig"}
+	{detonationThickness 2}
+	("heavy" args 6.35)
+}

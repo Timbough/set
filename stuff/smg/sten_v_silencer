@@ -1,0 +1,7 @@
+{from "sten"
+	{entity "sten_mkv_silencer"}
+	{fireSound	"smg/sten_silenced"}
+	("rof" r(600))
+	("burst_short")
+	("medium")
+}

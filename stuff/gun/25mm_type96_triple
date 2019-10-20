@@ -1,0 +1,27 @@
+{from "pattern gun"
+	{filling "ammo bullet25_jap zenite" 30}
+	{fireSound "gun/25mm_Hotchkiss_SA_34"}
+	{reloadSound "flak38"}
+	{RechargeTime 8}
+	{RecoveryTime 0.09}
+	{AimingTolerance 10}
+	{Automatic}
+	{burst
+		{min 1}
+		{short 3 1}
+		{long 9 3}
+	}
+	("range_zenite") 
+	{projectileDamage 30}
+	("speed" s(920))
+	("caliber_zenite")
+	{RelaxationTime 0}
+	("damage" a(30) b(25) c(18) d(12) e(8)) 
+	
+	("accuracy_medium")
+	{spreading
+		{spreadradius	 2.5}
+		{SpreadXYRatio	4}
+		{SpreadPower	3}
+	}
+}

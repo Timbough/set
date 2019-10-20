@@ -1,0 +1,11 @@
+{item
+	{tag "itemin2hands armor"}
+	{mass 20.0}
+	{inventory
+		{size 3 4}
+		{weight 100}
+		{link_bone "gun_back"}
+		{fsm "belt"}
+	}
+	{entity "tortoise_armor"}
+}

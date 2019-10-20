@@ -1,0 +1,16 @@
+{from "pattern gun"		; L/68.6 "m42"
+	{filling "bullet45_rus"}
+	{fireSound "gun/45mm_20k"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 4.2}
+	("range_minimum")
+	("speed" s(946))
+	("caliber_minimum")
+	{projectileDamage 50}
+	("damage" a(80) b(61) c(51) d(40) e(25))
+	{parameters "apcr"
+        		("damage" a(100) b(81) c(68) d(56) e(41))
+	}
+	("accuracy_minimum")	
+	{cursor "pp"}
+}

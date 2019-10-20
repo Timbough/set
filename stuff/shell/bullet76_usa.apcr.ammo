@@ -1,0 +1,9 @@
+{from "pattern apcr"
+	{tag "big" "size_small" "shell_medium" "pierce"}
+	{inventory
+		{size 6 1}
+	}
+	{mass 12.2}
+	("apcr" args 3.8)
+	{entity "usa_shell_76ur_hvap"}
+}

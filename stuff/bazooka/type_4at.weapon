@@ -1,0 +1,7 @@
+{from "weapon bazooka"
+	{filling "ammo type_4" 1}
+	{entity "type_4at"}
+	{fireSound "reactive/type_4at"}	
+	{speed 90}
+	{rechargeTime 9.5}
+}

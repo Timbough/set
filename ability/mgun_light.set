@@ -1,0 +1,59 @@
+{"mgun_light" from weapon
+	{item "mgun_light"}
+		{level "lvl_1"
+		{stand
+			{accuracy 0.3}
+		}
+		{squat
+			{accuracy 0.5}
+		}
+		{crawl
+			{accuracy 0.8}
+		}
+		{cover
+			{accuracy 0.8}
+		}
+	}
+	{level "lvl_2"
+		{stand
+			{accuracy 0.4}
+		}
+		{squat
+			{accuracy 0.6}
+		}
+		{crawl
+			{accuracy 0.9}
+		}
+		{cover
+			{accuracy 0.9}
+		}
+	}
+	{level "lvl_3"
+		{stand
+			{accuracy 0.5}
+		}
+		{squat
+			{accuracy 0.7}
+		}
+		{crawl
+			{accuracy 1.0}
+		}
+		{cover
+			{accuracy 1.0}
+		}
+	}
+	{level "lvl_4"
+		{stand
+			{accuracy 0.6}
+		}
+		{squat
+			{accuracy 0.8}
+		}
+		{crawl
+			{accuracy 1.1}
+		}
+		{cover
+			{accuracy 1.1}
+		}
+	}
+}

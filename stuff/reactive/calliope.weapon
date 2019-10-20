@@ -1,0 +1,21 @@
+{weapon_bullet
+	{filling "ammo calliope" 60}
+	{fireSound "reactive/calliope"}
+	{burst {min 20} {noaiming}}
+	("heavy_artillery")
+	{recoveryTime 0.3}
+	("range_medium")
+	{speed 130}
+	{gravity 4.2}
+	{rechargeTime 200}
+	{Spreading
+		{BurstRecoveryTime 0.5}
+		{SpreadXYRatio	2}
+		{SpreadYadjust	1}
+		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
+		{SpreadRadius 17}
+		{burstSpreadWidth 15}
+		{burstSpreadDelta 2.6}
+		{burstSpreadCount 40}
+	}
+}

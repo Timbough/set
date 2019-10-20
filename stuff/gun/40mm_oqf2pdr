@@ -1,0 +1,20 @@
+{from "pattern gun"		; "mk7 tetrarch" "mk3 valentine", mk2a "Matilda", mk2daimler "Daimler AC Mk.I"
+	{filling "bullet40_eng"}
+	{fireSound "gun/45mm_oqf2pdr"}
+	{reloadSound "pak35"}
+	{rechargeTime 4}
+	("range_minimum")
+	
+	("speed" s(808))
+	("caliber_minimum")
+	{projectileDamage 82}
+	("damage" a(73) b(56) c(43) d(33) e(25))
+	{parameters "apcr"
+		("damage" a(101) b(78) c(55) d(39) e(26))
+	}
+	("accuracy_minimum")
+	{cursor "no24b"}
+	{parameters "apcbc"
+		("damage" a(77) b(66) c(56) d(56) e(48))
+	}
+}

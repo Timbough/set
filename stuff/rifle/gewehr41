@@ -1,0 +1,8 @@
+{from "g43"
+	{entity "gewehr41"}
+	{fireSound "rifle/g43_shot"}
+	{reloadSound "m1carbine"}
+	("7.92x57")
+	{rechargeTime 8.5}
+	{recoveryTime 1.2}
+}

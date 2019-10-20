@@ -1,0 +1,18 @@
+{bullet
+	{tag "ammo small stackable 20mm pierce"}
+	{inventory
+		{weight 25}
+		{size 2 2}
+		{block 5}
+	}
+	{mass 1.2}
+	{entity "ap_20mm_zenite"}
+	{trace
+		{view "/texture/fx/trace_zenite1"
+			{ScaleY 0.30}
+			{Light 2}
+		}
+		{length 5}
+	}
+	("fg" args 1)		
+}

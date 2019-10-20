@@ -1,0 +1,13 @@
+{from "85mm_zis53"     ; "85mm_52k"
+	{projectileDamage 146}   
+	("damage" a(145) b(125) c(107) d(92) e(78))
+	{parameters "apcr"
+		("speed" s(1030))
+		("damage" a(190) b(145) c(111) d(86) e(64))
+	}
+	{parameters "fg"
+		("speed" s(780))
+	}
+	{rechargeTime 6}
+	{cursor "azp37"}
+}

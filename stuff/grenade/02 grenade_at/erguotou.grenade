@@ -1,0 +1,6 @@
+{from "pattern grenade_at"
+	{tag "ic ap"}
+	{inventory {size 2 2}}
+	{entity "erguotou"}
+	("inc" args 3)
+}

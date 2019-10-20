@@ -1,0 +1,10 @@
+{from "pattern ap"
+	{tag "size_minimum" "shell_minimum_no_filler" "pierce" "apcbc" "capped"}
+	{inventory
+		{weight 40}
+		{size 3 1}
+	}
+	("ap" args 0.27)
+	{mass 3.6}    
+	{entity "eng_shell_40x304r_apcbc"}
+}

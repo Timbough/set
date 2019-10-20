@@ -1,0 +1,14 @@
+{from "pattern gun_indirect"      ; pak44
+	{filling "bullet128_ger fg"}
+	{fireSound "gun/howitzer/128mm_pak44"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 12}
+	{projectileDamage 217}
+	("range_indirect_large")
+	("caliber_large")
+	("speed" s(845)) 
+	{cursor "rblf36"}
+}
+
+
+

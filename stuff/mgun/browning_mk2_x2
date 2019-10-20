@@ -1,0 +1,8 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 200}
+	{entity "Browningm1919a4"}
+	{fireSound	"mgun/1919_burst/"}
+	{inventory 	{handle_bone "handle_box"}}
+	("30-06")
+	("burst_long")
+}

@@ -1,0 +1,7 @@
+{from "pattern rifle"
+	{entity "LebeL_m1886"}
+	{fireSound "rifle/lebel"}
+	{reloadSound "kar98k_s_reload"}
+	{rechargeTime 8}
+	("8mm")
+}

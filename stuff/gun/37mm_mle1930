@@ -1,0 +1,26 @@
+{from "pattern gun"			; 
+	{filling "bullet37_fra" 5}
+	{fireSound "gun/37mm_61-k"}
+	{RecoveryTime 0.6}
+	{RechargeTime 4}
+	{reloadSound "61k_reload"}
+	{spreading
+		{spreadradius 	1.5}
+		{SpreadXYRatio	3}
+		{SpreadPower	2}
+	}
+	{AimingTolerance 3}
+	{Automatic}
+	{burst
+		{min 1}
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	("speed" s(880))
+	("caliber_minimum")
+	("range_zenite")
+	{projectileDamage 40}
+	("damage" a(52) b(40) c(32) d(22) e(18))
+	("accuracy_zenite_high")
+	{cursor "mle1921"}
+}

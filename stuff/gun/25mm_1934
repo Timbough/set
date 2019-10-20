@@ -1,0 +1,14 @@
+{from "pattern gun"	;25mm Pak Fr
+	{filling "bullet25_fra"}
+	{fireSound "gun/25mm_Hotchkiss_SA_34"}
+	{reloadSound "pak35"}
+	{rechargeTime 3}
+	("range_zenite_medium")
+	("speed" s(900))
+	("caliber_minimum")     
+	{projectileDamage 38}	
+	("damage" a(43) b(38) c(33) d(30) e(26))
+	("accuracy_medium")
+	{parameters "fg" {range 120 130}}
+	{cursor "l713"}
+}

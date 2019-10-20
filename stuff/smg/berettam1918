@@ -1,0 +1,7 @@
+{from "pattern smg"
+	{filling "ammo pistol" 25}
+	{entity "berettam1918"}
+	{fireSound	"smg/berettam1918_burst/"}
+	("light")
+
+}

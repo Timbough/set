@@ -1,0 +1,5 @@
+{from "vickers_inv"
+	{filling "ammo hmgun" 1000}
+	{rechargeTime 20}	
+	("rof" r(2000))
+}

@@ -1,0 +1,28 @@
+{weapon_bullet
+	{tag "gun"}
+	{filling "ammo bm8" 48}
+	{fillingVisible "rocket"}
+	{fireSound "reactive/katyusha_burst"}
+	{inventory {noView}}
+	("heavy_artillery")
+
+	{recoveryTime 0.12}
+	{AimingTolerance 0.1}
+	{foresight "foresight"}
+	{gravity 2}
+	{speed 85}
+	{rechargeTime 210}
+	{burst {min 12} {noaiming}}
+	("range_medium")
+	{Spreading
+		{BurstRecoveryTime 0.5}
+		{SpreadXYRatio	2}
+		{SpreadYadjust	1}
+		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
+		{SpreadRadius 17}
+		{burstSpreadWidth 15}
+		{burstSpreadDelta 3}
+		{burstSpreadCount 40}
+	}
+
+}

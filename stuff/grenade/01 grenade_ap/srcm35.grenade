@@ -1,0 +1,15 @@
+{from "pattern grenade_ap"
+	{tag "fg"}
+	{inventory {size 1 1}}	
+	{entity "grenade_srcm35"}
+	{special
+		{PrepareTime 0}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{throw
+		{range 25}	
+	}	
+	
+	("sr" args 1.6)
+}

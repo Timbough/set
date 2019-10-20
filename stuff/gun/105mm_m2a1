@@ -1,0 +1,12 @@
+{from "pattern gun"      ; m7 Priest
+	{filling "bullet105_usa"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	{reloadSound "gun_r05"}
+	{parameters "cu"
+        		{projectileDamage 94}
+		("damage" a(94) b(0) c(0) d(0) e(0))
+	}
+	{rechargeTime 13}
+	("range_medium_howitzer")	
+	{cursor "m16"}
+}

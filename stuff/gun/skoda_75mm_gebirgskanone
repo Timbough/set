@@ -1,0 +1,11 @@
+{from "pattern gun"			
+	{filling "bullet75_pol"}
+	{fireSound "gun/50to76_cal/76mm_kt26"}
+	{reloadSound "gun_r03"}
+	("range_short")  
+	("speed" s(500))
+	("caliber_medium")
+	{projectileDamage 35}
+	("damage" a(34) b(31) c(28) d(26) e(24))
+	("accuracy_medium")
+}

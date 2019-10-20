@@ -1,0 +1,7 @@
+{from "pattern pistol"
+	{filling "ammo pistol" 7}
+	{entity "frommer_37m"}
+	{fireSound	"pistol/tt"}
+	{reloadSound "vis"}
+	("medium")
+}

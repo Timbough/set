@@ -1,0 +1,11 @@
+{from "pattern gun_indirect"     ; "Leig18"
+	{filling "bullet75_kwk37_ger fg"}
+	{fireSound "gun/50to76_cal/75mm_pak40"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 5}
+	{projectileDamage 50}
+	("range_indirect_medium")
+	("caliber_medium")
+	("speed" s(300)) 
+	{cursor "rblf36"}
+}

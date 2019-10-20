@@ -1,0 +1,8 @@
+{from "pattern grenade_at"
+	{tag "ap big"}
+	{inventory {size 2 2}}	
+	{entity "grenade_type3at_a"}
+	{throw
+		{range 14}
+	}
+}

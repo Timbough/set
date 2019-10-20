@@ -1,0 +1,16 @@
+(define "menu_period"
+	{"%name(%side)"
+		{charge %c}
+		{content "mp/%side/%name"}
+		{tags "%side %t"}
+		{group "%g"}
+		{button "%b"}
+		{cost %cost}
+		{fore %f}
+	}
+)
+{units
+	(include "soldiers.set")
+	(include "squads_50.set")
+	(include "vehicles_50.set")
+}

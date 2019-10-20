@@ -1,0 +1,10 @@
+{from "dshk"
+	{filling "ammo hmgun" 50}
+	{mass 160}
+	{entity "dshk_platform"}
+	{foresight "foresight1"}
+	{fireSound	"mgun/dshk_burst/"}
+	{reloadSound "ptrd"}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+}

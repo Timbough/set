@@ -1,0 +1,29 @@
+{weapon_bullet
+	{tag "mrl gun" "weapon"}
+	{filling "ammo depth_bomb" 50}
+	{inventory
+		{noView}
+	}
+	{fireSound "reactive/mortar"}
+	{foresight "foresight1"}
+	
+	{range 10 10}
+	{recoveryTime 0.5}
+	{rechargeTime 1.5}
+	{Automatic}
+
+	(mod "mp"              
+		{range 10 10}
+		{rechargeTime 1.5}
+	)
+	{gravity 4}
+
+	{projectileDamage 15}
+	{speed 35}
+	{AimingTolerance 0.1}
+	{projectileDamageTable {130 15}}
+	
+	{aimtype curved}
+	{cursor "cannon_on"}
+	{cursorReloading "cannon_reload"}
+}

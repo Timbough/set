@@ -1,0 +1,5 @@
+{from "pattern he_medium"
+	{entity "us_ammo_mortar81_he"}
+	{view "us_ammo_mortar81_he"}	
+	("fg" args 4.05)
+}

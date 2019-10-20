@@ -1,0 +1,17 @@
+{from "pattern mgun"
+	{entity "browningm2"}
+	{filling "ammo hmgun" 100}
+	{fireSound	"mgun/browning_burst/"}
+	{inventory 	{handle_bone "handle_box"}}
+
+	("burst_long")
+	{reloadSound "cal30_reload"}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 34}
+
+	{rechargeTime 12}
+	("rof" r(520))
+	("accuracy_dshk")
+	(".50")
+}

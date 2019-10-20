@@ -1,0 +1,9 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 60}
+	{entity "vickers_k"}
+	{fireSound	"mgun/vickers_k_burst/"}
+	{reloadSound "dt"}
+	("303")
+	("rof" r(950))
+	("burst_long")
+}

@@ -1,0 +1,20 @@
+{from "pattern mgun"
+	{tag "weapon rifle bullet to_hand"}
+	{entity "fg42"}
+	{filling "ammo mgun" 20}
+	{fireSound "rifle/fg42_shot"}
+	{reloadSound "fg42_reload"}
+	("7.92x57")
+	("rof" r(900))
+	{RechargeTime 5}
+	("burst_short")
+	("lmgun")
+	{burst
+		{short 3 0.4}
+		{long 10 0.8}
+	}
+	{Spreading
+		{BurstAccuracy 100 70 61 53 46 40 35 31 28 26 25}
+	}
+	("accuracy_automatic_rifle")
+}

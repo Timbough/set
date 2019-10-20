@@ -1,0 +1,21 @@
+{weapon_bullet
+	{filling "ammo katusha" 16}
+	{fireSound "reactive/katusha"}
+	{burst {min 8} {noaiming}}
+	("heavy_artillery")
+	{recoveryTime 0.4}
+	("range_long")
+	{speed 160}
+	{gravity 4.2}
+	{rechargeTime 210}
+	{Spreading
+		{BurstRecoveryTime 0.5}
+		{SpreadXYRatio	2}
+		{SpreadYadjust	1}
+		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
+		{SpreadRadius 17}
+		{burstSpreadWidth 10}
+		{burstSpreadDelta 6}
+		{burstSpreadCount 40}
+	}
+}

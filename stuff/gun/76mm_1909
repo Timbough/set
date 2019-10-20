@@ -1,0 +1,12 @@
+{from "pattern gun"			; 76-мм горная пушка обр. 1909 г.
+	{filling "bullet76_rus"}
+	{fireSound "gun/50to76_cal/76mm_kt26"}
+	{reloadSound "gun_r03"}
+	("range_light_howitzer")
+	("caliber_medium")
+	{projectileDamage 119}
+	("accuracy_low")
+	("damage" a(34) b(31) c(28) d(26) e(24))
+	{gravity 1.0}
+	{cursor "pg"}
+}

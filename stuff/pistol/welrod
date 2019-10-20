@@ -1,0 +1,15 @@
+{from "pattern pistol"
+	{filling "ammo pistol" 6}
+	{inventory
+		{weight 100 }
+		{size 3 1}
+	}
+	{mass 2.65}
+	{entity "muffledpistol"}
+	{fireSound	"pistol/silent/welrod"}
+	{recoveryTime 0.4}			; s
+	{reloadSound "colt45_reload"}
+	{healthDamage 400}
+	{HealthDamageClip 400}
+	
+}

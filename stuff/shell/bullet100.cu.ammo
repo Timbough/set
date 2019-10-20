@@ -1,0 +1,9 @@
+{from "pattern cu"
+	{tag "big" "size_medium" "cumulative" "pierce"}
+	{inventory
+		{size 5 1}
+	}
+	("shaped" args 5)
+	{mass 20}
+	{entity "shell_cu_100"}
+}

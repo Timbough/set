@@ -1,0 +1,14 @@
+{from "pattern at_rifle"
+	{entity "gzb39"}
+	{speed 72}
+	{fireSound	"rifle/ptr/grb39"}
+	{maxRange 65}
+	{filling "grb_grenade" 1}
+    	{projectileDamage 70}
+	{projectileDamageTable {0 70} {80 70}}
+	{spreading 3}
+	{aimtype curved}
+	{gravity 2}
+	{rechargeTime 4}    
+	("accuracy_grb")
+}

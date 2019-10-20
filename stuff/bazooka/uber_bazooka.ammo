@@ -1,0 +1,12 @@
+{from "pattern rpg_ammo"
+	{entity "bazooka_ammo"}
+	{tag "panzershreck"}
+	{view "bazooka_ammo"
+		{tail "bazooka_tail" "tail"}
+	} 
+	{damage blastwave
+		{energy 4}
+		{area 3 6}
+	}
+}
+

@@ -1,0 +1,16 @@
+{from "pattern missile_ammo"
+	{tag "size_big" "cumulative" "heat_big" "pierce"}
+	{inventory
+		{size 5 1}
+		{weight 100}
+	}	
+	{entity "nebel_ammo215_cu"}
+	{mass 30}
+	{view "nebel_ammo215_cu"
+		{tail "rocket_smoke" "tail"}
+	}
+	{damage blastwave
+		{energy 15}
+		{area 2 8}
+	}
+}

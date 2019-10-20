@@ -1,0 +1,226 @@
+;SDL
+{panel_control
+	;--------------------NP
+	{trench_small_foxhole_shallow
+		{condition "human"}
+		{position 0 1}
+	}
+	{trench_small_foxhole_deep
+		{condition "human"}
+		{position 1 1}
+	}
+	{trench_large_infantry_deep
+		{condition "human"}
+		{position 2 1}
+	}
+	{trench_large_foxhole
+		{condition "human"}
+		{position 0 1}
+	}
+	{trench_large_flak_pit_deep
+		{condition "human"}
+		{position 0 1}
+	}
+	{trench_medium_mg_foxhole_shallow
+		{condition "human"}
+		{position 0 1}
+	}
+	{trench_medium_cannon_pit_shallow
+		{condition "human"}
+		{position 0 1}
+	}
+	{trench_medium_mortar_foxhole_deep
+		{condition "human"}
+		{position 0 1}
+	}
+	;--------------------NP
+	{heal
+		{position 0 0}
+		{condition "human disabled"}
+	}
+	{injection
+		{position 1 0}
+		{condition "disabled"}
+	}
+	{put_dynamite
+		{position 2 0}
+		{condition "disabled"}
+	}
+	{place_charge
+		{condition "human"}
+        	}
+	{gc_cp_state_weapon
+		{position 3 0}
+		{condition "disabled"}
+	}
+	{burn
+	}
+	{mine
+	}
+	{mine_detection
+	}
+	{barricade
+		{condition "human"}
+	}
+	{round_sandbag
+		{condition "cannon"}
+	}
+	{barbwire
+		{condition "human"}
+	}
+	{hedgehog
+	}
+	{plant
+	}
+	{collect
+		{position 0 2}
+		{condition "human disabled"}
+	}
+	{drop
+		{position 1 2}
+		{condition "human disabled"}
+	}
+	{gc_cp_leave_unit
+		{position 2 2}
+		{condition "vehicle single disabled"}
+	}	
+	{gc_cp_browse_back
+		{position 3 2}
+	}
+	{locomotive
+		{condition "human"}
+        	}
+	{schienenpanzer
+		{condition "human"}
+        	}
+	{armored_loc_ger
+		{condition "human"}
+        	}
+	{armored_loc_rus
+		{condition "human"}
+        	}
+	{armored_loc_pol
+		{condition "human"}
+        	}
+	{armorwagon_ger
+		{condition "human"}
+        	}
+	{armorwagon_rus
+		{condition "human"}
+        	}
+	{armorwagon_pol
+		{condition "human"}
+        	}
+	{type96_triple
+		{condition "human"}
+        	}
+	{type45_mortar
+		{condition "human"}
+        	}
+	{maginot
+		{condition "human"}
+        	}
+	{mannerheim
+		{condition "human"}
+        	}
+	{molotov
+		{condition "human"}
+        	}
+	{salpa
+		{condition "human"}
+        	}
+	{alpino
+		{condition "human"}
+        	}
+	{atlantikwall
+		{condition "human"}
+        	}
+	{siegfried
+		{condition "human"}
+        	}
+	{pillbox
+		{condition "human"}
+		{position 2 2}
+        	}
+	{campfire
+		{condition "human"}
+        	}
+	{trap
+		{condition "human"}
+        	}
+	{dzot_jap
+		{condition "human"}
+        	}
+	{bamboo
+		{condition "human"}
+        	}
+	{barricade_usa
+		{condition "human"}
+        	}
+	{wotan
+		{condition "human"}
+        	}
+	{reichstag
+		{condition "human"}
+        	}
+	{anthem_rus
+		{condition "human"}
+        	}
+	{ura
+		{condition "human commander"}
+        	}
+	{whistle
+		{condition "human"}
+        	}
+	{banzai
+		{condition "human commander"}
+        	}
+	{panzerlied
+		{condition "human"}
+        	}
+	{ropemover
+		{condition "human"}
+	}
+	{raft
+		{condition "human"}
+	}
+	{netting_tent
+		{condition "vehicle single"}
+	}
+	{tent_fuel
+		{condition "vehicle single"}
+	}
+	{headlights
+		{condition "vehicle single"}
+	}
+	{sniper_tree
+		{condition "human"}
+	}
+	{tankman_rus
+		{condition "human"}
+        	}
+	{anthem_fra
+		{condition "human"}
+        	}
+	{usa_song
+		{condition "human"}
+        	}
+	{control_air
+		{condition "vehicle single"}
+	}
+	{control_sea
+		{condition "vehicle single"}
+	}
+	{control_updown
+		{condition "vehicle single"}
+	}
+	{art_loc_ita
+		{condition "human"}
+        	}
+	{art_wagon_ita
+		{condition "human"}
+        	}
+	{car_horn
+		{condition "vehicle single"}
+	}
+}

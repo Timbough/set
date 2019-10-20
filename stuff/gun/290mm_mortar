@@ -1,0 +1,18 @@
+{from "pattern gun"		; AVRE
+	{filling "bullet290" 1}
+	{fireSound "gun/203mm"}
+	("range_heavy_howitzer")
+	{RecoveryTime 2}
+	{RechargeTime 60}
+	{Automatic}
+	("speed" s(175))
+	("caliber_howitzer")
+	{burst
+		{min 1}
+		{short 1}
+		{long 1}
+	}
+	{projectileDamage 1000}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+}

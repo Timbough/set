@@ -1,0 +1,11 @@
+{from "pattern gun_indirect"     ; "M1897A4"
+	{filling "bullet75_usa fg"}
+	{fireSound "gun/50to76_cal/75mm_m3"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 6}
+	{projectileDamage 95}
+	("range_indirect_medium")
+	("caliber_medium")
+	("speed" s(600)) 
+	{cursor "m40"}
+}

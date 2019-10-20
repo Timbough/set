@@ -1,0 +1,6 @@
+{army
+	{id 52}
+	{title "mp/army/bul_inf_div"} 
+	{icon "/interface/pages/multi/flag_inf_div_bul"}
+	{flag "/interface/scene/common/flag-bul"}
+}

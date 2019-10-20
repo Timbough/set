@@ -1,0 +1,15 @@
+{from "pattern throwable"
+	{tag "dynamite"}
+	{inventory {size 2 2}}
+	{entity "satchel_charge"}
+	{special
+		{PrepareTime 10}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{throw
+		{range 12}
+		{startAngle 40}		
+	}	
+	("at" args 6)
+}

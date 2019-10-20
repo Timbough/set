@@ -1,0 +1,16 @@
+{from "pattern gun"		; cromwell_mk_vi
+	{filling "bullet95_eng"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	("range_grazing_howitzer")
+	{rechargeTime 9}
+	("speed" s(330))
+	("caliber_maximum")
+	{projectileDamage 150}
+	{parameters "cu"
+        		{projectileDamage 110}
+		("speed" s(503))
+		("damage" a(110) b(0) c(0) d(0) e(0))
+	}
+	("accuracy_minimum")
+	{cursor "cromwell"}
+}

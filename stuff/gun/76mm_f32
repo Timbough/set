@@ -1,0 +1,21 @@
+{from "pattern gun"       ; "kv1", "t34_0"
+	{filling "bullet76_rus"}
+	;{fireSound "gun/50to76_cal/76mm_l11"}
+	{fireSound "gun/76mm_Short/T34-KV1/"}
+	{reloadSound "gun_r01"}
+	{rechargeTime 8.5}
+	("range_short")
+	("speed" s(680))
+	("caliber_medium")
+	{projectileDamage 77}
+	("damage" a(77) b(69) c(61) d(54) e(48))
+	{parameters "apcr"
+		("speed" s(950))
+		("damage" a(97) b(85) c(68) d(54) e(37))
+	}
+	{parameters "fg"
+		("speed" s(355))
+	}
+	("accuracy_minimum")
+	{cursor "cross"}
+}

@@ -1,0 +1,13 @@
+{from "pattern gun"     ; bohler, 
+	{filling "bullet47_fin"}
+	{fireSound "gun/47mm_type97"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 5}
+	("speed" s(900))
+	("caliber_minimum")
+	("range_short")
+	
+	{projectileDamage 47}
+	("damage" a(59) b(43) c(29) d(23) e(16))
+	("accuracy_medium")
+}

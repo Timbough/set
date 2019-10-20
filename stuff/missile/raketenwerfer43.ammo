@@ -1,0 +1,13 @@
+{from "pattern missile_ammo"
+	{tag "cumulative" "heat_medium" "pierce"}
+	{inventory
+		{size 4 2}
+		{weight 60}
+	}	
+	{mass 10}
+	{entity "raketenwerfer_ammo"}
+	{view "raketenwerfer_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	("shaped" args 4.4)
+}

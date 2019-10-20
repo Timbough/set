@@ -1,0 +1,9 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 10}
+	{entity "svt40"}
+	{fireSound "rifle/svt40"}
+	{reloadSound "svt40_reload"}
+	{recoveryTime 1.1}
+	("semi_automatic")
+	("7.62x54")
+}

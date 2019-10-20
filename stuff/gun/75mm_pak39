@@ -1,0 +1,21 @@
+{from "pattern gun"      ; "Hetzer"
+	{filling "bullet75_ger"}
+	{fireSound "gun/50to76_cal/75mm_pak40"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 7}
+	("range_medium")
+	
+	("speed" s(750))
+	("caliber_medium")
+	{projectileDamage 106}                      
+	("damage" a(135) b(123) c(109) d(97) e(86))
+	{parameters "apcr"
+		("speed" s(930))
+		("damage" a(176) b(154) c(130) d(109) e(92))
+	}
+	{parameters "fg"
+		("speed" s(570))
+	}
+	("accuracy_low")
+	{cursor "zf3x8ii"}
+}

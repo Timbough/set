@@ -1,0 +1,10 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo mgun" 30}
+	{entity "solothurn_31m"}
+	{fireSound	"mgun/solothurn_31m/"}
+	{reloadSound "bar_reload"}
+	{rechargeTime 6}
+	("burst_short")
+	("7.92x57")
+}

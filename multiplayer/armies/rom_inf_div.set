@@ -1,0 +1,6 @@
+{army
+	{id 44}
+	{title "mp/army/rom_inf_div"} 
+	{icon "/interface/pages/multi/flag_inf_div_rom"}
+	{flag "/interface/scene/common/flag-rom"}
+}

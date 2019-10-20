@@ -1,0 +1,65 @@
+(include "\set\small.firearms.accuracy")
+(include "\set\calibers.accuracy")
+
+(define "rof"   
+	{recoveryTime (/ 60 %r)}
+)
+
+(define "recoveryTime"   
+	{recoveryTime (/ 60 %r)}
+)
+
+(define "long"
+	{spreading 1
+		{BurstAccuracy 100 92 86 81 76 72 68 65 62 60 58 56}
+	}
+)
+
+(define "medium"
+	{spreading 1
+		{BurstAccuracy 100 90 84 79 74 70 66 63 60 58 56 54}
+	}
+)
+
+(define "short"
+	{spreading 1
+		{BurstAccuracy 100 88 82 77 72 68 64 61 58 56 54 52}
+	}	
+)
+
+(define "burst_short"
+	{burst
+		{short 2 3}
+		{long 4 5}
+	}
+)
+
+(define "burst_medium"
+	{burst
+		{short 3 4}
+		{long 5 7}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 4 5}
+		{long 6 8}
+	}	
+)
+
+(define "heavy"
+	{mass 4.5}
+	{RelaxationTime 1.9}
+	{Spreading
+		{BurstRecoveryTime 0.7}
+	}
+)
+
+(define "light"
+	{mass 2}
+	{RelaxationTime 0.9}
+	{Spreading
+		{BurstRecoveryTime 0.5}
+	}
+)

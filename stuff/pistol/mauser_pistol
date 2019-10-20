@@ -1,0 +1,9 @@
+{from "pattern pistol"
+	{filling "ammo pistol" 10}
+	{mass 1.16}
+	{entity "mauser_pistol"}
+	{fireSound	"pistol/valter"}
+	{reloadSound "valter"}
+	("rof" r(900))
+	{Automatic}
+}

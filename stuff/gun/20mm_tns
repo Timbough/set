@@ -1,0 +1,26 @@
+{from "pattern gun"	; T-60
+	{filling "bullet20_rus zenite" 58}
+	{fireSound "gun/zenite/20mm_burst/"}
+	{reloadSound "mgun_1"}
+	{RecoveryTime 1}
+	{RechargeTime 7}
+	{spreading
+		{BurstAccuracy 100 90 85 80 72 65 50 40 30}
+	}
+	{AimingTolerance 20}
+	{Automatic}
+	{burst
+		{min 1}
+		{short 3 1}
+		{long 8 2}
+	}
+	("range_zenite")
+	("speed" s(750))
+	("caliber_zenite")
+	{cursor "cross"}
+	{cursorReloading "zenite_reload"}
+	{AimingTolerance 10}
+	{projectileDamage 30}
+	("damage" a(30) b(25) c(18) d(12) e(8))
+       
+}

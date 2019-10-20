@@ -1,0 +1,147 @@
+(include "trace.accuracy")
+
+(define "shaped" ; Localized warhead
+		; first wave (anti material) 
+		{damage blastwave
+			{energy (* %0 2.0)}
+			{area 0.02 (* %0 0.3)}
+		}
+		; Blasting charge
+		{damage add blastwave
+			{energy (* %0 2.0)}
+			{area (* %0 0.02)  (* %0 0.4)}
+		}
+		; Shockwave damage
+		{damage add blastwave
+			{energy (* %0 2.0)}
+			{area (* %0 0.02)  (* %0 0.5)}
+		}
+		; Shockwave damage
+		{damage add blastwave
+			{energy (* %0 2.0)}
+			{area (* %0 0.02)  (* %0 0.6)}
+		}
+		; Shockwave damage
+		{damage add blastwave
+			{energy (* %0 2.0)}
+			{area (* %0 0.02)  (* %0 0.7)}
+		}
+)
+
+(define "at" ; anti tank
+		; first wave (anti material) 
+		{damage blastwave
+			{energy (* %0 1.8)}
+			{area 0.02 (* %0 0.75)}
+		}
+		; second wave  (concussive) 
+		{damage add blastwave
+			{energy (* %0 0.5)}
+			{area (* %0 0.02)  (* %0 1.5)}
+		}
+)
+
+(define "ap" ; armor piercing
+		; first wave  (concussive) 
+		{damage add blastwave
+			{energy (* %0 0.05)}
+			{area (* %0 0.02)  (* %0 2)}
+		}
+		; second wave  (shrapnel)
+		{damage add blastwave
+			{energy (* %0 0.05)}
+			{area (* %0 0.01)  (* %0 4)}
+		}
+	("tr2" args (* %0 6))
+)
+
+(define "fg" ; up to 50mm
+		; first wave (hull breaking) 
+		{damage blastwave
+			{energy (* %0 1.6)}
+			{area 0.02 (* %0 0.3)}
+		}
+		; second wave  (anti material) 
+		{damage add blastwave
+			{energy (* %0 1.00)}
+			{area (* %0 0.02)  (* %0 0.5)}
+		}
+		; third wave  (concussive) 
+		{damage add blastwave
+			{energy (* %0 0.5)}
+			{area (* %0 0.02)  (* %0 1.5)}
+		}
+		; fourth wave  (shrapnel)
+		{damage add blastwave
+			{energy (* %0 0.3)}
+			{area (* %0 0.02)  (* %0 3)}
+		}
+)
+
+(define "apcr"
+		; first wave  (anti material) 
+		{damage add blastwave
+			{energy (* %0 0.5)}
+			{area (* %0 0.02)  (* %0 0.1)}
+		}
+		; second wave  (shrapnel)
+		{damage add blastwave
+			{energy (* %0 0.3)}
+			{area (* %0 0.01)  (* %0 1.5)}
+		}
+	("tr2" args (* %0 6))
+)
+
+(define "inc" ; up to 50mm
+		; third wave  (concussive)
+		{damage add blastwave
+			{energy (* %0 0.28)}
+			{area (* %0 0.02)  (* %0 3)}
+		}
+		; fourth wave  (fire)
+		{damage fire
+			{radius (* %0 0.5)}
+			{heating (* %0 0.06)}
+			{time (* %0 7)}
+		}
+)
+(define "sr" ; up to 50mm
+		; second wave  (concussive) 
+		{damage add blastwave
+			{energy (* %0 0.28)}
+			{area (* %0 0.02)  (* %0 3)}
+		}
+		; third wave  (shrapnel)
+		{damage add blastwave
+			{energy (* %0 0.28)}
+			{area (* %0 0.02)  (* %0 6)}
+		}
+)
+(define "heavy"
+		; first wave (hull breaking) 
+		{damage blastwave
+			{energy (* %0 1.6)}
+			{area 0.02 (* %0 0.3)}
+		}
+		; second wave  (anti material) 
+		{damage add blastwave
+			{energy (* %0 1.00)}
+			{area (* %0 0.02)  (* %0 0.5)}
+		}
+		; third wave  (concussive) 
+		{damage add blastwave
+			{energy (* %0 0.5)}
+			{area (* %0 0.02)  (* %0 1.5)}
+		}
+		; fourth wave  (shrapnel)
+		{damage add blastwave
+			{energy (* %0 0.3)}
+			{area (* %0 0.02)  (* %0 3)}
+		}
+		; fourth wave  (fire)
+		{damage fire
+			{radius (* %0 0.3)}
+			{heating (* %0 0.05)}
+			{time (* %0 5)}
+		}
+)

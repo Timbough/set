@@ -1,0 +1,15 @@
+{bullet
+	{tag "size_small small shell fg"}
+	{inventory
+		{size 4 1}
+		{weight 50}
+		{fsm "hand-only"}
+	}	
+	{entity "bm8_ammo"}
+	{mass 30}
+	{view "bm8_ammo"
+		{tail "rocket_smoke_norm" "tail"}
+	}
+
+	("heavy" args 4.1)
+}

@@ -1,0 +1,17 @@
+{from "pattern gun"     ; "zrinyi2
+	{filling "bullet105_hun"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	("range_grazing_howitzer")
+	{rechargeTime 13}
+	("speed" s(225))
+	("caliber_maximum")
+	{projectileDamage 150}
+	("damage" a(63) b(59) c(54) d(50) e(46))
+	{parameters "apcr"
+        ("damage" a(91) b(77) c(66) d(55) e(46))
+	}
+	{parameters "apcr"	
+	}
+	("accuracy_minimum")
+	{cursor "8-14m"}
+}

@@ -1,0 +1,12 @@
+{from "pattern gun"      ; Chi-Ha 120mm
+	{filling "bullet120_jap fg"}
+	{fireSound "gun/120mm_type97"}
+	{reloadSound "tankgun_r04"}
+	("range_grazing_howitzer")
+	{rechargeTime 12}
+	("accuracy_minimum")
+	("caliber_maximum")
+	{parameters "cu"
+		("damage" a(140) b(0) c(0) d(0) e(0))
+	}
+}

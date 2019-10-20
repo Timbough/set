@@ -1,0 +1,14 @@
+{from "85mm_zis53"     ; "76mm_3k"
+	{filling "bullet75_pol"}
+	{fireSound "gun/50to76_cal/76mm_zis3"}
+	{rechargeTime 6}
+	("speed" s(850))
+	("caliber_medium")
+	("range_medium")
+	{projectileDamage 81}
+	("damage" a(85) b(73) c(60) d(51) e(43))
+	{parameters "apcr"
+     	  ("damage" a(98) b(85) c(73) d(65) e(57))
+	}
+	{cursor "cross"}
+}  

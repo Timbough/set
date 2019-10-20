@@ -1,0 +1,18 @@
+{from "pattern ap"
+	{tag "size_minimum"  "stackable" "20mm" "pierce"}
+	{inventory
+		{weight 25}
+		{size 2 2}
+		{block 5}
+	}
+	{mass 1.2}
+	{entity "ita_shell_20x138b_aa"}
+	{trace
+		{view "/texture/fx/trace_zenite1"
+			{ScaleY 0.30}
+			{Light 2}
+		}
+		{length 5}
+	}
+	("fg" args 2)		
+}

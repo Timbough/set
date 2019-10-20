@@ -1,0 +1,7 @@
+{from "ppsh"
+	{filling "ammo pistol" 30}
+	{entity "type100smg"}
+	{fireSound	"smg/type100smg_burst/"}
+	{reloadSound "sten_reload"}
+	("rof" r(800))
+}

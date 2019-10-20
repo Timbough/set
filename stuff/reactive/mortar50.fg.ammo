@@ -1,0 +1,15 @@
+{bullet
+	{tag "dropboxed grenade big mortar fg"}
+	{inventory
+;		{size 4 2}
+		{size 2 1}
+		{weight 70}
+	}	{mass 5}
+	{entity "ammo_mortar50_fg"}
+	{view "mortar_ammo"
+		;{tail "shell_tail" "tail"}
+	}	{detonationThickness 1}
+	
+	("fg" args 2.5)
+
+}

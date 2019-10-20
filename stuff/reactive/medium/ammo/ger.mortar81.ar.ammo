@@ -1,0 +1,4 @@
+{from "pattern fg_medium"
+	{tag "flaerammo"}
+	{entity "ger_ammo_mortar81_ar"}
+}

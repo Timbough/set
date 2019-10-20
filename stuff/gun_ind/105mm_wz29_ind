@@ -1,0 +1,13 @@
+{from "pattern gun_indirect"      ; Armata 105 mm wz. 13 Schneider
+	{filling "bullet105_pol fg"}
+	{fireSound "gun/howitzer/122mm_d25"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 12}
+	{projectileDamage 50}
+	("range_indirect_large")
+	("caliber_large")
+	("speed" s(650)) 
+	{cursor "rblf36"}
+}
+
+

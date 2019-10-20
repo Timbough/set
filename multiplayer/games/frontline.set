@@ -1,0 +1,31 @@
+{game
+	{teammatch}
+	{parameters "freezeTime=2:180,4:180,6:180,8:180,10:180;bonusTime=1;flag_time=24;flag_time_small=8;score_time=0;score_flag=500;score_phase=2000;score_defBonus=0.25"}
+	{settings
+		{options 			gameDuration enableSpectators}
+		{optionsAdvanced 	friendlyFire fogOfWar showPiercing showDamageReports useUnitLevelRestrictions}
+		{optionsRanked 		}
+		{fogOfWar 			fog_realistic}
+		{difficulty 		multiplayer}
+		{gameDuration 		"25 min"} ; min
+                                    {impregnableTimeout	5}	; sec
+		{floraRespawn		0}
+		{friendlyFire}
+		{showPiercing}
+		{showDamageReports}
+		{useUnitLevelRestrictions 0}
+                                    {enableBots}
+	}
+	{teamSettings
+		{teamsMode normal}
+		{armySelectionMode alliance}
+		{teams
+			{"a"}
+			{"b"}
+		}
+		{alliances
+			(include "preset_alliances.inc")
+		}
+	}
+	(include "fl.inc")
+}

@@ -1,0 +1,14 @@
+{from "pattern gun"      ; Stupa IV
+	{filling "bullet150_ger"}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	("range_grazing_howitzer")
+	{range 190 200}
+	("speed" s(240))
+	{rechargeTime 35}
+	{projectileDamage 12}
+	{parameters "cu"
+		("speed" s(280))
+		("damage" a(185) b(0) c(0) d(0) e(0))
+	}
+	{cursor "sflzf1"}
+}

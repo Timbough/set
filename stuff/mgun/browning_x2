@@ -1,0 +1,6 @@
+{from "browning"
+	{filling "ammo hmgun" 200}
+	{reloadSound "browningx2_reload"}
+	{rechargeTime 20}
+	("rof" r(1050))
+}

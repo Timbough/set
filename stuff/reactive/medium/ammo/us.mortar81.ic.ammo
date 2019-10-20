@@ -1,0 +1,7 @@
+{from "pattern ic_medium"
+	{inventory
+		{size 4 1}
+	}
+	{entity "us_ammo_mortar81_ic"}
+	{view "us_ammo_mortar81_ic"}	
+}

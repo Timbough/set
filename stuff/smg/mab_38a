@@ -1,0 +1,8 @@
+{from "ppsh"
+	{filling "ammo pistol" 40}
+	{entity "mab_38a"}
+	{fireSound	"smg/beretta_burst/"}
+	{reloadSound "m3a1_reload"}
+	("rof" r(600))
+	("long")
+}

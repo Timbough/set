@@ -1,0 +1,10 @@
+{from "pattern incendiary"
+	{tag "size_small wp"}
+	{inventory
+		{size 6 1}
+	}
+        ("inc" args 5.25)
+        {mass 22}
+        {entity "usa_shell_105r_wp"} 
+         		
+}

@@ -1,0 +1,10 @@
+{from "pattern ap"
+	{tag "size_minimum" "shell_minimum" "pierce"}
+	{inventory
+		{weight 20}
+		{size 2 1}
+	}
+	("ap" args 1)
+	{mass 1.6}
+	{entity "jap_shell_20x142_ap"}
+}

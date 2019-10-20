@@ -1,0 +1,61 @@
+{breed
+	{skin "50_pla_soldier_2"}
+	{portrait "chi_elite1"}
+	{nationality chi}
+	{icon "stormtrooper3"}
+	{icon_priority 4}
+	{armors
+		{head helmet_sov}
+	}
+	{perks
+		{"health" "350%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"stealth"
+		}
+		{"tank"	0.6
+		}
+		{"vehicle" 0.6
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "svt40" filled}		
+		{item "ammo rifle" 100}
+		{item "bandage" 5}
+		{item "grenade f1" 2}
+		{item "smoke grenade" 2}
+		{item "dynamite" 1}
+		{item "weapon bazooka" filled}
+		{item "ammo bazooka" 5}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

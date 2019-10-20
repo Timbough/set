@@ -1,0 +1,59 @@
+{breed
+	{skin "grc_squadleader"}
+	{portrait "grc_sailor1"}
+	{nationality grc}
+	{icon "squadleader"}
+	{icon_priority 2}
+	{armors
+		{head "helmet1_grc"}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"field_glass"
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "lebel_m1886" filled}       
+		{item "ammo rifle" 50}
+		{item "bandage" 3}
+		{item "mk1 grenade" 2}
+		{item "n73at grenade" 2}
+		{item "sandbag_kit" 1}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

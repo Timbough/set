@@ -1,0 +1,5 @@
+{units
+	(include "soldiers.set")
+	(include "squads_wot.set")
+	(include "vehicles_wot.set")
+}

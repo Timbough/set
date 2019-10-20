@@ -1,0 +1,10 @@
+{item
+	{tag "smallitemin1hand"}
+	{entity "mine_antitank_jap"}
+	{inventory
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 2}
+	("at" args 8)
+}

@@ -1,0 +1,23 @@
+{from "pattern gun"      ; "M4A3E2 Jumbo"
+	{filling "bullet76_usa"}
+	{fireSound "gun/50to76_cal/76mm_mk4"}
+	{reloadSound "tankgun_r01"}
+	{rechargeTime 7.5}
+	("range_medium")
+	{cursor "usa2"}
+	("speed" s(792))
+	("caliber_medium")                
+	{projectileDamage 155}   
+	("damage" a(154) b(131) c(107) d(88) e(72))
+	{parameters "apcr"
+        		("speed" s(1030))
+		("damage" a(215) b(203) c(181) d(154) e(124))
+	}
+	{parameters "apcbc"
+		("damage" a(125) b(116) c(106) d(97) e(89))
+	}
+	{parameters "fg"
+		("speed" s(800))
+	}
+	("accuracy_medium")
+}

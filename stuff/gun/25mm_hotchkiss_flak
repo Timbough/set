@@ -1,0 +1,10 @@
+{from "20mm_flak38"    ; 25mm hotchkiss aa gun
+	{filling "bullet25_fra" 15}
+	{fireSound "gun/25mm_Hotchkiss_SA_34"}
+	{RecoveryTime 0.34}
+	{RechargeTime 5}
+	("range_zenite_medium")
+	{projectileDamage 38}	
+	("damage" a(40) b(35) c(30) d(27) e(23))
+	{cursor "flakzf3x8"}
+}

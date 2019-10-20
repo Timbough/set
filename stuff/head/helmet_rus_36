@@ -1,0 +1,4 @@
+{from "tankhelmet_rus"
+	{tag "armor"}
+	{entity "helmet_rus_36"}
+}

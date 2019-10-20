@@ -1,0 +1,19 @@
+{from "pattern gun"    
+	{filling "bullet25_jap" 15}	
+	{fireSound "gun/25mm_Hotchkiss_SA_34"}
+	{rechargeTime 5}
+	{RecoveryTime 0.27}
+	{reloadSound "flak38"}
+	{automatic}
+	{AimingTolerance 20}
+	{burst
+		{min 1}
+		{short 2}
+		{long 10}
+	}
+	("accuracy_medium")
+	("range_zenite")
+	{projectileDamage 30}
+	("speed" s(920))
+	("caliber_minimum")     
+}

@@ -1,0 +1,26 @@
+{from "pattern gun"
+	{filling "bullet40_usa zenite" 14}
+	{fireSound "gun/zenite/20mm"}
+	{RecoveryTime 0.2}
+	{RechargeTime 7}
+	{reloadSound "flak38"}
+	{spreading
+		{spreadradius	1.8}
+		{SpreadXYRatio	4}
+		{SpreadPower	3}
+	}
+	{AimingTolerance 10}
+	{Automatic}
+	{burst
+		{short 2.5 1}
+		{long 7 2}
+	}
+	{speed 90}
+	("range_zenite_long")
+	("speed" s(881))
+	("caliber_minimum")               
+	{projectileDamage 67}
+	("damage" a(60) b(51) c(45) d(38) e(32))
+	{RelaxationTime 0}
+	{cursor "m74"}
+}

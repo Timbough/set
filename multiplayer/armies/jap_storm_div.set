@@ -1,0 +1,7 @@
+{army
+	{id 22}
+	{title "mp/army/jap_storm_div"}
+	{icon "/interface/pages/multi/flag_storm_div_jap"}
+	{flag "/interface/scene/common/flag_japan"}
+}
+

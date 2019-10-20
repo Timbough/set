@@ -1,0 +1,9 @@
+{from "pattern rpg_ammo"
+	{entity "bazooka_ammo"}
+	{tag "pierce"}
+	{view "bazooka_ammo"
+		{tail "bazooka_tail" "tail"}
+	} 
+	("shaped" args 3.5)
+}
+

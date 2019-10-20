@@ -1,0 +1,4 @@
+{from "pattern wp_heavy"
+	{entity "us_ammo_mortar107_sm"}
+	("inc" args 5.35)
+}

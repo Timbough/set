@@ -1,0 +1,219 @@
+;----- Extra -----
+
+
+;같컃eroes같�													; 150 MP
+
+;같캚rtillery같�
+
+{"vickers"  			("extra" t() sc(37.50) cw(0) cp(0))}
+{"qf3,7"  			("extra" t() sc(37.50) cw(0) cp(0))}
+{"pdr25"  				("extra" t() sc(35.00) cw(0) cp(0))}
+{"bl45"  				("extra" t() sc(40.00) cw(0) cp(0))}
+{"bl6"  				("extra" t() sc(40.00) cw(0) cp(0))}
+{"land_mattress"  		("extra" t() sc(55.00) cw(0) cp(0))}
+{"universal_carrier"  	("extra" t() sc(2.50) cw(0) cp(0))}
+{"morris_cs8"	("extra" t() sc(2.50) cw(0) cp(0))}
+{"dodge_en"	("extra" t() sc(2.00) cw(0) cp(0))}
+{"np_matador_art"	("extra" t() sc(3.00) cw(0) cp(0))}
+{"bedford_ql"	("extra" t() sc(3.00) cw(0) cp(0))}
+{"m30kangaroo"			("extra" t() sc(3.50) cw(0) cp(0))}
+	
+{"flak36a"  				("extra" t() sc(32.50) cw(0) cp(0))}
+{"lefh18"  				("extra" t() sc(37.50) cw(0) cp(0))}
+{"sfh18"  				("extra" t() sc(45.00) cw(0) cp(0))}
+{"morser18"  				("extra" t() sc(60.00) cw(0) cp(0))}
+{"steyr_rso"  			("extra" t() sc(1.00) cw(0) cp(0))}
+{"np_pak36r"         			("extra" t() sc(35.00) cw(0) cp(0))}
+{"np_opel_halftrack"         			("extra" t() sc(2.00) cw(0) cp(0))}
+{"pak43"				("extra" t() sc(46.00) cw(0) cp(20))}
+{"np_pak44"				("extra" t() sc(46.00) cw(0) cp(20))}
+{"np_sdkfz8"  			("extra" t() sc(2.50) cw(0) cp(0))}
+
+{"type4_75mm"  			("extra" t() sc(25.00) cw(0) cp(0))}
+{"t91_105m"  			("extra" t() sc(30.00) cw(0) cp(0))}
+{"type96_150mm"  			("extra" t() sc(45.00) cw(0) cp(0))}
+{"np_ho_ki"			("extra" t() sc(2.50) cw(0) cp(0))}
+{"chi-ha_eng"			("extra" t() sc(3.00) cw(0) cp(0))}
+
+{"k61"  				("extra" t() sc(12.50) cw(0) cp(0))}
+{"howitzer_m1910_30"  		("extra" t() sc(36.00) cw(0) cp(0))}
+{"m30_1938"  			("extra" t() sc(40.00) cw(0) cp(0))}
+{"np_d1"  			("extra" t() sc(45.00) cw(0) cp(0))}
+{"np_ml20"  			("extra" t() sc(45.00) cw(0) cp(0))}
+{"bs3"  				("extra" t() sc(50.00) cw(0) cp(20))}
+{"t20"  				("extra" t() sc(2.50) cw(0) cp(0))}
+{"np_studebakerus6"			("extra" t() sc(2.00) cw(0) cp(0))}
+{"np_yag10"			("extra" t() sc(2.00) cw(0) cp(0))}
+{"np_zis5_33"			("extra" t() sc(3.00) cw(0) cp(0))}
+{"stz3"			("extra" t() sc(3.00) cw(0) cp(0))}
+{"np_zis42"			("extra" t() sc(3.00) cw(0) cp(0))}
+{"3k"  				("extra" t() sc(20.00) cw(0) cp(0))}
+{"np_52k"  				("extra" t() sc(22.50) cw(0) cp(0))}
+{"np_ml20"  				("extra" t() sc(30.00) cw(0) cp(10))}
+{"np_voroshilovets"			("extra" t() sc(3.50) cw(0) cp(0))}
+{"203b4"             ("extra" t() sc(60.00) cw(0) cp(15))}
+
+{"fiat35"	  		("extra" t( ) sc(5) cw(0) cp(0))}
+{"cannone9053"  		("extra" t( ) sc(40) cw(0) cp(0))}
+{"obice10528"  		("extra" t( ) sc(35) cw(0) cp(0))}
+{"obice149a"  		("extra" t( ) sc(40) cw(0) cp(15))}
+{"obice14940"  		("extra" t( ) sc(41) cw(0) cp(15))}
+{"obice210"  		("extra" t( ) sc(60) cw(0) cp(15))}
+
+{"lorraine_37"		("extra" t( ) sc(5) cw(0) cp(0))}
+{"np_lorrai_fr"		("extra" t( ) sc(5) cw(0) cp(0))}
+{"renault_ue"		("extra" t( ) sc(5) cw(0) cp(0))}
+{"somua_mcg"		("extra" t( ) sc(5) cw(0) cp(0))}
+{"75mm_vickers"		("extra" t() sc(37.50) cw(0) cp(0))}
+{"105mm_m1913"		("extra" t( ) sc(35) cw(0) cp(0))}
+{"gpf-t"			("extra" t( ) sc(40) cw(0) cp(15))}
+{"22cm_mortier"             ("extra" t() sc(60.00) cw(0) cp(15))}
+
+{"bofors"  				("extra" t() sc(15.00) cw(0) cp(0))}
+{"m2a1l"  				("extra" t() sc(37.50) cw(0) cp(0))}
+{"m114"  				("extra" t() sc(45.00) cw(0) cp(0))}
+{"155mm_longtom"  			("extra" t() sc(50.00) cw(0) cp(0))}
+{"m115"  				("extra" t() sc(60.00) cw(0) cp(0))}
+{"gmc_cckw"  			("extra" t() sc(1.00) cw(0) cp(0))}
+{"m4hst"  			("extra" t() sc(2.00) cw(0) cp(0))}
+{"np_m2_tr"  			("extra" t() sc(2.00) cw(0) cp(0))}
+{"botond2"	("extra" t() sc(3.00) cw(0) cp(0))}
+{"cckw352"  			("extra" t() sc(1.00) cw(0) cp(0))}
+
+{"botond2"		("extra" t() sc(3.00) cw(0) cp(0))}
+{"mercedes_hun"	("extra" t() sc(3.00) cw(0) cp(0))}
+{"bofors_hun"  		("extra" t() sc(12.50) cw(0) cp(0))}
+{"flak18_hun"  				("extra" t() sc(32.50) cw(0) cp(0))}
+{"lefh18_hun"  				("extra" t() sc(37.50) cw(0) cp(0))}
+{"nebelwerfer42"  				("extra" t() sc(42.50) cw(0) cp(0))}
+{"obice210_hun"  		("extra" t( ) sc(60) cw(0) cp(15))}
+
+{"t20_fin"  				("extra" t() sc(2.50) cw(0) cp(0))}
+{"np_volvo"			("extra" t() sc(2.00) cw(0) cp(0))}
+{"flak38_wheeled_fin"  				("extra" t() sc(12.50) cw(0) cp(0))}
+{"122mm_howitzer_m1910_fin"  			("extra" t() sc(40.00) cw(0) cp(0))}
+{"152mm_m1909_30_fin"  				("extra" t() sc(45.00) cw(0) cp(0))}
+
+{"pf621"	("extra" t() sc(3.00) cw(0) cp(0))}
+{"wz34halftrack"	("extra" t() sc(4.00) cw(0) cp(0))}
+{"tks-mg"	("extra" t() sc(4.00) cw(0) cp(0))}
+{"bofors_pol"  		("extra" t() sc(12.50) cw(0) cp(0))}
+{"75mm_aa_wz36"	  	("extra" t() sc(25.00) cw(0) cp(0))}
+{"105mm_m1913_pol"  	("extra" t() sc(35.00) cw(0) cp(0))}
+{"100mm_wz14_19p"  	("extra" t() sc(37.50) cw(0) cp(0))}
+{"155mm_mle1917_pol"  	("extra" t() sc(45.00) cw(0) cp(0))}
+
+{"mercedesl3k_rom_tr"	("extra" t() sc(3.00) cw(0) cp(0))}
+{"75mm_vickers_rom"	("extra" t() sc(37.50) cw(0) cp(0))}
+{"15cmfeldhaubtize"  	("extra" t() sc(40.00) cw(0) cp(0))}
+{"122mm_m1910_rom"  	("extra" t() sc(40.00) cw(0) cp(0))}
+{"155mm_mle1917_rom"  	("extra" t() sc(45.00) cw(0) cp(0))}
+
+{"stz3_chn"			("extra" t() sc(3.00) cw(0) cp(0))}
+{"a19"  				("extra" t() sc(37.50) cw(0) cp(0))}
+{"sfh18_chn"  			("extra" t() sc(45.00) cw(0) cp(0))}
+
+{"fiat618"	("extra" t() sc(3.00) cw(0) cp(0))}
+{"10cmfeldhaubtize"  	("extra" t() sc(35.00) cw(0) cp(0))}
+{"75mm_vickers_grc"	("extra" t() sc(37.50) cw(0) cp(0))}
+{"120mm_grc"  		("extra" t() sc(40.00) cw(0) cp(0))}
+{"155mm_mle1917_grc"  	("extra" t() sc(45.00) cw(0) cp(0))}
+
+{"mercedesl3k_bul_tr"	("extra" t() sc(3.00) cw(0) cp(0))}
+{"flak18_bul"  		("extra" t() sc(32.50) cw(0) cp(0))}
+{"a19_bul"  		("extra" t() sc(37.50) cw(0) cp(0))}
+{"lefh18early_bul"  		("extra" t() sc(37.50) cw(0) cp(0))}
+{"155mm_mle1917_bul"  	("extra" t() sc(45.00) cw(0) cp(0))}
+
+{"k61_nkr"  			("extra" t() sc(12.50) cw(0) cp(0))}
+{"np_52k_nkr"  			("extra" t() sc(22.50) cw(0) cp(0))}
+{"m30_1938_nkr"  			("extra" t() sc(40.00) cw(0) cp(0))}
+{"np_ml20_nkr"  			("extra" t() sc(45.00) cw(0) cp(0))}
+{"np_zis151"			("extra" t() sc(3.00) cw(0) cp(0))}
+{"stz3_nkr"			("extra" t() sc(3.00) cw(0) cp(0))}
+
+{"armorwagon_rus"  		("extra" t() sc(7.50) cw(0) cp(0))}
+{"armorwagon_pol"  		("extra" t() sc(7.50) cw(0) cp(0))}
+{"platform_gun"  		("extra" t() sc(2.50) cw(0) cp(0))}
+{"locomotive_rus"  		("extra" t() sc(5.50) cw(0) cp(0))}
+{"locomotive_pol"  		("extra" t() sc(5.50) cw(0) cp(0))}
+{"type96_3"  			("extra" t() sc(14.00) cw(0) cp(0))}
+{"locomotive_ger"  		("extra" t() sc(5.50) cw(0) cp(0))}
+{"75mm_pol"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"100mm_pol"  		("extra" t() sc(30.00) cw(0) cp(0))}
+{"t34_turret"  		("extra" t() sc(16.00) cw(0) cp(0))}
+{"flak38_platform"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"flak36a_platform"  		("extra" t() sc(32.00) cw(0) cp(0))}
+
+{"fiat626_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"pak36_bul_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"75mm_shneider_bul_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"gaz-mm_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"pak35_chn_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"bedford_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"qf2_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"qf17_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"37mm_bofors_fin_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"np_pak40_fin_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"somua_mcg_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"47mm_puteaux_mle37_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"75mm_1897_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"np_mercedesl3000_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"pak36_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"np_pak40_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"fiat618_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"pak36_grc_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"75mm_shneider_grc_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"botond2_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"40mm_40m_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"np_pak40_hun_ai"   		("extra" t() sc(15.00) cw(0) cp(0))}
+{"fiat35_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"cannone4732_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"cannone7532_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"np_type94_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"pak47_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"t90_75m_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"m42_nkr_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"zis3_nkr_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"pf621_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"37mm_bofors_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"75mm_1897_pol_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"mercedesl3k_rom_tr_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"37mm_bofors_rom_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"np_f22_rom_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"np_zis5_33_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"m37_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"zis3_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"cckw352_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"m3cannon_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"np_m5cannon_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+
+{"cckw353_pol_tr"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"cckw353_pol_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"m42_pol_ai"  		("extra" t() sc(12.00) cw(0) cp(0))}
+{"zis3_pol_ai"  		("extra" t() sc(15.00) cw(0) cp(0))}
+{"m30_1938_pol_ai"  	("extra" t() sc(35.00) cw(0) cp(0))}
+{"k61_pol"  		("extra" t() sc(12.50) cw(0) cp(0))}
+{"np_52k_pol"  		("extra" t() sc(22.50) cw(0) cp(0))}
+{"m30_1938_pol"  		("extra" t() sc(35.00) cw(0) cp(0))}
+{"np_ml20_pol"		("extra" t() sc(45.00) cw(0) cp(0))}
+
+{"cckw352_fr_ai"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"cckw352_fr_2"  		("extra" t() sc(3.00) cw(0) cp(0))}
+{"57mm_gun_m1_ai"  	("extra" t() sc(15.00) cw(0) cp(0))}
+{"bofors_fr"  		("extra" t() sc(12.50) cw(0) cp(0))}
+{"m2a1l_fr_ai"  		("extra" t() sc(35.00) cw(0) cp(0))}
+{"m2a1l_fr"  		("extra" t() sc(35.00) cw(0) cp(0))}
+{"155mm_m1917a4"	("extra" t() sc(45.00) cw(0) cp(0))}
+
+{"ford-aa"			("extra" t() sc(3.00) cw(0) cp(0))}
+{"ford-aa_ai"		("extra" t() sc(3.00) cw(0) cp(0))}
+{"renault_agk"		("extra" t() sc(3.00) cw(0) cp(0))}
+{"bohler_dut_ai"		("extra" t() sc(12.00) cw(0) cp(0))}
+{"75mm_shneider_dut_ai"	("extra" t() sc(15.00) cw(0) cp(0))}
+{"bofors_dut"		("extra" t() sc(12.50) cw(0) cp(0))}
+{"75mm_vickers_dut"	("extra" t() sc(37.50) cw(0) cp(0))}
+{"10cmfeldhaubtize_dut_ai"	("extra" t() sc(35.00) cw(0) cp(0))}
+{"lefh18early_dut"		("extra" t() sc(35.00) cw(0) cp(0))}
+{"10cmfeldhaubtize_dut"	("extra" t() sc(35.00) cw(0) cp(0))}
+{"bl6_dut"			("extra" t() sc(45.00) cw(0) cp(0))}

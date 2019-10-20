@@ -1,0 +1,18 @@
+{from "pattern rpg_weapon"
+	{filling "ammo panzerfaust" 1}
+	{fillingVisible "faustrocket"}
+	{preloaded}
+	{inventory
+		{size 5 1}
+	}
+	{mass 6}
+	{entity "panzerfaust100"}
+	{fireSound "reactive/panzerfaust"}
+	{ammoLocked}
+	{speed 42}
+	{reactive 0}
+	{range 32 1000}
+	("accuracy_grb")
+	
+
+}

@@ -1,0 +1,14 @@
+{from "pattern grenaderifle"
+	{tag "ap_rifle"}
+	{entity "type99rifle_g"}
+	{speed 45}
+	{fireSound	"rifle/ptr/grb39"}
+	{filling "ammo rifle_grenade_at" 1}
+	{fillingVisible "type2at_ammo"}
+	{spreading 3}
+    	{projectileDamage 40}
+	{projectileDamageTable {0 40} {80 40}}
+	{aimtype curved}
+	{gravity 2}
+	("accuracy_grb")
+}

@@ -1,0 +1,11 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 10}
+	{entity "zh-29"}
+	{fireSound "rifle/zh-29"}
+	{reloadSound "G41_reload"}
+	("accuracy_carabine")
+	("8mm")
+	("semi_automatic")
+	{rechargeTime 7}
+	{recoveryTime 1.3}
+}

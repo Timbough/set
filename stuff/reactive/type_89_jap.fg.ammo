@@ -1,0 +1,13 @@
+{bullet
+	{tag "dropboxed grenade big mortar fg"}
+	{inventory
+		{size 2 1}
+		{weight 40}
+	}	{mass 5}
+	{entity "jap_ammo_5cm_type_89_fg"}
+	{view "jap_ammo_5cm_type_89_fg"}
+	{detonationThickness 1}
+	
+	("fg" args 2.5)
+
+}

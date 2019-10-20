@@ -1,0 +1,6 @@
+{from "pattern rpg_weapon"
+	{filling "ammo bazooka" 1}
+	{entity "bazooka"}
+	{fireSound "reactive/bazooka"}	
+	
+}

@@ -1,0 +1,37 @@
+{from "pattern bullet"
+	{tag "weapon rifle bullet to_hand"}
+	{entity "granatnik_wz_36"}
+	{fireSound "gun/mortar"}
+	{filling "ammo mortar46_pol fg" 1}
+	{inventory
+		{size 3 4}
+		{link_bone "gun_back"}
+		{weight 10}
+		{fsm "smg"}
+	}
+	{burst
+		{short 1}
+		{Long 1}
+	}	
+	{preloaded}
+	{mass 6}
+	{states
+		{reload		"reload1"}
+		{unload		"unload1"}
+		{fire		"fire1"}
+		{aim 		"aim1"}
+		{can_aim	"can-aim1"}
+	}
+	{curve "cumulative"}
+	{DisableRicochet}
+	{foresight "Foresight3"}
+
+       	{projectileDamage 10}
+	{AimingTolerance 0.1}
+	{projectileDamageTable {90 10}}
+	{projectileDamageThreshold 1}
+	{AimingTolerance 3}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+	("mortar")
+}

@@ -1,0 +1,57 @@
+{breed
+	{skin "rom-mgun"}
+	{portrait "rom_soldier3"}
+	{icon "mgs2"}
+	{icon_priority 0}
+	{nationality rom}
+	{armors
+		{head "8_kaska_soldat_ruminia"}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mg34"}
+		{item "ammo mgun" 900}
+		{item "luger" filled}
+		{item "ammo pistol" 16}
+		{item "bandage" 4}
+		{item "sandbag_kit" 1}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

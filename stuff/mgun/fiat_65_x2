@@ -1,0 +1,4 @@
+{from "fiat_65" ;ab40 AC
+	{filling "ammo mgun" 100}
+	("burst_long")
+}

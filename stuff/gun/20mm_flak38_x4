@@ -1,0 +1,11 @@
+{from "20mm_flak38"	;  "Wirbelwind"
+	{filling "bullet20_ger zenite" 120}
+	{RechargeTime 12}
+	{RecoveryTime 0.09}
+	
+	
+	{spreading
+		{BurstAccuracy 100 90 85 80 72 65 57 50 45 40 30}
+	}
+	{cursor "flakvisier20"}
+}

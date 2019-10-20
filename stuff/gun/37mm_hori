@@ -1,0 +1,26 @@
+{weapon_bullet
+	{filling "bullet37_jap"}
+	{fireSound "gun/37mm_pak35"}
+	{reloadSound "pak35"}
+	{cursorReloading "cannon_reload"}
+	{rechargeTime 4.4}
+	("range_minimum")
+	
+	("speed" s(780))
+	("caliber_minimum")
+	{projectileDamage 55}	
+	("damage" a(55) b(44) c(33) d(26) e(18))
+	{parameters "apcr"
+		{cursorReloading "cannon_reload_apcr"}
+		("damage" a(80) b(64) c(48) d(36) e(23))
+	}
+	{parameters "fg"
+		{cursorReloading "cannon_reload_fg"}
+	}
+	{parameters "sm"
+		{cursorReloading "cannon_reload_sm"}
+	}
+	
+	("accuracy_minimum")
+	{cursor "jap37"}
+}

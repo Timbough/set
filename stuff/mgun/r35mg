@@ -1,0 +1,12 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo mgun" 150}
+	{inventory
+		{size 4 2 }
+	}
+	{entity "zb_30lmg"}
+	{fireSound	"mgun/besa_burst"}
+	{reloadSound "bar"}
+
+	{recoveryTime 0.15}
+}

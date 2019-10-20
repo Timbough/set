@@ -1,0 +1,14 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 11}
+	{entity "de_lisle"}
+	{fireSound "rifle/de_lisle"}
+	{reloadSound "m1carbine"}
+	("45")
+	("carbine")
+	("accuracy_smg")
+	{rechargeTime 5}
+	{recoveryTime 3}
+	{spreading 1
+		{BurstAccuracy 100 94 85 77 70 62 59 55 52 50 49}
+	}
+}

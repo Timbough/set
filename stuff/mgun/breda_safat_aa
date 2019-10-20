@@ -1,0 +1,8 @@
+{from "pattern mgun" ;"breda aa"
+	{filling "ammo hmgun" 250}
+	{entity "bredasafat_aa"}
+	{fireSound	"mgun/breda_30_burst"}
+ 	{reloadSound "breda30"}
+	("burst_long")
+	("7.7x58")
+}

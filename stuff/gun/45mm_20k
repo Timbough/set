@@ -1,0 +1,22 @@
+{from "pattern gun"		; "ba11", "m37", "T26", "t70"
+	{filling "bullet45_rus"}
+	{fireSound "gun/45mm_20k"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 4.2}
+	("range_minimum")
+	
+	("speed" s(760))
+	("caliber_minimum")
+	{projectileDamage 50}
+	("damage" a(62) b(45) c(35) d(29) e(26))
+	{parameters "apcr"
+		("speed" s(985))
+		("damage" a(103) b(64) c(40) d(21) e(17))
+	}
+	
+	("accuracy_minimum")
+	{cursor "cross"}
+	{parameters "cu"
+		("speed" s(343))
+	}
+}

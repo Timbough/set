@@ -1,0 +1,23 @@
+{weapon_bullet
+	{tag "gun"}
+	{filling "ammo nebel" 10}
+	{fireSound "reactive/nebelwerfer_burst"}
+	("heavy_artillery")
+	{burst {min 5} {noaiming}}
+	{recoveryTime 1.5}
+	("heavy_artillery")
+	{gravity 2}
+	{recoveryTime 0.8}
+	{rechargeTime 90}
+	("range_medium")
+	{Spreading
+		{BurstRecoveryTime 0.5}
+		{SpreadXYRatio	2}
+		{SpreadYadjust	1}
+		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
+		{SpreadRadius 17}
+		{burstSpreadWidth 15}
+		{burstSpreadDelta 2.6}
+		{burstSpreadCount 40}
+	}
+}

@@ -1,0 +1,6 @@
+{army
+	{id 3}
+	{title "mp/army/usa_storm_div"} 
+	{icon "/interface/pages/multi/flag_storm_div_usa"}
+	{flag "/interface/scene/common/flag-usa"}
+}

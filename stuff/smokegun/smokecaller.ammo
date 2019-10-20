@@ -1,0 +1,6 @@
+{bullet
+	{tag "ammo small sm fg"}
+	{view "bazooka_ammo"
+		{tail "grenade_tail" "tail"}
+	}
+}

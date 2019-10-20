@@ -1,0 +1,22 @@
+{bullet
+	{desc "76mm RP-3 Rocket"}
+	{inventory
+		{size 6 1}
+		{weight 100}
+	}	
+	{mass 43}
+	{entity "katusha_ammo"}
+	{view "tulip_ammo"
+		{tail "rocket_smoke_norm" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	;152mm warhead
+	;5.45kg TNT, similars to a 152mm HE, but lacks of fragments.
+	
+	{tag "ammo shell fg itemin2hands"}
+	{tag "big" "size_big" "shell_maximum"}
+	{tag "pierce"}
+	{detonationThickness 2}
+	("heavy" args 3.8)
+}

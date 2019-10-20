@@ -1,0 +1,6 @@
+{from "pattern gun"    ; "obice149a"
+	{filling "bullet149_ita"}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	("range_heavy_howitzer")
+}

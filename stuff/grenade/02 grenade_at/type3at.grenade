@@ -1,0 +1,14 @@
+{from "pattern grenade_at"
+	{special
+		{PrepareTime 4.5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{mass 2}
+	{inventory {size 2 2}}
+	{entity "grenade_type3at"}
+	{throw
+		{range 13}
+	}
+	("fg" args 6)
+}

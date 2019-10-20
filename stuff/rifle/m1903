@@ -1,0 +1,8 @@
+{from "pattern rifle"
+	{entity "m1903"}
+	{fireSound "rifle/m1903a3"}
+	{reloadSound "kar98k_reload"}
+	("30-06")
+}
+
+

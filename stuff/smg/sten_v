@@ -1,0 +1,6 @@
+{from "sten"
+	{entity "sten_mkv"}
+	("rof" r(600))
+	("burst_short")
+	("medium")
+}

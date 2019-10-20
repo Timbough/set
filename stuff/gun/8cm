@@ -1,0 +1,10 @@
+{from "pattern gun"      ; 8 cm FK M.5 
+	{filling "bullet76_ger"}
+	{fireSound "gun/m8_howitzer"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 6}
+	("speed" s(433))
+	("range_light_howitzer")
+	("caliber_medium")	
+	{cursor "pg1"}
+}

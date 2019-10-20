@@ -1,0 +1,8 @@
+{from "pattern smg"
+	{filling "ammo pistol" 32}
+	{entity "owen"}
+	{fireSound	"smg/owen_burst/"}
+	{reloadSound "sten"}
+	("rof" r(700))
+	("burst_long")
+}

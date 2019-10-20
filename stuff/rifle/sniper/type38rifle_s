@@ -1,0 +1,7 @@
+{from "pattern sniper_rifle"
+	{entity "type38rifle_s"}
+	{fireSound "rifle/type99rifle_s"}
+	{reloadSound "mauzer"}
+	("6.5x50")
+	{recoverytime 3.8}
+}

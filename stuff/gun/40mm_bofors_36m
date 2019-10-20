@@ -1,0 +1,21 @@
+{from "pattern gun"			; nimrod
+	{filling "bullet40_hun zenite" 4}
+	{fireSound "gun/37mm_61-k"}
+	{RecoveryTime 0.303}
+	{RechargeTime 3}
+	{reloadSound "61k_reload"}
+	{AimingTolerance 3}
+	{Automatic}
+	{burst
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	{speed 90}
+	("speed" s(1150))
+	("caliber_minimum")
+	("range_zenite_long")
+	{projectileDamage 70}
+	("damage" a(70) b(55) c(48) d(39) e(23))
+	{RelaxationTime 0}
+	{cursor "nimrod"}
+}

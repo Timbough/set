@@ -1,0 +1,9 @@
+{from "pattern pistol"
+	;{desc "Steyr Hahn M1912"}
+	{filling "ammo pistol" 8}
+	{mass 2.65}
+	{entity "steyer_pistol_1912"}
+	{fireSound	"pistol/valter"}
+	{reloadSound "valter"}
+	("medium")
+}

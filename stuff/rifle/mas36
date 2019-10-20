@@ -1,0 +1,11 @@
+{from "pattern rifle"
+	{desc "MAS 36"}
+	{filling "ammo rifle" 5}
+	{entity "mas36"}
+	{fireSound "rifle/mauzer_shot"}
+	{reloadSound "rifle_bolt_five"}
+	("8mm")
+	("carbine")
+	{rechargeTime 6}
+	{recoveryTime 3}
+}

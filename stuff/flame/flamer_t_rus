@@ -1,0 +1,14 @@
+{from "flame_thrower_tank"
+	{tag "weapon flame_thrower bullet nokeep"}
+	{filling "fuel"}
+	{inventory
+		{size 4 1 }
+		{weight 100 }
+	}
+	{entity "flame_thrower"}
+	{mass 100} ; kg
+	{fireSound "flame/shot"}
+	{Automatic}
+    	{AimingTolerance 3}
+	{cursor "cannon_on"}
+}

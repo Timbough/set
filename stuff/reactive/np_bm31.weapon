@@ -1,0 +1,22 @@
+{weapon_bullet
+	{tag "gun"}
+	{filling "ammo m31" 12}
+	{fireSound "reactive/katyusha_burst"}
+	("heavy_artillery")
+	{burst {min 6} {noaiming}}
+	{recoveryTime 0.43}
+	{gravity 1.4}
+	{speed 76}
+	{Spreading
+		{BurstRecoveryTime 0.5}
+		{SpreadXYRatio	2}
+		{SpreadYadjust	1}
+		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
+		{SpreadRadius 19}
+		{burstSpreadWidth 16}
+		{burstSpreadDelta 6}
+		{burstSpreadCount 40}
+	}
+	{rechargeTime 210}
+	
+}

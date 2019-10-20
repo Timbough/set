@@ -1,0 +1,16 @@
+{from "pattern gun"     ; "M1897A4"
+	{filling "bullet75_usa"}
+	{fireSound "gun/50to76_cal/75mm_m3"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 7}
+	("range_short")
+	("speed" s(619))
+	("caliber_medium")
+	{projectileDamage 95}
+	("damage" a(95) b(86) c(78) d(70) e(63))
+	{parameters "apcr"
+		("damage" a(127) b(104) c(83) d(64) e(49))
+	}
+	;("accuracy_minimum")
+	{cursor "m12"}
+}

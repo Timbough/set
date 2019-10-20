@@ -1,0 +1,16 @@
+{from "pattern gun"     ; Na-To
+	{filling "bullet75_jap"}
+	{fireSound "gun/75mm_type5"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 7}
+	
+	("speed" s(1050))
+	("range_medium")
+	{projectileDamage 135}
+	("damage" a(145) b(128) c(115) d(103) e(97))
+	{parameters "apcr"
+        ("damage" a(175) b(150) c(133) d(116) e(102))
+	}
+	("accuracy_medium")
+	{cursor "cross"}
+}

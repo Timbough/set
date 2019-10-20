@@ -1,0 +1,26 @@
+{from "pattern gun"     ; "Pak40 L.46"
+	{filling "bullet75_ger"}
+	{fireSound "gun/50to76_cal/75mm_pak40"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 7}
+	("range_medium")
+	
+	("speed" s(792))
+	("caliber_medium")
+	{projectileDamage 122}                        
+	("damage" a(146) b(133) c(118) d(105) e(93))
+	{parameters "apcr"
+		("speed" s(990))
+		("damage" a(195) b(170) c(144) d(121) e(102))
+	}
+	{parameters "apcbc"
+		("damage" a(146) b(133) c(118) d(105) e(93))
+	}
+	{parameters "cu"
+		("speed" s(450))
+        		{projectileDamage 75}
+		("damage" a(75) b(0) c(0) d(0) e(0))
+	}
+	("accuracy_low")
+	{cursor "zf3x8ii"}
+}

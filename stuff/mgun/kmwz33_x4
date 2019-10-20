@@ -1,0 +1,9 @@
+{from "browning_m19"
+	{filling "ammo mgun" 800}
+	{entity "hotchkiss"}
+	{rechargeTime 16}
+	{fireSound	"mgun/besa_burst/"}
+	("burst_long")
+	{projectileDamageTable {15 5} {110 2} {150 0}}
+	{RelaxationTime 0}
+}

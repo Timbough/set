@@ -1,0 +1,27 @@
+{from "pattern pistol"
+
+	{filling "ammo 42lp" 1}
+	{fillingVisible "42lp_ammo"}
+
+	{mass 2.65}
+	{entity "kampfpistole_z"}
+	{fireSound "reactive/launch04"}
+
+	{calibre 50}
+
+	{rechargeTime 13}
+	{curve "gun_light"}
+
+  	{projectileDamage 80}
+	{projectileDamageTable {0 80} {60 80}}
+
+	{spreading 3.5}
+	{aimingTolerance 0.1}
+
+	{speed 45}
+
+	{maxRange 40}
+	{aimRange 40}
+
+	("accuracy_grb")
+}

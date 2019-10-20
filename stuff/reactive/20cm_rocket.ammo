@@ -1,0 +1,14 @@
+{bullet
+	{tag "big size_big shell fg bomb itemin2hands"}
+	{inventory
+		{size 5 1}
+		{weight 50}
+		{fsm "hand-only"}
+	}	
+	{mass 30}
+	{entity "20cm_rocket_ammo"}
+	{view "20cm_rocket_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	("heavy" args 10)	
+}

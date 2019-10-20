@@ -1,0 +1,9 @@
+{from "pattern ap"
+	{tag "size_minimum" "shell_small" "pierce"}
+	{inventory
+		{size 4 1}
+	}
+	{mass 7.6}
+	("ap" args 3.25)
+	{entity "ita_shell_65x287r_ap"}
+}

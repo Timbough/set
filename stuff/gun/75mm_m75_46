@@ -1,0 +1,9 @@
+{from "75mm_m75_32"     ; Semovente M75_46
+	{rechargeTime 7}
+	("speed" s(750))
+	("damage" a(124) b(112) c(103) d(91) e(76))
+	{parameters "cu"
+        		{projectileDamage 120}
+		("damage" a(120) b(0) c(0) d(0) e(0))
+	}
+}

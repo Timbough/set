@@ -1,0 +1,14 @@
+{from "pattern rpg_weapon"
+	{filling "ammo piatrocket" 1}
+	{fillingVisible "piatrocket"}
+
+	{entity "piat"}
+	{fireSound "reactive/piat"}
+	{reloadSound "panzerschreck_reload"}
+	{rechargeTime 6}
+	{speed 70}
+	{reactive 0}
+	{range 105 1000}
+	("accuracy_grb")	
+	
+}

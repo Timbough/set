@@ -1,0 +1,8 @@
+{from "pattern pistol"
+	{filling "ammo pistol" 7}
+	{mass 1.075}
+	{entity "colt"}
+	{fireSound	"pistol/colt45"}
+	{reloadSound "colt45_reload"}
+	("medium")
+}

@@ -1,0 +1,12 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo mgun" 40}
+	{entity "madsen_m1902"}
+	{fireSound	"mgun/reibel_burst/"}
+	{reloadSound "type99lmg_reload"}
+	{rechargeTime 6.5}
+	("rof" r(480))
+	("burst_short")
+	("7.92x57")
+	("lmgun")
+}

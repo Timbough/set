@@ -1,0 +1,12 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo mgun" 20}
+	{entity "zbrojovka_brno_vz26"}
+	{fireSound	"mgun/zb30_burst/"}
+	{reloadSound "bren"}
+
+	{rechargeTime 5}
+	("rof" r(520))
+	("burst_short")
+	("7.92x57")
+}

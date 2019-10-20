@@ -1,0 +1,83 @@
+{environment
+	{light
+		{direction 0.024 0.717 -0.697}
+		{ambient 0xff2c425b}
+		{diffuse 0xffebb46a}
+		{specular 0xfffff5ec}
+		{specularPower 4}
+		{lightsIntensity 0.1}
+		{draw_sun_moon}
+		{sun_moon_radius 1}
+		{night_vision 1}
+		{color_correction
+			{saturation 0.8}
+			{tone 0xff5a534d}
+			{tone_strength 0.1}
+			{color_shading
+				{shade_tone 0xffffffff}
+			}
+		}
+		{camera_lens_effetcs
+			{light_scattering
+				{enable}
+				{intensity 0.5}
+				{ray_length 0.5}
+				{color_tone 0xffffaa5a}
+			}
+			{lens_dirt
+				{enable}
+			}
+			{screen_brightening
+				{enable}
+				{intensity 0.3}
+			}
+		}
+	}
+	{wind
+		{speed 0.2 0.2 0}
+		{amplitude 2}
+	}
+	{haze
+		{enable}
+		{color 0xffdcf5dc}
+		{start 1500}
+		{end 10000}
+	}
+	{sky
+		{enable}
+		{texture "/texture/common/environment/environment_day_01"}
+		{globalEnvironment "/texture/common/environment/envmap_glass01"}
+		{intensity 1.4}
+		{azimuth 180}
+	}
+	{thunder
+		{color 0xff686c73}
+	}
+	{video_overlay
+		{color 0xffffffff}
+	}
+	{grain
+		{enable}
+		{colorAmount 0}
+		{grainAmount 0.02}
+		{grainParticleSize 0.6}
+		{lumAmount 1}
+	}
+	{dof
+		{enable}
+		{near_scale 2.5}
+		{far_scale 1}
+		{near_start 50}
+		{near_end 75}
+		{far_start 2000}
+		{far_end 6000}
+		{"3rd_Person"
+			{"3rdP_blurscale" 1}
+		}
+		{blur_strength 3}
+	}
+	{glow
+		{enable}
+		{amount 0.5}
+	}
+}

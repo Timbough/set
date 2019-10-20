@@ -1,0 +1,7 @@
+{from "pattern pistol"
+	{mass 1.16}
+	{entity "jap-falchion"}
+	{recoveryTime 0.275}
+	{rechargeTime 2.721}
+	{Automatic}
+}

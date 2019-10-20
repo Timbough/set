@@ -1,0 +1,11 @@
+{from "pattern rifle"
+	{desc "Berthier Mle 1916"}
+	{filling "ammo rifle" 5}
+	{entity "berthier"}
+	{fireSound "rifle/mauzer_shot"}
+	{reloadSound "rifle_bolt_five"}
+	("8mm")
+	{rechargeTime 6}
+	{recoveryTime 3.5}
+
+}

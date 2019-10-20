@@ -1,0 +1,15 @@
+{from "pattern rifle"
+	{tag "sniper"}
+	
+	{special
+		{mode aim}
+		{PrepareTime 1}	
+		{PrepareCursor "aimed_shot"}
+		{accuracy 3}
+		{damage 2}
+		{throw_off}
+	}
+	{range 120 1000}
+	{aimingTolerance 0.8}
+	("accuracy_sniper_rifle")
+}

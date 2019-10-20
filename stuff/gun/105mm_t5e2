@@ -1,0 +1,20 @@
+{from "pattern gun"     ; "T29" Heavy tank
+	{filling "bullet105_t15_usa"}
+	{fireSound "gun/howitzer/155mm_gpf"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 15}
+	("range_long")
+	("speed" s(1066))
+	("caliber_large")          
+	{projectileDamage 260}
+	("damage" a(258) b(218) c(190) d(178) e(155))
+	{parameters "apcr"
+		("speed" s(1128))
+		("damage" a(315) b(285) c(251) d(223) e(196))
+	}
+	{parameters "fg"
+		("speed" s(945))
+	}
+	("accuracy_medium") 
+	{cursor "sflzf1a"}
+}

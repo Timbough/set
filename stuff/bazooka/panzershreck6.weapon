@@ -1,0 +1,8 @@
+{from "weapon panzershreck"
+	{filling "ammo panzershreck" 6}
+	{inventory {noView}}
+	{rechargeTime 25}
+	{recoveryTime 0.4}
+	{mass 35}
+	{spreading 0.5}
+}

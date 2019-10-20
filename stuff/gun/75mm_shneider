@@ -1,0 +1,11 @@
+{from "pattern gun"      ; "
+	{filling "bullet75_fra"}
+	{fireSound "gun/75mm_type99"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 6}
+	("range_light_howitzer")
+	("speed" s(577))
+	("caliber_medium")
+	{projectileDamage 66}
+	("damage" a(63) b(48) c(38) d(33) e(30))	
+}

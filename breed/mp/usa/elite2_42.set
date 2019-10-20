@@ -1,0 +1,58 @@
+{breed
+	{skin "usa-101st-smg"}
+	{portrait "usa_elite1"}
+	{nationality usa}
+	{icon "elite2"}
+	{icon_priority 3}
+	{armors
+		{head helmet_usa_506th_camo}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.9
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "thompson" filled}
+		{item "ammo pistol" 500}
+		{item "bandage" 5}
+		{item "grenade m61" 2}
+		{item "grenade n73at" 1}
+		{item "smoke grenade" 2}
+		{item "grenade satchel" 1}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

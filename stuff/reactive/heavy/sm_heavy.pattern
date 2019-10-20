@@ -1,0 +1,12 @@
+(include "\set\explosives.accuracy")
+
+{bullet
+	{tag "dropboxed big smoke"}
+	{inventory
+		{size 4 1}
+		{weight 70}
+	}       
+	{mass 2}
+	{entity "rus_ammo_mortar120_sm"}
+	{detonationThickness 1}
+}

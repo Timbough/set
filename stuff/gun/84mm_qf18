@@ -1,0 +1,11 @@
+{from "pattern gun"
+	{filling "bullet84_eng"}
+	{fireSound "gun/50to76_cal/76mm_kt26"}
+	{reloadSound "gun_r03"}
+	("range_light_howitzer")
+	("caliber_medium")
+	{cursor "eng"}
+	("speed" s(492))
+	{projectileDamage 89}   
+	("damage" a(88) b(76) c(65) d(56) e(47))
+}

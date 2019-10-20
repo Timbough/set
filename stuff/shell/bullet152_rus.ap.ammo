@@ -1,0 +1,17 @@
+{from "pattern ap"
+	{tag "big" "size_big" "shell_maximum" "pierce" "no_ricochet"}
+	{inventory
+		{size 7 1}
+	}
+;	("ap" args 7.6)
+	{trace
+		{view "/texture/fx/trace"
+			{Light 0}
+			{ScaleY 0}
+		}		
+		{length 0}
+	}
+
+	{mass 36}
+	{entity "rus_shell_152mm_g536_ap"}
+}

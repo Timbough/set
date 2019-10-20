@@ -1,0 +1,11 @@
+{from "pattern gun"   ; "b1bis"
+	{filling "bullet47_fra"}
+	{fireSound "gun/47mm_SA35_L34"}
+	{reloadSound "pak35"}
+	{rechargeTime 5}
+	("speed" s(700))
+	("range_short")
+	{projectileDamage 72}
+	("damage" a(72) b(63) c(53) d(46) e(20))
+	{cursor "L710"}
+}

@@ -1,0 +1,13 @@
+{bullet
+	{tag "dropboxed grenade mortar"}
+	{inventory
+		{size 2 1}
+		{weight 50}
+		{fsm "hand-only"}
+	}	
+	{mass 3}
+	{entity "brixia_ammo"}
+	{view "brixia_ammo"}
+	{detonationThickness 1}
+	("fg" args 2.25)
+}

@@ -1,0 +1,9 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 10}
+	{entity "lee_enfield_mk3"}
+	{fireSound "rifle/enfield"}
+	{reloadSound "enfield_reload"}
+	("303")
+	{rechargeTime 8.5}
+	{recoveryTime 3}
+}

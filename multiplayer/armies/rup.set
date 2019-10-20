@@ -1,0 +1,6 @@
+{army
+	{id 13}
+	{title "mp/army/rup"}
+	{icon "/interface/pages/multi/flag_rup"}
+	{flag "/interface/scene/common/flag-ussr"}
+}

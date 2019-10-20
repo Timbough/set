@@ -1,0 +1,14 @@
+{from "pattern gun"     ; su-122
+	{filling "bullet122_460_rus"}
+	{fireSound "gun/howitzer/122mm_d25"}
+	{reloadSound "tankgun_r04"}
+	("range_grazing_howitzer")
+	
+	("caliber_maximum")
+	{parameters "cu"
+        		{projectileDamage 125}
+		("damage" a(125) b(0) c(0) d(0) e(0))
+	}
+	{rechargeTime 12}
+	{cursor "pg1m"}
+}

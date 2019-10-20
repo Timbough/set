@@ -1,0 +1,10 @@
+{from "pattern fg"
+	{tag "size_minimum"}
+	{inventory
+		{size 4 1}
+		{weight 50}
+	}
+	("fg" args 2.585)
+	{mass 7}
+	{entity "ger_shell_47x408r_fg"}
+}

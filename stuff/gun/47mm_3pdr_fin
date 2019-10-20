@@ -1,0 +1,12 @@
+{from "pattern gun"		; Vickers
+	{filling "bullet47_fin"}
+	{fireSound "gun/47mm_SA34_L30"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 5}
+	("caliber_medium")
+	("range_short")
+	("speed" s(650))
+	{projectileDamage 45}
+	("damage" a(48) b(40) c(31) d(23) e(12))
+	("accuracy_medium")
+}

@@ -1,0 +1,29 @@
+{from "pattern gun"     ; 13mm_hotchkiss tank gun
+	{filling "ammo hmgun" 30}
+	{fireSound	"gun/13mm_hotchkiss"}
+	{reloadSound "ptrd"}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 160}
+	{Automatic}
+	("range_zenite")
+	("caliber_zenite")
+	{Spreading	
+		{BurstAccuracy 100 95 90 85 80 75 70}
+	}
+	
+	{burst
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	{recoveryTime 0.13}
+	{rechargeTime 4}
+	("speed" s(800))
+	{healthDamage 180}
+	{projectileDamage 10}
+	("damage" a(24) b(17) c(10) d(7) e(1))
+	("accuracy_zenite_high")
+	{aimingTolerance 1}
+	("range_zenite")
+	
+}

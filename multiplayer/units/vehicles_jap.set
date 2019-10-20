@@ -1,0 +1,98 @@
+;----- Japanese Empire -----
+
+
+
+
+;°°°Infantry only°°°
+
+
+;°°°Button 1°°°
+{"horse_jap"              ("vs" c(0) t(jap_inf_div   39 42 43 n40 n41 n44 n45 n50 fl  inf_only) s(jap) n(0) g(b0) sc(0.5) b(v1) cw(0) cp(0)) {cost 10} {fore 1}}
+{"np_type94"        ("vs" c(0) t(jap_inf_div jap_tank_div jap_storm_div nseacombat all any 42 43 44 45 n50 fl 39 n40 n41  inf_only) 			s(jap) n(2) g(b4) sc(2.5) b(v1) cw(0) cp(0)) {cost 50} {fore 1}}
+{"type97"           ("vs" c(0) t(jap_inf_div   nseacombat all any 42 43 44 45 n50 fl inf_only 39 n40 n41 ntb nt) s(jap) n(2) g(b1) sc(3) b(v1) cw(0) cp(0)) {cost 60} {fore 1}}
+{"chi-ha_eng"           ("vs" c(0) t(jap_tank_div jap_storm_div nseacombat all any 42 43 44 45 n50 fl 39 n40 n41 tb tank_only) s(jap) n(2) g(b1) sc(4) b(v1) cw(0) cp(0)) {cost 80} {fore 1}}
+{"np_type95"           ("vs" c(0) t(jap_inf_div   nseacombat all any 42 43 44 45 n50 fl inf_only 39 n40 n41 ntb nt) s(jap) n(2) g(b1) sc(4.5) b(v1) cw(0) cp(0)) {cost 90} {fore 0}}
+{"ho-ha3mgun"       ("vs" c(0) t(jap_inf_div jap_tank_div jap_storm_div nseacombat all any 42 43 44 45 n50 fl n39 n40 n41 ntb nt) 		s(jap) n(4) g(b3) sc(6.25) b(v1) cw(0) cp(0)) {cost 125} {fore -23}}
+{"isuzutx40_bomb"     ("vs" c(0) t(jap_storm_div nseacombat all any 42 43 44 45 n50 nfl n39 n40 n41 airborne ntb nt nfl) 			s(jap) n(2) g(b5) sc(7) b(v1) cw(2) cp(0)) {cost 140} {fore 1}}
+{"np_type94art"        ("vs" c(0) t(jap_inf_div jap_tank_div jap_storm_div nseacombat all any 39 n40 n41 n42 n43 n44 n45 n50 fl tb tank_only) 			s(jap) n(2) g(b4) sc(7.5) b(v1) cw(0) cp(0)) {cost 150} {fore 1}}
+{"isuzutx40art"     ("vs" c(0) t(jap_inf_div jap_tank_div jap_storm_div nseacombat all any 42 43 44 45 n50 nfl n39 n40 n41 ntb nt) 			s(jap) n(2) g(b5) sc(7.5) b(v1) cw(2) cp(0)) {cost 150} {fore 1}}
+{"np_type94eng"        ("vs" c(0) t(jap_inf_div jap_tank_div jap_storm_div nseacombat all any 39 n40 n41 n42 n43 n44 n45 n50 fl ntb nt) 			s(jap) n(2) g(b4) sc(12.5) b(v1) cw(0) cp(0)) {cost 250} {fore 1}}
+{"isuzutx40_eng"    ("vs" c(0) t(jap_inf_div jap_tank_div jap_storm_div nseacombat all any 42 43 44 45 n50 nfl n39 n40 n41 ntb nt) 			s(jap) n(2) g(b6) sc(12.5) b(v1) cw(0) cp(0)) {cost 250} {fore 1}}
+{"boat_jap"   ("vm" c(0) t(seacombat nall any n39 n40 n41 n42 n43 n44 n45 n50 nfl ntb nt) 			s(jap) n(3) g(b6) sc(2.5) b(v1) cw(0) cp(0)) {cost 50} {fore 1}}
+
+
+;°°°Button 2°°°
+
+{"type1_stan"    ("vs" c(0) t(jap_inf_div  jap_storm_div nseacombat all any 42 43 44 45 n50 fl n39 n40 n41  inf_only) 		s(jap) n(2) g(c1) sc(4.5)  b(v2) cw(2) cp(5)) {cost 45} {fore -2}}
+{"type92_stan"    ("vs" c(0) t(jap_inf_div  jap_storm_div nseacombat all any 39 42 43 44 45 n50 fl n40 n41  inf_only) 		s(jap) n(2) g(c1) sc(5.5)  b(v2) cw(2) cp(5)) {cost 55} {fore -2}}
+{"20mm_type97"       ("vs" c(0) t(jap_inf_div   nseacombat all any 42 43 44 45 n50 fl 39 n40 n41 ntb nt) 		s(jap) n(2) g(c2) sc(7.5) b(v2) cw(2) cp(5)) {cost 75} {fore -4}}
+{"type2_20mm"       ("vs" c(0) t(jap_inf_div   nseacombat all any 42 43 44 45 n50 fl 39 n40 n41 ntb nt) 		s(jap) n(1) g(c2) sc(8.5) b(v2) cw(2) cp(5)) {cost 170} {fore -4}}
+{"37mm_type11"	   ("vs" c(0) t(jap_inf_div   nseacombat all any 42 43 44 45 n50 fl 39 n40 n41 ntb nt) 		s(jap) n(2) g(c3) sc(10.5) b(v2) cw(2) cp(5)) {cost 105} {fore -2}}
+("how" side(jap) name(how_ai1) c(0) c1(np_type94_ai) c2(pak47_ai)  t(jap_inf_div nseacombat n40 n41 n50 ai_cannon ntb nt) g(ai1) b(v2) cost(135) f(1))
+{"pak47"            ("vs" c(0) t(jap_inf_div jap_tank_div jap_storm_div nseacombat all any 42 43 44 45 n50 fl 39 n40 n41  inf_only2) 			s(jap) n(2) g(c4) sc(10)  b(v2) cw(2) cp(5)) {cost 200} {fore -14}}
+{"pak57"            ("vs" c(0) t(jap_inf_div jap_tank_div jap_storm_div nseacombat all any 42 43 44 45 n50 nfl n39 n40 n41 ntb nt) 			s(jap) n(4) g(c5) sc(10)  b(v2) cw(2) cp(5)) {cost 200} {fore -14}}
+("how" side(jap) name(how_ai2) c(0) c1(np_type94_ai) c2(t90_75m_ai)  t(jap_inf_div jap_tank_div nseacombat n39 n40 n41 n50 ai_cannon ntb nt) g(ai2) b(v2) cost(280) f(1))
+{"75mm_type_90"          ("vs" c(0) t(jap_inf_div jap_tank_div nseacombat all any 39 42 43 44 45 n50 nfl medium n40 n41 ntb nt) 	s(jap) n(4) g(c6) sc(15) b(v2) cw(2) cp(5)) {cost 300} {fore -19}}
+{"type5_40mm_aa"            ("vs" c(0) t(jap_inf_div nseacombat all any 43 44 45 n39 n40 n41 n42 n50 nfl ntb nt) 			s(jap) n(2) g(c7) sc(15)  b(v2) cw(2) cp(5)) {cost 300} {fore -6}}
+{"t90_75m"          ("vs" c(0) t(jap_inf_div  jap_storm_div nseacombat all any 42 43 44 45 n50 nfl medium n39 n40 n41 ntb nt) 	s(jap) n(2) g(c8) sc(15) b(v2) cw(2) cp(5)) {cost 300} {fore -19}}
+("how" side(jap) name(how_aa) c(0) c1(np_ho_ki) c2(type4_75mm)  	t(nseacombat all any 43 44 45 n50 nfl heavy heavyaa n39 n40 n41 n42 ntb nt) g(c9) b(v2) cost(500) f(-6))
+
+;°°°Button 7°°°
+
+{"type94"	    	("vs" c(0) t(jap_inf_div jap_tank_div  nseacombat all any arty 42 43 44 45 n50 fl 39 n40 n41 ntb nt) 		s(jap) n(2) g(j1) sc(12.5) b(v7) cw(2) cp(5)) {cost 125} {fore -2}}
+{"81mm_brandt_jap"       ("vs" c(0) t(jap_inf_div jap_tank_div  nseacombat all any arty 42 43 44 45 n50 fl 39 n40 n41 ntb nt inf_only3) s(jap) n(2) g(j0) sc(12.5) b(v7) cw(0) cp(5)) {cost 125} {fore -2}}
+{"isuzutx40_mort" 	("vs" c(0) t(jap_inf_div  jap_storm_div nseacombat all any arty 42 43 44 45 n50 fl n39 n40 n41  inf_only3) 		s(jap) n(3) g(j2) sc(16.25) b(v7) cw(0) cp(0)) {cost 170} {fore -9}}
+{"type_97_150mm"          ("vs" c(0) t(jap_inf_div  jap_storm_div nseacombat all any arty 42 43 44 45 n50 nfl medium n39 n40 n41 ntb nt) 	s(jap) n(2) g(j3) sc(25) b(v7) cw(2) cp(5)) {cost 150} {fore -9}}
+{"type4_200mm"          ("vs" c(0) t(jap_inf_div  jap_storm_div nseacombat all any arty 42 43 44 45 n50 fl heavy one_only n39 n40 n41 ntb nt) 	s(jap) n(2) g(j4) sc(30) b(v7) cw(2) cp(5)) {cost 300} {fore -9}}
+("how" side(jap) name(how_ai3) c(0) c1(np_type94_ai) c2(t91_105m_ai)  t(jap_inf_div  jap_storm_div nseacombat n40 n41 n50 ai_cannon arty fl ntb nt) g(ai3) b(v7) cost(600) f(-1))
+("how" side(jap) name(how_b) c(0) c1(type93scout) c2(t91_105m) 	t(jap_inf_div  jap_storm_div nseacombat all any arty 42 43 44 45 n50 fl persize artillery medium 39 n40 n41 ntb nt) g(j5) b(v7) cost(600) f(-19))
+{"ho-ni2"           ("v" c(0) t( jap_tank_div  nseacombat all any arty 42 43 44 45 n50 fl artillery medium persize_spg n39 n40 n41 ntb nt) 			s(jap) n1(2) n2(1) g(j7) sc(35) b(v7) cw(0) cp(5)) {cost 700} {fore -14}}
+("how" side(jap) name(how_a) c(0) c1(np_ho_ki) c2(type96_150mm)  	t(jap_inf_div  jap_storm_div nseacombat all any arty 42 43 44 45 n50 nfl artillery heavy persize_heavy 39 n40 n41 ntb nt) g(j6) b(v7) cost(800) f(-19))
+{"ho-ro"            ("v" c(0) t(  jap_storm_div nseacombat all any arty 44 45 n50 nfl artillery heavy persize_heavy n39 n40 n41 n42 n43 ntb nt) 	s(jap) n1(2) n2(1) g(j8) sc(45) b(v7) cw(0) cp(5))  {cost 900} {fore -6.5}}
+{"ha-to"            ("vs" c(0) t(  jap_storm_div nseacombat all any arty  one_only1 heavy_art rocket n39 n40 n41 n42 n43 n44 45 n50 nfl ntb nt) 	s(jap) n(5) g(j9) sc(65) b(v7) cw(0) cp(15)) {cost 1300} {fore -9}}
+{"i19"            ("vm" c(0) t(seacombat nall any n39 n40 n41 n42 n43 n44 n45 n50 nfl ntb nt) 	s(jap) n(4) g(c16) sc(25) b(v7) cw(2) cp(10)) {cost 500} {fore -2}}
+{"destroyer_k_jap"            ("vm" c(0) t(seacombat nall any n39 n40 n41 n42 n43 n44 n45 n50 nfl ntb nt) 	s(jap) n(4) g(c16) sc(35) b(v7) cw(2) cp(15)) {cost 700} {fore -2}}
+{"akizuki"            ("vm" c(0) t(seacombat nall any n39 n40 n41 n42 n43 n44 n45 n50 nfl ntb nt) 	s(jap) n(8) g(j10) sc(55) b(v7) cw(2) cp(5)) {cost 1100} {fore -2}}
+
+
+;°°°Button 3°°°
+{"type87"      ("v" c(0) t(jap_inf_div  jap_storm_div nseacombat all any n42 n43 n44 n45 n50 fl 39 n40 n41 ntb nt) 				s(jap) n1(2) n2(1) g(d1) sc(7) b(v3) cw(0) cp(5)) {cost 140} {fore -23}}
+{"type93scout"      ("v" c(0) t(jap_inf_div  jap_storm_div nseacombat all any 42 43 44 45 n50 fl n39 n40 n41 ntb nt) 				s(jap) n1(4) n2(1) g(d1) sc(7.5) b(v3) cw(0) cp(5)) {cost 150} {fore -23}}
+{"te-ke"            ("v" c(0) t(jap_inf_div   nseacombat all any 39 fl n40 n41 n42 n43 n44 n45 n50 ntb nt) 				s(jap) n1(1) n2(1) g(d2) sc(7.75) b(v3) cw(0) cp(5)) {cost 155} {fore -31}}
+{"ha-go"            ("v" c(0) t( jap_tank_div  nseacombat all any 42 43 44 45 n50 fl 39 n40 n41 ntb nt) 				s(jap) n1(2) n2(1) g(d2) sc(10) b(v3) cw(0) cp(5)) {cost 200} {fore -37}}
+{"ke-nu"            ("v" c(0) t( jap_tank_div  nseacombat all any 44 45 n50 fl n39 n40 n41 n42 n43 ntb nt) 				s(jap) n1(2) n2(1) g(d3) sc(11) b(v3) cw(0) cp(5)) {cost 220} {fore -37}}
+{"np_type94aa"     ("vs" c(0) t(jap_inf_div   nseacombat 39 n40 n41 nall any n42 n43 n44 n45 n50 fl  ntb nt) 			s(jap) n(4) g(d6) sc(12) b(v3) cw(0) cp(5)) {cost 240} {fore -2}}
+{"isuzutx40_aa"     ("vs" c(0) t(jap_inf_div   nseacombat all any 42 43 n44 n45 n50 nfl n39 n40 n41 ntb nt) 			s(jap) n(4) g(d6) sc(12) b(v3) cw(0) cp(5)) {cost 240} {fore -2}}
+{"ss-d"             ("v" c(0) t( jap_tank_div  nseacombat all any deminer 43 44 45 n50 fl n39 n40 n41 n42 ntb nt)		s(jap) n1(3) n2(1) g(d7) sc(12.5) b(v3) cw(0) cp(0)) {cost 250} {fore -2}}
+{"chi-ha57"         ("v" c(0) t( jap_tank_div  nseacombat all any 42 43 44 45 n50 fl 39 n40 n41 tb tank_only) 				s(jap) n1(3) n2(1) g(d4) sc(13) b(v3) cw(0) cp(5)) {cost 260} {fore -37}}
+{"chi-ha47"         ("v" c(0) t( jap_tank_div  nseacombat all any 42 43 44 45 n50 fl n39 n40 n41 tb tank_only) 				s(jap) n1(4) n2(1) g(d5) sc(15) b(v3) cw(0) cp(5)) {cost 300} {fore -37}}
+{"ta-se"         ("v" c(0) t(jap_inf_div jap_tank_div jap_storm_div nseacombat all any n42 n43 44 45 n50 fl n39 n40 n41 ntb nt) 			s(jap) n1(2) n2(1) g(d8) sc(15) b(v3) cw(0) cp(5)) {cost 300} {fore -41}}
+
+
+;°°°Button 4°°°
+{"type89"	         ("v" c(0) t( jap_tank_div  nseacombat 39 42 all any n40 n41 n43 n44 n45 n50 medium fl tb tank_only) 		s(jap) n1(3) n2(1) g(e1) sc(13) b(v4) cw(0) cp(15)) {cost 260} {fore -49}}
+{"chi-he"           ("v" c(0) t( jap_tank_div  nseacombat all any 43 44 45 n50 nfl medium n39 n40 n41 n42 tb tank_only) 		s(jap) n1(3) n2(1) g(e1) sc(17) b(v4) cw(0) cp(15)) {cost 340} {fore -49}}
+{"chi-he_m"           ("v" c(0) t( jap_tank_div  nseacombat all any 43 44 45 n50 nfl medium n39 n40 n41 n42 tb tank_only) 		s(jap) n1(3) n2(1) g(e1) sc(17.5) b(v4) cw(0) cp(15)) {cost 350} {fore -49}}
+{"ho-i"             ("v" c(0) t( jap_tank_div  nseacombat all any 42 43 44 45 n50 nfl medium n39 n40 n41 tb tank_only) 		s(jap) n1(3) n2(1) g(e2) sc(19) b(v4) cw(0) cp(15)) {cost 380} {fore -53}}
+{"chi-nu"           ("v" c(0) t( jap_tank_div  nseacombat all any 44 45 n50 nfl medium n39 n40 n41 n42 n43 tb tank_only1) 		s(jap) n1(3) n2(1) g(e3) sc(20) b(v4) cw(0) cp(15)) {cost 400} {fore -14}}
+{"chi-ha120"     ("v" c(0) t(  jap_storm_div nseacombat all any 42 43 44 45 n50 nfl medium n39 n40 n41 tb tank_only) 		s(jap) n1(3) n2(1) g(e2) sc(22.5) b(v4) cw(0) cp(15)) {cost 450} {fore -10}}
+{"chi-to"           ("v" c(0) t(  jap_storm_div nseacombat all any n44 n45 n50 nfl heavy n39 n40 n41 n42 n43 ntb nt) 			s(jap) n1(4) n2(1) g(e4) sc(35) b(v4) cw(0) cp(30)) {cost 700} {fore -10}} 
+{"chi-ri"           ("v" c(0) t(  jap_storm_div nseacombat all any n45 n50 nfl sheavy one_only n39 n40 n41 n42 n43 n44 ntb nt) 		s(jap) n1(4) n2(1) g(e5) sc(45) b(v4) cw(0) cp(30)) {cost 900} {fore -2}} 	
+
+
+
+;°°°Button 5°°°
+
+{"ho-ni1"           ("v"  c(0) t( jap_tank_div  nseacombat all any 44 45 n50 nfl medium n39 n40 n41 n42 n43 tb tank_only2) 		s(jap) n1(2) n2(1) g(f1) sc(18) b(v5) cw(0) cp(10)) {cost 360} {fore -14}} 	
+{"ho-ni_3"           ("v"  c(0) t( jap_tank_div  nseacombat all any 44 45 n50 nfl medium n39 n40 n41 n42 n43 tb tank_only2) 		s(jap) n1(2) n2(1) g(f1) sc(19.5) b(v5) cw(0) cp(10)) {cost 390} {fore -14}}
+{"na-to"           ("v"  c(0) t( jap_tank_div  nseacombat all any n44 45 n50 nfl medium n39 n40 n41 n42 n43 tb tank_only2) 		s(jap) n1(4) n2(1) g(f2) sc(29.5) b(v5) cw(0) cp(10)) {cost 590} {fore -1}}
+{"ho-ri_1"           ("v"  c(0) t(  jap_storm_div nseacombat all any n45 n50 nfl heavy n39 n40 n41 n42 n43 n44 tb tank_only2) 		s(jap) n1(3) n2(1) g(f3) sc(70) b(v5) cw(0) cp(10)) {cost 1400} {fore -1}} 	 	
+{"ho-ri"     ("v"  c(0) t(  jap_storm_div nseacombat all any n45 n50 nfl sheavy one_only2 n39 n40 n41 n42 n43 n44 ntb nt) 		s(jap) n1(3) n2(1) g(f4) sc(80) b(v5) cw(0) cp(30)) {cost 1600} {fore -1}} 	
+
+;°°°Button 6°°°
+
+{"a6m5"        ("va" c(0) t(all any 39 n40 n41 42 43 44 45 n50 nfl airborne ntb nt)  s(jap) n(1)  g(e7) sc(25) b(v6) cw(0) cp(10)) {cost 500} {fore -2}}
+{"b5n2_torpedo"           ("va" c(0) t(seacombat nall any arty n39 n40 n41 n42 n43 n44 n45 n50 heavy nfl ntb nt) 	s(jap) n(2) g(j10) sc(39) b(v6) cw(2) cp(5)) {cost 780} {fore -2}}
+{"j2m_rs"            ("va" c(0) t(all any 39 n40 n41 42 43 44 45 n50 heavy nfl airborne ntb nt) 	s(jap) n(1) g(e8) sc(40) b(v6) cw(2) cp(10)) {cost 800} {fore -2}}
+{"a6m_m21_86_b"            ("va" c(0) t(  jap_storm_div all any arty n39 n40 n41 42 43 44 45 n50 heavy nfl airborne ntb nt) 	s(jap) n(1) g(j10) sc(40) b(v6) cw(2) cp(5)) {cost 800} {fore -2}}
+{"ki45"            ("va" c(0) t(  jap_storm_div all any arty n39 n40 n41 42 43 44 45 n50 heavy nfl airborne ntb nt) 	s(jap) n(2) g(j11) sc(40) b(v6) cw(2) cp(5)) {cost 800} {fore -2}}

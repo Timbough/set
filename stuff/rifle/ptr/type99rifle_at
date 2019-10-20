@@ -1,0 +1,14 @@
+{from "pattern at_rifle"
+	{entity "type99rifle_g"}
+	{speed 45}
+	{fireSound	"rifle/ptr/grb39"}
+	{filling "ammo rifle_grenade_at" 1}
+	{fillingVisible "type2at_ammo"}
+    	{projectileDamage 60}
+	{projectileDamageTable {0 60} {80 60}}
+	{spreading 3}
+	{aimtype curved}
+	{gravity 2}
+	{rechargeTime 4}    
+	("accuracy_grb")
+}

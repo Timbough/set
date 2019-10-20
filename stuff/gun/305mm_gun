@@ -1,0 +1,12 @@
+{from "pattern gun"		; 
+	{filling "bullet305" 3}
+	{fireSound "gun/203mm"}
+	{RecoveryTime 0.01}
+	{RechargeTime 55}
+	{Automatic}
+	("speed" s(1000))
+	("caliber_howitzer")
+	("range_heavy_howitzer")
+	{projectileDamage 1000}
+	
+}

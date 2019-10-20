@@ -1,0 +1,10 @@
+{from "pattern fg"
+	{tag "big" "size_maximum"}
+	{tag "no_ricochet"}
+	{inventory
+		{size 5 1}
+	}
+	("fg" args 9)
+	{mass 97}
+	{entity "shell_fg_180"}
+}

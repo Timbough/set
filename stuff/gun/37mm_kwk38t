@@ -1,0 +1,19 @@
+{from "pattern gun"		;Skoda A7 vz.38 L/47.8, pz38t
+	{filling "bullet37_ger"}
+	{fireSound "gun/37mm_pak35"}
+	{reloadSound "pak35"}
+	{rechargeTime 4.5}
+	("range_minimum")
+	("speed" s(741))
+	{projectileDamage 18}
+	("damage" a(47) b(38) c(31) d(28) e(24))
+	{parameters "apcr"
+		("speed" s(1020))
+		("damage" a(73) b(38) c(20) d(10) e(5))
+	}   
+	("accuracy_medium")
+	{cursor "ger"}
+	{parameters "cu"
+		("speed" s(110))
+	}
+}

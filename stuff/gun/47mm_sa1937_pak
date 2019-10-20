@@ -1,0 +1,4 @@
+{from "47mm_sa1937"		;47mm Pak Fr
+	{parameters "fg" {range 150 160}}
+	{cursor "L710"}
+}

@@ -1,0 +1,15 @@
+{from "flamer_t_ger"
+	{tag "weapon build_in gun"}
+	{filling "fuel"}
+	{inventory
+		{size 4 2 }
+		{weight 100 }
+	}
+	{mass 100} ; kg
+	{entity "flame_thrower"}
+	{foresight "Foresight11"}
+	{fireSound "flame/shot"}
+	{Automatic}
+    	{AimingTolerance 3}
+	{cursor "cannon_on"}
+}

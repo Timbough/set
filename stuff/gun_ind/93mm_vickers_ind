@@ -1,0 +1,11 @@
+{from "pattern gun_indirect"      ; "vickers"
+	{filling "bullet93_eng fg"}
+	;{fireSound "gun/85to100_cal/93mm_vickers"}	
+	{fireSound "gun/90-95mm/Vickers/"}
+	{reloadSound "tankgun_r02"}
+	{rechargeTime 7}
+	{projectileDamage 151}
+	("range_indirect_large")
+	("caliber_large")
+	("speed" s(795)) 
+}

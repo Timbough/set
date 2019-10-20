@@ -1,0 +1,60 @@
+{breed
+	{skin "pol-ulan-officer"}
+	{portrait "pol_elite1"}
+	{nationality pol}
+	{icon "elite_smgs"}
+	{icon_priority 2}
+	{armors
+		{head "cap_pol_fieldcap"}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.9
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"field_glass"
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}	
+	{inventory
+		{item "karabinek_wz29" filled}      
+		{item "ammo rifle" 100}
+		{item "bandage" 3}
+		{item "grenade poland_o33" 1}
+		{item "grenade poland_z33" 2}
+		{item "grenade molotov_coctail" 1}
+		{item "sandbag_kit" 1}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

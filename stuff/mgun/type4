@@ -1,0 +1,10 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 30}
+	{entity "type92"}
+	{fireSound	"mgun/type92_shot"}
+
+	{rechargeTime 6}
+	{recoveryTime 0.14}
+	("burst_short")
+	("6.5x50")
+}

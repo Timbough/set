@@ -1,0 +1,58 @@
+{breed
+	{skin "ita-para-rfl"}
+	{portrait "ita_elite4"}
+	{icon "elite"}
+	{icon_priority 2}
+	{nationality ita}
+	{armors
+		{head helmet_ita_para}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.9
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "carcano_m91-38" filled}
+		{item "ammo rifle" 100}
+            		{item "ita_pack1"}
+		{item "bandage" 3}
+		{item "oto_mod35" 2}
+		{item "ammo ptr" 20}
+		{item "solothurn" filled}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

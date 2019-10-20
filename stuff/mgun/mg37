@@ -1,0 +1,10 @@
+{from "pattern mgun"
+	{entity "mg37(t)"}
+	{filling "ammo mgun" 200}
+	{fireSound	"mgun/mg37(t)_burst/"}
+	{reloadSound "mg34_reload"}
+
+	("rof" r(650))
+	("burst_long")
+	("7.92x57")
+}

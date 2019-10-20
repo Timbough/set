@@ -1,0 +1,11 @@
+{from "pattern rifle"
+	{desc "M1917 Enfield"}
+	{filling "ammo rifle" 5}
+	{entity "m1917_enfield"}
+	{fireSound "rifle/mauzer_shot"}
+	{reloadSound "rifle_bolt_five"}
+	
+	("30-06")
+	{rechargeTime 7.5}
+	{recoveryTime 3}
+}

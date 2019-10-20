@@ -1,0 +1,11 @@
+{from "ppsh"
+	{filling "ammo pistol" 50}
+	{entity "m1928a1_drum"}
+	{fireSound	"smg/thompson_burst/"}
+	("rof" r(700))
+	{rechargeTime 1.2}	
+	("burst_medium")
+	("long")
+	("45")
+	("heavy")
+}

@@ -1,0 +1,11 @@
+{from "pattern gun_indirect"      ; "90_53"
+	{filling "bullet90_ita fg"}
+	{fireSound "gun/85to100_cal/88mm_flak41"}
+	{reloadSound "gun_r04"}
+	{rechargeTime 8}
+	{projectileDamage 158}
+	("range_indirect_large")
+	("caliber_large")
+	("speed" s(830)) 
+	{cursor "rblf36"}
+}

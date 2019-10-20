@@ -1,0 +1,9 @@
+{from "pattern smg"
+	{filling "ammo pistol" 30}
+	{entity "sigm1920"}
+	{fireSound	"smg/mp28_burst/"}
+	("rof" r(600))
+	("burst_short")
+	("short")
+	("light")
+}

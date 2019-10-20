@@ -1,0 +1,44 @@
+{breed
+	{skin "ita-officer"}
+	{portrait "narrator_ita"}
+	{icon "officer"}
+	{icon_priority 6}
+	{tags "officer"}
+	{nationality ita}
+	{armors
+		{head cap_ita_bustina}
+	}
+	{tags "officer"}
+	{perks
+		{"health" "100%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 1.0
+		}
+		{"field_glass"
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+	}
+	{inventory
+		{item "beretta_m1934" filled}
+		{item "ammo pistol" 30}
+            		{item "ita_pack2"}
+		{item "ita_paradropammo_heavy grenade" 2}
+		{item "knife_ita"}
+		{item "binocular"}
+		{in_hands 0}
+	}
+}

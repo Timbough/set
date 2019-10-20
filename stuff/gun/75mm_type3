@@ -1,0 +1,17 @@
+{from "pattern gun"     ; Chi-Nu, t90_75mm, Ho-Ni 1
+	{filling "bullet75_jap"}
+	{fireSound "gun/75mm_type3"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 7}
+	
+	("speed" s(680))
+	("range_short")
+	{projectileDamage 104}
+	("damage" a(101) b(92) c(83) d(76) e(69))
+	{parameters "apcr"
+		("damage" a(135) b(118) c(103) d(89) e(73))
+	}
+	("accuracy_low")
+	{gravity 3}
+	{cursor "cross"}
+}

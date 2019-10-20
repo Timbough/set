@@ -1,0 +1,12 @@
+{from "76mm_m5"		; "m10_wolverine"
+	("speed" s(792))
+	{rechargeTime 7.5}
+	{parameters "apcr"
+        		("speed" s(1036))
+		("damage" a(239) b(208) c(175) d(147) e(124))
+	}
+	{parameters "apcbc"
+		("speed" s(792))
+		("damage" a(125) b(116) c(106) d(97) e(89))
+	}
+}

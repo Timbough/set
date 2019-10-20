@@ -1,0 +1,25 @@
+{from "pattern gun"			; Ki-45
+	{filling "bullet37 zenite" 5}
+	{fireSound "gun/37mm_61-k"}
+	{RecoveryTime 0.303}
+	{RechargeTime 4.4}
+	{reloadSound "61k_reload"}
+	{spreading
+		{spreadradius 	1.5}
+		{SpreadXYRatio	3}
+	}
+	{AimingTolerance 3}
+	{Automatic}
+	{burst
+		{min 1}
+		{short 2.5 1}
+		{long 7 2}
+	}	
+	{speed 90}
+	("speed" s(880))
+	("caliber_minimum")
+	("range_zenite_long")
+	{projectileDamage 55}
+	("damage" a(55) b(40) c(32) d(26) e(18))
+	{cursor "jap_3x13"}
+}

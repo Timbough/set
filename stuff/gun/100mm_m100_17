@@ -1,0 +1,12 @@
+{from "pattern gun"      ; 
+	{filling "bullet105_ita"}
+	{fireSound "gun/howitzer/122mm_d25.wav"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 12}
+	("speed" s(577))
+	("range_medium_howitzer")	
+	{spreading	
+		{SpreadPower	0.9}
+		{SpreadYadjust	0.3}
+	}
+}

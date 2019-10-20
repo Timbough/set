@@ -1,0 +1,30 @@
+{bullet
+	{tag "bullet600 ammo"}
+	{tag "no_ricochet"}
+	{inventory
+		{size 22 5}
+		{weight 100}
+	}	
+	{mass 665}
+	{entity "v2_a4_rocket"}
+	{view "v2_a4_rocket"
+		{tail "rocket_smoke" "tail"}
+
+	}
+
+	{detonationThickness 1}
+	{applyProjectile}
+	{damage add blastwave	
+		{energy 32}
+		{area 28 29}
+	}
+	{damage add blastwave	
+		{energy 35}
+		{area 28 31}
+	}
+	{damage add blastwave	 
+		{energy 45}
+		{area 26 31}
+	}
+
+}

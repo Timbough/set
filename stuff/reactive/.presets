@@ -1,0 +1,39 @@
+(include "\set\explosives.accuracy")
+
+(define "heavy_artillery"
+	{tag "mrl"}
+	{fillingVisible "rocket"}
+	{inventory {noView}}
+	{foresight "foresight"}
+	{range 200 1000}
+	{spreading
+		{SpreadRadius 17}
+		{SpreadPower 1}
+		{radiusFunction
+			0.1	0.1
+			1	1
+			2	2
+			3	3
+			4	4
+			5	5
+		}
+	}
+	{gravity 3}
+	{AimingTolerance 0.1}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+	{speed 80}
+	{rechargeTime 120}
+)
+
+(define "range_short"
+	{range 150 1000}	
+)
+
+(define "range_medium"
+	{range 180 1000}	
+)
+
+(define "range_long"
+	{range 210 1000}	
+)

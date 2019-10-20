@@ -1,0 +1,6 @@
+{army
+	{id 48}
+	{title "mp/army/grc_inf_div"} 
+	{icon "/interface/pages/multi/flag_inf_div_grc"}
+	{flag "/interface/scene/common/flag-grc"}
+}

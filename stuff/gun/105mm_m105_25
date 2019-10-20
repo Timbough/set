@@ -1,0 +1,9 @@
+{from "105mm_stuh42"    ; Semovente M105/25
+	{filling "bullet105_ita"}
+	("damage" a(89) b(76) c(62) d(51) e(40))
+	{parameters "cu"
+        		{projectileDamage 150}
+		("damage" a(150) b(0) c(0) d(0) e(0))
+	}
+	{cursor "flakzf3x8"}
+}

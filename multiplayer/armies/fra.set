@@ -1,0 +1,6 @@
+{army
+	{id 27}
+	{title "mp/army/fra"} 
+	{icon "/interface/pages/multi/flag_fra"}
+	{flag "/interface/scene/common/flag-fra"}
+}

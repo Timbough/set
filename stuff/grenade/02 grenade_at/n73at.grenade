@@ -1,0 +1,6 @@
+{from "pattern grenade_at"
+	{tag "ap big"}
+	{inventory {size 2 1}}	
+	{entity "grenade_n73at"}
+
+}

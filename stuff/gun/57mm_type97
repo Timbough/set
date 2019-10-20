@@ -1,0 +1,21 @@
+{from "pattern gun"		; Type 97 Chi-Ha
+	{filling "bullet57_jap"}
+	{fireSound "gun/57mm_type97"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 4.8}
+	("range_minimum")
+	
+	("speed" s(355))
+	("caliber_minimum")
+	{projectileDamage 45}
+	("damage" a(26) b(20) c(16) d(13) e(10))
+	{parameters "apcr"
+		("damage" a(86) b(67) c(50) d(38) e(27))
+	}
+	
+	("accuracy_minimum")
+	{cursor "jap57"}
+	{parameters "cu"
+		("damage" a(55) b(0) c(0) d(0) e(0))
+	}
+}

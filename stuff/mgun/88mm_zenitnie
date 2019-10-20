@@ -1,0 +1,15 @@
+{from "pattern mgun"
+	{filling "bullet88 fg" 1}
+        	{fireSound "gun/85to100_cal/88mm_kwk36"}
+	{entity "flak41_88"}
+	{rechargeTime 6.5}
+        	{range 200 1000} 
+	{gravity 2}
+	{cursor "cannon_on"}
+	{cursorReloading "cannon_reload"} 
+	{inventory
+		{size 8 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+}

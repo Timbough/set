@@ -1,0 +1,9 @@
+{from "browning_m19"
+	{filling "ammo mgun" 200}
+	{entity "besa"}
+	{fireSound	"mgun/besa_burst/"}
+	("7.35x51 Carcano")
+	("rof" r(800))
+	("burst_long")
+	("8mm")
+}

@@ -1,0 +1,59 @@
+{breed
+	{skin "pol-inf-lmg"}
+	{portrait "pol_soldier2"}
+	{nationality pol}
+	{icon "at_rifle"}
+	{icon_priority 3}
+	{armors
+		{head "helmet_pol_wz31"}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "polish_ptr_ur" filled}
+		{item "vis_wz35" filled}      
+		{item "ammo pistol" 30}
+		{item "bandage" 3}
+		{item "grenade poland_o33" 1}
+		{item "grenade poland_z33" 2}
+		{item "sandbag_kit" 1}
+		{item "ammo ptr" 50}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

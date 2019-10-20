@@ -1,0 +1,7 @@
+{from "pattern grenaderifle"
+	{tag "ap_rifle"}
+	{entity "gewehrgranatgerat"}
+	{fireSound	"rifle/ptr/grb39"}
+	{filling "grb_grenade" 1}
+	{projectileDamageTable {0 70} {80 70}}
+}

@@ -1,0 +1,9 @@
+{from "thompson"
+	{filling "ammo pistol" 50}
+	{entity "thompson_m1928a1"}
+	{rechargeTime 7}
+	("burst_long")
+	("rof" r(800))
+	("heavy")
+	("long")
+}

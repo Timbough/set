@@ -1,0 +1,10 @@
+{from "pattern cu"
+	{tag "size_minimum" "cumulative" "pierce"}
+	
+	{inventory
+		{size 4 1}
+	}
+	("shaped" args 2.5)
+	{mass 7}
+	{entity "shell_cu_50"}
+}

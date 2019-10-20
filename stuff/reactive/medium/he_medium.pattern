@@ -1,0 +1,14 @@
+(include "\set\explosives.accuracy")
+
+{bullet
+	{tag "size_small small shell fg"}
+	{inventory
+		{size 4 1}
+		{weight 70}
+	}	
+	{mass 2}
+	{entity "mortar_ammo"}
+	{view "mortar_ammo"
+	}	
+	{detonationThickness 1}
+}

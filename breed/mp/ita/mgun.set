@@ -1,0 +1,57 @@
+{breed
+	{skin "ita-alp-mgun"}
+	{portrait "ita_soldier1"}
+	{icon "mg"}
+	{icon_priority 3}
+	{nationality ita}
+	{armors
+		{head helmet_ita_m33_alpini}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_1
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "breda_30" filled}
+		{item "ammo mgun" 320}
+		{item "beretta_m1934" filled}
+		{item "ammo pistol" 14}
+		{item "bandage" 2}
+		{item "sandbag_kit" 1}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

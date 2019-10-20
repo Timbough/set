@@ -1,0 +1,4 @@
+{from "pattern grenade_ap"
+	{entity "grenade_czech_m34"}
+		("inc" args 2.0)
+}

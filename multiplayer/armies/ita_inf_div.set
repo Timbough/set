@@ -1,0 +1,6 @@
+{army
+	{id 24}
+	{title "mp/army/ita_inf_div"} 
+	{icon "/interface/pages/multi/flag_inf_div_ita"}
+	{flag "/interface/scene/common/flag-ita"}
+}

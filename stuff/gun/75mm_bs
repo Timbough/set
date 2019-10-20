@@ -1,0 +1,12 @@
+{from "pattern gun"     ; "bs-75"
+	{filling "bullet75_fra fg"}
+	{fireSound "gun/50to76_cal/75mm_bs"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 6}
+	("caliber_medium")
+	("range_medium") 
+	("speed" s(450))
+	{projectileDamage 20}
+                 	{cursor "v"}
+	("accuracy_low")
+}

@@ -1,0 +1,8 @@
+{from "pattern pistol"
+        {desc "Revolver Mle 1892"}
+	{filling "ammo pistol" 6}
+	{entity "revolver_mle_1892"}
+	{fireSound	"pistol/tt"}
+	{reloadSound "webley"}
+	("high")
+}

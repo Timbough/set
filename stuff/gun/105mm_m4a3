@@ -1,0 +1,16 @@
+{from "pattern gun"		; M4A3 105
+	{filling "bullet105_usa"}
+	{fireSound "gun/howitzer/105mm_m2a1"}
+	("range_grazing_howitzer")
+	{cursor "usa2"}
+	("speed" s(472))
+	("caliber_maximum")
+	{projectileDamage 150}
+	{rechargeTime 13}
+	{parameters "cu"
+        		{projectileDamage 115}
+		("speed" s(381))
+		("damage" a(115) b(0) c(0) d(0) e(0))
+	}
+	("accuracy_minimum")
+}

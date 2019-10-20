@@ -1,0 +1,10 @@
+{weapon_bullet
+	{tag "gun"}
+	{filling "ammo m26" 12}
+	{fireSound "reactive/katyusha_burst"}
+	("heavy_artillery")
+        {gravity 5}
+	{burst {min 6} {noaiming}}
+	{recoveryTime 0.43}
+	
+}

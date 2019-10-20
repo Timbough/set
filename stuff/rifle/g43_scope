@@ -1,0 +1,10 @@
+{from "pattern sniper_rifle"
+	{filling "ammo rifle" 10}
+	{entity "g43_scope"}
+	{fireSound "rifle/g43_shot/g43"}
+	{reloadSound "m1carbine"}
+	("semi_automatic")
+	("7.92x57")
+	{rechargeTime 7.5}
+	{recoveryTime 1.1}
+}

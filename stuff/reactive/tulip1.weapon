@@ -1,0 +1,23 @@
+{weapon_bullet
+	{filling "ammo tulip" 4}
+	{fireSound "reactive/calliope_burst"}
+	("heavy_artillery")	
+	{burst {min 1} {noaiming}}
+	("range_short")
+	{spreading
+		{SpreadRadius 3}
+		{radiusFunction
+			0.1	0.1
+			1	1
+			2	2
+			3	3
+			4	4
+			5	5
+		}
+	}
+    	{projectileDamage 20}
+	{speed 200}
+	{RecoveryTime 0.3}
+	{rechargeTime 60}
+	{gravity 2}
+}

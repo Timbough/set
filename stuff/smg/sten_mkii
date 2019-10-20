@@ -1,0 +1,7 @@
+{from "sten"
+	{filling "ammo pistol" 32}
+	{entity "sten_mkii"}
+	{fireSound	"smg/sten_burst/"}
+	{reloadSound "sten"}
+	("burst_short")
+}

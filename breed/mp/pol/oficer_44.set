@@ -1,0 +1,55 @@
+{breed
+	{skin "pol-inf-officer43"}
+	{portrait "pol_oficer"}
+	{icon "oficer"}
+	{icon_priority 6}
+	{tags "officer"}
+	{nationality pol}
+	{armors
+		{head cap_pol_fieldcap43}
+	}
+	{perks
+		{"health" "100%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_officer
+		}
+		{"speed" 1
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"field_glass"}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "tt" filled}
+		{item "ammo pistol" 30}
+		{item "knife_ger"}
+		{item "binocular"}
+		{in_hands 0}
+	}
+}

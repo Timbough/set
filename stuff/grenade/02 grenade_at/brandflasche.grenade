@@ -1,0 +1,5 @@
+{from "pattern grenade_at"
+	{tag "ic ap"}
+	{inventory {size 2 1}}
+	{entity "brandflasche"}
+}

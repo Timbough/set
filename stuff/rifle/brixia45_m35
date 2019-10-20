@@ -1,0 +1,55 @@
+{from "pattern bullet"
+	{tag "weapon rifle bullet to_hand nokeep"}
+	{entity "brixia45_inf"}
+	{fireSound "gun/mortar"}
+	{filling "ammo brixia45 fg" 1}
+	{inventory
+		{size 3 3}
+		{link_bone "gun_back"}
+		{weight 10}
+		{fsm "smg"}
+	}
+	{burst
+		{short 1}
+		{Long 1}
+	}	
+	{preloaded}
+	{mass 6}
+	
+	{spreading
+		{SpreadRadius 15}
+		{SpreadPower 1}
+		{radiusFunction
+			0.0		0.1
+			0.2		0.3
+			0.5		0.6
+			0.8		1
+			1.00	1.2
+		}
+	}
+	{aimRange 100}
+	{maxRange 100}
+	{states
+		{reload		"reload1"}
+		{unload		"unload1"}
+		{fire		"fire1"}
+		{aim 		"aim1"}
+		{can_aim	"can-aim1"}
+	}
+	{gravity 9}
+	{rechargeTime 5}
+	{curve "cumulative"}
+	{DisableRicochet}
+	{foresight "Foresight3"}
+
+       	{projectileDamage 10}
+	{projectileDamageTable {90 10}}
+	{projectileDamageThreshold 1}
+	{AimingTolerance 3}
+	{speed 75}
+
+	{aimtype curved}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}
+	
+}

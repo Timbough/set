@@ -1,0 +1,35 @@
+{from "pattern gun"     ; "Pz4E"
+	{filling "bullet75_kwk37_ger"}
+	{fireSound "gun/50to76_cal/75mm_kwk40"}
+	{reloadSound "gun_r03"}
+	("range_light_howitzer")
+	{parameters "fg"
+	}
+	{parameters "apcr"
+	}
+	("caliber_medium")
+	("speed" s(440))
+	{projectileDamage 52}
+	("damage" a(52) b(48) c(44) d(40) e(37))
+	{parameters "apcr"
+		("damage" a(77) b(64) c(55) d(46) e(39))
+	}
+	{parameters "cu"
+        		("speed" s(450))
+		("damage" a(52) b(0) c(0) d(0) e(0))
+	}
+	{parameters "acu"
+		("speed" s(450))
+		("damage_a" a(81) b(0) c(0) d(0) e(0))
+	}
+	{parameters "bcu"
+		("speed" s(450))
+		("damage_b" a(87) b(0) c(0) d(0) e(0))
+	}
+	{parameters "ccu"
+		("speed" s(450))
+		("damage_c" a(115) b(0) c(0) d(0) e(0))
+	}
+	("accuracy_low")
+	{cursor "ger"}
+}

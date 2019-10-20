@@ -1,0 +1,16 @@
+{from "50mm_kwk38"     ; "sdkfz234" (Puma), "PZ3"
+	{rechargeTime 5.5}
+	("range_short")
+	
+	("speed" s(835))
+	("caliber_minimum")
+	{projectileDamage 77}
+	("damage" a(97) b(79) c(62) d(49) e(38))
+	{parameters "apcr"
+		("speed" s(1180))
+		("damage" a(150) b(108) c(72) d(48) e(32))
+	}
+	
+	("accuracy_low")
+	{cursor "tzf5"}
+}

@@ -1,0 +1,12 @@
+{from "pattern rifle"
+	{tag "autorifle"}
+	{filling "ammo rifle" 30}
+	{entity "vsg"}
+	{fireSound "smg/mp44_burst/"}
+	{reloadSound "mp44"}
+	{Automatic}
+	("7.92x57")
+	("carbine")
+	{rechargeTime 5}
+	{recoveryTime 0.8}
+}

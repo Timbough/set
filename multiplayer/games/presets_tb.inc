@@ -1,0 +1,8 @@
+(include "/set/multiplayer/games/39_tb.inc")
+(include "/set/multiplayer/games/40_tb.inc")
+(include "/set/multiplayer/games/41_tb.inc")
+(include "/set/multiplayer/games/42_tb.inc")
+(include "/set/multiplayer/games/43_tb.inc")
+(include "/set/multiplayer/games/44_tb.inc")
+(include "/set/multiplayer/games/45_tb.inc")
+(include "/set/multiplayer/games/50_tb.inc")

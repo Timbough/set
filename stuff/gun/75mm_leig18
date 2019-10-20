@@ -1,0 +1,31 @@
+{from "pattern gun"     ; "Leig18"
+	{filling "bullet75_kwk37_ger"}
+	{fireSound "gun/50to76_cal/75mm_pak40"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 6}
+	("caliber_medium")
+	("speed" s(210))
+	("range_medium")
+	{projectileDamage 50}
+	{parameters "ap"
+		("damage" a(52) b(48) c(44) d(40) e(37))
+	}
+	{parameters "cu"
+        		("speed" s(450))
+		("damage" a(52) b(0) c(0) d(0) e(0))
+	}
+	{parameters "acu"
+		("speed" s(450))
+		("damage_a" a(81) b(0) c(0) d(0) e(0))
+	}
+	{parameters "bcu"
+		("speed" s(450))
+		("damage_b" a(87) b(0) c(0) d(0) e(0))
+	}
+	{parameters "ccu"
+		("speed" s(450))
+		("damage_c" a(115) b(0) c(0) d(0) e(0))
+	} 
+	("accuracy_zenite_low") 
+	{cursor "rblf36"}
+}

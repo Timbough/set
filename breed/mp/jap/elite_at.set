@@ -1,0 +1,57 @@
+{breed
+	{skin "jap_paratrooper"}
+	{portrait "jap_elite1"}
+	{nationality jap}
+	{icon "elite"}
+	{icon_priority 3}
+	{armors
+		{head helmet_jap}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.9
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "type99rifle_at" filled}
+		{item "type100smg" filled}
+		{item "ammo pistol" 500}
+		{item "bandage" 3}
+		{item "grenade type3at_a" 1}
+		{item "ammo rifle_grenade_at" 10}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

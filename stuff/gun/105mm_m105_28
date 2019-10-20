@@ -1,0 +1,4 @@
+{from "105mm_l13s"	; "canone da 105/28"
+	{filling "bullet105_ita"}
+	("speed" s(450))
+}

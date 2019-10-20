@@ -1,0 +1,58 @@
+;----- N. Korea -----
+
+
+;°°°Infantry only°°°
+
+
+
+;°°°Button 1°°°
+{"np_zis151_nkr"             ("vs" c(0) t(nkr_inf_div nkr_tank_div nkr_storm_div nseacombat all any n39 n40 n41 n42 n43 n44 n45 50 fl  inf_only) 			s(nkr) n(2) g(b4) sc(2.5) b(v1) cw(0) cp(0)) {cost 50} {fore 1}}
+{"m72_nkr"              ("vs" c(0) t(nkr_inf_div   nseacombat all any n39 n40 n41 n42 n43 n44 n45 50 fl  inf_only) 			s(nkr) n(2) g(b1) sc(3) b(v1) cw(0) cp(0)) {cost 60} {fore 1}}
+{"stz3"  	("vs" c(0) t(nkr_tank_div nkr_storm_div nall any n39 n40 n41 n42 n43 n44 n45 50 fl tb tank_only) 			s(nkr) n(2) g(b1) sc(3) b(v1) cw(0) cp(0)) {cost 60} {fore 1}}
+{"gaz67b_nkr"           ("vs" c(30) t(nkr_inf_div   nseacombat all any n43 n44 n45 50 fl n39 n40 n41 n42  inf_only) s(nkr) n(3) g(b2) sc(5.5) b(v1) cw(0) cp(0)) {cost 110} {fore 0}}
+{"np_zis151_art"          ("vs" c(0) t(nkr_inf_div nkr_tank_div nkr_storm_div nseacombat all any n39 n40 n41 n42 n43 n44 n45 50 fl tb tank_only) 			s(nkr) n(2) g(b5) sc(7.5) b(v1) cw(0) cp(0)) {cost 150} {fore 1}}
+{"np_zis151_en"          ("vs" c(0) t(nkr_inf_div nkr_tank_div nkr_storm_div nseacombat all any n39 n40 n41 n42 n43 n44 n45 50 fl ntb nt) 			s(nkr) n(2) g(b6) sc(12.5) b(v1) cw(0) cp(0)) {cost 250} {fore 1}}
+
+
+;°°°Button 2°°°
+
+{"ds39_degtyaryov_nkr"   ("vs" c(10) t(nkr_inf_div  nkr_storm_div nseacombat all any n39 n40 n41 n42 n43 n44 n45 50 fl  inf_only) 		s(nkr) n(2) g(c1) sc(5.5)  b(v2) cw(2) cp(5)) {cost 55} {fore -2}}
+{"maxim_1910_30_nkr"   ("vs" c(10) t(nkr_inf_div  nkr_storm_div nseacombat nall any n39 n40 n41 n42 n43 n44 n45 fl  inf_only) 		s(nkr) n(2) g(c1) sc(6)  b(v2) cw(2) cp(5)) {cost 60} {fore -2}}
+{"sg43_goryunov_nkr"  ("vs" c(10) t(nkr_inf_div  nkr_storm_div nseacombat all any n41 n42 n43 n44 n45 50 fl n39 n40  inf_only) 		s(nkr) n(2) g(c1) sc(6)  b(v2) cw(2) cp(5)) {cost 60} {fore -2}}
+{"dshk_stan_nkr"   ("vs" c(10) t(nkr_inf_div  nkr_storm_div nseacombat all any n41 n42 n43 n44 n45 50 fl n39 n40  inf_only) 		s(nkr) n(2) g(c1) sc(6.5)  b(v2) cw(2) cp(5)) {cost 100} {fore -2}}
+("how" side(nkr) name(how_ai1) c(90) c1(np_zis151_ai) c2(m42_nkr_ai)  t(nkr_inf_div nseacombat n39 n40 n41 n42 n43 n44 n45 ai_cannon ntb nt) g(ai1) b(v2) cost(140) f(1))
+{"m42_nkr"              ("vs" c(10) t(nkr_inf_div   nseacombat all any n39 n40 n41 n42 n43 n44 n45 50 fl  inf_only2) 			s(nkr) n(2) g(c4) sc(7.5)  b(v2) cw(2) cp(5)) {cost 150} {fore -2}}
+{"12_7mm_dshk_nkr"   ("vs" c(10) t(nkr_inf_div  nkr_storm_div nseacombat all any n41 n42 n43 n44 n45 50 fl n39 n40  inf_only) 		s(nkr) n(2) g(c1) sc(8)  b(v2) cw(2) cp(5)) {cost 110} {fore -2}}
+("how" side(nkr) name(how_ai2) c(90) c1(np_zis151_ai) c2(zis3_nkr_ai)  t(nkr_inf_div nkr_tank_div nseacombat n39 n40 n41 n42 n43 n44 n45 ai_cannon ntb nt) g(ai2) b(v2) cost(255) f(1))
+("how" side(nkr) name(how_aa2) c(30) c1(np_zis151) c2(k61_nkr)  t(nkr_inf_div nseacombat all any heavyaa  n39 n40 n41 n42 n43 n44 n45 50 fl ntb nt) g(c7) b(v2) cost(250) f(-6))
+{"zis3_nkr"             ("vs" c(20) t(nkr_inf_div nkr_tank_div nkr_storm_div nseacombat all any n42 n43 n44 n45 50 nfl n39 n40 n41 medium ntb nt) 			s(nkr) n(4) g(c6) sc(12.75) b(v2) cw(2) cp(5)) {cost 255} {fore -14}}
+{"zis2_nkr"             ("vs" c(20) t( nkr_tank_div  nseacombat all any medium  n41 n42 n43 n44 n45 50 nfl n39 n40 medium ntb nt) 	s(nkr) n(4) g(c5) sc(16.25) b(v2) cw(2) cp(5)) {cost 325} {fore -29}}
+("how" side(nkr) name(how_aa) c(60) c1(np_zis151) c2(np_52k_nkr) 	t(nkr_inf_div nseacombat artillery heavy n40 n41 n42 n43 n44 n45 50 nfl nall any arty n39 ntb nt) g(c10) b(v2) cost(450) f(-14))
+
+;°°°Button 7°°°
+{"bm37_nkr"             ("vs" c(10) t(nkr_inf_div nkr_tank_div  nseacombat all any arty n42 n43 n44 n45 50 fl n39 n40 n41 inf_only3) 		s(nkr) n(2) g(ca1) sc(12.5) b(v7) cw(2) cp(5)) {cost 125} {fore -2}}
+{"m43_nkr"         ("vs" c(60)  t(nkr_inf_div   nseacombat all any arty n39 n40 n41 n42 n43 n44 n45 50 fl ntb nt) s(nkr) n(2) g(ca2) sc(15.5)  b(v7) cw(0) cp(5)) {cost 310} {fore -3}}
+{"pm38_nkr"         ("vs" c(30)  t(nkr_inf_div  nkr_storm_div nseacombat n39 n40 n41 n42 n43 all any arty n44 n45 50 fl ntb nt) s(nkr) n(2) g(ca3) sc(17.5)  b(v7) cw(0) cp(5)) {cost 175} {fore -9}}
+("how" side(nkr) name(how_ai3) c(120) c1(np_zis151_ai) c2(m30_1938_nkr_ai)  t(nkr_inf_div  nkr_storm_div nseacombat n39 n40 n41 n42 n43 n44 n45 ai_cannon arty fl ntb nt) g(ai3) b(v7) cost(800) f(-1))
+("how" side(nkr) name(how_b) c(60) c1(stz3) c2(m30_1938_nkr)  t(nkr_inf_div nkr_tank_div  nseacombat all any arty medium  n39 n40 n41 n42 n43 n44 n45 50 fl persize ntb nt) g(ca6) b(v7) cost(800) f(-14))
+("how" side(nkr) name(how_a) c(60) c1(stz3) c2(np_ml20_nkr)	t(nkr_inf_div  nkr_storm_div nseacombat all any arty heavy_art  persize_heavy n39 n40 n41 n42 n43 n44 n45 50 nfl ntb nt) g(ca7) b(v7) cost(850) f(-19))
+{"np_bm13nn"             ("vs" c(60) t(nkr_inf_div  nkr_storm_div nseacombat artillery rocket  heavy_art n43 n44 n45 50 nfl one_only1 all any arty n39 n40 n41 n42 ntb nt) 	s(nkr) n(2) g(ca14) sc(62.5) b(v7) cw(0) cp(5)) {cost 1250} {fore -19}}
+
+;°°°Button 3°°°
+{"ba64_nkr"             ("v" c(10) t(nkr_inf_div  nkr_storm_div nseacombat all any n42 n43 n44 n45 50 fl n39 n40 n41 ntb nt) 				s(nkr) n1(1) n2(1) g(d1) sc(8)  b(v3) cw(0) cp(5)) {cost 160} {fore -23}}
+{"m5a1_nkr"             ("v" c(10) t( nkr_tank_div  nseacombat all any fl n39 n40 n41 n42 n43 n44 n45 50 tb tank_only) 				s(nkr) n1(3) n2(1) g(d5) sc(15) b(v3) cw(0) cp(5)) {cost 300} {fore -37}} 
+
+
+;°°°Button 4°°°
+
+{"t34_3_nkr"            ("v" c(60) t( nkr_tank_div  nseacombat all any medium n44 n45 50 nfl n39 n40 n41 n42 n43 tb tank_only) 		s(nkr) n1(3) n2(1) g(e5) sc(32.5) b(v4) cw(0) cp(15)) {cost 650} {fore -14}}	
+{"is2_nkr"           	("v_2" c(300) t(  nkr_storm_div nseacombat all any heavy  n44 n45 50 nfl n39 n40 n41 n42 n43 tb nt) 			s(nkr) s2(chi) n1(4) n2(1) g(e8) sc(80.0) b(v4) cw(0) cp(30)) {cost 1600} {fore -2}} 	
+
+
+;°°°Button 5°°°
+
+{"su76_nkr"             ("v" c(10) t( nkr_tank_div  nseacombat all any medium  n43 n44 n45 50 nfl n39 n40 n41 n42 tb tank_only) 		s(nkr) n1(3) n2(1) g(f1) sc(14) b(v5) cw(0) cp(10)) {cost 280} {fore -45}}
+{"isu122_nkr"           ("v_2"  c(750) t(  nkr_storm_div nseacombat all any heavy  n44 n45 50 nfl n39 n40 n41 n42 n43 tb nt) 		s(nkr) s2(chi) n1(3) n2(1) g(f4) sc(47.5) b(v5) cw(0) cp(30)) {cost 950} {fore -1}}
+
+;°°°Button 6°°°
+{"il-2_nkr"            ("va_2" c(240) t(  nkr_storm_div all any arty n39 n40 n41 n42 n43 n44 n45 50  heavy nfl airborne ntb nt) 	s(nkr) s2(rus) n(2) g(c16) sc(45) b(v6) cw(2) cp(5)) {cost 900} {fore -2}}

@@ -1,0 +1,7 @@
+{from "pattern sm_medium"
+	{inventory
+		{size 4 1}
+	}
+	{entity "us_ammo_mortar81_sm"}
+	{view "us_ammo_mortar81_sm"}	
+}

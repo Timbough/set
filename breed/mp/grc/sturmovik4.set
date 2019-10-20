@@ -1,0 +1,56 @@
+{breed
+	{skin "grc_rifleman"}
+	{portrait "grc_elite2"}
+	{nationality grc}
+	{icon "stormtrooper_mgs"}
+	{icon_priority 4}
+	{armors
+		{head "helmet1_grc"}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" mp_soldier
+		}
+		{"speed" 0.9
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mab_38a" filled}
+		{item "pistol ammo" 500}
+		{item "bandage" 10}
+		{item "mk1 grenade" 2}
+		{item "n73at grenade" 1}
+		{item "sandbag_kit"}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

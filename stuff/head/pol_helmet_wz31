@@ -1,0 +1,4 @@
+{from "helmet pattern"
+	{tag "armor"}
+	{entity "pol_helmet_wz31"}
+}

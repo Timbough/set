@@ -1,0 +1,11 @@
+{from "20mm_Oerlikon"
+	{filling "bullet20_eng zenite" 60}
+	{fireSound "gun/20mm_burst/"}
+	{reloadSound "flak38"}
+	{RecoveryTime 0.2}
+	{RechargeTime 9}
+	{burst
+		{short 5 1}
+		{long 8 1}
+	}
+}

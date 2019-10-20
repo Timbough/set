@@ -1,0 +1,24 @@
+{from "pattern gun"	; L/43 "StuG 3F"
+	{filling "bullet75_ger"}
+	;{fireSound "gun/50to76_cal/75mm_kwk40"}
+	{fireSound "gun/75mm_Long/GER/"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 7}
+	("range_short")  
+	{cursor "zf3x8ii"}
+	("speed" s(740))
+	("caliber_medium")
+	{projectileDamage 114}
+	("damage" a(123) b(112) c(99) d(88) e(78))
+	{parameters "apcr"
+		("speed" s(919))
+		("damage" a(156) b(133) c(108) d(88) e(72))
+	}
+	{parameters "apcbc"
+		("damage" a(123) b(112) c(99) d(88) e(78))
+	}
+	{parameters "fg"
+		("speed" s(450))
+	}
+	("accuracy_low")
+}

@@ -1,0 +1,55 @@
+{breed
+	{skin "50_pla_medic"}
+	{portrait "nkr_medic"}
+	{nationality nkr}
+	{icon "medics"}
+	{icon_priority 1}
+	{armors
+		{head "helmet_sov_m"}
+	}
+	{perks
+		{"health" "150%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 1.1
+		}
+		{"stealth"
+		}
+		{"tank"	0.1
+		}
+		{"vehicle" 0.6
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_1
+		}
+		{"smg" lvl_1
+		}
+		{"mgun" lvl_1
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_1
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "mosin" filled}
+		{item "ammo rifle" 100}
+		{item "bandage" 50}
+		{in_hands 0}
+	}
+}

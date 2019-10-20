@@ -1,0 +1,7 @@
+{from "pattern grenaderifle"
+	{tag "ap_rifle"}
+	{entity "mas_mle36_gr"}
+	{fireSound	"rifle/ptr/grb39"}
+	{filling "ammo rifle_grenade" 1}
+	{fillingVisible "em_mk3_ammo"}
+}

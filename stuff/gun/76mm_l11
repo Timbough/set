@@ -1,0 +1,21 @@
+{from "pattern gun"
+	{filling "bullet76_rus"}
+	{fireSound "gun/50to76_cal/76mm_l11"}
+	{reloadSound "gun_r01"}
+	{rechargeTime 8.5}
+	("range_short")
+	
+	("speed" s(615))
+	("caliber_medium")
+	{projectileDamage 64}
+	("damage" a(77) b(69) c(61) d(54) e(48))
+	{parameters "apcr"
+		("speed" s(950))
+		("damage" a(91) b(77) c(62) d(49) e(37))
+	}
+	{parameters "fg"
+		("speed" s(355))
+	}
+	("accuracy_minimum")
+	{cursor "tmfp"}
+}

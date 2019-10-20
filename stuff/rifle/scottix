@@ -1,0 +1,10 @@
+{from "pattern rifle"
+	{entity "scottix"}
+	{filling "ammo rifle" 6}
+	{fireSound "rifle/scottix"}
+	{reloadSound "m1carbine"}
+	("semi_automatic")
+	("7.35x51 Carcano")
+	{rechargeTime 7}
+	{recoveryTime 1.4}
+}

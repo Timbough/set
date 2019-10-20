@@ -1,0 +1,12 @@
+{weapon_bombing
+	{tag "weapon"}
+	{inventory
+		{noView}
+	}
+	{filling "ammo air_bomb" 8}
+	{foresight "pivot_front"}
+	{recoveryTime 1.0}			; s
+	{rechargeTime 5.0}			; s
+	{automatic}
+	{aimRange 9999999999}
+}

@@ -1,0 +1,6 @@
+{army
+	{id 4}
+	{title "mp/army/usp"} 
+	{icon "/interface/pages/multi/flag_usp"}
+	{flag "/interface/scene/common/flag-usa"}
+}

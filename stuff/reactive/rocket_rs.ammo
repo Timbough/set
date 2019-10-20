@@ -1,0 +1,23 @@
+{bullet
+	{tag "big shell fg bomb"}
+	{inventory
+		{size 4 1}
+		{weight 100}
+	}	
+	{mass 42}
+	{entity "rocket_rs"}
+	{view "rocket_rs"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	{damage blastwave
+		{energy 10}	; kg
+		{area 5 12}		; m
+	}
+	{damage fire
+		{radius 3}
+		{heating 5}
+		{time 3}
+	}
+}

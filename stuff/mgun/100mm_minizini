@@ -1,0 +1,20 @@
+{from "pattern mgun"
+	{filling "bullet100 fg" 2}
+	{fireSound "gun/50to76_cal/50mm_kwk38"}
+	{entity "100mm_minizini"}
+	{rechargeTime 2}
+        	{range 200 1000}
+	{gravity 1.5}
+        	{bullet_view "howitzer_shell"
+		{tail "cannone_big_shell" "root"}
+        	}
+	{parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+        	} 
+	{inventory
+		{size 8 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+}

@@ -1,0 +1,12 @@
+{from "pattern gun_indirect"      ;  "52-K"
+	{filling "bullet85_rus fg"}
+	{fireSound "gun/85to100_cal/85mm_zis53"}
+	{reloadSound "tankgun_r07"}
+	{projectileDamage 129}   
+	{rechargeTime 3}
+	("range_indirect_medium")
+	("caliber_medium")
+	("speed" s(990))
+	{projectileDamage 129} 
+	{cursor "azp37"}  
+}

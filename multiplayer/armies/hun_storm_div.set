@@ -1,0 +1,6 @@
+{army
+	{id 38}
+	{title "mp/army/hun_storm_div"} 
+	{icon "/interface/pages/multi/flag_storm_div_hun"}
+	{flag "/interface/scene/common/flag-hun"}
+}

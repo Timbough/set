@@ -1,0 +1,10 @@
+{from "pattern fg"
+	{tag "big" "size_medium" "shell_big"}
+	{inventory
+		{size 7 1}
+	}
+	("fg" args 6)
+	{mass 21}
+	
+	{entity "pol_shell_120mm_de_bange_fg"}
+}

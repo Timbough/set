@@ -1,0 +1,8 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 30}
+	{entity "nambu_type91"}
+	{fireSound	"mgun/type1hmg_burst/"}
+	{rechargeTime 6}
+	("rof" r(450))
+	("burst_long")
+}

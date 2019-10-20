@@ -1,0 +1,6 @@
+{army
+	{id 29}
+	{title "mp/army/fra_tank_div"} 
+	{icon "/interface/pages/multi/flag_tank_div_fra"}
+	{flag "/interface/scene/common/flag-fra"}
+}

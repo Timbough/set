@@ -1,0 +1,21 @@
+{from "pattern gun"	; "Jagdpanzer IV"
+	{filling "bullet75_ger"}
+	;{fireSound "gun/50to76_cal/75mm_kwk42"}
+	{fireSound "gun/75mm_Long/Stuk42/"}
+	{reloadSound "gun_r01"}
+	{rechargeTime 7}
+	("range_long") 
+	{cursor "sflzf1a"}
+	("speed" s(935))
+	("caliber_medium")
+	{projectileDamage 159}
+	("damage" a(187) b(168) c(149) d(132) e(116))
+	{parameters "apcr"
+		("speed" s(1120))
+		("damage" a(267) b(234) c(199) d(170) e(145))
+	}
+	{parameters "fg"
+		("speed" s(700))
+	}
+	("accuracy_high")
+}

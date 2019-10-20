@@ -1,0 +1,28 @@
+{from "pattern gun"      ; "Comet"
+	{filling "bullet77_eng"}
+	{fireSound "gun/50to76_cal/76mm_mk4"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 8}
+	("range_medium")
+	
+	("speed" s(785))
+	("caliber_medium")              
+	{projectileDamage 166}
+	("damage" a(164) b(148) c(133) d(120) e(108))
+	{parameters "apcr"
+		("speed" s(1120))
+        		("damage" a(167) b(150) c(132) d(114) e(99))
+	}
+	{parameters "apcbc"
+		("damage" a(149) b(138) c(127) d(115) e(106))
+	}	
+	{parameters "apds"
+		("speed" s(1120))
+        		("damage" a(203) b(186) c(170) d(143) e(120))
+	}
+	{parameters "fg"
+		("speed" s(785))
+	}
+	("accuracy_medium")	
+	{cursor "eng5"}
+}

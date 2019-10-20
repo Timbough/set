@@ -1,0 +1,13 @@
+{from "weapon bazooka"
+	{filling "ammo bazooka" 2}
+	{inventory {noView}}
+	{rechargeTime 20}
+	{recoveryTime 0.1}
+	{mass 15}
+	{range 120 1000}
+	{spreading 
+		{radiusTable {0 0} {45 1.5} {90 6}}
+	}
+	{cursor "cannon_on_heat"}
+	{cursorReloading "cannon_reload_heat"}
+}

@@ -1,0 +1,15 @@
+{bullet
+	{tag "size_medium big shell fg"}
+	{inventory
+		{size 5 1}
+		{weight 100}
+	}	
+	{entity "nebel_ammo"}
+	{mass 36.05}
+	{view "nebel_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	("heavy" args 10.5)		
+}

@@ -1,0 +1,12 @@
+{from "pattern gun_indirect"      ; Canon de 105 mle 1913 Schneider (Cannone da 105/28 modello 1913)
+	{filling "bullet105_fra fg"}
+	{fireSound "gun/howitzer/122mm_d25"}
+	{reloadSound "tankgun_r04"}
+	{rechargeTime 12}
+	{projectileDamage 50}
+	("range_indirect_large")
+	("caliber_large")
+	("speed" s(650)) 
+	{cursor "rblf36"}
+}
+

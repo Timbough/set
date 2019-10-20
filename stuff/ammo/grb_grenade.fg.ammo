@@ -1,0 +1,13 @@
+{from "pattern grenadeweapon_ammo"
+	{tag "ammo shell he fg" "ap_rifle" "he_big"}
+
+	{entity "gewehrsprenggranate"}
+	{view "gewehrsprenggranate"}
+
+	("fg" args 3)
+	{inventory
+		{weight 20}
+		{size 2 1}
+	}
+  	{mass 0.025}
+}

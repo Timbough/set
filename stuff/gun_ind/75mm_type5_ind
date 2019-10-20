@@ -1,0 +1,12 @@
+{from "pattern gun_indirect"    
+	{filling "bullet75_jap fg"}
+	{fireSound "gun/75mm_type5"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 6}
+	("speed" s(860))
+	{projectileDamage 135}
+	("range_indirect_medium")
+	("caliber_medium")
+	{cursor "jap_3x13"}
+}  
+

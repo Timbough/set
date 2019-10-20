@@ -1,0 +1,38 @@
+{from "pattern bullet"
+	{tag "weapon rifle shotgun bullet to_hand"}
+	{filling "ammo shotgun" 12}
+	{inventory
+		{size 4 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+	{entity "winchester_model_12"}
+	{cursor "carbine_on"}
+	{cursorReloading "carbine_reload"}
+	{burst
+		{short 1}
+		{Long 6}
+	}
+	{special
+		{throw_off_always}
+	}
+	{mass 5}
+	{reloadSound "shotgun"}
+	{fireSound "rifle/shotgun"}
+	{traceFreq 1}
+	
+	{range 55 1000}
+    	{RelaxationTime 0.1}
+	{recoveryTime 0}
+	{Automatic}
+	{rechargeTime 3}
+	("speed" s(500))
+
+	{ProjectileDamage 8}
+	{ProjectileDamageClip 8}
+	{projectileDamageTable {15 8} {100 0}}
+	{healthDamage 50}
+	{HealthDamageClip 50}
+	{calibre 9.72}
+	("accuracy_rpg")
+}

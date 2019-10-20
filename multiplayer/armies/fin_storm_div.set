@@ -1,0 +1,6 @@
+{army
+	{id 42}
+	{title "mp/army/fin_storm_div"} 
+	{icon "/interface/pages/multi/flag_storm_div_fin"}
+	{flag "/interface/scene/common/flag-fin"}
+}

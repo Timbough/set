@@ -1,0 +1,18 @@
+{from "pattern mgun"
+	{filling "bullet37 zenite" 5}
+	{entity "37mm_zenitnie"}
+	{fireSound "gun/37mm_61-k"}
+ 	{reloadSound "bren"}
+
+	{reloadSound "61k_reload"}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 34}
+	{range 150 1000}
+	{recoveryTime 0.12}
+	{rechargeTime 3}
+	{healthDamage 450}
+	("accuracy_dshk")
+	("burst_long")
+	("37")
+}

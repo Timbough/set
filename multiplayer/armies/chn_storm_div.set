@@ -1,0 +1,6 @@
+{army
+	{id 62}
+	{title "mp/army/chn_storm_div"} 
+	{icon "/interface/pages/multi/flag_storm_div_chn"}
+	{flag "/interface/scene/common/flag-chn"}
+}

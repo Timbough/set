@@ -1,0 +1,14 @@
+{bullet
+	{tag "big shell fg bomb itemin2hands"}
+	{entity "tulip_ammo"}
+	{inventory
+		{size 6 1}
+		{weight 50}
+		{fsm "hand-only"}
+	}	
+	{mass 30}
+	{view "tulip_ammo"
+		{tail "rocket_smoke_norm" "tail"}
+	}
+	("shaped" args 7.62)
+}

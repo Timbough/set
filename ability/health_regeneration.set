@@ -1,0 +1,22 @@
+{health_regeneration
+	{level "20%"	0.05}
+	{level "30%"	0.10}
+	{level "50%"	0.15}
+	{level "75%"	0.20}
+	{level "100%"	0.25}
+	{level "125%"	0.30}
+	{level "150%"	0.35}
+	{level "175%"	0.40}
+	{level "200%"	0.45}
+	{level "225%"	0.50}
+	{level "250%"	0.55}
+	{level "275%"	0.6}
+	{level "300%"	0.65}
+	{level "325%"	0.7}
+	{level "350%"	0.75}
+	{level "400%"	0.8}
+	{level "500%"	0.85}
+	{level "600%"	0.9}
+	{level "750%"	0.95}
+	{level "1000%"	1.00}
+}

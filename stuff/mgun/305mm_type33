@@ -1,0 +1,21 @@
+{from "pattern mgun"
+	{filling "bullet305 fg" 3}
+	{fireSound "gun/203mm"}
+	{entity "305mm_type33"}
+	{burst {min 3} {noaiming}}
+	{rechargeTime 25}
+        	{range 300 1000} 
+	{gravity 2}
+        	{bullet_view "howitzer_shell"
+		{tail "cannone_big_shell" "root"}
+        	}
+	{parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+        	}
+	{inventory
+		{size 8 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+}

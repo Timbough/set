@@ -1,0 +1,8 @@
+{from "pattern mgun"
+	{entity "maxim_inv"}
+	{filling "ammo mgun" 250}
+	{fireSound	"mgun/vickers_burst/"}
+	{reloadSound "cal30_reload"}
+	("303")
+	("rof" r(470))
+}

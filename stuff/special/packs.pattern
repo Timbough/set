@@ -1,0 +1,10 @@
+{item
+	{tag "itemin1hand capacity keepEntity"}
+	{inventory
+		{size 2 2}
+		{weight 100}
+		{link_bone "gun_back"}
+		{fsm "stuff"}
+	}
+	{mass 3}
+}

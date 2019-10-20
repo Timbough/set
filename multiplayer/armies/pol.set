@@ -1,0 +1,6 @@
+{army
+	{id 31}
+	{title "mp/army/pol"} 
+	{icon "/interface/pages/multi/flag_pol"}
+	{flag "/interface/scene/common/flag-pol"}
+}

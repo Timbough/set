@@ -1,0 +1,6 @@
+{from "pattern sniper_rifle"
+	{fireSound "rifle/Carcano_m91"}
+	{entity "carcano_m1891scope"}
+	{reloadSound "kar98k_s_reload"}
+	("7.35x51 Carcano")
+}

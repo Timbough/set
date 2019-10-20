@@ -1,0 +1,11 @@
+{from "pattern gun_indirect"    
+	{filling "bullet76_rus fg"}
+	{fireSound "gun/50to76_cal/76mm_zis3"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 3.5}
+	("speed" s(600))
+	{projectileDamage 50}
+	("range_indirect_medium")
+	("caliber_medium")
+	{cursor "pg"}
+}

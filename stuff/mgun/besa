@@ -1,0 +1,8 @@
+{from "browning_m19"
+	{filling "ammo mgun" 200}
+	{entity "besa"}
+	{fireSound	"mgun/besa_burst/"}
+	("rof" r(650))
+	("burst_long")
+	("303")
+}

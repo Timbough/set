@@ -1,0 +1,17 @@
+{from "pattern gun"     ; "SU100"
+	{filling "bullet100_rus"}
+	{fireSound "gun/85to100_cal/100mm_d10c"}
+	{reloadSound "tankgun_r08"}
+	{rechargeTime 12}
+	("range_maximum")
+	("speed" s(895))
+	("caliber_maximum")
+	{projectileDamage 212}
+	("damage" a(210) b(188) c(164) d(143) e(122))	
+	{parameters "apcr"
+       		("speed" s(1050))
+		("damage" a(250) b(217) c(169) d(114) e(99))
+	}
+	("accuracy_high")
+	{cursor "tsh"}
+}

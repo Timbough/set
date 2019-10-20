@@ -1,0 +1,12 @@
+{from "pattern smg"
+	{filling "ammo pistol" 40}
+	{entity "suomi_m31"}
+	{fireSound	"smg/kp31_burst/"}
+	{reloadSound "suomikpreload"}
+	("7.62x25")
+	{rechargeTime 7}
+	("rof" r(950))	
+	("burst_long")
+	("long")
+	("heavy")
+}

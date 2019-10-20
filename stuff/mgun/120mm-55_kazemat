@@ -1,0 +1,21 @@
+{from "pattern mgun"
+	{filling "bullet120 fg" 1}
+	{fireSound "gun/howitzer/122mm_d25"}
+	{entity "120mm-55_kazemat"}
+	{rechargeTime 8}
+        	{range 250 1000} 
+	{gravity 2}
+       	{bullet_view "howitzer_shell"
+		{tail "cannone_big_shell" "root"}
+        	}
+	{parameters "fg"
+		{cursor "cannon_on_fg"}
+		{cursorReloading "cannon_reload_fg"}
+        	}
+	;("gun_art")
+	{inventory
+		{size 8 2 }
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+}

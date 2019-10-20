@@ -1,0 +1,26 @@
+{from "pattern bullet"
+	{tag "weapon pistol bullet to_hand"}
+	{inventory
+		{size 2 1}
+		{weight 100 }
+		{fsm "pistol"}
+	}
+	{mass 1}
+	{entity "pistol"}
+	("speed" s(400))
+	{range 50 1000}
+	("rof" r(350))
+	{healthDamage 60}
+	{rechargeTime 4}
+	{burst
+		{short 1.5 0.5}
+		{long 3.5 0.5}
+	}	
+	{Spreading
+		{SpreadXYRatio	0.5}
+	}
+	{ProjectileDamage 2}
+	{ProjectileDamageClip 2}
+	("low")
+	("accuracy_pistol")
+}

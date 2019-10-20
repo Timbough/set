@@ -1,0 +1,9 @@
+{from "pattern smg"
+	;{desc "wz.1939 \"Mors\""}
+	{filling "ammo pistol" 25}
+	{entity "mors_wz_39"}
+	{fireSound	"smg/mp_35_burst/"}
+	{rechargeTime 5.5}
+	("rof" r(500))
+	("burst_short")
+}

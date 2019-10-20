@@ -1,0 +1,18 @@
+{from "pattern gun"		; Shinoto Chi-Ha, Chi-He
+	{filling "bullet47_jap"}
+	{fireSound "gun/47mm_type97"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 5}
+	("range_short")
+	
+	("speed" s(900))
+	("caliber_minimum")  
+	{projectileDamage 55}
+	("damage" a(76) b(65) c(54) d(45) e(37))
+	{parameters "apcr"
+        ("damage" a(101) b(85) c(69) d(55) e(42))
+	}
+	
+	("accuracy_minimum")
+	{cursor "vickers"}
+}

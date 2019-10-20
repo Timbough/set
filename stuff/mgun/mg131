@@ -1,0 +1,23 @@
+{from "pattern mgun"
+	{filling "ammo hmgun" 30}
+	{entity "mg131"}
+	{fireSound	"mgun/mg42_burst"}
+	{reloadSound "ptrd"}
+	{inventory
+		{size 6 2 }
+	}
+	("burst_long")
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 34}
+	{rechargeTime 6.0}
+	("rof" r(900))
+	{healthDamage 200}
+	{projectileDamage 19}
+	{projectileDamageTable {25 19} {50 12} {80 7} {100 5}}
+	{projectileDamageThreshold 1.1}
+	{calibre 13}	
+	
+	("accuracy_mgun")
+}
+

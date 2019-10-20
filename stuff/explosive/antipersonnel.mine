@@ -1,0 +1,11 @@
+{item
+	{tag "smallitemin1hand dropboxed nokeep"}
+	{entity "mine_antipersonnel"}
+	{inventory
+		{size 2 1}
+		{weight 100}
+		{fsm "belt"}
+	}
+	{mass 1.5}
+	("sr" args 3)
+}

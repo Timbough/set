@@ -1,0 +1,14 @@
+{from "85mm_zis53"     ; "76mm_3k"
+	{rechargeTime 6}
+	{filling "bullet76_rus"}
+	{fireSound "gun/50to76_cal/76mm_zis3"}
+	("speed" s(820))
+	("caliber_medium")
+	("range_medium")
+	{projectileDamage 105}
+	("damage" a(104) b(90) c(77) d(66) e(56))
+	{parameters "fg"
+       		("speed" s(706))
+	}
+	{cursor "k8t"}
+}  

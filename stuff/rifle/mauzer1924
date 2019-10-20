@@ -1,0 +1,7 @@
+{from "pattern rifle"
+	{entity "mauzer1924"}
+	{fireSound "rifle/type99rifle"}
+	{reloadSound "mauzer"}
+	("7.92x57")
+	("carbine")
+}

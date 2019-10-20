@@ -1,0 +1,7 @@
+{army
+	{id 8}
+	{title "mp/army/ger_storm_div"}
+	{icon "/interface/pages/multi/flag_storm_div_ger"}
+	{flag "/interface/scene/common/flag-germany"}
+}
+

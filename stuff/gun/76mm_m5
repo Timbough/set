@@ -1,0 +1,24 @@
+{from "pattern gun"      ; "M5" Antitank gun, M10 Wolverine
+	{filling "bullet76_usa"}
+	{fireSound "gun/50to76_cal/76mm_mk4"}
+	{reloadSound "gun_r05"}
+	{rechargeTime 7.5}
+	("range_medium")
+	{cursor "usa2"}
+	("speed" s(792))
+	("caliber_medium")
+	{projectileDamage 156}
+	("damage" a(155) b(133) c(110) d(90) e(74))
+	{parameters "apcr"
+        		("speed" s(1036))
+		("damage" a(239) b(208) c(175) d(147) e(124))
+	}
+	{parameters "apcbc"
+		("speed" s(792))
+		("damage" a(125) b(116) c(106) d(97) e(89))
+	}
+	{parameters "fg"
+		("speed" s(800))
+	}
+	("accuracy_low")
+}

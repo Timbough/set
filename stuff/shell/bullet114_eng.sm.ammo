@@ -1,0 +1,9 @@
+{from "pattern ap"
+	{tag "itemin2hands no_ricochet big smoke"}
+	{detonationThickness 2}
+	{inventory
+		{size 3 3}
+	}	
+	{mass 19}
+	{entity "eng_shell_114_sm"}
+}

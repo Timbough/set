@@ -1,0 +1,9 @@
+{from "mp40"
+	{filling "ammo pistol" 20}
+	{entity "fnab_m1943open"}
+	{fireSound	"smg/fnab_m1943_burst/"}
+	{reloadSound "m3a1_reload"}
+	("rof" r(400))
+	("short")
+	("light")
+}

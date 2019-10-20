@@ -1,0 +1,46 @@
+{bullet
+	{tag "big shell fg bomb"}
+	{inventory
+		{size 6 1}
+		{weight 100}
+	}	
+	{mass 92}
+	{entity "m26_ammo"}
+	{view "m26_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	{damage blastwave
+		{energy 16}	; kg
+		{area 1 2}		; m
+	}
+	{damage add blastwave
+		{energy 4}
+		{area 5 10}
+	}
+	{damage add blastwave
+		{energy 1}
+		{area 6 18}
+	}
+	{damage fire
+		{radius 6.0}
+		{heating 0.9}
+		{time 3}
+	}
+	(mod not "mp"
+		{damage blastwave
+			{energy 15}	; kg
+			{area 5 7}		; m
+		}	
+		{damage add blastwave
+			{energy 2}
+			{area 6 20}
+		}	
+		{damage fire
+			{radius 7}
+			{heating 1.2}
+			{time 3}
+		}
+	)
+}

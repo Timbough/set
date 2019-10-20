@@ -1,0 +1,8 @@
+{from "20mm_flak38"	; 2cm Scotti
+	{filling "bullet20_ita" 12}
+	{fireSound "gun/zenite/20mm"}
+	{RecoveryTime 0.24}
+	{rechargeTime 5}
+	{AimingTolerance 10}
+	("speed" s(830))     
+}

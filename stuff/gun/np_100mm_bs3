@@ -1,0 +1,21 @@
+{from "pattern gun"     ; "BS-3"
+	{filling "bullet100_rus"}
+	{fireSound "gun/85to100_cal/100mm_d10c"}
+	{rechargeTime 10}
+	("range_maximum")
+	("speed" s(1100))
+	("caliber_maximum")
+	;("speed" s(887))
+	;("100-128caliber")
+	;{projectileDamage 170}
+	;("damage" a(244) b(220) c(193) d(167) e(147))
+	;("accuracy_extralong")
+	
+	{projectileDamage 170}
+	("damage" a(188) b(171) c(152) d(136) e(120))
+	{parameters "apcr"
+        ("damage" a(212) b(190) c(166) d(145) e(124))
+	}
+	("accuracy_high")
+	{cursor "tsh"}
+}

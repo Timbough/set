@@ -1,0 +1,20 @@
+(include "\set\explosives.accuracy")
+
+{bullet
+	{tag "dropboxed size_small big mortar_flame"}
+	{inventory
+		{size 4 1}
+		{weight 140}
+	}	
+	{mass 4}
+	{entity "mortar150_ammo"}
+	{view "mortar150_ammo"}	
+	{detonationThickness 1}
+	
+	{damage fire
+		{radius 12}
+		{heating 1}
+		{time 5}
+	}		
+
+}

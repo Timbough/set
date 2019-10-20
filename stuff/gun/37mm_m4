@@ -1,0 +1,18 @@
+{from "pattern gun" ; m3_cannon
+	{filling "bullet37_usa"}
+	{fireSound "gun/37mm_m6"}
+	{reloadSound "gun_r02"}
+	{rechargeTime 4}
+	("range_minimum")
+	
+	("speed" s(990))
+	("caliber_minimum")
+	{projectileDamage 73}
+	("damage" a(68) b(60) c(49) d(42) e(36))
+	{parameters "apcr"
+        		("damage" a(93) b(80) c(64) d(52) e(41))
+	}
+	
+	("accuracy_minimum")
+	{cursor "usa"}
+}

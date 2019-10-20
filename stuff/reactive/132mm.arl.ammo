@@ -1,0 +1,19 @@
+{bullet
+	{inventory
+		{size 6 1}
+		{weight 100}
+	}	
+	{mass 41.9}
+	{entity "rs132_ammo"}
+	{view "rs132_ammo"
+		{tail "rocket_smoke" "tail"}
+	}
+	{detonationThickness 1}
+	{applyProjectile}
+	;4.6kg TNT, similars to a 150mm HE.
+	
+	{tag "ammo shell fg itemin2hands"}
+	{tag "big" "size_big" "shell_maximum"}
+	{detonationThickness 2}
+	("heavy" args 6.6)
+}

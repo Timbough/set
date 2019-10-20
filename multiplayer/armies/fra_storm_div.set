@@ -1,0 +1,6 @@
+{army
+	{id 30}
+	{title "mp/army/fra_storm_div"} 
+	{icon "/interface/pages/multi/flag_storm_div_fra"}
+	{flag "/interface/scene/common/flag-fra"}
+}

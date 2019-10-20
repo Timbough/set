@@ -1,0 +1,10 @@
+{from "pattern gun_indirect"      ; "M5" M10 Wolverine
+	{filling "bullet76_usa fg"}
+	{fireSound "gun/50to76_cal/76mm_mk4"}
+	{reloadSound "gun_r05"}
+	("range_indirect_medium")
+	{rechargeTime 6}
+	("caliber_medium")
+	("speed" s(853))
+	{projectileDamage 50}
+}

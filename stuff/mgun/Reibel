@@ -1,0 +1,8 @@
+{from "pattern mgun"
+	{entity "mle31"}
+	{filling "ammo mgun" 150}
+	{fireSound	"mgun/reibel_burst/"}
+	{reloadSound "dp27_reload"}
+	{recoveryTime 0.12}
+	("burst_long")
+}

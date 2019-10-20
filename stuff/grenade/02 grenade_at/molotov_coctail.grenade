@@ -1,0 +1,9 @@
+{from "pattern grenade_at"
+	{tag "ic ap"}
+	{inventory {size 2 1}}
+	{entity "molotov_coctail"}
+	{throw
+		{range 19}
+	}
+		("inc" args 3)
+}

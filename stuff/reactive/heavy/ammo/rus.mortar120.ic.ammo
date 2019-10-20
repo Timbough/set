@@ -1,0 +1,4 @@
+{from "pattern ic_heavy"
+	{entity "rus_ammo_mortar120_ic"}
+	("inc" args 6)
+}

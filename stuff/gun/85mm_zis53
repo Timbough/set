@@ -1,0 +1,22 @@
+{from "pattern gun"     ; "T34_3"
+	{filling "bullet85_rus"}
+	{fireSound "gun/85to100_cal/85mm_zis53"}
+	{rechargeTime 9.5}
+	("range_medium")
+	
+	("speed" s(792))
+	("caliber_large")
+	{reloadSound "tankgun_r07"}
+	{projectileDamage 146}   
+	("damage" a(145) b(125) c(107) d(92) e(78))
+	{parameters "apcr"
+		("speed" s(1030))
+		("damage" a(190) b(145) c(111) d(86) e(64))
+	}
+	{parameters "fg"
+		("speed" s(780))
+	}
+	("accuracy_low")
+	{cursor "cross"}
+	
+}

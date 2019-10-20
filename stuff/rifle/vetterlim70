@@ -1,0 +1,7 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 6}
+	{entity "vetterlim70"}
+	{fireSound "rifle/mosin_shot"}
+	{reloadSound "mosin"}
+	(".70")
+}

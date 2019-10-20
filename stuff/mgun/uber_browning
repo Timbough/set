@@ -1,0 +1,13 @@
+{from "browning"
+	{entity "browningm2"}
+	{filling "ammo hmgun" 50}
+	{fireSound	"mgun/browning_burst/"}
+	{inventory 	{handle_bone "handle_box"}}
+
+	("burst_long")
+	{filling "ammo hmgun" 500}
+	{reloadSound "ptrd"}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 34}
+}

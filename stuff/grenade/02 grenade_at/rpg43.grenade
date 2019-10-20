@@ -1,0 +1,14 @@
+{from "pattern grenade_at"
+	{tag "ap big"}
+	{inventory {size 2 1}}	
+	{entity "grenade_rpg43"}
+	{special
+		{PrepareTime 4.5}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	{throw
+		{range 14}		
+	}
+	("at" args 4.5)
+}

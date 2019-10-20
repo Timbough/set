@@ -1,0 +1,31 @@
+{weapon_bullet
+	{tag "rocketlauncher to_hand ap heat nokeep"}
+	{calibre 50}
+	{inventory
+		{size 5 2}
+		{link_bone "gun_back"}
+		{weight 100}
+		{fsm "bazooka"}
+
+	}
+	{mass 8}
+	{RelaxationTime 2.8}
+	{states
+		{reload	"reload-bazooka"}
+		{unload	"unload-bazooka"}
+		{fire	"fire-bazooka"	}
+		{aim 	"aim-bazooka"	}
+		{can_aim  "can-aim-bazooka"	}
+	}
+	{foresight "Foresight3"}
+	{gravity 5}
+	{curve "cumulative"}
+	{rechargeTime 9}
+	{projectileDamageThreshold 1}
+    	{projectileDamage 10}  
+	{speed 80}
+	{AimingTolerance 0.1}
+	{cursor "cannon_on"}
+	{range 100 1000}
+	("accuracy_rpg")
+}

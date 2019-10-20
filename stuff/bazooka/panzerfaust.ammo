@@ -1,0 +1,8 @@
+{from "pattern rpg_ammo"
+	{entity "panzerfaust_ammo"}
+	
+	{tag "pierce"} 
+	{view "panzerfaust_ammo"
+	}
+	("shaped" args 7.45)
+}

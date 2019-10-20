@@ -1,0 +1,10 @@
+{from "ppsh"
+	{filling "ammo pistol" 20}
+	{entity "mab_42"}
+	{fireSound	"smg/mp3008_burst/"}
+	{reloadSound "m3a1_reload"}
+	("rof" r(650))
+	{rechargeTime 5}
+	("light")
+	("long")
+}

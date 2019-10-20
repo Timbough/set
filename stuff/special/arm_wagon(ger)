@@ -1,0 +1,12 @@
+{item
+	{tag "hand smallitemin1hand"}
+	{inventory
+		{weight 100}
+		{fsm "belt"}
+	}	
+	{mass 2}
+	{inventory
+		{size 3 3}
+	}	
+	{entity "wirecutters"}
+}

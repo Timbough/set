@@ -1,0 +1,8 @@
+{from "pattern gun"    ; "obice da 149_40 M35"
+	{filling "bullet149_ita"}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r04"}
+	{rechargeTime 30}
+	("speed" s(800))
+	("range_heavy_howitzer")
+}

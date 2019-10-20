@@ -1,0 +1,7 @@
+{from "pattern pistol"
+	{filling "ammo pistol" 7}
+	{entity "nagan_pol"}
+	{fireSound	"pistol/nagan"}
+	{reloadSound "nagan"}
+	("medium")
+}

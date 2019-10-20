@@ -1,0 +1,7 @@
+{army
+	{id 21}
+	{title "mp/army/jap_tank_div"}
+	{icon "/interface/pages/multi/flag_tank_div_jap"}
+	{flag "/interface/scene/common/flag_japan"}
+}
+

@@ -1,0 +1,58 @@
+{breed
+	{skin "grc_mgunner"}
+	{portrait "grc_soldier3"}
+	{nationality grc}
+	{icon "mg"}
+	{icon_priority 2}
+	{armors
+		{head "helmet1_grc"}
+	}
+	{perks
+		{"health" "200%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	0.8
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_2
+		}
+		{"smg" lvl_2
+		}
+		{"mgun" lvl_2
+		}
+		{"rifle" lvl_2
+		}
+		{"rocketlauncher" lvl_2
+		}
+		{"melee" lvl_2
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "chauchat_mle_15" filled}
+		{item "ammo mgun" 900}
+		{item "nagan" filled}
+		{item "ammo pistol" 14}
+		{item "bandage" 5}
+		{item "mk1 grenade" 2}
+		{item "sandbag_kit" 1}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

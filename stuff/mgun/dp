@@ -1,0 +1,11 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 47}
+	{entity "dp27"}
+	{fireSound	"mgun/dt_burst/"}
+	{reloadSound "dp27_reload"}
+
+	{RechargeTime 9}
+	("rof" r(550))
+	("burst_medium")
+	("7.62x54")
+}

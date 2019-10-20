@@ -1,0 +1,11 @@
+{from "pattern rifle"
+	{entity "g43"}
+	{filling "ammo rifle" 10}
+	{fireSound "rifle/g43"}
+	{reloadSound "G43_reload"}
+	{mass 4.3}
+	("semi_automatic")
+	("7.92x57")
+	{rechargeTime 7.5}
+	{recoveryTime 1.1}
+}

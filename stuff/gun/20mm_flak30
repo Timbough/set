@@ -1,0 +1,4 @@
+{from "20mm_flak38"		; "flak-30"
+	{cursor "flakvisier20"}
+	{filling "bullet20_ger zenite" 20}
+}

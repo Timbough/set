@@ -1,0 +1,58 @@
+{breed
+	{skin "hun_officer"}
+	{portrait "hun_officer"}
+	{nationality hun}
+	{icon "officers"}
+	{icon_priority 6}
+	{armors
+		{head "fieldcap2_hun"}
+	}
+	{tags "officer"}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "100%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_officer"
+		}
+		{"speed" 1.0
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"field_glass"
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" "lvl_3"
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "frommer_37m" filled}
+		{item "ammo pistol" 30}
+		{item "hun_paradropammo_heavy grenade" 2}
+		{item "knife_ger"}
+		{item "binocular"}
+		{in_hands 0}
+	}
+}

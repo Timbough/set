@@ -1,0 +1,5 @@
+{from "mosin_s"
+	{filling "ammo rifle" 5}
+	{entity "mosin_s_fin"}
+	{fireSound "rifle/svt40_shot/"}
+}

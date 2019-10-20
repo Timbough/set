@@ -1,0 +1,9 @@
+{weapon_bullet
+	{tag "gun"}
+	{filling "ammo rocket_rs" 24}
+	{fireSound "reactive/katyusha_burst"}
+	{burst {min 24} {noaiming}}
+	{recoveryTime 1.0}
+;	{projectileDamage 50}
+	("heavy_artillery")
+}

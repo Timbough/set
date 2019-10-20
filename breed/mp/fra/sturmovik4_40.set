@@ -1,0 +1,59 @@
+{breed
+	{skin "fra-chasseur-rfl"}
+	{portrait "fra_elite3"}
+      	{nationality fra}
+	{icon "stormtrooper"}
+	{icon_priority 4}
+	{armors
+		{body "fr_backpack"}
+		{head "helmet_fra_m26_chasseur"}
+	}
+	{perks
+		{"health" "300%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "200%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"tank"	1.0
+		}
+		{"vehicle" 1.0
+		}
+		{"cannon" 1.0
+		}
+		{"pistol" lvl_4
+		}
+		{"smg" lvl_4
+		}
+		{"mgun" lvl_4
+		}
+		{"rifle" lvl_4
+		}
+		{"rocketlauncher" lvl_4
+		}
+		{"melee" lvl_4
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory
+		{item "berthier_carbine" filled}
+		{item "ammo rifle" 100}
+		{item "bandage" 3}
+		{item "grenade mk1" 2}
+		{item "smoke grenade" 2}
+		{item "dynamite" 1}
+		{item "ammo ptr" 15}
+		{item "boyes" filled}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

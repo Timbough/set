@@ -1,0 +1,14 @@
+{from "pattern mgun"
+	{entity "dshk"}
+	{filling "ammo hmgun" 50}
+	{fireSound	"mgun/dshk_burst/"}
+	{reloadSound "cal30_reload"}
+	{cursor "zenite_on"}
+	{cursorReloading "zenite_reload"}
+	{mass 34}
+	("rof" r(600))
+	{rechargeTime 8}
+	{aimingTolerance 1}
+	("accuracy_dshk")
+	("12.7x108")
+}

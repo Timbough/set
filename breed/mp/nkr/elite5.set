@@ -1,0 +1,59 @@
+{breed
+	{skin "50_pla_soldier_1"}
+	{portrait "nkr_elite1"}
+	{nationality nkr}
+	{icon "elite5"}
+	{icon_priority 3}
+	{armors
+		{head "winterhat_nkr"}
+	}
+	{perks
+		{"health" "250%"
+		}
+		{"health_regeneration" "100%"
+		}
+		{"stamina" "150%"
+		}
+		{"stamina_regeneration" "100%"
+		}
+		{"vision" "mp_soldier"
+		}
+		{"speed" 0.9
+		}
+		{"stealth"
+		}
+		{"tank"	0.1
+		}
+		{"vehicle" 0.6
+		}
+		{"cannon" 1.0
+		}
+		
+		{"pistol" lvl_3
+		}
+		{"smg" lvl_3
+		}
+		{"mgun" lvl_3
+		}
+		{"rifle" lvl_3
+		}
+		{"rocketlauncher" lvl_3
+		}
+		{"melee" lvl_3
+		}
+	}
+	{veterancy
+		(include "veterancy_generic.inc")
+		("veterancy_1")
+	}
+	{inventory            
+		{item "mosin" filled}	
+		{item "ptrd" filled}	
+		{item "ammo rifle" 100}
+		{item "bandage" 5}
+		{item "grenade rg42" 2}
+		{item "ammo ptr" 25}
+		{item "spade_inv_trenches"}
+		{in_hands 0}
+	}
+}

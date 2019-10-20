@@ -1,0 +1,15 @@
+{bullet
+	{tag "ammo nbk itemin2hands shell dropboxed"}
+;	{detonationThickness 20}
+	{inventory
+		{size 2 1}
+		{weight 100}
+		{fsm "stuff"}
+	}
+	{mass 1.5}
+	{entity "nbk39s"}
+	{view "nbk39s"
+		{tail "grenade_tail"}
+	}
+
+}

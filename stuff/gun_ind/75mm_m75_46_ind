@@ -1,0 +1,4 @@
+{from "75mm_m75_32_ind"  
+	{rechargeTime 4.5}
+	("speed" s(750))
+}

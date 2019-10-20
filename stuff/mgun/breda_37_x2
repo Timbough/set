@@ -1,0 +1,9 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 40}
+	{entity "breda_37"}
+	{fireSound	"mgun/breda_37_burst/"}
+       	{reloadSound "breda30x2_reload"}
+	("burst_short")
+	{rechargeTime 9}
+	("7.35x51 Carcano")
+}

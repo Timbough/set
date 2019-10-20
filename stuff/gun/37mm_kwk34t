@@ -1,0 +1,18 @@
+{from "pattern gun"		; pz35t R-2
+	{filling "bullet37_ger"}
+	{fireSound "gun/37mm_pak35"}
+	{reloadSound "pak35"}
+	{rechargeTime 5}
+	("range_minimum")
+	("speed" s(675))
+	("caliber_minimum") 
+	{projectileDamage 37}
+	("damage" a(40) b(34) c(26) d(24) e(18))
+	
+	{parameters "apcr"
+       		 ("damage" a(69) b(45) c(23)	d(5) e(0))
+	}
+	
+	("accuracy_minimum")
+	{cursor "ger"}
+}

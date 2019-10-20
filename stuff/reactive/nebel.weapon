@@ -1,0 +1,17 @@
+{weapon_bullet
+	{tag "gun"}
+	{filling "ammo nebel" 2}
+	{fireSound "reactive/nebelwerfer_burst"}
+	("heavy_artillery")
+	{fillingVisible "rocket_a"}
+	{foresight "foresight1"}
+	{AimingTolerance 0.1}
+	{burst {min 3} {noaiming}}
+	{gravity 2}
+	{recoveryTime 0.8}
+	{rechargeTime 90}
+	("range_medium")
+	{spreading
+		{SpreadRadius 21}
+	}
+}

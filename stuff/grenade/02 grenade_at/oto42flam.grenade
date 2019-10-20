@@ -1,0 +1,7 @@
+{from "pattern grenade_at"
+	{tag "ic ap"}
+	{inventory {size 2 1}}
+	{entity "Grenade_oto42flam"}
+		("inc" args 3)
+		("at" args 3)
+}

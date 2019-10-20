@@ -1,0 +1,7 @@
+{from "pattern mgun"
+	{filling "ammo mgun" 150}
+	{entity "7,5mm_shatelro"}
+	{fireSound	"mgun/maxim_burst/"}
+	("rof" r(800))
+	("burst_long")
+}

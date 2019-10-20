@@ -1,0 +1,9 @@
+{from "pattern ap"
+	{tag "big" "size_big" "shell_verybig" "pierce" "no_ricochet"}
+	{inventory
+		{size 7 1}
+	}	
+	{mass 22}
+	("ap" args 6.1)
+	{entity "rus_shell_122x785r_ap"}
+}

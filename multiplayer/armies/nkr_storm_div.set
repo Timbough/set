@@ -1,0 +1,6 @@
+{army
+	{id 66}
+	{title "mp/army/nkr_storm_div"} 
+	{icon "/interface/pages/multi/flag_storm_div_nkr"}
+	{flag "/interface/scene/common/flag-nkr"}
+}

@@ -1,0 +1,12 @@
+{from "pattern gun"		; "203mm Mortar", "k18"
+	{filling "bullet203"}
+	{fireSound "gun/howitzer/203mm"}
+	{reloadSound "tankgun_r02"}
+	("range_heavy_howitzer")
+	{range 300 300}
+	{projectileDamage 1000}
+	{recoveryTime 10.00}
+	{rechargeTime 30}
+	{cursor "cannon_on_fg"}
+	{cursorReloading "cannon_reload_fg"}	
+}

@@ -1,0 +1,123 @@
+; Round Types
+(define "speed"   
+	{speed (* 1.00 %s)}  
+)
+
+(define "damage"                                                                                 
+	{projectileDamageTable {5 %a} {30 %b} {55 %c} {80 %d} {105 %e} {160 0}}
+	; 100m - 500m - 1000m - 1500m - 2000m
+)
+
+;////////////Large Calibers//////////////
+
+(define "37"
+	("speed" s(900))
+	{healthDamage 1000}
+	{projectileDamage 65}
+	("damage" a(64) b(52) c(40) d(30) e(23)) 
+	{calibre 37} 
+)
+(define "20"
+	("speed" s(900))
+	{healthDamage 400}
+	{projectileDamage 46}
+	("damage" a(45) b(33) c(23) d(15) e(11))
+	{calibre 12} 
+)
+(define "12.7x108"
+	{range 120 1000}
+	("speed" s(900))
+	{healthDamage 260}
+	{projectileDamage 15}
+	("damage" a(23) b(22) c(16) d(10) e(5))
+	{calibre 12} 
+)
+(define ".50"
+	{range 120 1000}
+	("speed" s(900))
+	{healthDamage 260}
+	{projectileDamage 23}
+	("damage" a(26) b(25) c(19) d(12) e(7))
+	{calibre 12}
+)
+
+;//////////////Small Arms/////////////////
+
+(define "30-06"
+	("speed" s(850))
+	{healthDamage 180}
+	{ProjectileDamage 5}
+)
+(define "8mm"
+	("speed" s(730))
+	{healthDamage 165}
+	{ProjectileDamage 5}
+)
+(define "303"
+	("speed" s(780))
+	{healthDamage 155}
+	{ProjectileDamage 5}
+)
+(define "7.92x57"
+	("speed" s(800))
+	{healthDamage 190}
+	{ProjectileDamage 5}
+)
+(define "6.5x50"
+	("speed" s(770))
+	{healthDamage 140}
+	{ProjectileDamage 5}
+)
+(define "7.35x51 Carcano"
+	("speed" s(760))
+	{healthDamage 190}
+	{ProjectileDamage 5}
+)
+(define ".70"
+	("speed" s(410))
+	{healthDamage 220}
+	{ProjectileDamage 5}
+)
+(define "7.7x58"
+	("speed" s(740))
+	{healthDamage 150}
+	{ProjectileDamage 5}
+)
+(define "7.62x54"
+	("speed" s(800))
+	{healthDamage 175}
+	{ProjectileDamage 5}
+)
+(define "7.62x39"
+	("speed" s(735))
+	{healthDamage 100}
+	{ProjectileDamage 4}
+)
+(define "7.92×33mm Kurz"
+	("speed" s(685))
+	{healthDamage 80}
+	{ProjectileDamage 4}
+)
+(define "30 Carbine"
+	("speed" s(610))
+	{healthDamage 70}
+	{ProjectileDamage 3}
+	{spreading 1
+		{BurstAccuracy 100 90 81 73 66 60 55 51 48 46 45}
+	}
+)
+(define "45"
+	("speed" s(340))
+	{healthDamage 50}
+	{ProjectileDamage 3}
+)
+(define "7.62x25"
+	("speed" s(490))
+	{healthDamage 38}
+	{ProjectileDamage 2}
+)
+(define "9mm"
+	("speed" s(400))
+	{healthDamage 40}
+	{ProjectileDamage 2}
+)

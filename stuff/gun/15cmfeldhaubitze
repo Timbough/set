@@ -1,0 +1,17 @@
+{from "pattern gun"      ; 
+	{filling "bullet150_ger"}
+	{fireSound "gun/howitzer/150mm_sfh18"}
+	{reloadSound "gun_r03"}
+	{rechargeTime 12}
+	("speed" s(577))
+	{spreading	
+		{SpreadPower	0.9}
+		{SpreadYadjust	0.3}
+	}
+	("range_grazing_howitzer")
+	{ZeroingAccuracy 0.8 0.6}
+	{DisableRicochet}
+	{aimtype adaptive}
+	{traceFreq 0}
+	{RelaxationTime 2}
+}

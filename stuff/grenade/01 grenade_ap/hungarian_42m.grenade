@@ -1,0 +1,14 @@
+{from "pattern grenade_ap"
+	{tag "fg"}
+	{inventory {size 1 1}}	
+	{entity "grenade_hungarian_42m"}
+	{throw
+		{range 26}		
+	}	
+	{special
+		{PrepareTime 0}
+		{PrepareCursor "grenade"}
+		{mode detonate}
+	}
+	("sr" args 1.5)
+}

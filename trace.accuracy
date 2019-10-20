@@ -1,0 +1,18 @@
+(define "tr"
+	{trace
+		{view "/texture/fx/trace"
+			{Light 8}
+			{ScaleY 0.35}
+		}
+		{length (* %0 12)}
+	}
+)
+(define "tr2"
+	{trace
+		{view "/texture/fx/trace"
+			{Light 8}
+			{ScaleY 0.35}
+		}
+		{length (* %0 12)}
+	}
+)

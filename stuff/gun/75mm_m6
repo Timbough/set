@@ -1,0 +1,17 @@
+{from "pattern gun"     ; "m24_Chaffee"
+	{filling "bullet75_usa"}
+	{fireSound "gun/50to76_cal/75mm_m3"}
+	{reloadSound "gun_r00"}
+	{rechargeTime 7}
+	("range_short")
+	
+	("speed" s(619))
+	("caliber_medium")
+	{projectileDamage 95}
+	("damage" a(95) b(86) c(78) d(70) e(63))
+	{parameters "apcr"
+        ("damage" a(120) b(106) c(93) d(80) e(68))
+	}
+	{cursor "usa2"}
+	("accuracy_minimum")
+}

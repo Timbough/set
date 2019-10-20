@@ -1,0 +1,7 @@
+{from "pattern at_rifle"
+	{entity "pzb39"}
+	{fireSound	"rifle/ptr/pzb39"}
+	{rechargeTime 6}
+	("speed" s(1200))
+	{projectileDamageTable {0 32} {150 25}}	
+}

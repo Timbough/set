@@ -1,0 +1,18 @@
+{from "pattern smg"
+	{tag "assaultrifle"}
+	{filling "ammo pistol" 30}
+	
+	{mass 5}
+	{entity "stg44_scope"}
+	{fireSound	"smg/mp44_burst/"}
+	{reloadSound "mp44"}	
+	("rof" r(550))
+	("short")
+	("burst_short")
+	("heavy")
+	("7.92×33mm Kurz")
+	{range 60 1000}
+	{spreading
+		{BurstAccuracy 100 90 81 73 66 60 55 51 48 46 45}
+	}
+}

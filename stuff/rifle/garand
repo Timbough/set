@@ -1,0 +1,10 @@
+{from "pattern rifle"
+	{filling "ammo rifle" 8}
+	{entity "garand"}
+	{fireSound "rifle/garand"}
+	{reloadSound "m1garand_reload"}
+	("semi_automatic")
+	("30-06")
+	{rechargeTime 4}
+	{recoveryTime 1.2}
+}

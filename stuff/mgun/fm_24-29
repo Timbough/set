@@ -1,0 +1,12 @@
+{from "pattern mgun"
+	{tag "mgun_light"}
+	{filling "ammo mgun" 25}
+	{entity "mac_1924_29"}
+	{fireSound	"mgun/fm_24_29_burst/"}
+	{reloadSound "bren_reload"}
+	
+	{rechargeTime 5.2}
+	("rof" r(450))
+	("8mm")
+	("burst_short")
+}
