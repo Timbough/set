@@ -26,6 +26,6 @@
 	{speed 80}
 	{AimingTolerance 0.1}
 	{cursor "cannon_on"}
-	{range 100 1000}
+	{range 80 1000}
 	("accuracy_rpg")
 }

@@ -5,7 +5,7 @@
 	{reloadSound "panzerschreck_reload"}
 	{speed 110}
 	{rechargeTime 10}	
-	{range 130 1000}
+	{range 100 1000}
 }
 
 
