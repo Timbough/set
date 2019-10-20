@@ -3,7 +3,7 @@
 	;{fireSound "gun/85to100_cal/88mm_kwk43"}
 	{fireSound "gun/88mm/KwK43/"}
 	{reloadSound "tankgun_r02"}
-	{rechargeTime 9}
+	{rechargeTime 11}
 	("range_maximum")
 	("caliber_large")
 	("speed" s(1000))
