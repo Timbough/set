@@ -3,28 +3,13 @@
 (define "shaped" ; Localized warhead
 		; first wave (anti material) 
 		{damage blastwave
-			{energy (* %0 2.0)}
+			{energy (* %0 1.6)}
 			{area 0.02 (* %0 0.3)}
 		}
 		; Blasting charge
 		{damage add blastwave
-			{energy (* %0 2.0)}
-			{area (* %0 0.02)  (* %0 0.4)}
-		}
-		; Shockwave damage
-		{damage add blastwave
-			{energy (* %0 2.0)}
-			{area (* %0 0.02)  (* %0 0.5)}
-		}
-		; Shockwave damage
-		{damage add blastwave
-			{energy (* %0 2.0)}
-			{area (* %0 0.02)  (* %0 0.6)}
-		}
-		; Shockwave damage
-		{damage add blastwave
-			{energy (* %0 2.0)}
-			{area (* %0 0.02)  (* %0 0.7)}
+			{energy (* %0 0.5)}
+			{area (* %0 0.02)  (* %0 1.5)}
 		}
 )
 

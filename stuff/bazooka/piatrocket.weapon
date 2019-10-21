@@ -9,6 +9,7 @@
 	{speed 70}
 	{reactive 0}
 	{range 105 1000}
-	("accuracy_grb")	
+	("accuracy_grb")
+    	{projectileDamage 90}	
 	
 }

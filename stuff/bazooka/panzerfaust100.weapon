@@ -1,3 +1,4 @@
 {from "weapon panzerfaust"
+    	{projectileDamage 200}
 }
 

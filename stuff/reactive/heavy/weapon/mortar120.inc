@@ -23,7 +23,7 @@
 	
 	
 	
-	{gravity 9}
+	{gravity 5}
 	{ZeroingAccuracy 1.0 1.0 1.0 0.95 0.9 0.85 0.8 0.75}
 	
 	{RelaxationTime 1.2}

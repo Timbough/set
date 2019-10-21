@@ -22,7 +22,7 @@
 	{curve "cumulative"}
 	{rechargeTime 9}
 	{projectileDamageThreshold 1}
-    	{projectileDamage 10}  
+    	{projectileDamage 76}
 	{speed 80}
 	{AimingTolerance 0.1}
 	{cursor "cannon_on"}
