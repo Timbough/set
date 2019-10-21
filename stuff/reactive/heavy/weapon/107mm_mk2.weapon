@@ -17,7 +17,7 @@
 			5	5
 		}
 	}
-	("range_short")
+	{range 150 1000}
 
 	
 	{recoveryTime 5}
