@@ -17,13 +17,13 @@
 			5	5
 		}
 	}
-	{range 150 1000}
+	("range_short")
 	{recoveryTime 6}
 	{rechargeTime 6}
 	
 	
 	
-	{gravity 4}
+	{gravity 9}
 	{ZeroingAccuracy 1.0 1.0 1.0 0.95 0.9 0.85 0.8 0.75}
 	
 	{RelaxationTime 1.2}

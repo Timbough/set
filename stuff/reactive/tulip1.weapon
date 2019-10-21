@@ -5,7 +5,7 @@
 	{burst {min 1} {noaiming}}
 	("range_short")
 	{spreading
-		{SpreadRadius 3}
+		{SpreadRadius 2.5}
 		{radiusFunction
 			0.1	0.1
 			1	1
