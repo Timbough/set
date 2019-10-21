@@ -3,8 +3,7 @@
 	{fireSound "gun/howitzer/203mm"}
 	{reloadSound "tankgun_r02"}
 	("range_heavy_howitzer")
-	{projectileDamage 1000}
-	{recoveryTime 10.00}
+	{recoveryTime 10}
 	{rechargeTime 30}
 	{cursor "cannon_on_fg"}
 	{cursorReloading "cannon_reload_fg"}	
