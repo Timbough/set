@@ -7,7 +7,6 @@
 	{mass 6.1}
 	{DisableRicochet}
 	{foresight "Foresight"}
-	{reactive}
 	{gravity 0}
 	{rechargeTime 5}
 	{curve "cumulative"}
@@ -18,7 +17,7 @@
 	{AimingTolerance 3}
 	{cursor "cannon_on_cu"}
 	{cursorReloading "cannon_reload_cu"}
-	{spreading 1.5
+	{spreading 3
 		{SpreadPower	1}
 	}
 	("accuracy_boost")
