@@ -13,6 +13,6 @@
 	("7.92×33mm Kurz")
 	{range 60 1000}
 	{spreading
-		{BurstAccuracy 100 90 81 73 66 60 55 51 48 46 45}
+		{BurstAccuracy 100 84 72 62 54 48 42 37 34 32 30}
 	}
 }

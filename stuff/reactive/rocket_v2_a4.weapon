@@ -10,9 +10,9 @@
 	{Automatic}    
 	{rechargeTime 120}
 	{recoveryTime 60}
-	{gravity 0.8}
-	{speed 30}
-	{range 600 650}        
+	{gravity 5}
+	{speed 150}
+	{range 600 1000}        
 	{aimtype curved}
 
 	{spreading

@@ -36,6 +36,7 @@
 
 ;°°°Button 7°°°
 
+{"Brixia45"       ("vs" c(0) t(ita_inf_div ita_tank_div  all any arty 40 41 42 43 n39 n44 n45 n50 fl  inf_only3) s(ita) n(2) g(d1) sc(12.5) b(v7) cw(0) cp(5)) {cost 90} {fore -2}}
 {"81mm_brandt_ita"       ("vs" c(0) t(ita_inf_div ita_tank_div  all any arty 40 41 42 43 n39 n44 n45 n50 fl  inf_only3) s(ita) n(2) g(d1) sc(12.5) b(v7) cw(0) cp(5)) {cost 125} {fore -2}}
 {"skoda_75mm_ita"        ("vs" c(0) t(ita_inf_div   all any arty n39 n40 41 42 43 n44 n45 n50 fl ntb nt) s(ita) n(4) g(d2) sc(14) b(v7) cw(0) cp(5)) {cost 280} {fore -3}}
 {"obice7518_40" ("vs" c(0) t(ita_inf_div nseacombat nall any arty 40 41 n42 n43 n39 n44 n45 n50 ntb nt fl) s(ita) n(4) g(d3) sc(15) b(v7) cw(0) cp(5)) {cost 300} {fore -3}}

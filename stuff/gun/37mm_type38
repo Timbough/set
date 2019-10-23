@@ -7,10 +7,10 @@
 	
 	("speed" s(780))
 	("caliber_minimum")
-	{projectileDamage 55}	
-	("damage" a(55) b(44) c(33) d(26) e(18))
+	{projectileDamage 31}	
+	("damage" a(31) b(25) c(19) d(15) e(12))
 	{parameters "apcr"
-		("damage" a(80) b(64) c(48) d(36) e(23))
+	("damage" a(36) b(30) c(24) d(19) e(16))
 	}
 	
 	("accuracy_minimum")

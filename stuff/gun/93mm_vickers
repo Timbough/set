@@ -8,10 +8,10 @@
 	
 	("speed" s(793))
 	("caliber_large")
-	{projectileDamage 151}
-	("damage" a(151) b(143) c(134) d(125) e(115))
+	{projectileDamage 243}
+	("damage" a(243) b(228) c(212) d(199) e(189))
 	{parameters "apds"
-        		("damage" a(176) b(163) c(149) d(135) e(120))
+	("damage" a(243) b(228) c(212) d(199) e(189))
 	}
 	("accuracy_high")
 }

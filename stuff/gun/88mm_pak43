@@ -1,17 +1,17 @@
 {from "88mm_kwk43"     ; "Nashorn"
 	("accuracy_maximum") 
 	("speed" s(1000))
-	("damage" a(236) b(219) c(204) d(189) e(176))
+	("damage" a(237) b(222) c(207) d(194) e(181))
 	{parameters "apcr"
 		("speed" s(1200))
-		("damage" a(310) b(282) c(257) d(234) e(213))
+		("damage" a(272) b(250) c(228) d(208) e(189))
 	}
 	{parameters "apcbc"
-		("damage" a(236) b(219) c(204) d(189) e(176))
+	("damage" a(237) b(222) c(207) d(194) e(181))
 	}
 	{parameters "cu"
 		("speed" s(600))
-		("damage" a(110) b(0) c(0) d(0) e(0))
+		("damage" a(110) b(110) c(110) d(110) e(110))
 	}
 	{cursor "sflzf1a"}
 }

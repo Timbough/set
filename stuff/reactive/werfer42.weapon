@@ -6,24 +6,7 @@
 	{fireSound "reactive/mortar"}
     	{AimingTolerance 1}
     	{RelaxationTime 1.2}
-	{spreading 
-		{SpreadRadius 35}
-		{radiusFunction
-			0.1	0.1
-			1	1
-			2	2
-			3	3
-			4	4
-			5	5
-		}
-	}
 	{rechargeTime 5}
-	{gravity 9}
-	{ZeroingAccuracy 1.0 1.0 1.0 0.95 0.9 0.85 0.8 0.75}
-	{aimtype curved}
-	{projectileDamage 15}
-	{speed 100}
-	{projectileDamageTable {130 15}}
 	("range_short")
         {parameters "fg"
 		{cursor "cannon_on_fg"}
@@ -33,4 +16,5 @@
 		{cursor "cannon_on_sm"}
 		{cursorReloading "cannon_reload_sm"}
 	}
+	("medium_mortar")
 }

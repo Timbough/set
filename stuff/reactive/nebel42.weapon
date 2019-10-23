@@ -8,7 +8,7 @@
 	("range_short")
 	{gravity 2}
 	{speed 82}
-	{rechargeTime 120}
+	{rechargeTime 90}
         {parameters "fg"
 		{cursor "cannon_on_fg"}
 		{cursorReloading "cannon_reload_fg"}
