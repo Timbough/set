@@ -54,6 +54,7 @@
 
 ;°°°Button 7°°°
 
+{"Brixia45"           ("vs" c(0) t(ger_inf_div ger_tank_div  nseacombat all any arty 39 40 41 n42 n43 n44 n45 n50 fl  inf_only3) 		s(ger) n(2) g(c01) sc(12.5) b(v7) cw(2) cp(5)) {cost 90} {fore -2}}
 {"81mm_brandt_ger"           ("vs" c(0) t(ger_inf_div ger_tank_div  nseacombat all any arty 39 40 41 n42 n43 n44 n45 n50 fl  inf_only3) 		s(ger) n(2) g(c01) sc(12.5) b(v7) cw(2) cp(5)) {cost 125} {fore -2}}
 {"81mm_sgrw_34"           ("vs" c(0) t(ger_inf_div ger_tank_div  nseacombat all any arty n39 n40 41 42 43 44 45 n50 fl  inf_only3) 		s(ger) n(2) g(c01) sc(12.5) b(v7) cw(2) cp(5)) {cost 125} {fore -2}}
 {"75mm_leig18"         ("vs" c(0)  t(ger_inf_div   nseacombat 39 40 41 42 43 nall any arty n44 n45 n50 fl ntb nt) s(ger) n(4) g(c00) sc(16)  b(v7) cw(0) cp(5)) {cost 320} {fore -3}}

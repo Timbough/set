@@ -7,11 +7,11 @@
 	
 	("speed" s(762))
 	("caliber_minimum")     
-	{projectileDamage 63}	
-	("damage" a(43) b(37) c(30) d(25) e(20))
+	{projectileDamage 50}	
+	("damage" a(50) b(40) c(29) d(21) e(18))
 	{parameters "apcr"
 		("speed" s(1020))
-		("damage" a(79) b(38) c(16) d(6) e(3))
+		("damage" a(79) b(43) c(15) d(9) e(4))
 	}
 	("accuracy_minimum")
 	{cursor "pak_zf3x8"}

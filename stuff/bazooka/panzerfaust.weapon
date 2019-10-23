@@ -13,6 +13,8 @@
 	{reactive 0}
 	{range 32 1000}
 	("accuracy_grb")
+    	{projectileDamage 140}
+	{DisableRicochet}
 	
 
 }

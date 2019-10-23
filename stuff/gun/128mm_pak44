@@ -6,11 +6,11 @@
 	("range_maximum")	
 	("speed" s(930))
 	("caliber_maximum")
-	{projectileDamage 217}
-	("damage" a(269) b(253) c(237) d(222) e(208))
+	{projectileDamage 227}
+	("damage" a(227) b(213) c(200) d(188) e(176))
 	{parameters "apcr"
 	        ("speed" s(930))
-	        ("damage" a(231) b(225) c(207) d(191) e(175))
+	        ("damage" a(267) b(253) c(238) d(224) e(211))
 	}
 	{parameters "fg"
 		("speed" s(750))

@@ -17,5 +17,5 @@
 		{burstSpreadDelta 2.6}
 		{burstSpreadCount 40}
 	}
-	{rechargeTime 150}
+	{rechargeTime 120}
 }

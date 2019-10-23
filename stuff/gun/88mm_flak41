@@ -7,14 +7,14 @@
 	
 	("speed" s(810))
 	("caliber_large")         
-	{projectileDamage 119}
-	("damage" a(119) b(114) c(106) d(98) e(88))
+	{projectileDamage 230}
+	("damage" a(230) b(216) c(201) d(188) e(176))
 	{parameters "apcr"
-        		("damage" a(155) b(143) c(130) d(119) e(108))
+        		("damage" a(275) b(250) c(226) d(204) e(184))
 	}
 	{parameters "cu"
-        		{projectileDamage 90}
-		("damage" a(90) b(0) c(0) d(0) e(0))
+        		{projectileDamage 110}
+		("damage" a(110) b(110) c(110) d(110) e(110))
 	}
 	("accuracy_high")
 	{cursor "zf20"}

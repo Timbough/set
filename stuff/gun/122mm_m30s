@@ -6,9 +6,9 @@
 	
 	("caliber_maximum")
 	{parameters "cu"
-        		{projectileDamage 125}
-		("damage" a(125) b(0) c(0) d(0) e(0))
+        		{projectileDamage 160}
+		("damage" a(160) b(160) c(160) d(160) e(160))
 	}
-	{rechargeTime 12}
+	{rechargeTime 14}
 	{cursor "pg1m"}
 }

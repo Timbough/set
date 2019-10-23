@@ -20,7 +20,7 @@
 	
 	("accuracy_medium")
 	{spreading
-		{spreadradius	 2.5}
+		{spreadradius	 4}
 		{SpreadXYRatio	4}
 		{SpreadPower	3}
 	}
