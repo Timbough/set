@@ -5,7 +5,7 @@
 	{fireSound	"mgun/type99lmg_burst/"}
 	{reloadSound "bren"}
 	("7.7x58")
-	{rechargeTime 6}
+	{rechargeTime 7}
 	("rof" r(700))
 	("burst_short")
 	("lmgun")

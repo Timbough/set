@@ -5,6 +5,6 @@
 	{reloadSound "mosin"}
 	("7.62x54")
 	("carbine")
-	{rechargeTime 7.2}
-	{recoveryTime 4.1}
+	{rechargeTime 7.5}
+	{recoveryTime 4.4}
 }

@@ -6,5 +6,5 @@
 	{reloadSound "thompson_reload"}
 	("burst_short")
 	("45")
-	{rechargeTime 5}
+	("quick_reload")
 }

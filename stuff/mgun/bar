@@ -5,7 +5,7 @@
 	{fireSound	"mgun/bar_burst/"}
 	{reloadSound "bar_reload"}
 
-	{rechargeTime 5}
+	{rechargeTime 6}
 	("rof" r(570))
 	("burst_short")
 	("30-06")

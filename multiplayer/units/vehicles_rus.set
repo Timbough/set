@@ -99,16 +99,16 @@
 ;°°°Button 4°°°
 
 {"mk3_rus"              ("v" c(0) t( rus_tank_div  nseacombat all any n40 41 42  n39 n43 n44 n45 n50 tb tank_only fl) s(rus) n1(3) n2(1) g(f1) sc(16.5) b(v4) cw(0) cp(5)) {cost 330} {fore -53}}
-{"t28_l10"            ("v" c(0) t( rus_tank_div  rup nseacombat medium nall any 39 40 n41 n42 n43 n44 n45 n50 nfl tb tank_only) 	s(rus) n1(5) n2(1) g(e1) sc(18) b(v4) cw(0) cp(15)) {cost 360} {fore -49}} 
-{"t34_0"            ("v" c(0) t( rus_tank_div  rup nseacombat all any medium arcade 41 n39 n40 n42 n43 n44 n45 n50 nfl tb tank_only2) 	s(rus) n1(3) n2(1) g(e1) sc(18) b(v4) cw(0) cp(15)) {cost 360} {fore -49}} 
-{"t34_2f"            ("v" c(0) t( rus_tank_div  rup nseacombat all any medium  43 44 45 n50 nfl n39 n40 n41 n42 tb tank_only) 		s(rus) n1(3) n2(1) g(e1) sc(19) b(v4) cw(0) cp(15)) {cost 380} {fore -49}} 
-{"t34_41"            ("v" c(0) t( rus_tank_div  rup nseacombat all any medium  41 42 n39 n40 n43 n44 n45 n50 nfl tb tank_only2) 	s(rus) n1(3) n2(1) g(e3) sc(19) b(v4) cw(0) cp(15)) {cost 380} {fore -53}}
-{"t34_42m"            ("v" c(0) t( rus_tank_div  nseacombat all any medium  42 n43 n39 n40 n41 n44 n45 n50 nfl tb tank_only) s(rus) n1(3) n2(1) g(e3) sc(19) b(v4) cw(0) cp(15)) {cost 380} {fore -53}}
-{"t34_42"            ("v" c(0) t( rus_tank_div  rup nseacombat all any medium  42 43 n39 n40 n41 n44 n45 n50 nfl tb tank_only) 	s(rus) n1(3) n2(1) g(e3) sc(19) b(v4) cw(0) cp(15)) {cost 380} {fore -53}}
-{"t34_2"            ("v" c(0) t( rus_tank_div  rup nseacombat all any medium  43 44 45 n50 nfl n39 n40 n41 n42 tb tank_only) 		s(rus) n1(3) n2(1) g(e2) sc(20) b(v4) cw(0) cp(15)) {cost 400} {fore -53}}
+{"t28_l10"            ("v" c(0) t( rus_tank_div  rup nseacombat medium nall any 39 40 n41 n42 n43 n44 n45 n50 nfl tb tank_only) 	s(rus) n1(5) n2(1) g(e1) sc(18) b(v4) cw(0) cp(15)) {cost 350} {fore -49}} 
+{"t34_0"            ("v" c(0) t( rus_tank_div  rup nseacombat all any medium arcade 41 n39 n40 n42 n43 n44 n45 n50 nfl tb tank_only2) 	s(rus) n1(3) n2(1) g(e1) sc(18) b(v4) cw(0) cp(15)) {cost 340} {fore -49}} 
+{"t34_2f"            ("v" c(0) t( rus_tank_div  rup nseacombat all any medium  43 44 45 n50 nfl n39 n40 n41 n42 tb tank_only) 		s(rus) n1(3) n2(1) g(e1) sc(19) b(v4) cw(0) cp(15)) {cost 340} {fore -49}} 
+{"t34_41"            ("v" c(0) t( rus_tank_div  rup nseacombat all any medium  41 42 n39 n40 n43 n44 n45 n50 nfl tb tank_only2) 	s(rus) n1(3) n2(1) g(e3) sc(19) b(v4) cw(0) cp(15)) {cost 340} {fore -53}}
+{"t34_42m"            ("v" c(0) t( rus_tank_div  nseacombat all any medium  42 n43 n39 n40 n41 n44 n45 n50 nfl tb tank_only) s(rus) n1(3) n2(1) g(e3) sc(19) b(v4) cw(0) cp(15)) {cost 340} {fore -53}}
+{"t34_42"            ("v" c(0) t( rus_tank_div  rup nseacombat all any medium  42 43 n39 n40 n41 n44 n45 n50 nfl tb tank_only) 	s(rus) n1(3) n2(1) g(e3) sc(19) b(v4) cw(0) cp(15)) {cost 340} {fore -53}}
+{"t34_2"            ("v" c(0) t( rus_tank_div  rup nseacombat all any medium  43 44 45 n50 nfl n39 n40 n41 n42 tb tank_only) 		s(rus) n1(3) n2(1) g(e2) sc(20) b(v4) cw(0) cp(15)) {cost 345} {fore -53}}
 {"m4a2"          ("v" c(0) t( rus_tank_div  nseacombat all any 44 45 nfl medium n39 n40 n41 n42 n43 n50 tb tank_only) 	s(rus) n1(4) n2(1) g(f4) sc(20) b(v4) cw(0) cp(15)) {cost 400} {fore -53}} 	
-{"ot34_2"            ("v" c(0) t( rus_tank_div  rup nseacombat medium  44 45 n50 nfl nall any n39 n40 n41 n42 n43 tb nt) 		s(rus) n1(3) n2(1) g(e2) sc(21.5) b(v4) cw(0) cp(15)) {cost 430} {fore -53}}	
-{"t34_1"            ("v" c(0) t( rus_tank_div  nseacombat all any medium  41 n42 n43 n39 n40 n44 n45 n50 nfl rare3 tb tank_only1) 		s(rus) n1(3) n2(1) g(e3) sc(24) b(v4) cw(0) cp(15)) {cost 480} {fore -59}} 
+{"ot34_2"            ("v" c(0) t( rus_tank_div  rup nseacombat medium  44 45 n50 nfl nall any n39 n40 n41 n42 n43 tb nt) 		s(rus) n1(3) n2(1) g(e2) sc(21.5) b(v4) cw(0) cp(15)) {cost 390} {fore -53}}	
+{"t34_1"            ("v" c(0) t( rus_tank_div  nseacombat all any medium  41 n42 n43 n39 n40 n44 n45 n50 nfl rare3 tb tank_only1) 		s(rus) n1(3) n2(1) g(e3) sc(24) b(v4) cw(0) cp(15)) {cost 440} {fore -59}} 
 {"t35"              ("v" c(0) t(  rus_storm_div nseacombat heavy 39 40 41 nall any n42 n43 n44 n45 n50 nfl one_only tb nt) 		s(rus) n1(9) n2(1) g(e4) sc(25) b(v4) cw(0) cp(15)) {cost 500} {fore -10}} 
 {"m4a2_76w"              ("v" c(0) t(nseacombat all any 44 45 n50 medium n39 n40 n41 n42 n43 tb tank_only1 nfl) s(rus) n1(4) n2(1) g(e5) sc(28) b(v4) cw(0) cp(15)) {cost 560} {fore -10}}
 {"kv1s"          ("v" c(0) t(rus_tank_div  rus_storm_div nseacombat all any heavy  n42 43 n39 n40 n41 n44 n45 n50 nfl tb tank_only1) 			s(rus) n1(3) n2(1) g(e6) sc(29.5) b(v4) cw(0) cp(15)) {cost 590} {fore -10}}

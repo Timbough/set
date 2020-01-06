@@ -3,7 +3,7 @@
 	{entity "mp18"}
 	{fireSound	"smg/ppsh_burst/"}
 	{reloadSound "mp44"}
-	{rechargeTime 5}
+	("quick_reload")
 	{recoveryTime 0.11}
 	("burst_short")	
 	{spreading

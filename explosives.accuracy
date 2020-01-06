@@ -78,27 +78,33 @@
 )
 
 (define "inc" ; up to 50mm
-		; third wave  (concussive)
-		{damage add blastwave
-			{energy (* %0 0.28)}
-			{area (* %0 0.02)  (* %0 3)}
-		}
-		; fourth wave  (fire)
+		; fire
 		{damage fire
-			{radius (* %0 0.5)}
-			{heating (* %0 0.06)}
-			{time (* %0 7)}
+			{radius (* %0 1)}
+			{heating (* %0 0.08)}
+			{time (* %0 6)}
+		}
+		; more fire
+		{damage fire
+			{radius (* %0 2)}
+			{heating (* %0 0.08)}
+			{time (* %0 6)}
 		}
 )
-(define "sr" ; up to 50mm
-		; second wave  (concussive) 
+(define "sr" ; Grenades
+		; concussive)
 		{damage add blastwave
-			{energy (* %0 0.28)}
+			{energy (* %0 0.36)}
+			{area (* %0 0.02)  (* %0 1.5)}
+		}
+		; shrapnel near
+		{damage add blastwave
+			{energy (* %0 0.32)}
 			{area (* %0 0.02)  (* %0 3)}
 		}
-		; third wave  (shrapnel)
+		; shrapnel far
 		{damage add blastwave
-			{energy (* %0 0.28)}
+			{energy (* %0 0.24)}
 			{area (* %0 0.02)  (* %0 6)}
 		}
 )

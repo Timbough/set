@@ -2,6 +2,6 @@
 	{fireSound "rifle/mosin"}
 	{reloadSound "mosin_reload"}
 	("7.62x54")
-	{rechargeTime 7.2}
-	{recoveryTime 4.2}
+	{rechargeTime 8.2}
+	{recoveryTime 4.5}
 }

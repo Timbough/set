@@ -10,7 +10,7 @@
 	{cursorReloading "zenite_reload"}
 	{mass 34}
 
-	{rechargeTime 12}
+	{rechargeTime 13}
 	("rof" r(520))
 	("accuracy_dshk")
 	(".50")

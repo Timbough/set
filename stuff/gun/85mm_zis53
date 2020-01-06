@@ -7,11 +7,11 @@
 	("speed" s(792))
 	("caliber_large")
 	{reloadSound "tankgun_r07"}
-	{projectileDamage 146}   
+	{projectileDamage 145}   
 	("damage" a(145) b(125) c(107) d(92) e(78))
 	{parameters "apcr"
 		("speed" s(1030))
-		("damage" a(190) b(145) c(111) d(86) e(64))
+		("damage" a(180) b(136) c(100) d(73) e(54))
 	}
 	{parameters "fg"
 		("speed" s(780))

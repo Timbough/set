@@ -3,5 +3,5 @@
 	{fireSound "rifle/mosin_shot/"}
 	{reloadSound "mosin"}
 	("accuracy_sniper_rifle")
-	{recoveryTime 4.2}
+	{recoveryTime 4.4}
 }

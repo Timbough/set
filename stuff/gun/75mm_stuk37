@@ -1,26 +1,26 @@
 {from "75mm_kwk40"     ; L/24 "stug3b"
     	{filling "bullet75_kwk37_ger"}
 	{rechargeTime 6.5}
-	("speed" s(440))
+	("speed" s(385))
 	("range_short")  
 	("accuracy_minimum")	
 	{projectileDamage 52}
-	("damage" a(52) b(48) c(44) d(40) e(37))
+	("damage" a(52) b(45) c(39) d(34) e(30))
 	{parameters "cu"
         		("speed" s(450))
-		("damage" a(52) b(0) c(0) d(0) e(0))
+		("damage" a(52) b(52) c(52) d(52) e(52))
 	}
 	{parameters "acu"
 		("speed" s(450))
-		("damage_a" a(81) b(0) c(0) d(0) e(0))
+		("damage_a" a(81) b(81) c(81) d(81) e(81))
 	}
 	{parameters "bcu"
 		("speed" s(450))
-		("damage_b" a(87) b(0) c(0) d(0) e(0))
+		("damage_b" a(87) b(87) c(87) d(87) e(87))
 	}
 	{parameters "ccu"
 		("speed" s(450))
-		("damage_c" a(115) b(0) c(0) d(0) e(0))
+		("damage_c" a(115) b(115) c(115) d(115) e(115))
 	}
 	{cursor "sflzf1"}
 	{parameters "apcr"

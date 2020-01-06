@@ -3,7 +3,7 @@
 	{entity "ppsh"}
 	{fireSound	"smg/ppsh_burst/"}
 	{reloadSound "ppsh41_reload"}
-	{rechargeTime 7}
+	("long_reload")
 	("7.62x25")
 	("rof" r(900))
 	("burst_long")	

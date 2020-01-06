@@ -25,7 +25,7 @@
 	{calibre 12} 
 )
 (define "12.7x108"
-	{range 120 1000}
+	{range 80 1000}
 	("speed" s(900))
 	{healthDamage 260}
 	{projectileDamage 15}
@@ -33,7 +33,7 @@
 	{calibre 12} 
 )
 (define ".50"
-	{range 120 1000}
+	{range 80 1000}
 	("speed" s(900))
 	{healthDamage 260}
 	{projectileDamage 23}
@@ -95,7 +95,7 @@
 )
 (define "7.92×33mm Kurz"
 	("speed" s(685))
-	{healthDamage 80}
+	{healthDamage 90}
 	{ProjectileDamage 4}
 )
 (define "30 Carbine"
@@ -108,16 +108,16 @@
 )
 (define "45"
 	("speed" s(340))
-	{healthDamage 50}
+	{healthDamage 55}
 	{ProjectileDamage 3}
 )
 (define "7.62x25"
 	("speed" s(490))
-	{healthDamage 38}
+	{healthDamage 43}
 	{ProjectileDamage 2}
 )
 (define "9mm"
 	("speed" s(400))
-	{healthDamage 40}
+	{healthDamage 47}
 	{ProjectileDamage 2}
 )

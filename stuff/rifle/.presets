@@ -16,7 +16,6 @@
 		{short 1 0.3}
 		{long 3 0.3}
 	}
-	{curve "bullet"}
 )
 
 (define "carbine"

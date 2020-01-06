@@ -9,12 +9,12 @@
 	}
 	{entity "mg34"}
 	{mass 12}
-	{RelaxationTime 2.2}
+	{RelaxationTime 2}
 	{Automatic}
-	{range 120 1000}
+	{range 70 1000}
 	("burst_medium")
 	("rof" r(600))
-	{rechargeTime 11}
+	{rechargeTime 12}
 	{speed 700}
 	{projectileDamage 5}
 	{projectileDamageClip 5}

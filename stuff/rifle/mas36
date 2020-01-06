@@ -7,5 +7,5 @@
 	("8mm")
 	("carbine")
 	{rechargeTime 6}
-	{recoveryTime 3}
+	{recoveryTime 4}
 }

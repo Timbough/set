@@ -3,7 +3,7 @@
 	{fireSound	"smg/ppd40_burst/"}
 	{reloadSound "ppd40_reload"}
 	("7.62x25")
-	{rechargeTime 7}
+	("long_reload")
 	("rof" r(950))
 	("burst_long")	
 	("heavy")	

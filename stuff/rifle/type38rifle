@@ -3,5 +3,4 @@
 	{fireSound "rifle/type38_shot"}
 	{reloadSound "mauzer"}
 	("6.5x50")
-	{recoverytime 3.7}
 }

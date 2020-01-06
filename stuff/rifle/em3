@@ -4,6 +4,6 @@
 	{fireSound "rifle/enfield"}
 	{reloadSound "enfield_reload"}
 	("303")
-	{rechargeTime 8.5}
-	{recoveryTime 3}
+	{rechargeTime 10}
+	{recoveryTime 3.5}
 }

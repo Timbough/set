@@ -4,6 +4,6 @@
 	{fireSound	"mgun/dt_burst/"}
 	{reloadSound "dt_reload"}
 	("7.62x54")
-	{RechargeTime 9}
+	{RechargeTime 10}
 	("rof" r(600))
 }

@@ -50,15 +50,23 @@
 
 (define "heavy"
 	{mass 4.5}
-	{RelaxationTime 1.9}
+	{RelaxationTime 1.5}
 	{Spreading
 		{BurstRecoveryTime 0.7}
 	}
 )
 
+(define "long_reload"
+	{rechargeTime 9}
+)
+
+(define "quick_reload"
+	{rechargeTime 7}
+)
+
 (define "light"
 	{mass 2}
-	{RelaxationTime 0.9}
+	{RelaxationTime 0.5}
 	{Spreading
 		{BurstRecoveryTime 0.5}
 	}

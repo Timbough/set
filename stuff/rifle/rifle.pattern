@@ -16,8 +16,8 @@
 	{mass 4.5}
 	{reloadSound "rifle_bolt_five"}
 
-	{recoveryTime 4}
-	{rechargeTime 7}
+	{recoveryTime 4.4}
+	{rechargeTime 8}
 	{speed 700}
 	{RelaxationTime 2.4}
 	{ProjectileDamage 5}
@@ -25,7 +25,7 @@
 	{projectileDamageThreshold 1.5}
 	{calibre 9.72}
 	{healthDamage 180}
-	{range 120 1000}
+	{range 70 1000}
 	{spreading 1
 		{BurstAccuracy 100 70 61 53 46 40 35 31 28 26 25}
 		{BurstRecoveryTime 0.7}

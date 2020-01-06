@@ -4,7 +4,7 @@
 	{fireSound	"mgun/dt_burst/"}
 	{reloadSound "dp27_reload"}
 
-	{RechargeTime 9}
+	{RechargeTime 10}
 	("rof" r(550))
 	("burst_medium")
 	("7.62x54")

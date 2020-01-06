@@ -5,7 +5,7 @@
 	{fireSound	"mgun/type99lmg_burst/"}
 	{reloadSound "type99lmg"}
 	("6.5x50")
-	{rechargeTime 6}
+	{rechargeTime 7}
 	{recoveryTime 0.11}
 	("burst_short")
 }

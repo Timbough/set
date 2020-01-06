@@ -2,7 +2,7 @@
 	{filling "bullet75_kwk37_ger"}
 	{fireSound "gun/50to76_cal/75mm_kwk40"}
 	{reloadSound "gun_r03"}
-	("range_light_howitzer")
+	("range_medium")
 	{parameters "fg"
 	}
 	{parameters "apcr"

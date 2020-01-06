@@ -13,20 +13,20 @@
 	{reloadSound "mp44"}
 	{Automatic}
 	("rof" r(550))
-	{rechargeTime 6}
-	{speed 100}
+	{rechargeTime 8}
+	{speed 300}
 	{healthDamage 40}
 	{ProjectileDamage 2}
 	{ProjectileDamageClip 2}
 	{projectileDamageTable {25 2} {100 0}}
-	{range 80 1000}
+	{range 70 1000}
 	{Spreading
 		{SpreadXYRatio	1.0}
-		{burstSpreadWidth 1.6}
+		{burstSpreadWidth 1.4}
 		{burstSpreadDelta 0.35}
 		{burstSpreadCount 100}
 	}
-	{RelaxationTime 1.3}
+	{RelaxationTime 1}
 	("9mm")
 	("burst_medium")
 	("medium")

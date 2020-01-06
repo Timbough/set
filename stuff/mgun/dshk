@@ -7,7 +7,7 @@
 	{cursorReloading "zenite_reload"}
 	{mass 34}
 	("rof" r(600))
-	{rechargeTime 8}
+	{rechargeTime 9}
 	{aimingTolerance 1}
 	("accuracy_dshk")
 	("12.7x108")
