@@ -14,7 +14,7 @@
 	}
 	{mass 1.5}
 	{foresight "Foresight3"}
-	{range 180 200}
+	{range 280 1000}
 	{gravity 0}
 	{speed 300}
    	 {AimingTolerance 3}

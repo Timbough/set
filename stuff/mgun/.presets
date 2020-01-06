@@ -17,7 +17,7 @@
 		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
 		{SpreadRadius 1}
 		{burstSpreadWidth 0.7}
-		{burstSpreadDelta 0.35}
+		{burstSpreadDelta 0.3}
 		{burstSpreadCount 20}
 	}
 )
@@ -33,8 +33,8 @@
 		{SpreadYadjust	0.4}
 		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
 		{SpreadRadius 1}
-		{burstSpreadWidth 0.7}
-		{burstSpreadDelta 0.45}
+		{burstSpreadWidth 1}
+		{burstSpreadDelta 0.3}
 		{burstSpreadCount 25}
 	}
 )
@@ -50,8 +50,8 @@
 		{SpreadYadjust	0.4}
 		{BurstAccuracy 100.0 96.0 92.0 87.0 82.0 77.0 72.0 67.0 63.0 55.0}
 		{SpreadRadius 1}
-		{burstSpreadWidth 0.7}
-		{burstSpreadDelta 0.45}
+		{burstSpreadWidth 1}
+		{burstSpreadDelta 0.3}
 		{burstSpreadCount 30}
 	}	
 )
